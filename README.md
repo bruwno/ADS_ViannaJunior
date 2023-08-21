@@ -26,5 +26,4 @@ Discente: **William Silva** [37943]
 > Padrão: **DSC00_S00_E00**
 
 ---
-[![](ADS_logo.jpg)]() 
-![Alt text](ADS_logo.jpg)
+[![](ADS_logo.jpg)](https://www.vianna.edu.br/analise-e-desenv-de-sistemas/) 
