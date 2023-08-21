@@ -26,6 +26,5 @@ Discente: **William Silva** [37943]
 > Padrão: **DSC00_S00_E00**
 
 ---
-![215804197_2124350751038851_8943578945523933162_n](https://github.com/unclWill/ADS_ViannaJunior/assets/14021232/45010d27-3abe-4c1b-b85c-4bb0e37bed30)
 
-
+![Alt text](ADS_logo.jpg)
