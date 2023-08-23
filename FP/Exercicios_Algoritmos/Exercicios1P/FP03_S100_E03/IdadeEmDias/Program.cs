@@ -39,13 +39,10 @@ namespace IdadeEmDias
 
         private static int CalcularIdadeEmDias(int anos, int meses, int dias)
         {
-            int totalEmDias;
-            int diasEmAnos = anos * 365;
-            int diasEmMeses = (meses * 12);
-            totalEmDias = diasEmMeses; //+ diasEmMeses + dias;
-
-            return totalEmDias;
-            //return ((anos * 365) + (meses * 12) + dias);
+            int qtdDiasAnos, qtdDiasMeses;
+            qtdDiasAnos = anos * 365;
+            qtdDiasMeses = (365 / 12) * meses;
+            return qtdDiasAnos + qtdDiasMeses + dias;
         }
     }
 }
