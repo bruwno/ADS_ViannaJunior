@@ -1,5 +1,4 @@
-﻿
-/* Objetivo : Calcular idade em dias.
+﻿/* Objetivo : Calcular idade em dias.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 22/08/2023
  * Material : FP03
@@ -8,15 +7,15 @@
  */
 
 /* Comando:
- * 5) Considere as equações de movimento para calcular a posição (s) e velocidade (v) de uma partícula em * um determinado instante t, dado sua aceleração a, posição inicial s0 e velocidade inicial v0, de acordo * com as fórmulas: s = s0 + v0*t + (a * t * t)/2 
- * **************** v = v0 + a*t
+ * 5) Considere as equações de movimento para calcular a posição (s) e velocidade (v) de uma partícula em * um determinado instante t, dado sua aceleração a,
+ * posição inicial s0 e velocidade inicial v0, de acordo com as fórmulas: s = s0 + v0*t + (a * t * t)/2 | v = v0 + a*t
  * Escreva um programa C# completo que capture os valores de s0, v0, a e t, fornecidos pelo usuário via teclado, e calcule e imprima os valores de s e v.
  */
 
- using System;
+using System;
 
- namespace CalcMov
- {
+namespace CalcMov
+{
     public class programa
     {
         public static void Main(string[] args)
@@ -42,12 +41,12 @@
             double velocidade = CalcularVelocidade(posIncial, aceleracao, tempo);
 
             Console.Write($"\n[>] Posição da partícula   : {posicao}");
-            Console.Write($"\n[>] Velocidade da partícula: {velocidade}");
+            Console.Write($"\n[>] Velocidade da partícula: {velocidade}\n");
         }
 
         private static double CalcularPosicao(double s0, double v0, double a, double t)
         {
-            return s0 + v0 * t + (a * t * t) / 2.0d;
+            return s0 + v0 * t + (a * (t * t)) / 2.0d;
         }
 
         private static double CalcularVelocidade(double v0, double a, double t)
@@ -55,4 +54,4 @@
             return v0 + a * t;
         }
     }
- }
+}
