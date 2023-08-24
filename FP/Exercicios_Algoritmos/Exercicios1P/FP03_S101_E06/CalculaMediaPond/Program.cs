@@ -7,12 +7,9 @@
  * Exercício: 06
  */
 
-// https://youtube.com/playlist?list=PL5fGyrkxsCM056_gIsu51y6a5Thig8T5l&si=rQ3NRj3evw6j037n
-
 /* Comando:
  * 6) Considerando o critério de aprovação de uma disciplina que determina que um aluno está aprovado se a média
- * ponderada de suas três provas for maior ou igual a 5.0, onde
- a média é dada pela fórmula: Média = (P1 + P2 + 2.0 * P3) / 4.0
+ * ponderada de suas três provas for maior ou igual a 5.0, onde a média é dada pela fórmula: Média = (P1 + P2 + 2.0 * P3) / 4.0
  *** (a) Escreva uma função que receba como parâmetros as notas das duas primeiras provas de um aluno (P1 e P2) e retorne a nota
  * mínima que o aluno precisa tirar na terceira prova para que seja aprovado.
  *** (b) Escreva um programa em C# completo que leia do teclado as duas primeiras notas de um aluno, calcule e imprima a nota mínima que
@@ -27,7 +24,7 @@ namespace CalculaMediaPond
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Calcular média das provas");
+            Console.WriteLine("Calcular média mínima para aprovação");
             ObterValores();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -40,20 +37,13 @@ namespace CalculaMediaPond
             Console.Write("\n[i] Digite a nota da P2: ");
             double prova2 = Convert.ToDouble(Console.ReadLine());
 
-            double media = CalcularMedia(prova1, prova2);
-            double resultado = CalcularNotaRestante(prova1, prova2, media);
-
+            double resultado = CalcularNotaParaAprovacao(prova1, prova2);
             Console.WriteLine($"\n[>] O aluno precisa tirar {resultado} pontos na P3 para ser aprovado.");
         }
 
-        private static double CalcularMedia(double p1, double p2)
+        private static double CalcularNotaParaAprovacao(double p1, double p2)
         {
-            return 5.0d - ((p1 + p2) / 2.0d);
-        }
-
-        private static double CalcularNotaRestante(double p1, double p2, double media)
-        {
-            return (p1 + p2 + 2.0d * media) / 4.0d;
+            return ((5.0d * 4.0d) - (p1 + p2)) / 2.0d;
         }
     }
 }
