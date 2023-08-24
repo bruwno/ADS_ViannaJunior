@@ -11,10 +11,10 @@
  * é divisível por 2 e por 3 simultaneamente.
  */
 
- using System;
+using System;
 
- namespace VerifDivV2
- {
+namespace VerifDivV2
+{
     public class Program
     {
         public static void Main(string[] args)
@@ -38,10 +38,6 @@
             {
                 Console.WriteLine($"\n[>] O número {num} é divisivel por 2 e por 3.");
             }
-            else
-            {
-                Console.WriteLine($"\n[>] O número {num} não é divisível nem por 2 nem por 3.");
-            }
         }
     }
- }
+}
