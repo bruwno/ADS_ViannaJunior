@@ -8,13 +8,13 @@
 
 /* Comando:
  * 4) Altere o algoritmo anterior para que seja informado se o número é divisível 
- * por 2 e  por 3, mas que não seja divisível por 5.
+ * por 2 e por 3, mas que não seja divisível por 5.
  */
 
- using System;
+using System;
 
- namespace VerifDivV3
- {
+namespace VerifDivV3
+{
     public class Program
     {
         public static void Main()
@@ -34,14 +34,10 @@
 
         private static void VerificarDivisibilidade(int num)
         {
-            if ((num % 2 == 0) && (num % 3 == 0) && (num % 5 == 0))
-            {
-                Console.WriteLine($"\nO número {num} é divisível por 2, 3 e 5.");
-            }
-            else
+            if ((num % 2 == 0) && (num % 3 == 0) && (num % 5 != 0))
             {
                 Console.WriteLine($"\nO número {num} é divisível por 2 e por 3, mas não é divisível por 5.");
             }
         }
     }
- }
+}

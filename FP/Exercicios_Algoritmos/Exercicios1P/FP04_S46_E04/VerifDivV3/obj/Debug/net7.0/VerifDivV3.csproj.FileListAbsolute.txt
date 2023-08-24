@@ -13,3 +13,17 @@ E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exerci
 E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.pdb
 E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.genruntimeconfig.cache
 E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\ref\VerifDivV3.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\refint\VerifDivV3.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\bin\Debug\net7.0\VerifDivV3.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\bin\Debug\net7.0\VerifDivV3.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\bin\Debug\net7.0\VerifDivV3.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\bin\Debug\net7.0\VerifDivV3.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\bin\Debug\net7.0\VerifDivV3.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\VerifDivV3.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP04_S46_E04\VerifDivV3\obj\Debug\net7.0\ref\VerifDivV3.dll
