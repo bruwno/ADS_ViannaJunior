@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP03_S101_E06\\CalculaMediaPond\\CalculaMediaPond.csproj": {}
+    "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP04_S46_E04\\VerifDivV3\\VerifDivV3.csproj": {}
   },
   "projects": {
-    "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP03_S101_E06\\CalculaMediaPond\\CalculaMediaPond.csproj": {
+    "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP04_S46_E04\\VerifDivV3\\VerifDivV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP03_S101_E06\\CalculaMediaPond\\CalculaMediaPond.csproj",
-        "projectName": "CalculaMediaPond",
-        "projectPath": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP03_S101_E06\\CalculaMediaPond\\CalculaMediaPond.csproj",
+        "projectUniqueName": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP04_S46_E04\\VerifDivV3\\VerifDivV3.csproj",
+        "projectName": "VerifDivV3",
+        "projectPath": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP04_S46_E04\\VerifDivV3\\VerifDivV3.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP03_S101_E06\\CalculaMediaPond\\obj\\",
+        "outputPath": "E:\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP04_S46_E04\\VerifDivV3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",

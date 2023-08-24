@@ -7,6 +7,8 @@
  * Exercício: 06
  */
 
+// https://youtube.com/playlist?list=PL5fGyrkxsCM056_gIsu51y6a5Thig8T5l&si=rQ3NRj3evw6j037n
+
 /* Comando:
  * 6) Considerando o critério de aprovação de uma disciplina que determina que um aluno está aprovado se a média
  * ponderada de suas três provas for maior ou igual a 5.0, onde
@@ -33,20 +35,25 @@ namespace CalculaMediaPond
 
         private static void ObterValores()
         {
-            Console.Write("[i] Digite a nota da primeira prova: ");
+            Console.Write("\n[i] Digite a nota da P1: ");
             double prova1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("[i] Digite a nota da segunda prova : ");
+            Console.Write("\n[i] Digite a nota da P2: ");
             double prova2 = Convert.ToDouble(Console.ReadLine());
 
-            double resultado = CalcularMedia(prova1, prova2, prova3);
-            Console.WriteLine($"[>]  {resultado}");
+            double media = CalcularMedia(prova1, prova2);
+            double resultado = CalcularNotaRestante(prova1, prova2, media);
+
+            Console.WriteLine($"\n[>] O aluno precisa tirar {resultado} pontos na P3 para ser aprovado.");
         }
 
-        private static double CalcularNotaNecessariaNaP3(double p1, double p2, double p3)
+        private static double CalcularMedia(double p1, double p2)
         {
-
+            return 5.0d - ((p1 + p2) / 2.0d);
         }
 
-
+        private static double CalcularNotaRestante(double p1, double p2, double media)
+        {
+            return (p1 + p2 + 2.0d * media) / 4.0d;
+        }
     }
 }
