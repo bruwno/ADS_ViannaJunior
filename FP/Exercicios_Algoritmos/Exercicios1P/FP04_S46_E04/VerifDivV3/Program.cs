@@ -36,7 +36,7 @@ namespace VerifDivV3
         {
             if ((num % 2 == 0) && (num % 3 == 0) && (num % 5 != 0))
             {
-                Console.WriteLine($"\nO número {num} é divisível por 2 e por 3, mas não é divisível por 5.");
+                Console.WriteLine($"\n[>] O número {num} é divisível por 2 e por 3, mas não é divisível por 5.");
             }
         }
     }
