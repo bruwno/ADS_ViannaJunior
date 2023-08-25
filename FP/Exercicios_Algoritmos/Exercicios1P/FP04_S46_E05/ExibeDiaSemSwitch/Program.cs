@@ -13,7 +13,7 @@
 
 using System;
 
-namespace ExibeDiaSemana
+namespace ExibeDiaSemSwitch
 {
     public class Program
     {
@@ -34,37 +34,32 @@ namespace ExibeDiaSemana
 
         private static void ExibirDiaDaSemana(int numDia)
         {
-            if (numDia == 1)
+            switch (numDia)
             {
-                Console.WriteLine("\n[>] Domingo");
-            }
-            else if (numDia == 2)
-            {
-                Console.WriteLine("\n[>] Segunda-feira");
-            }
-            else if (numDia == 3)
-            {
-                Console.WriteLine("\n[>] Terça-feira");
-            }
-            else if (numDia == 4)
-            {
-                Console.WriteLine("\n[>] Quarta-feira");
-            }
-            else if (numDia == 5)
-            {
-                Console.WriteLine("\n[>] Quinta-feira");
-            }
-            else if (numDia == 6)
-            {
-                Console.WriteLine("\n[>] Sexta-Feira");
-            }
-            else if (numDia == 7)
-            {
-                Console.WriteLine("\n[>] Sábado");
-            }
-            else
-            {
-                Console.WriteLine("\n[!] Dia da semana inválido!");
+                case 1:
+                    Console.WriteLine("\n[>] Domingo");
+                    break;
+                case 2:
+                    Console.WriteLine("\n[>] Segunda-feira");
+                    break;
+                case 3:
+                    Console.WriteLine("\n[>] Terça-feira");
+                    break;
+                case 4:
+                    Console.WriteLine("\n[>] Quarta-feira");
+                    break;
+                case 5:
+                    Console.WriteLine("\n[>] Quinta-feira");
+                    break;
+                case 6:
+                    Console.WriteLine("\n[>] Sexta-Feira");
+                    break;
+                case 7:
+                    Console.WriteLine("\n[>] Sábado");
+                    break;
+                default:
+                    Console.WriteLine("\n[!] Dia da semana inválido!");
+                    return;
             }
         }
     }
