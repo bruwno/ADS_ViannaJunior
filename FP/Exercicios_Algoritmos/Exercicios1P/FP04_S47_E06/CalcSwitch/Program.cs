@@ -1,9 +1,9 @@
-﻿/* Objetivo : Exibir o dia da semana e acordo com o número digitado.
+﻿/* Objetivo : Efetuar operação aritmética entre dois valores.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
  * Material : FP04
- * Slide    : 46
- * Exercício: 05
+ * Slide    : 47
+ * Exercício: 06
  */
 
 /* Comando:
