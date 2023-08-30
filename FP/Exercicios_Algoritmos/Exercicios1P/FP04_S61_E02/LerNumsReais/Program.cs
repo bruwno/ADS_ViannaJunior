@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Verificar números reais.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 23/08/2023
+ * Data     : 30/08/2023
  * Material : FP04
  * Slide    : 61
  * Exercício: 02
@@ -36,7 +36,7 @@ namespace LerNumsReais
 
         private static void VerificarValores(double num1, double num2)
         {
-            if ((num1 > 0) && (num2 > 0))
+            if ((num1 > 0.0) && (num2 > 0.0))
             {
                 Console.WriteLine("\n[>] Valores são válidos.");
             }

@@ -35,8 +35,8 @@ namespace CalculaRaio
 
         private static double CalcularRaio(double raio)
         {
-            const double pi = 3.1415d;
-            return (4.0d * pi * Math.Pow(raio, 3.0d)) / 3.0d;
+            const double pi = 3.1415;
+            return (4.0 * pi * Math.Pow(raio, 3.0)) / 3.0;
         }
     }
 }

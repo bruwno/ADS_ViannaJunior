@@ -39,7 +39,7 @@ namespace AplicaDescontoPerc
 
         private static double AplicarDesconto(double valorProduto, double percDesconto)
         {
-            return valorProduto - ((valorProduto * percDesconto) / 100.0d);
+            return valorProduto - ((valorProduto * percDesconto) / 100.0);
         }
     }
 }
