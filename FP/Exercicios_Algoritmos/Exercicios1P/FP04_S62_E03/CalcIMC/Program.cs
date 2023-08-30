@@ -6,7 +6,8 @@
  * Exercício: 03
  */
 
-/* 3. Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um programa que calcule seu peso ideal,
+/* Comando:
+ * 3. Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um programa que calcule seu peso ideal,
  * utilizando as seguintes fórmulas: para homens: (72.7*h)-58 e para mulheres: (62.1*h)-44.7
  */
 
@@ -32,7 +33,7 @@ namespace CalcIMC
             double altura = Convert.ToDouble(Console.ReadLine());
 
             double imc = CalcularIMC(genero, altura);
-            Console.WriteLine($"\nO seu IMC é {imc:N2}");
+            Console.WriteLine($"\nO seu peso ideal é {imc:N2} kg");
         }
 
         private static double CalcularIMC(char genero, double altura)
