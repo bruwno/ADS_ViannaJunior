@@ -6,7 +6,8 @@
  * Exercício: 02
  */
 
-/* 2. Faça um programa para ler dois números reais e verificar se ambos são maiores quezero.
+/* Comando:
+ * 2. Faça um programa para ler dois números reais e verificar se ambos são maiores quezero.
  * Caso positivo, informar “Valores são válidos”. Caso contrário, informar “Valores inválidos”.
  */
 

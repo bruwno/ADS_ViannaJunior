@@ -6,7 +6,8 @@
  * Exercício: 01
  */
 
-/* 1. Faça um programa que leia dois números inteiros e faça 
+/* Comando:
+ * 1. Faça um programa que leia dois números inteiros e faça 
  * a divisão do primeiro pelo segundo (se o segundo for diferente de zero).
  */
 

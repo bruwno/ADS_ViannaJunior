@@ -6,7 +6,8 @@
  * Exercício: 09
  */
 
-/* 9) Para auxiliar os vendedores de uma loja na orientação aos clientes sobre as diversas
+/* Comando:
+ * 9) Para auxiliar os vendedores de uma loja na orientação aos clientes sobre as diversas
  * formas de pagamento, desenvolver um algoritmo para:
  * a) Imprimir o menu de opções;
  * b) Ler o código da opção de pagamento;
