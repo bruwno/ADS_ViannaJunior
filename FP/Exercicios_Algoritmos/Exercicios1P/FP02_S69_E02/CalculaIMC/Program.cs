@@ -40,7 +40,7 @@ namespace CalculaIMC
 
         private static double CalcularIMC(double peso, double altura)
         {
-            return peso / Math.Pow(altura, 2.0d);
+            return peso / Math.Pow(altura, 2.0);
         }
     }
 }

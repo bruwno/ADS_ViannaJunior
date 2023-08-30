@@ -27,9 +27,9 @@ namespace CalcPerimetroAreaTriangulo
 
         private static void ObterDadosDoTriangulo()
         {
-            double baseDoTriangulo = 0.0d;
-            double perimetroDoTriangulo = 0.0d;
-            double areaDoTriangulo = 0.0d;
+            double baseDoTriangulo = 0.0;
+            double perimetroDoTriangulo = 0.0;
+            double areaDoTriangulo = 0.0;
 
             Console.WriteLine("[i] Digite os valores dos lados do triângulo\n");
             Console.Write("[i] Lado A: ");
@@ -71,13 +71,13 @@ namespace CalcPerimetroAreaTriangulo
 
         private static double CalcularArea(double baseDoTriangulo, double altura)
         {
-            return baseDoTriangulo * altura / 2.0d;
+            return baseDoTriangulo * altura / 2.0;
         }
 
         // Para triângulo retângulo.
         private static double CalcularArea(double ladoA, double ladoB, double ladoC)
         {
-            double perimetro = (ladoA + ladoB + ladoC) / 2.0d;
+            double perimetro = (ladoA + ladoB + ladoC) / 2.0;
             return Math.Sqrt(perimetro * (perimetro - ladoA) * (perimetro - ladoB) * (perimetro - ladoC));
         }
     }

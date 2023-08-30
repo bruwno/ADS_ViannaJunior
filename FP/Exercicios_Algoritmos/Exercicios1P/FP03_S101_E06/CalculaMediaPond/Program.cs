@@ -43,7 +43,7 @@ namespace CalculaMediaPond
 
         private static double CalcularNotaParaAprovacao(double p1, double p2)
         {
-            return ((5.0d * 4.0d) - (p1 + p2)) / 2.0d;
+            return ((5.0 * 4.0) - (p1 + p2)) / 2.0;
         }
     }
 }

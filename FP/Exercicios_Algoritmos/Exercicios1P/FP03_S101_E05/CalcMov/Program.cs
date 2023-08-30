@@ -46,7 +46,7 @@ namespace CalcMov
 
         private static double CalcularPosicao(double s0, double v0, double a, double t)
         {
-            return s0 + v0 * t + (a * (t * t)) / 2.0d;
+            return s0 + v0 * t + (a * (t * t)) / 2.0;
         }
 
         private static double CalcularVelocidade(double v0, double a, double t)

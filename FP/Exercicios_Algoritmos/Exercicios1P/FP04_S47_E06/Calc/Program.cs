@@ -39,7 +39,7 @@ namespace Calc
 
         private static void Calcular(double num1, double num2, char op)
         {
-            double result = 0.0d;
+            double result = 0.0;
 
             if (op == '+')
             {

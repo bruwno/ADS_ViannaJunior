@@ -38,7 +38,7 @@ namespace ConverterTemp
 
         private static double ConverterParaFahrenheit(double temperatura)
         {
-            return (9.0d * temperatura + 160.0d) / 5.0d;
+            return (9.0 * temperatura + 160.0) / 5.0;
         }
     }
 }

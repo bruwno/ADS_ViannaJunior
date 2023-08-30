@@ -38,7 +38,7 @@ namespace AplicaDesconto
 
         private static double AplicarDesconto(double valor)
         {
-            return valor - ((valor * 25.0d) / 100.0d);
+            return valor - ((valor * 25.0) / 100.0);
         }
     }
 }

@@ -39,7 +39,7 @@ namespace AplicaAcrescimoPerc
 
         private static double AplicarAcrescimo(double valorProduto, double percAcrescimo)
         {
-            return valorProduto + ((valorProduto * percAcrescimo) / 100.0d);
+            return valorProduto + ((valorProduto * percAcrescimo) / 100.0);
         }
     }
 }

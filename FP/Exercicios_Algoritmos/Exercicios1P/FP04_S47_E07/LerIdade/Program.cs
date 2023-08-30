@@ -1,6 +1,6 @@
-﻿/* Objetivo : .
+﻿/* Objetivo : Exibir a faixa etária com base na idade informada.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 23/08/2023
+ * Data     : 29/08/2023
  * Material : FP04
  * Slide    : 47
  * Exercício: 07

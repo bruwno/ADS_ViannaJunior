@@ -29,7 +29,7 @@ namespace CalcularSalario
 
         private static void ObterDados()
         {
-            double qtdSalarios = 0.0d;
+            double qtdSalarios = 0.0;
             Console.Write("[i] Informe o valor do salário mínimo atual: ");
             double salarioMinimo = Convert.ToDouble(Console.ReadLine().Replace(',', '.'));
             Console.Write("[i] Informe o valor do seu salário: ");

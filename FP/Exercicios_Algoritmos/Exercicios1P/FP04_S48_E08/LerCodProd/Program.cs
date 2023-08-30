@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Ler o código de um produto e exibir sua origem..
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 23/08/2023
+ * Data     : 29/08/2023
  * Material : FP04
  * Slide    : 48
  * Exercício: 08
@@ -16,10 +16,10 @@
  * e) Código do produto maior que 80: Paraguai
  */
 
- using System;
+using System;
 
- namespace LerCodProd
- {
+namespace LerCodProd
+{
     public class Program
     {
         public static void Main()
@@ -34,24 +34,24 @@
         {
             int codProduto = LerCodigo();
             string origem = string.Empty;
-            
-            if (codProduto > 0 && codProduto <= 20) 
+
+            if (codProduto > 0 && codProduto <= 20)
             {
                 origem = "Europa";
             }
-            else if (codProduto >= 21 && codProduto <= 40) 
+            else if (codProduto >= 21 && codProduto <= 40)
             {
-                origem  = "Ásia";
+                origem = "Ásia";
             }
-            else if (codProduto >= 41 && codProduto <= 60) 
+            else if (codProduto >= 41 && codProduto <= 60)
             {
                 origem = "América";
             }
-            else if (codProduto >= 61 && codProduto <= 80) 
+            else if (codProduto >= 61 && codProduto <= 80)
             {
                 origem = "África";
             }
-            else if (codProduto > 80) 
+            else if (codProduto > 80)
             {
                 origem = "Paraguai";
             }
@@ -66,4 +66,4 @@
             return codigoProd;
         }
     }
- }
+}

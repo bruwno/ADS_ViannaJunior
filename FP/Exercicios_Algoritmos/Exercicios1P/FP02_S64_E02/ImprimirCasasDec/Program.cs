@@ -26,7 +26,7 @@ namespace ImprimirCasasDec
 
         private static void ExibirValoresFormatados()
         {
-            const double valor = 2.346728d;
+            const double valor = 2.346728;
             Console.WriteLine($"{valor:N1}");
             Console.WriteLine($"{valor:N2}");
             Console.WriteLine($"{valor:N3}");
