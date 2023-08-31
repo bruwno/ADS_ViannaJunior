@@ -11,13 +11,13 @@
 
 using System;
 
-namespace VerifPrimo
+namespace VerifPrimoFor
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Verificar números primos");
+            Console.WriteLine("Verificar números primos: ");
             LerNumero();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -26,24 +26,21 @@ namespace VerifPrimo
         private static void LerNumero()
         {
             Console.Write("\n[i] Digite um número inteiro: ");
-            int numero = Convert.ToInt32(Console.ReadLine());
-            VerificarPrimo(numero);
+            int num = Convert.ToInt32(Console.ReadLine());
+            VerificarPrimo(num);
         }
 
         private static void VerificarPrimo(int num)
         {
-            int contador = 1, qtdDivisores = 0;
+            int qtdDivisores = 0;
 
-            do
+            for (int i = 1; i <= num; i++)
             {
-                if (num % contador == 0)
+                if (num % i == 0)
                 {
                     qtdDivisores++;
                 }
-
-                contador++;
-            } while (contador <= num);
-
+            }
 
             if (qtdDivisores == 2)
             {
