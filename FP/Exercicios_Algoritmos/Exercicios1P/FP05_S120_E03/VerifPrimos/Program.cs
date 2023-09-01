@@ -21,7 +21,6 @@ namespace VerifPrimos
     {
         public static void Main()
         {
-            Console.WriteLine("Verificar números primos\n");
             ExibirMenu();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -29,6 +28,9 @@ namespace VerifPrimos
 
         private static void ExibirMenu()
         {
+            Console.Clear();
+            Console.WriteLine("Verificar números primos");
+            //
             StringBuilder menu = new StringBuilder("\n[1] Testar números" +
                                                    "\n[2] Sair" +
                                                    "\n\n[i] Digite uma opção: ");
@@ -36,10 +38,10 @@ namespace VerifPrimos
             int opcaoSelecionada = 0;
             do
             {
+                Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write(menu.ToString());
                 opcaoSelecionada = int.Parse(Console.ReadLine()!);
-            }
-            while (opcaoSelecionada < 1 || opcaoSelecionada > 2);
+            } while (opcaoSelecionada < 1 || opcaoSelecionada > 2);
 
             if (opcaoSelecionada == 1)
             {
@@ -55,11 +57,13 @@ namespace VerifPrimos
         {
             Console.Clear();
             //
-            StringBuilder instrucao = new StringBuilder("Digite os números que deseja testar" +
-                                                        "\nSepare cada número por vírgula: ");
+            StringBuilder instrucao = new StringBuilder("------------[ TESTAR NÚMEROS ]-------" +
+                                                        "\nDigite os números que deseja testar" +
+                                                        "\n[i] Separe os números por vírgula" +
+                                                        "\n\n[>] ");
 
             Console.Write(instrucao.ToString());
-            string[] valoresDigitados = Console.ReadLine()!.Split(",");
+            string[] valoresDigitados = Console.ReadLine()!.Trim().Split(",");
 
             int[] numeros = Array.ConvertAll(valoresDigitados, int.Parse);
 
@@ -83,7 +87,7 @@ namespace VerifPrimos
 
                 StatusDoNumeroVerificado(numeroAtual, qtdDivisores);
             }
-            ExibirMenu();
+            VoltarAoMenu();
         }
 
         private static void StatusDoNumeroVerificado(int num, int qtdDiv)
@@ -103,6 +107,26 @@ namespace VerifPrimos
             }
 
             Console.WriteLine(statusNum);
+        }
+
+        private static void VoltarAoMenu()
+        {
+            StringBuilder opcMenu = new StringBuilder("\nVoltar ao menu principal?\n" +
+                                                      "[1] SIM\n" +
+                                                      "[2] TESTAR OUTROS VALORES\n" +
+                                                      "\n[>] Digite a sua opção: ");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write(opcMenu.ToString());
+            int opcaoSelecionada = int.Parse(Console.ReadLine());
+
+            if (opcaoSelecionada == 1)
+            {
+                ExibirMenu();
+            }
+            else
+            {
+                LerNumeros();
+            }
         }
     }
 }
