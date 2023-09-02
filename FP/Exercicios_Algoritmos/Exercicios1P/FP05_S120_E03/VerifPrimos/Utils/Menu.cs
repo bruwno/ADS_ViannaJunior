@@ -5,6 +5,7 @@
 
 using System;
 using System.Text;
+using VerifPrimos.Utils;
 
 namespace VerifPrimos.Utils
 {
@@ -22,7 +23,7 @@ namespace VerifPrimos.Utils
 
             Console.Write(txtMenu.ToString(), Console.ForegroundColor = ConsoleColor.Gray);
 
-            int opcaoSelecionada = ValidarOpcDigitada(txtMenu.ToString());
+            int opcaoSelecionada = Validacoes.ValidarOpcMenuDigitada(txtMenu.ToString());
             SelecOpcMenu(opcaoSelecionada);
         }
 
@@ -34,7 +35,7 @@ namespace VerifPrimos.Utils
                                                          "[>] Digite a sua opção: ");
             Console.Write(txtOpcMenu.ToString(), Console.ForegroundColor = ConsoleColor.Gray);
 
-            int opcaoSelecionada = ValidarOpcDigitada(txtOpcMenu.ToString());
+            int opcaoSelecionada = Validacoes.ValidarOpcMenuDigitada(txtOpcMenu.ToString());
 
             if (opcaoSelecionada == 1)
             {
@@ -59,18 +60,6 @@ namespace VerifPrimos.Utils
                 default:
                     return;
             }
-        }
-
-        private static int ValidarOpcDigitada(string txt)
-        {
-            int opc;
-            while (!int.TryParse(Console.ReadLine(), out opc))
-            {
-                Console.Clear();
-                Console.WriteLine("(!) Opção inválida! Tente novamente.", Console.ForegroundColor = ConsoleColor.DarkRed);
-                Console.Write(txt, Console.ForegroundColor = ConsoleColor.Gray);
-            }
-            return opc;
         }
     }
 }
