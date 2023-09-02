@@ -24,6 +24,7 @@ namespace VerifPrimos
     {
         public static void Main()
         {
+            Console.Title = "Verificar Números Primos";
             Menu.ExibirMenu();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
