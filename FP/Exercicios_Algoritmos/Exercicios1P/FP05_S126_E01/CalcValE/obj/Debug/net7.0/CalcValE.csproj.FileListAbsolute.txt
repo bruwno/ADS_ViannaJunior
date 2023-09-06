@@ -13,3 +13,17 @@ E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP05_S126_E01\CalcV
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.pdb
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.genruntimeconfig.cache
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\ref\CalcValE.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\bin\Debug\net7.0\CalcValE.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\bin\Debug\net7.0\CalcValE.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\bin\Debug\net7.0\CalcValE.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\bin\Debug\net7.0\CalcValE.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\bin\Debug\net7.0\CalcValE.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\refint\CalcValE.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\CalcValE.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP05_S126_E01\CalcValE\obj\Debug\net7.0\ref\CalcValE.dll
