@@ -6,21 +6,22 @@
  * Exercício: 01
  */
 
-/* 1. Escrever um algoritmo que lê um valor N inteiro e positivo e que calcula  * e escreve o valor de E. E = 1 + 1/2 + 1/3 + ... + 1/N
+/* 1. Escrever um algoritmo que lê um valor N inteiro e positivo e que calcula  
+ * e escreve o valor de E. E = 1 + 1/2 + 1/3 + ... + 1/N
  */
 
- using System;
+using System;
 
- namespace CalcValE
- {
+namespace CalcValE
+{
     public class Program
     {
         public static void Main()
         {
-        Console.WriteLine("");
-        ObterValor();
-        Console.Write("\nPressione qualquer tecla para finalizar...");
-        Console.ReadKey();
+            Console.WriteLine("Calcular o valor de E");
+            ObterValor();
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
         }
 
         private static void ObterValor()
@@ -32,17 +33,15 @@
 
         private static void Calcular(int n)
         {
-            int e = 1, acm = 1, e1 = 0;
+            double e = 0.0, cont = 1.0;
 
-            while(acm <= n)
+            while (cont <= n)
             {
-                e1 = e;
-
-                e = e1 + 1/acm;
-                acm++;
+                e += 1.0 / cont;
+                cont++;
             }
 
-            Console.WriteLine($"[>] O valor de E é: {e}");
+            Console.WriteLine($"[>] O valor de E é: {e:F3}");
         }
     }
- }
+}

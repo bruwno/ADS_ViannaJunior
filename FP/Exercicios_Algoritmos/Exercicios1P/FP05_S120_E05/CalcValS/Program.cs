@@ -6,18 +6,19 @@
  * Exercício: 05
  */
 
-/* 5. Calcular o valor de S.
+/* 5. Calcular o valor de S. Onde o valor do expoente (iniciado em 1) incrementa, a cada passagem no laço, 1 até chegar a 25,
+ * e o valor do divisor (iniciado em 50) decrementa 2 até chegar a 2.
  */
 
- using System;
+using System;
 
- namespace CalcValS
- {
+namespace CalcValS
+{
     public class Program
     {
         public static void Main()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Calcular o valor de S");
             CalcularValor();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -25,19 +26,16 @@
 
         private static void CalcularValor()
         {
-            double s = 0.0, acm = 0.0;
-            int proxVal = 50;
+            double s = 0.0;
+            int proxDivisor = 50;
 
-            for (int valExp = 1; valExp <= 25; valExp++) 
+            for (int proxExpoente = 1; proxExpoente <= 25; proxExpoente++)
             {
-            acm = s;
-            
-            s = acm + (Math.Pow(2, valExp) / proxVal);
-
-            proxVal = proxVal - 2;
+                s += Math.Pow(2, proxExpoente) / proxDivisor;
+                proxDivisor -= 2;
             }
 
-            Console.WriteLine($"O valor de S é {s:N1}");
+            Console.WriteLine($"\nO valor de S é {s:N1}");
         }
     }
- }
+}
