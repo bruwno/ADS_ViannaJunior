@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Ler 10 valores e armazenar na mesma variável.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 05/08/2023
+ * Data     : 06/08/2023
  * Material : FP05
  * Slide    : 126
  * Exercício: 02
@@ -18,7 +18,7 @@ namespace LeValores
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Ler valores");
+            Console.WriteLine("Ler valores e exibir menor e maior");
             LerValor();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -48,8 +48,9 @@ namespace LeValores
                 }
 
             }
-            Console.WriteLine($"[>] Menor valor: {menor}\n" +
-                              $"[>] Maior valor: {maior}");
+
+            Console.WriteLine($"\n[>] Menor valor: {menor}" +
+                              $"\n[>] Maior valor: {maior}");
         }
     }
 }

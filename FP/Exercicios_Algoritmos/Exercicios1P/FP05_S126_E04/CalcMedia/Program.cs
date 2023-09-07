@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Calcular a taxa de crescimento.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 05/08/2023
+ * Data     : 06/08/2023
  * Material : FP05
  * Slide    : 126
  * Exercício: 04
@@ -30,7 +30,7 @@ namespace CalcMedia
 
         private static void LerDados()
         {
-            
+
         }
 
         private static double CalculaMedia(double n1, double n2, double n3)
@@ -39,9 +39,9 @@ namespace CalcMedia
             double maiorNota = DeterminarMenorNota(n1, n2, n3);
             double notaMedia = DeterminarMenorEMaiorNota(n1, n2, n3);
 
-            if () 
+            if ()
             {
-                
+
             }
 
             double media = maiorNota * media;
@@ -104,7 +104,7 @@ namespace CalcMedia
                 maiorNota = n3;
             }
 
-            return notaMedia; 
+            return notaMedia;
         }
     }
 }
