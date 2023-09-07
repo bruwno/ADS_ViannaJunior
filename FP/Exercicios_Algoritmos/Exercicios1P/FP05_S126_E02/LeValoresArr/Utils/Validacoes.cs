@@ -10,7 +10,7 @@ namespace LeValoresArr.Utils
 {
     internal class Validacoes
     {
-        internal static bool VerificarQtdValores(int[] val)
+        internal static bool ValidarQtdValores(int[] val)
         {
             bool qtdValida = false;
 
@@ -29,7 +29,7 @@ namespace LeValoresArr.Utils
             return qtdValida;
         }
 
-        internal static void QtdValoresDigitados(int[] val)
+        internal static void ExibirMsgQtdInvalida(int[] val)
         {
             int qtdValoresDigitados = 0;
 
