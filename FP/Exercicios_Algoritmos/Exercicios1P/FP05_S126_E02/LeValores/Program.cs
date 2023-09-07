@@ -10,13 +10,13 @@
  * encontre o maior e o menor deles. Mostre o resultado.
  */
 
- using System;
+using System;
 
- namespace LeValores 
- {
+namespace LeValores
+{
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Ler valores");
             LerValor();
@@ -28,9 +28,9 @@
         {
             int menor = 0, maior = 0;
 
-            for (int i = 1; i < 6; i++) 
+            for (int i = 1; i < 11; i++)
             {
-                Console.Write($"[i] Digite o {i}º valor: ");
+                Console.Write($"\n[i] Digite o {i}º valor: ");
                 int valor = Convert.ToInt32(Console.ReadLine());
 
                 if (menor == 0)
@@ -38,11 +38,11 @@
                     menor = valor;
                 }
 
-                if (valor <= menor && valor < maior) 
+                if (valor < menor)
                 {
                     menor = valor;
                 }
-                else if (valor >= maior)
+                else if (valor > maior)
                 {
                     maior = valor;
                 }
@@ -52,4 +52,4 @@
                               $"[>] Maior valor: {maior}");
         }
     }
- }
+}

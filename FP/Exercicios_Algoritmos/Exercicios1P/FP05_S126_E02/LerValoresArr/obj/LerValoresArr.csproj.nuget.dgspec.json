@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LeValores\\LeValores.csproj": {}
+    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LerValoresArr\\LerValoresArr.csproj": {}
   },
   "projects": {
-    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LeValores\\LeValores.csproj": {
+    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LerValoresArr\\LerValoresArr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LeValores\\LeValores.csproj",
-        "projectName": "LeValores",
-        "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LeValores\\LeValores.csproj",
+        "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LerValoresArr\\LerValoresArr.csproj",
+        "projectName": "LerValoresArr",
+        "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LerValoresArr\\LerValoresArr.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LeValores\\obj\\",
+        "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S126_E02\\LerValoresArr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
