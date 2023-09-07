@@ -44,15 +44,15 @@ namespace LeValoresArr
                 // Conversão dos dados.
                 int[] valores = Array.ConvertAll(valoresDigitados, int.Parse);
                 // Validação do tamanho do array.
-                bool qtdValores = Validacoes.VerificarQtdValores(valores);
+                bool qtdEhValida = Validacoes.ValidarQtdValores(valores);
 
-                switch (qtdValores)
+                switch (qtdEhValida)
                 {
                     case true:
                         DeterminarMenorEMaior(valores);
                         break;
                     case false:
-                        Validacoes.QtdValoresDigitados(valores);
+                        Validacoes.ExibirMsgQtdInvalida(valores);
                         LerValores();
                         break;
                 }
