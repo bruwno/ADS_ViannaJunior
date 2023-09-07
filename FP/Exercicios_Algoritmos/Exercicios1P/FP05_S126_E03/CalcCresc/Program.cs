@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Calcular a taxa de crescimento.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 05/08/2023
+ * Data     : 06/08/2023
  * Material : FP05
  * Slide    : 126
  * Exercício: 03
