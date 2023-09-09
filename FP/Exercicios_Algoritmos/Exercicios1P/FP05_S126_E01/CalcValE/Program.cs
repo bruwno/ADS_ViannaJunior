@@ -6,7 +6,7 @@
  * Exercício: 01
  */
 
-/* 1. Escrever um algoritmo que lê um valor N inteiro e positivo e que calcula  
+/* 1) Escrever um algoritmo que lê um valor N inteiro e positivo e que calcula  
  * e escreve o valor de E. E = 1 + 1/2 + 1/3 + ... + 1/N
  */
 
@@ -16,7 +16,7 @@ namespace CalcValE
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Calcular o valor de E");
             ObterValor();
