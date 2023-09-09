@@ -15,7 +15,7 @@ namespace VerifPrimo
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Verificar números primos");
             LerNumero();

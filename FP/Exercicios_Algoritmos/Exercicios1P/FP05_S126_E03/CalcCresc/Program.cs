@@ -6,7 +6,7 @@
  * Exercício: 03
  */
 
-/* 2. Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,40 
+/* 3) Chico tem 1,50 metros e cresce 2 centímetros por ano, enquanto Zé tem 1,40 
 metros e cresce 3 centímetros por ano. Construa um algoritmo que calcule e 
 imprima quantos anos serão necessários para que Zé seja maior que Chico.
  */
@@ -17,7 +17,7 @@ namespace CalcCresc
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Calcular taxa de crescimento");
             CalcularTaxaCresc();

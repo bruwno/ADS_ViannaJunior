@@ -16,7 +16,7 @@ namespace CalcValS
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Calcular o valor de S");
             CalcularValor();

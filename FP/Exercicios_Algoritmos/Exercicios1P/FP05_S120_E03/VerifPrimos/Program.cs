@@ -22,7 +22,7 @@ namespace VerifPrimos
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.Title = "Verificar Números Primos";
             Menu.ExibirMenu();

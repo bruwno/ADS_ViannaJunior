@@ -6,7 +6,7 @@
  * Exercício: 04
  */
 
-/* 4. Escreva um algoritmo que leia a matrícula de um aluno e suas três notas. 
+/* 4) Escreva um algoritmo que leia a matrícula de um aluno e suas três notas. 
  * Calcule a média ponderada do aluno, considerando que o peso para a maior 
  * nota seja 4 e para as duas restantes, 3. Mostre ao final a média calculada e 
  * uma mensagem "APROVADO" se a média for maior ou igual a 5 e "REPROVADO" se a média for menor que 5.
@@ -19,7 +19,7 @@ namespace CalcMedia
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             Console.WriteLine("Calcular média das notas");
             LerDados();
