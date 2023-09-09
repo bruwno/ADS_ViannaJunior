@@ -1,6 +1,6 @@
 /* Objetivo : Ler e determinar quais número do array são primos.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 01/08/2023
+ * Data     : 01/09/2023
  */
 
 using System;
