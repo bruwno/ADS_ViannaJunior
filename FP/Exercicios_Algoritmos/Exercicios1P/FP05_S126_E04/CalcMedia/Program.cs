@@ -53,7 +53,7 @@ namespace CalcMedia
                 }
                 else if (mediaAluno < 5.0)
                 {
-                    Console.WriteLine($"\n[>] Reprovado com média: {mediaAluno:N2}");
+                    Console.WriteLine($"\n[>] Reprovado, com média: {mediaAluno:N2}");
                 }
             }
 
