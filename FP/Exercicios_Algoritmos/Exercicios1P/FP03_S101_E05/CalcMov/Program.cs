@@ -38,7 +38,7 @@ namespace CalcMov
             double tempo = Convert.ToDouble(Console.ReadLine());
 
             double posicao = CalcularPosicao(posIncial, velInicial, aceleracao, tempo);
-            double velocidade = CalcularVelocidade(posIncial, aceleracao, tempo);
+            double velocidade = CalcularVelocidade(velInicial, aceleracao, tempo);
 
             Console.Write($"\n[>] Posição da partícula   : {posicao}");
             Console.Write($"\n[>] Velocidade da partícula: {velocidade}\n");

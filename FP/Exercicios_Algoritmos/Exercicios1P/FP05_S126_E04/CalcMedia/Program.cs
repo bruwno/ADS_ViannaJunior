@@ -22,7 +22,7 @@ namespace CalcMedia
     {
         public static void Main()
         {
-            Console.WriteLine("Ler dados do aluno");
+            Console.WriteLine("Calcular média das notas");
             LerDados();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -30,81 +30,39 @@ namespace CalcMedia
 
         private static void LerDados()
         {
+            int matricula = 0;
+
+            while (matricula > 0)
+            {
+                Console.Write("\n[i] Digite a matrícula do aluno: ");
+                matricula = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("(i) A maior nota deve ser inserida na 3ª posição.");
+                Console.Write("\n[Peso 3] Digite a 1ª nota: ");
+                double n1 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("\n[Peso 3] Digite a 2ª nota: ");
+                double n2 = Convert.ToDouble(Console.ReadLine());
+                Console.Write("\n[Peso 4] Digite a 3ª nota: ");
+                double n3 = Convert.ToDouble(Console.ReadLine());
+
+                double mediaAluno = CalcularMediaPond(n1, n2, n3);
+
+                if (mediaAluno >= 5.0)
+                {
+                    Console.WriteLine($"\n[>] Aprovado, com média: {mediaAluno:N2}");
+                }
+                else if (mediaAluno < 5.0)
+                {
+                    Console.WriteLine($"\n[>] Reprovado com média: {mediaAluno:N2}");
+                }
+            }
 
         }
 
-        private static double CalculaMedia(double n1, double n2, double n3)
+        private static double CalcularMediaPond(double n1, double n2, double n3)
         {
-            double menorNora = DeterminarMaiorNota(n1, n2, n3);
-            double maiorNota = DeterminarMenorNota(n1, n2, n3);
-            double notaMedia = DeterminarMenorEMaiorNota(n1, n2, n3);
-
-            if ()
-            {
-
-            }
-
-            double media = maiorNota * media;
-        }
-
-        private static double DeterminarMenorNota(double n1, double n2, double n3)
-        {
-            double menorNota = 0.0;
-
-            if (n1 < n2 && n1 < n3)
-            {
-                maiorNota = n1;
-            }
-            else if (n2 < n1 && n2 < n3)
-            {
-                maiorNota = n2;
-            }
-            else if (n3 < n1 && n3 < n2)
-            {
-                maiorNota = n3;
-            }
-
-            return menorNota;
-        }
-
-        private static double DeterminarMaiorNota(double n1, double n2, double n3)
-        {
-            double maiorNota = 0.0;
-
-            if (n1 > n2 && n1 > n3)
-            {
-                maiorNota = n1;
-            }
-            else if (n2 > n1 && n2 > n3)
-            {
-                maiorNota = n2;
-            }
-            else if (n3 > n1 && n3 > n2)
-            {
-                maiorNota = n3;
-            }
-
-            return maiorNota;
-        }
-
-        private static double DeterminarNotaMedia(double n1, double n2, double n3)
-        {
-            double notaMedia = 0.0;
-
-            if (n1 > n2 && n1 < n3)
-            {
-                notaMedia = n1;
-            }
-            else if (n2 > n1 && n2 > n3)
-            {
-                maiorNota = n2;
-            }
-            else if (n3 > n1 && n3 > n2)
-            {
-                maiorNota = n3;
-            }
-
-            return notaMedia;
+            double media = ((3.0 * n1) + (3.0 * n2) + (4.0 * n3)) / 10.0;
+            return media;
         }
     }
 }
