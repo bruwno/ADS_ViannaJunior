@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Determinar o tempo necessário para pagamento de uma dívida com o rendimento de uma aplicação financeira.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 05/08/2023
+ * Data     : 05/09/2023
  * Material : FP05
  * Slide    : 120
  * Exercício: 04

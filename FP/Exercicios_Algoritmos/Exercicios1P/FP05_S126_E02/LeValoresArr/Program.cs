@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Ler 10 valores e armazenar na mesma variável | Nesta versão: utilizando array.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 07/08/2023
+ * Data     : 07/09/2023
  * Material : FP05
  * Slide    : 126
  * Exercício: 02
