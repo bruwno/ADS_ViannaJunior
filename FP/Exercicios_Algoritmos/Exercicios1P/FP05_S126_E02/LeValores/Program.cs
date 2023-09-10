@@ -33,12 +33,7 @@ namespace LeValores
                 Console.Write($"\n[i] Digite o {i}º valor: ");
                 int valor = Convert.ToInt32(Console.ReadLine());
 
-                if (menor == 0)
-                {
-                    menor = valor;
-                }
-
-                if (valor < menor)
+                if (menor == 0 || valor < menor)
                 {
                     menor = valor;
                 }

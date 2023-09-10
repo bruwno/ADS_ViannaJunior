@@ -65,12 +65,7 @@ namespace LeValoresArr
 
             for (int i = 0; i < 10; i++)
             {
-                if (menor == 0)
-                {
-                    menor = val[i];
-                }
-
-                if (val[i] < menor)
+                if (menor == 0 || val[i] < menor)
                 {
                     menor = val[i];
                 }
