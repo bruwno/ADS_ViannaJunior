@@ -23,6 +23,8 @@ namespace CalcFatorial
         {
             Console.WriteLine("Caclular fatorial\n");
             LerValor();
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
         }
 
         private static void LerValor()
@@ -31,21 +33,22 @@ namespace CalcFatorial
             int valor = Convert.ToInt32(Console.ReadLine());
             double fatorial = CalcularFatorial(valor);
 
-            Console.WriteLine($"O fatorial de {valor}! é {fatorial}");
+            Console.WriteLine($"O fatorial de {valor}! é = {fatorial}");
         }
 
         private static double CalcularFatorial(int n)
         {
-            double fat = 0.0;
+            double fat = 1.0;
 
             if (n == 0)
             {
                 return 1.0;
             }
 
-            for (int i = 1; i < n; i--)
+            for (int i = n; i > 1; i--)
             {
-                fat *= n - i;
+                // O mesmo que fat = fat * i
+                fat *= i;
             }
 
             return fat;
