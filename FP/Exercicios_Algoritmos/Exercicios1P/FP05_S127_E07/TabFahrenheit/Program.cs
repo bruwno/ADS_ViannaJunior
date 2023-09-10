@@ -28,7 +28,11 @@ namespace TabFahrenheit
 
         private static void ExibirTabela()
         {
-
+            for (int i = 50; i <= 150; i++)
+            {
+                double tempCelsius = (5.0 / 9.0) * (i - 32.0);
+                Console.WriteLine($"{i}ºF equivalem a {tempCelsius:N2}ºC");
+            }
         }
     }
 }
