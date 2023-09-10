@@ -1,4 +1,4 @@
-﻿/* Objetivo : Dterminar o menor valor de um conjunto.
+﻿/* Objetivo : Determinar o menor valor de um conjunto de inteiros.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 10/09/2023
  * Material : FP05
@@ -28,9 +28,24 @@ namespace LeValCnjt
 
         private static void LerValores()
         {
-            int menor = 0, valorDigitado;
-
             Console.WriteLine("(i) Para finalizar a leitura dos valores digite 0\n");
+            int menorValor = DeterminarMenorValor();
+
+            switch (menorValor)
+            {
+                case 0:
+                    Console.WriteLine("[>] Nenhum valor foi digitado.");
+                    break;
+                default:
+                    Console.WriteLine("(i) Leitura de valores interrompida.");
+                    Console.WriteLine($"[>] O menor valor digitado foi: {menorValor}");
+                    break;
+            }
+        }
+
+        private static int DeterminarMenorValor()
+        {
+            int menor = 0, valorDigitado;
 
             do
             {
@@ -44,16 +59,7 @@ namespace LeValCnjt
 
             } while (valorDigitado != 0);
 
-            switch (menor)
-            {
-                case 0:
-                    Console.WriteLine("[>] Nenhum valor foi digitado.");
-                    break;
-                default:
-                    Console.WriteLine("(i) Leitura de valores interrompida.");
-                    Console.WriteLine($"[>] O menor valor digitado foi: {menor}");
-                    break;
-            }
+            return menor;
         }
     }
 }
