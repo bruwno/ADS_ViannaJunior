@@ -30,7 +30,7 @@ namespace CalcFatorial
             int numero = Convert.ToInt32(Console.ReadLine());
 
             double resultado = CalcularFatorial(numero);
-            Console.WriteLine($"\nO valor de E é {resultado}");
+            Console.WriteLine($"\nO valor de E é aproximadamente {resultado}");
         }
 
         private static double CalcularFatorial(int num)
@@ -41,7 +41,7 @@ namespace CalcFatorial
             {
                 // fatorial * 1,2,3,4..n (tamanho da contagem do laço).
                 fat *= i;
-                // Valor de E = E + 1 / fatorial
+                // Valor de E = 1 + 1 / fatorial
                 e += 1.0 / fat;
             }
 
