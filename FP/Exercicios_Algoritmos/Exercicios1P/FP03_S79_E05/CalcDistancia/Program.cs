@@ -47,11 +47,11 @@ namespace CalcDistancia
             Console.Write("[i] Digite a coordenada Y: ");
             double tercVertY = Convert.ToDouble(Console.ReadLine());
 
-            double distanciaAEB = CalcularDistEntrePontos(primVertX, primVertY, segVertX, segVertY);
-            double distanciaAEC = CalcularDistEntrePontos(primVertX, primVertY, tercVertX, tercVertY);
-            double distanciaBEC = CalcularDistEntrePontos(segVertX, segVertY, tercVertX, tercVertY);
+            double distAeB = CalcularDistEntrePontos(primVertX, primVertY, segVertX, segVertY);
+            double distAeC = CalcularDistEntrePontos(primVertX, primVertY, tercVertX, tercVertY);
+            double distBeC = CalcularDistEntrePontos(segVertX, segVertY, tercVertX, tercVertY);
 
-            double perimetro = distanciaAEB + distanciaAEC + distanciaBEC;
+            double perimetro = distAeB + distAeC + distBeC;
 
             Console.WriteLine($"\n[>] O perímetro do triângulo é {perimetro:N1}");
         }

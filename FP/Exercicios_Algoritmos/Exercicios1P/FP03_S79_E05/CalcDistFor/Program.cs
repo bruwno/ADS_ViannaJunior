@@ -3,7 +3,7 @@
  * Data     : 17/08/2023
  * Material : FP03
  * Slide    : 79
- * Exercício: 05
+ * Exercício: 05 (Utilizando o laço for nessa versão).
  */
 
 /* Comando:
@@ -25,6 +25,51 @@ namespace CalcDistFor
             ObterPerimetroTriangulo();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
+        }
+
+        private static void ObterPerimetroTriangulo()
+        {
+            double primVertX = 0.0, primVertY = 0.0;
+            double segVertX = 0.0, segVertY = 0.0;
+            double tercVertX = 0.0, tercVertY = 0.0;
+
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine($"\n[Coordenadas do {i}º vértice]");
+                Console.Write("[i] Digite a coordenada de X: ");
+                double vertX = Convert.ToDouble(Console.ReadLine());
+                Console.Write("[i] Digite a coordenada de Y: ");
+                double vertY = Convert.ToDouble(Console.ReadLine());
+
+                switch (i)
+                {
+                    case 1:
+                        primVertX = vertX;
+                        primVertY = vertY;
+                        break;
+                    case 2:
+                        segVertX = vertX;
+                        segVertY = vertY;
+                        break;
+                    case 3:
+                        tercVertX = vertX;
+                        tercVertY = vertY;
+                        break;
+                }
+            }
+
+            double distAeB = CalcularDistEntrePontos(primVertX, primVertY, segVertX, segVertY);
+            double distAeC = CalcularDistEntrePontos(primVertX, primVertY, tercVertX, tercVertY);
+            double distBeC = CalcularDistEntrePontos(segVertX, segVertY, tercVertX, tercVertY);
+
+            double perimetro = distAeB + distAeC + distBeC;
+
+            Console.WriteLine($"\n[>] O perímetro do triângulo é {perimetro:N1}");
+        }
+
+        private static double CalcularDistEntrePontos(double x1, double y1, double x2, double y2)
+        {
+            return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
         }
     }
 }
