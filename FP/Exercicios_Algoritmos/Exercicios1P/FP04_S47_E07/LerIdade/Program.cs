@@ -33,15 +33,15 @@ namespace LerIdade
             {
                 Console.WriteLine("\nCriança.");
             }
-            else if (idade >= 13 && idade < 20)
+            else if (idade > 13 && idade < 20)
             {
                 Console.WriteLine("\nAdolescente.");
             }
-            else if (idade >= 20 && idade < 60)
+            else if (idade > 20 && idade < 60)
             {
                 Console.WriteLine("\nAdulto.");
             }
-            else if (idade >= 60)
+            else
             {
                 Console.WriteLine("\nIdoso.");
             }
