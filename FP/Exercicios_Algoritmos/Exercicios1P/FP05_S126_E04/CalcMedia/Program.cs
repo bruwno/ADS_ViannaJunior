@@ -1,4 +1,4 @@
-﻿/* Objetivo : Calcular a taxa de crescimento.
+﻿/* Objetivo : Calcular a média ponderada de 3 notas.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 06/09/2023
  * Material : FP05
