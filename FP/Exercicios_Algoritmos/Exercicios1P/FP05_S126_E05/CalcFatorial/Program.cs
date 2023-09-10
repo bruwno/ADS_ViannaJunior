@@ -1,4 +1,4 @@
-﻿/* Objetivo : Calcular a taxa de crescimento.
+﻿/* Objetivo : Calcular o valor de E.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 09/09/2023
  * Material : FP05

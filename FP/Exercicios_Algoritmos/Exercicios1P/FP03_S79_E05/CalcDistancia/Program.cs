@@ -21,7 +21,7 @@ namespace CalcDistancia
     {
         public static void Main()
         {
-            Console.WriteLine("Calcular distância entre dois pontos\n");
+            Console.WriteLine("Calcular distância entre pontos\n");
             ObterPerimetroTriangulo();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
