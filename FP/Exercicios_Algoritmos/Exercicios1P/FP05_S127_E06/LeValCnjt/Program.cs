@@ -20,7 +20,7 @@ namespace LeValCnjt
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Dterminar menor valor do conjunto\n");
+            Console.WriteLine("Determinar menor valor do conjunto\n");
             LerValores();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -28,7 +28,7 @@ namespace LeValCnjt
 
         private static void LerValores()
         {
-            Console.WriteLine("(i) Para finalizar a leitura dos valores digite 0\n");
+            Console.WriteLine("(i) Para interromper a leitura dos valores digite 0\n");
             int menorValor = DeterminarMenorValor();
 
             switch (menorValor)
