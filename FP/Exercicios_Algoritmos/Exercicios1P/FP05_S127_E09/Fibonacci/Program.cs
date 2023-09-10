@@ -1,4 +1,4 @@
-﻿/* Objetivo : Calcular Fibonacci de um valor N.
+﻿/* Objetivo : Calcular a sequência de Fibonacci para um valor N.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 10/09/2023
  * Material : FP05
