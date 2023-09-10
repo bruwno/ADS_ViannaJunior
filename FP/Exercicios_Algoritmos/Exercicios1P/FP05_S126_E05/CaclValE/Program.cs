@@ -12,7 +12,7 @@
 
 using System;
 
-namespace CalcFatorial
+namespace CalcValE
 {
     public class Program
     {
