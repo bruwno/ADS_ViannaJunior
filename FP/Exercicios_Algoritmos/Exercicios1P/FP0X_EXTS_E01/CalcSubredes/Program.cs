@@ -21,12 +21,12 @@ namespace CalcSubredes
         public static void Main(string[] args)
         {
             Console.WriteLine("Converter endereço IPv4 para binário\n");
-            LerEndereco();
+            Menu.ExibirMenu();
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
 
-        private static void LerEndereco()
+        internal static void LerEndereco()
         {
             Console.WriteLine("(i) Dica: Separe cada octeto utilizando o caractere ponto '.'");
             Console.Write("[i] Digite o endereço IPv4 que deseja converter: ");
@@ -37,25 +37,20 @@ namespace CalcSubredes
             foreach (int octeto in enderecoIPv4)
             {
                 // Conversão.
-                List<string> enderecoConvertido = ConverterParaBin(octeto);
+                List<string> enderecoConvertido = EnderecoIP.ConverterParaBin(octeto);
                 // União dos itens da lista em uma única String.
                 string enderecoBinario = string.Join("", enderecoConvertido);
 
-                Console.WriteLine($"[>] O octeto {octeto} em binário: {enderecoBinario}");
+                Console.WriteLine($"[>] O octeto {octeto} em binário: {enderecoBinario}\n");
             }
+
+            string classeDoIP = EnderecoIP.RetornarClasseIP(enderecoIPv4);
+            Console.WriteLine($"\n{classeDoIP}");
         }
 
-        private static List<string> ConverterParaBin(int octeto)
+        internal static void Encerrar()
         {
-            string octetoBin = Convert.ToString(octeto, 2).PadLeft(8, '0');
-            List<string> listaDigitosBin = new List<string>();
-
-            foreach (char bit in octetoBin)
-            {
-                listaDigitosBin.Add(bit.ToString());
-            }
-
-            return listaDigitosBin;
+            return;
         }
     }
 }
