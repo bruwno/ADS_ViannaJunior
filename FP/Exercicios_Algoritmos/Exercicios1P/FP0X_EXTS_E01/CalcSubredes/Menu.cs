@@ -1,0 +1,45 @@
+using System;
+using System.Text;
+
+namespace CalcSubredes
+{
+    internal static class Menu
+    {
+        internal static void ExibirMenu()
+        {
+            Console.WriteLine("Digite uma opção: ");
+
+            StringBuilder menu = new StringBuilder("[1] Converter um endereço IPv4 decimal para binário\n" +
+                                                   "[2] Converter um endereço IPv4 binário para decimal\n" +
+                                                   "[3] Créditos\n" +
+                                                   "[4] Sair\n\n" +
+                                                   "[>] ");
+            Console.Write(menu.ToString());
+
+            int opcSelecionada;
+            while (!int.TryParse(Console.ReadLine(), out opcSelecionada))
+            {
+                Console.WriteLine("[!] Opção inválida, tente novamente.");
+            }
+
+            LerOpcaoSeleciona(opcSelecionada);
+        }
+
+        internal static void LerOpcaoSeleciona(int opcSel)
+        {
+            Console.Clear();
+            switch (opcSel)
+            {
+                case 1:
+                    Program.LerEndereco();
+                    break;
+                case 4:
+                    Program.Encerrar();
+                    break;
+                default:
+                    Console.WriteLine("[!] Funcionalidade ainda não implementada.");
+                    break;
+            }
+        }
+    }
+}
