@@ -26,30 +26,48 @@ namespace CalcSubredes
             Console.ReadKey();
         }
 
-        internal static void LerEndereco()
+        internal static void LerEnderecoIP()
         {
-            Console.WriteLine("(i) Dica: Separe cada octeto utilizando o caractere ponto '.'");
+            Console.Clear();
+            Console.WriteLine("(i) Dica: Separe cada octeto utilizando o caractere ponto '.'", Console.ForegroundColor = ConsoleColor.DarkGray);
+            Console.ForegroundColor = ConsoleColor.Gray;
             Console.Write("[i] Digite o endereço IPv4 que deseja converter: ");
 
-            string[] enderecoDigitado = Console.ReadLine()!.Trim().Split(".");
-            int[] enderecoIPv4 = Array.ConvertAll(enderecoDigitado, int.Parse);
-
-            foreach (int octeto in enderecoIPv4)
+            try
             {
-                // Conversão.
-                List<string> enderecoConvertido = EnderecoIP.ConverterParaBin(octeto);
-                // União dos itens da lista em uma única String.
-                string enderecoBinario = string.Join("", enderecoConvertido);
+                string[] enderecoDigitado = Console.ReadLine()!.Trim().Split(".");
+                int[] enderecoIPv4 = Array.ConvertAll(enderecoDigitado, int.Parse);
 
-                Console.WriteLine($"[>] O octeto {octeto} em binário: {enderecoBinario}\n");
+                foreach (int octeto in enderecoIPv4)
+                {
+                    if (Validacoes.ValidarIPDigitado(octeto) > 3)
+                    {
+                        Erro.QtdDigitosDoOctetoInvalida();
+                        LerEnderecoIP();
+                    }
+
+                    // Converte para binário.
+                    List<string> enderecoConvertido = EnderecoIP.ConverterParaBin(octeto);
+                    // União dos itens da lista em uma única String.
+                    string enderecoBinario = string.Join("", enderecoConvertido);
+
+                    Console.WriteLine($"\n[>] O octeto {octeto} em binário: {enderecoBinario}");
+                }
+
+                EnderecoIP.ExibirClasseDoIPDigitado(enderecoIPv4);
+                Menu.ExibirRetornarAoMenu();
             }
-
-            string classeDoIP = EnderecoIP.RetornarClasseIP(enderecoIPv4);
-            Console.WriteLine($"\n{classeDoIP}");
+            catch (Exception)
+            {
+                Erro.CaractereDigitadoInvalido();
+                LerEnderecoIP();
+            }
         }
 
         internal static void Encerrar()
         {
+            Console.WriteLine(@"[\o/] Até a próxima meu consagrado...", Console.ForegroundColor = ConsoleColor.Blue);
+            Console.ForegroundColor = ConsoleColor.Gray;
             return;
         }
     }

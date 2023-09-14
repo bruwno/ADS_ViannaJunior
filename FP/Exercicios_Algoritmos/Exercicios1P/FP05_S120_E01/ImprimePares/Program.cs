@@ -28,7 +28,7 @@
         {
             int contador = 0;
 
-            while (contador < 101)
+            while (contador <= 100)
             {
                 if (contador % 2 == 0)
                 {

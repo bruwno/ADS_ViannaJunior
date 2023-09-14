@@ -32,24 +32,19 @@ namespace CalcSubredesv2
             Console.Write("[i] Digite o endereço IPv4 que deseja converter: ");
             string[] enderecoDigitado = Console.ReadLine().Trim().Split(".");
 
-            long[] octetoConvertido = ConverterParaBin(enderecoDigitado);
-
-            for (int i = 0; i < octetoConvertido.Length; i++)
-            {
-                Console.WriteLine($"[>] O endereço IP {enderecoDigitado} em binário é: {octetoConvertido[i]}");
-            }
+            ConverterParaBin(enderecoDigitado);
         }
 
-        private static long[] ConverterParaBin(string[] endereco)
+        private static void ConverterParaBin(string[] endereco)
         {
-            long[] enderecoIP = Array.ConvertAll(endereco, Int64.Parse);
-            long restoDivisao = 0;
-            long[] octetoConv = new long[8];
+            int[] enderecoIP = Array.ConvertAll(endereco, int.Parse);
+            int restoDivisao = 0;
+            int[] octetoConv = new int[8];
 
 
-            for (int i = 0; i < enderecoIP.Length; i++)
+            for (int i = 0; i <= enderecoIP.Length; i++)
             {
-                long divisaoAtual = enderecoIP[i];
+                int divisaoAtual = enderecoIP[i];
 
                 for (int j = 0; enderecoIP[i] / 2 != 0; j++)
                 {
@@ -60,16 +55,9 @@ namespace CalcSubredesv2
 
                     octetoConv[j] += restoDivisao;
 
-                    if (octetoConv.Length < 8)
-                    {
-                        octetoConv[j] += 0;
-                    }
-
-                    System.Console.WriteLine(octetoConv[j]);
+                    Console.WriteLine(octetoConv[j]);
                 }
             }
-
-            return octetoConv;
         }
     }
 }

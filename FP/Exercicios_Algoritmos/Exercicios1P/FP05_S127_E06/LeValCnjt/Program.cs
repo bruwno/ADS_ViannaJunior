@@ -47,17 +47,24 @@ namespace LeValCnjt
         {
             int menor = 0, valorDigitado;
 
-            do
-            {
-                Console.Write("[i] Digite um valor inteiro: ");
-                valorDigitado = Convert.ToInt32(Console.ReadLine());
+            Console.Write("[i] Digite um valor inteiro: ");
+            valorDigitado = Convert.ToInt32(Console.ReadLine());
 
+            while (valorDigitado != 0)
+            {
                 if (menor == 0 || valorDigitado < menor && valorDigitado != 0)
                 {
                     menor = valorDigitado;
                 }
 
-            } while (valorDigitado != 0);
+                Console.Write("[i] Digite um valor inteiro: ");
+                valorDigitado = Convert.ToInt32(Console.ReadLine());
+            }
+            /*
+            do
+            {
+
+            } while (valorDigitado != 0);*/
 
             return menor;
         }

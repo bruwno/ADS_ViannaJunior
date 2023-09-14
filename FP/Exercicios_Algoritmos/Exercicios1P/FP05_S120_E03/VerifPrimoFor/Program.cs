@@ -46,6 +46,10 @@ namespace VerifPrimoFor
             {
                 Console.WriteLine($"\nO número {num} é primo.");
             }
+            else
+            {
+                 Console.WriteLine($"\nO número {num} não é primo.");
+            }
         }
     }
 }

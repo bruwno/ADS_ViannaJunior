@@ -25,12 +25,12 @@ namespace ImprimeNums
 
         private static void ImprimirNumeros()
         {
-            int contador = 1;
+            int contador = 100;
 
-            while (contador < 101) 
+            while (contador >= 1) 
             {
                 Console.WriteLine(contador);
-                contador++;
+                contador--;
             }
         }
     }
