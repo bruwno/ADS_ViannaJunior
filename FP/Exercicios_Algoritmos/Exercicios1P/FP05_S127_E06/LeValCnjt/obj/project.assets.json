@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\William\\.nuget\\packages\\": {}
+    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\LeValCnjt.csproj",
+      "projectUniqueName": "E:\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\LeValCnjt.csproj",
       "projectName": "LeValCnjt",
-      "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\LeValCnjt.csproj",
-      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-      "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\obj\\",
+      "projectPath": "E:\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\LeValCnjt.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "E:\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios1P\\FP05_S127_E06\\LeValCnjt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
       }
     }
   }

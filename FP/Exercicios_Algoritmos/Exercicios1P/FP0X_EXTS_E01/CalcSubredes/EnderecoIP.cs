@@ -1,3 +1,9 @@
+/* Objetivo : Receber um array com um endereço IPv4 no formato decimal e convertê-lo para binário,
+ *            e fornecer informações sobre a classificação deste IP.
+ * Autor    : William Silva (https://github.com/unclWill)
+ * Data     : 12/09/2023
+ */
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,61 +25,85 @@ namespace CalcSubredes
             return listaDigitosBin;
         }
 
-        internal static string RetornarClasseIP(int[] endIP)
+        internal static void ExibirClasseDoIPDigitado(int[] endIP)
         {
             StringBuilder classifIP = new StringBuilder();
-            int primOcteto = 0, segOcteto = 0, tercOcteto = 0, quartOcteto = 0;
+            string classe = string.Empty, mascara = string.Empty;
+            int dimensaoArray = 0;
+            int octeto1 = 0, octeto2 = 0, octeto3 = 0, octeto4 = 0;
 
             for (int i = 0; i <= endIP.Length; i++)
             {
-                primOcteto = endIP[0];
-                segOcteto = endIP[1];
-                tercOcteto = endIP[2];
-                quartOcteto = endIP[3];
+                dimensaoArray = endIP.Length;
+
+                switch (dimensaoArray)
+                {
+                    case 1:
+                        octeto1 = endIP[0];
+                        break;
+                    case 2:
+                        octeto1 = endIP[0];
+                        octeto2 = endIP[1];
+                        break;
+                    case 3:
+                        octeto1 = endIP[0];
+                        octeto2 = endIP[1];
+                        octeto3 = endIP[2];
+                        break;
+                    case 4:
+                        octeto1 = endIP[0];
+                        octeto2 = endIP[1];
+                        octeto3 = endIP[2];
+                        octeto4 = endIP[3];
+                        break;
+                }
             }
 
-            if ((primOcteto >= 1) && (primOcteto <= 127))
+            if ((octeto1 >= 1) && (octeto1 <= 127))
             {
-                classifIP.Append("[CLASSE ] O endereço IPv4 informado pertence a classe A.\n" +
-                                 "[MÁSCARA] A máscara de sub-rede desta classe é 255.0.0.0\n");
+                classe = "A";
+                mascara = "255.0.0.0";
 
-                if ((primOcteto == 0) && (segOcteto == 0) && (tercOcteto == 0) && (quartOcteto == 0))
+                if ((octeto1 == 0) && (octeto2 == 0) && (octeto3 == 0) && (octeto4 == 0))
                 {
-                    classifIP.Append("[  OBS  ] Endereço reservado para máquinas que ainda não tiveram um IP completamente alocado.");
+                    classifIP.Append("[  OBS  ] Endereço reservado para máquinas que ainda não tiveram um IP completamente alocado.\n");
                 }
 
-                if (primOcteto == 127 && segOcteto == 0 && tercOcteto == 0 && quartOcteto == 1)
+                if (octeto1 == 127 && octeto2 == 0 && octeto3 == 0 && octeto4 == 1)
                 {
-                    classifIP.Append("[  OBS  ] Endereço reservado para o localhost.");
+                    classifIP.Append("[  OBS  ] Endereço reservado para o localhost.\n");
                 }
             }
-            else if ((primOcteto >= 128) && (primOcteto <= 191))
+            else if ((octeto1 >= 128) && (octeto1 <= 191))
             {
-                classifIP.Append("[CLASSE ] O endereço IPv4 informado pertence a classe B.\n" +
-                                 "[MÁSCARA] A máscara de sub-rede desta classe é 255.255.0.0\n");
+                classe = "B";
+                mascara = "255.255.0.0";
             }
-            else if ((primOcteto >= 192) && (primOcteto <= 223))
+            else if ((octeto1 >= 192) && (octeto1 <= 223))
             {
-                classifIP.Append("[CLASSE ] O endereço IPv4 informado pertence a classe C.\n" +
-                                 "[MÁSCARA] A máscara de sub-rede desta classe é 255.255.255.0\n");
+                classe = "C";
+                mascara = "255.255.255.0";
             }
-            else if ((primOcteto >= 224) && (primOcteto <= 239))
+            else if ((octeto1 >= 224) && (octeto1 <= 239))
             {
-                classifIP.Append("[CLASSE ] O endereço IPv4 informado pertence a classe D.\n" +
-                                 "[  OBS  ] Esta classe é utilizada para Multicasting.");
+                classe = "D";
+                classifIP.Append("[  OBS  ] Esta classe é utilizada para Multicasting.\n");
             }
-            else if ((primOcteto >= 240) && (primOcteto <= 255))
+            else if ((octeto1 >= 240) && (octeto1 <= 255))
             {
-                classifIP.Append("[CLASSE ] O endereço IPv4 informado pertence a classe E.\n" +
-                                 "[  OBS  ] Esta classe é utilizada para Multicasting.");
+                classe = "E";
+                classifIP.Append("[  OBS  ] Esta classe é experimental.");
 
-                if ((primOcteto == 255) && (segOcteto == 255))
+                if ((octeto1 == 255) && (octeto2 == 255) && (octeto3 == 255) && (octeto4 == 255))
                 {
                     classifIP.Append("\n[  OBS  ] Este endereço é reservado para broadcasting.");
                 }
             }
 
-            return classifIP.ToString();
+            classifIP.Append($"[CLASSE ] O endereço IPv4 informado pertence à classe {classe}.\n" +
+                             $"[MÁSCARA] A máscara de sub-rede desta classe é {mascara}\n");
+
+            Console.WriteLine($"\n{classifIP.ToString()}");
         }
     }
 }

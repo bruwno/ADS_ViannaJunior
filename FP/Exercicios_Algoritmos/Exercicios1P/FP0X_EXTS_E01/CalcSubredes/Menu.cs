@@ -1,3 +1,8 @@
+/* Objetivo : Exibir um menu para navegação no sistema.
+ * Autor    : William Silva (https://github.com/unclWill)
+ * Data     : 13/09/2023
+ */
+
 using System;
 using System.Text;
 
@@ -7,6 +12,7 @@ namespace CalcSubredes
     {
         internal static void ExibirMenu()
         {
+            Console.Clear();
             Console.WriteLine("Digite uma opção: ");
 
             StringBuilder menu = new StringBuilder("[1] Converter um endereço IPv4 decimal para binário\n" +
@@ -31,7 +37,7 @@ namespace CalcSubredes
             switch (opcSel)
             {
                 case 1:
-                    Program.LerEndereco();
+                    Program.LerEnderecoIP();
                     break;
                 case 4:
                     Program.Encerrar();
@@ -39,6 +45,29 @@ namespace CalcSubredes
                 default:
                     Console.WriteLine("[!] Funcionalidade ainda não implementada.");
                     break;
+            }
+        }
+
+        internal static void ExibirRetornarAoMenu()
+        {
+            StringBuilder opcMenu = new StringBuilder("\n[1] Para converter outro IP\n" +
+                                                      "[2] Para voltar ao menu principal\n" +
+                                                      "[>] ");
+            Console.Write(opcMenu.ToString());
+
+            int opcDigitada = Validacoes.ValidarEntrada();
+
+            switch (opcDigitada)
+            {
+                case 1:
+                    Program.LerEnderecoIP();
+                    break;
+                case 2:
+                    ExibirMenu();
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida!");
+                    return;
             }
         }
     }
