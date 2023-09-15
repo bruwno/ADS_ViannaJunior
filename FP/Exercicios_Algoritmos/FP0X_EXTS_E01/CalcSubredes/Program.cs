@@ -41,7 +41,6 @@ namespace CalcSubredes
 
                 foreach (int octeto in enderecoIPv4)
                 {
-
                     if (Validacoes.ValidarQtdDigitosIP(octeto) == false)
                     {
                         Erro.QtdDigitosDoOctetoInvalida();
