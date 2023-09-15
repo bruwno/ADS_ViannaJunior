@@ -20,7 +20,8 @@ namespace CalcSubredes
                                                    "[3] Créditos\n" +
                                                    "[4] Sair\n\n" +
                                                    "[>] ");
-            Console.Write(menu.ToString());
+            Console.Write(menu.ToString(), Console.ForegroundColor = ConsoleColor.Yellow);
+            Console.ForegroundColor = ConsoleColor.Gray;
 
             int opcDigitada = Validacoes.ValidarEntrada();
             LerOpcaoSeleciona(opcDigitada);

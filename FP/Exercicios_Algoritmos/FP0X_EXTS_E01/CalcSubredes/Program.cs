@@ -77,7 +77,7 @@ namespace CalcSubredes
 
         internal static void Encerrar()
         {
-            Console.WriteLine(@"[\o/] Até a próxima meu consagrado...", Console.ForegroundColor = ConsoleColor.Blue);
+            Console.WriteLine(@"[>] Isso é tudo pessoal!", Console.ForegroundColor = ConsoleColor.Blue);
             Console.ForegroundColor = ConsoleColor.Gray;
             return;
         }
