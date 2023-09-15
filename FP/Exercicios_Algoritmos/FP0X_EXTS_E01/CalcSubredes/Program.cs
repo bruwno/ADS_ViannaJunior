@@ -39,16 +39,19 @@ namespace CalcSubredes
                 string[] enderecoDigitado = Console.ReadLine()!.Trim().Split(".");
                 int[] enderecoIPv4 = Array.ConvertAll(enderecoDigitado, int.Parse);
 
+                int contOcteto = 0;
                 foreach (int octeto in enderecoIPv4)
                 {
+                    contOcteto++;
+
                     if (Validacoes.ValidarQtdDigitosIP(octeto) == false)
                     {
-                        Erro.QtdDigitosDoOctetoInvalida();
+                        Erro.QtdDigitosDoOctetoInvalida(contOcteto, octeto);
                         LerEnderecoIP();
                     }
-                    if (Validacoes.ValidarIPDigitado(octeto) == false)
+                    else if (Validacoes.ValidarIPDigitado(octeto) == false)
                     {
-                        Erro.ValorDoOctetoInvalido();
+                        Erro.ValorDoOctetoInvalido(contOcteto, octeto);
                         LerEnderecoIP();
                     }
                     else if ((Validacoes.ValidarQtdDigitosIP(octeto) == true) && (Validacoes.ValidarIPDigitado(octeto) == true))

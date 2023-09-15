@@ -22,13 +22,8 @@ namespace CalcSubredes
                                                    "[>] ");
             Console.Write(menu.ToString());
 
-            int opcSelecionada;
-            while (!int.TryParse(Console.ReadLine(), out opcSelecionada))
-            {
-                Console.WriteLine("[!] Opção inválida, tente novamente.");
-            }
-
-            LerOpcaoSeleciona(opcSelecionada);
+            int opcDigitada = Validacoes.ValidarEntrada();
+            LerOpcaoSeleciona(opcDigitada);
         }
 
         internal static void LerOpcaoSeleciona(int opcSel)
@@ -53,7 +48,8 @@ namespace CalcSubredes
             StringBuilder opcMenu = new StringBuilder("\n[1] Para converter outro IP\n" +
                                                       "[2] Para voltar ao menu principal\n" +
                                                       "[>] ");
-            Console.Write(opcMenu.ToString());
+            Console.Write(opcMenu.ToString(), Console.ForegroundColor = ConsoleColor.Yellow);
+            Console.ForegroundColor = ConsoleColor.Gray;
 
             int opcDigitada = Validacoes.ValidarEntrada();
 
@@ -66,7 +62,7 @@ namespace CalcSubredes
                     ExibirMenu();
                     break;
                 default:
-                    Console.WriteLine("Opção inválida!");
+                    Validacoes.ValidarEntrada();
                     return;
             }
         }
