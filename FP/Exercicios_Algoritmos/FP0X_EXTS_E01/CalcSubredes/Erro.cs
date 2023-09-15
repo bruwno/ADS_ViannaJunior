@@ -14,7 +14,7 @@ namespace CalcSubredes
 
         internal static void OpcaoDigitadaNoMenuInvalida()
         {
-            Console.Write("[!] Opção inválida, tente novamente. \n[>] ", Console.ForegroundColor = ConsoleColor.Gray);
+            Console.Write("\n[!] Opção inválida, tente novamente. \n[>] ", Console.ForegroundColor = ConsoleColor.DarkRed);
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
@@ -22,27 +22,44 @@ namespace CalcSubredes
 
         #region // Mensagens de erro para entradas inválidas na leitura do endereço IP.
 
-        internal static void QtdDigitosDoOctetoInvalida()
+        /// <summary>
+        /// Exibe uma mensagem de erro informando que a quantidade de dígitos do octeto é inválida.
+        /// </summary>
+        /// <param name="contOcteto">Recebe a variável contadora com a posição do atual do octeto testado.</param>
+        /// <param name="valorOcteto">Recebe o valor que o usuário atribuiu ao octeto.</param>
+        internal static void QtdDigitosDoOctetoInvalida(int contOcteto, int valorOcteto)
         {
-            Console.Write("\n[!] Os octetos de um endereço IP não podem ter mais de 3 dígitos.", Console.ForegroundColor = ConsoleColor.DarkRed);
+            Console.WriteLine($"\n[!] Entrada inválida no {contOcteto}º octeto!\n" +
+                          $"[?] Valor digitado: {valorOcteto}\n" +
+                           "[i] Os octetos de um endereço IP não podem ter mais de 3 dígitos.\n", Console.ForegroundColor = ConsoleColor.DarkRed);
+            Console.Write("[>] Pressione qualquer tecla para continuar...", Console.ForegroundColor = ConsoleColor.DarkGray);
             Console.ForegroundColor = ConsoleColor.Gray;
-            Thread.Sleep(2500);
+            //Thread.Sleep(2700);
+            Console.ReadKey();
+        }
+
+        /// <summary>
+        /// Exibe uma mensagem de erro informando que o valor digitado no octeto não corresponde á faixa de um IP válido.
+        /// </summary>
+        /// <param name="contOcteto">Recebe a variável contadora com a posição do atual do octeto testado.</param>
+        /// <param name="valorOcteto">Recebe o valor que o usuário atribuiu ao octeto.</param>
+        internal static void ValorDoOctetoInvalido(int contOcteto, int valorOcteto)
+        {
+            Console.WriteLine($"\n[!] Entrada inválida no {contOcteto}º octeto!\n" +
+                              $"[?] Valor digitado: {valorOcteto}\n" +
+                               "[i] Os valores de cada octeto devem estar entre 0 e 255.\n", Console.ForegroundColor = ConsoleColor.DarkRed);
+            Console.Write("[>] Pressione qualquer tecla para continuar...", Console.ForegroundColor = ConsoleColor.DarkGray);
+            Console.ForegroundColor = ConsoleColor.Gray;
+            //Thread.Sleep(2700);
+            Console.ReadKey();
         }
 
         internal static void CaractereDigitadoInvalido()
         {
-            Console.Write("[!] Entrada inválida!\n" +
+            Console.Write($"\n[!] Entrada inválida!\n" +
                           "[i] Apenas são aceitos dígitos numéricos separados por ponto.", Console.ForegroundColor = ConsoleColor.DarkRed);
             Console.ForegroundColor = ConsoleColor.Gray;
-            Thread.Sleep(2500);
-        }
-
-        internal static void ValorDoOctetoInvalido()
-        {
-            Console.Write("[!] Valor do octeto inválido!\n" +
-                          "[i] O valor para cada octeto deve estar entre 0 e 255.", Console.ForegroundColor = ConsoleColor.DarkRed);
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Thread.Sleep(2500);
+            Thread.Sleep(2700);
         }
 
         #endregion
