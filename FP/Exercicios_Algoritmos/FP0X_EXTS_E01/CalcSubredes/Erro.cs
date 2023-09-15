@@ -14,8 +14,7 @@ namespace CalcSubredes
 
         internal static void OpcaoDigitadaNoMenuInvalida()
         {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write("[!] Opção inválida, tente novamente. \n[>] ");
+            Console.Write("[!] Opção inválida, tente novamente. \n[>] ", Console.ForegroundColor = ConsoleColor.Gray);
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
@@ -25,7 +24,8 @@ namespace CalcSubredes
 
         internal static void QtdDigitosDoOctetoInvalida()
         {
-            Console.WriteLine("\n[!] Os octetos de um endereço IP não podem ter mais de 3 dígitos.");
+            Console.Write("\n[!] Os octetos de um endereço IP não podem ter mais de 3 dígitos.", Console.ForegroundColor = ConsoleColor.DarkRed);
+            Console.ForegroundColor = ConsoleColor.Gray;
             Thread.Sleep(2000);
         }
 
@@ -33,6 +33,14 @@ namespace CalcSubredes
         {
             Console.Write("[!] Entrada inválida!\n" +
                           "[i] Apenas são aceitos dígitos numéricos separados por ponto.", Console.ForegroundColor = ConsoleColor.DarkRed);
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Thread.Sleep(2500);
+        }
+
+        internal static void ValorDoOctetoInvalido()
+        {
+            Console.Write("[!] Valor do octeto inválido!\n" +
+                          "[i] O valor para cada octeto deve estar entre 0 e 255.", Console.ForegroundColor = ConsoleColor.DarkRed);
             Console.ForegroundColor = ConsoleColor.Gray;
             Thread.Sleep(2500);
         }

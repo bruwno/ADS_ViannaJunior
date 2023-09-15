@@ -20,6 +20,7 @@ namespace CalcSubredes
     {
         public static void Main(string[] args)
         {
+            Console.Title = "Converter IP";
             Console.WriteLine("Converter endereço IPv4 para binário\n");
             Menu.ExibirMenu();
             Console.Write("\nPressione qualquer tecla para finalizar...");
@@ -40,18 +41,26 @@ namespace CalcSubredes
 
                 foreach (int octeto in enderecoIPv4)
                 {
-                    if (Validacoes.ValidarIPDigitado(octeto) > 3)
+
+                    if (Validacoes.ValidarQtdDigitosIP(octeto) == false)
                     {
                         Erro.QtdDigitosDoOctetoInvalida();
                         LerEnderecoIP();
                     }
+                    if (Validacoes.ValidarIPDigitado(octeto) == false)
+                    {
+                        Erro.ValorDoOctetoInvalido();
+                        LerEnderecoIP();
+                    }
+                    else if ((Validacoes.ValidarQtdDigitosIP(octeto) == true) && (Validacoes.ValidarIPDigitado(octeto) == true))
+                    {
+                        // Converte para binário.
+                        List<string> enderecoConvertido = EnderecoIP.ConverterParaBin(octeto);
+                        // União dos itens da lista em uma única String.
+                        string enderecoBinario = string.Join("", enderecoConvertido);
 
-                    // Converte para binário.
-                    List<string> enderecoConvertido = EnderecoIP.ConverterParaBin(octeto);
-                    // União dos itens da lista em uma única String.
-                    string enderecoBinario = string.Join("", enderecoConvertido);
-
-                    Console.WriteLine($"\n[>] O octeto {octeto} em binário: {enderecoBinario}");
+                        Console.WriteLine($"\n[>] O octeto {octeto} em binário: {enderecoBinario}");
+                    }
                 }
 
                 EnderecoIP.ExibirClasseDoIPDigitado(enderecoIPv4);

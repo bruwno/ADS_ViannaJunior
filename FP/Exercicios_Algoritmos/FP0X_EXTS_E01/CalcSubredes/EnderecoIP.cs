@@ -92,11 +92,12 @@ namespace CalcSubredes
             else if ((octeto1 >= 240) && (octeto1 <= 255))
             {
                 classe = "E";
+                mascara = "Não definida.";
                 classifIP.Append("[  OBS  ] Esta classe é experimental.");
 
                 if ((octeto1 == 255) && (octeto2 == 255) && (octeto3 == 255) && (octeto4 == 255))
                 {
-                    classifIP.Append("\n[  OBS  ] Este endereço é reservado para broadcasting.");
+                    classifIP.Append("\n[  OBS  ] Este endereço é reservado para broadcasting.\n");
                 }
             }
 
