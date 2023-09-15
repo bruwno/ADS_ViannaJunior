@@ -21,10 +21,32 @@ namespace CalcSubredes
             return opcDigitada;
         }
 
-        internal static int ValidarIPDigitado(int octeto)
+        internal static bool ValidarQtdDigitosIP(int octeto)
         {
             string qtdDigitos = octeto.ToString();
-            return qtdDigitos.Length;
+
+            if (qtdDigitos.Length > 3)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        internal static bool ValidarIPDigitado(int octeto)
+        {
+            if (octeto < 0 || octeto > 255)
+            {
+                // IP inválido.
+                return false;
+            }
+            else
+            {
+                // IP válido.
+                return true;
+            }
         }
     }
 }
