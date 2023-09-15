@@ -26,7 +26,7 @@ namespace CalcSubredes
         {
             Console.Write("\n[!] Os octetos de um endereço IP não podem ter mais de 3 dígitos.", Console.ForegroundColor = ConsoleColor.DarkRed);
             Console.ForegroundColor = ConsoleColor.Gray;
-            Thread.Sleep(2000);
+            Thread.Sleep(2500);
         }
 
         internal static void CaractereDigitadoInvalido()
