@@ -48,7 +48,7 @@ namespace CalcPagDivida
             int qtdMeses = 0;
             decimal valorFinalDivida = valorDivida, valorFinalAplicacao = valorAplicacao;
 
-            while (valorFinalAplicacao < valorFinalDivida)
+            while (valorFinalAplicacao <= valorFinalDivida)
             {
                 valorFinalDivida += valorFinalDivida * taxaJurosDiv;
                 valorFinalAplicacao += valorFinalAplicacao * taxaRendAplic;
