@@ -34,10 +34,18 @@ namespace ContarIdades
         {
             int maiorIdade = idade;
 
-            for (int i = 0; idade >= 0; i++)
+            for (int i = 0; idade > 0; i++)
             {
+                Console.WriteLine("(i) Para interromper a leitura digite 0");
                 Console.Write("Digite uma idade: ");
                 idade = Convert.ToInt32(Console.ReadLine());
+
+                if (idade < 0)
+                {
+                    // Operador unário '-' inverte o valor da variável lida.
+                    idade *= -1;
+                    Console.WriteLine("O sinal de negativo foi desconsiderado.");
+                }
 
                 if (idade > maiorIdade)
                 {
