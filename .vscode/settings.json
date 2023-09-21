@@ -1,3 +1,8 @@
 {
-  "dotnet.defaultSolution": "FP/Exercicios_Algoritmos/Exercicios1P/FP03_S100_E01/CalcSegundos/CalcSegundos.sln"
+  "dotnet.defaultSolution": "FP/Exercicios_Algoritmos/Exercicios1P/FP03_S100_E01/CalcSegundos/CalcSegundos.sln",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "normal",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
+  "editor.fontVariations": false
 }
