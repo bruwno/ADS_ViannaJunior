@@ -16,8 +16,8 @@ namespace Questao01
             int num1 = 0, num2 = 0, num3 = 0;
 
             Console.WriteLine("Digite 3 números inteiros\n");
-      
-            for (int i = 1; i < 4; i++)
+
+            for (int i = 1; i <= 3; i++)
             {
                 Console.Write($"Digite o {i}º número inteiro: ");
                 int num = Convert.ToInt32(Console.ReadLine());
@@ -37,7 +37,7 @@ namespace Questao01
             }
 
             VerificarNumeros(num1, num2, num3);
-            
+
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
@@ -46,15 +46,15 @@ namespace Questao01
         {
             if ((num1 % 2 == 1) && (num2 % 2 == 1) && (num3 % 2 == 1))
             {
-                Console.WriteLine("Todos são ímpares.");
+                Console.WriteLine("\nTodos são ímpares.");
             }
             else if ((num1 % 2 == 0) && (num2 % 2 == 0) && (num3 % 2 == 0))
             {
-                Console.WriteLine("Todos são pares.");
+                Console.WriteLine("\nTodos são pares.");
             }
             else
             {
-                Console.WriteLine("Pares e ímpares misturados.");
+                Console.WriteLine("\nPares e ímpares misturados.");
             }
         }
     }

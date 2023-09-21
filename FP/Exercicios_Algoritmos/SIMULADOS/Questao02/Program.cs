@@ -12,7 +12,7 @@ namespace Questao02
             int qtdNumeros = Convert.ToInt32(Console.ReadLine());
 
             int maiorNumeroLido = RetornaMaiorNumeroLido(qtdNumeros);
-            Console.WriteLine($"O maior número lido foi {maiorNumeroLido}");
+            Console.WriteLine($"\nO maior número lido foi {maiorNumeroLido}");
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
