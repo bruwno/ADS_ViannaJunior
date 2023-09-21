@@ -1,0 +1,15 @@
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.csproj.AssemblyReference.cache
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.AssemblyInfoInputs.cache
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.AssemblyInfo.cs
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.csproj.CoreCompileInputs.cache
+D:\Simulado\exercicios\Questao03\bin\Debug\net7.0\Questao03.exe
+D:\Simulado\exercicios\Questao03\bin\Debug\net7.0\Questao03.deps.json
+D:\Simulado\exercicios\Questao03\bin\Debug\net7.0\Questao03.runtimeconfig.json
+D:\Simulado\exercicios\Questao03\bin\Debug\net7.0\Questao03.dll
+D:\Simulado\exercicios\Questao03\bin\Debug\net7.0\Questao03.pdb
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.dll
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\refint\Questao03.dll
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.pdb
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\Questao03.genruntimeconfig.cache
+D:\Simulado\exercicios\Questao03\obj\Debug\net7.0\ref\Questao03.dll
