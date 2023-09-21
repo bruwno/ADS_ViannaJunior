@@ -21,7 +21,6 @@ namespace Questao03For
         {
             Console.WriteLine("Ler valores");
             LerNumeros();
-
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
