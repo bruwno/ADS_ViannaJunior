@@ -3,5 +3,7 @@
   "json.schemas": [],
   "vsicons.presets.jsonOfficial": true,
   "editor.fontSize": 13,
-  "editor.fontFamily": "Fira Code"
+  "editor.fontFamily": "Fira Code",
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 13
 }
