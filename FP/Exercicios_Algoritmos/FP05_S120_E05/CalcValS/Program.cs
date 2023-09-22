@@ -27,15 +27,13 @@ namespace CalcValS
         private static void CalcularValor()
         {
             double s = 0.0;
-            int proxDivisor = 50;
 
-            for (int proxExpoente = 1; proxExpoente <= 25; proxExpoente++)
+            for (int proxExp = 1, proxDiv = 50; proxExp <= 25; proxExp++, proxDiv -= 2)
             {
-                s += Math.Pow(2, proxExpoente) / proxDivisor;
-                proxDivisor -= 2;
+                s += Math.Pow(2, proxExp) / proxDiv;
             }
 
-            Console.WriteLine($"\nO valor de S é {s:N1}");
+            Console.WriteLine($"\nO valor de S é {s}");
         }
     }
 }
