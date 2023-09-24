@@ -1,4 +1,4 @@
-﻿/* Objetivo : Converter um endereço IPv4 em binário..
+﻿/* Objetivo : Converter um endereço IPv4 em binário.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 12/09/2023
  * Material : FP0X
