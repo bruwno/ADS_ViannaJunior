@@ -1,4 +1,4 @@
-﻿/* Objetivo : Testar se u n[umero é par ou ímpar.
+﻿/* Objetivo : Testar se u número é par ou ímpar.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 24/09/2023
  * Material : FP0X
