@@ -23,8 +23,14 @@ namespace LerNums
             Console.Write("Digite a quantidade de números que deseja ler: ");
             int qtdLeituras = Convert.ToInt32(Console.ReadLine());
 
+            while (qtdLeituras <= 0)
+            {
+                Console.Write("\nQuantidade de leituras inválida! Digite um número maior que 0: ");
+                qtdLeituras = Convert.ToInt32(Console.ReadLine());
+            }
+
             double media = LerNumsECalcularMedia(qtdLeituras);
-            Console.WriteLine($"A média aritmética dos números lidos é = {media:F3}");
+            Console.WriteLine($"\nA média aritmética dos números lidos é = {media:F3}");
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
@@ -34,21 +40,19 @@ namespace LerNums
         {
             double media = 0.0, acm = 0.0;
 
-            Console.Write("Digite um número positivo: ");
-            double num = Convert.ToDouble(Console.ReadLine());
-
-            for (int i = 1; i < qtdLeituras; i++)
+            for (int i = 1; i <= qtdLeituras; i++)
             {
-                if (num > 0)
-                {
-                    Console.Write("Digite um número positivo: ");
-                    num = Convert.ToDouble(Console.ReadLine());
+                Console.Write($"Digite o {i}º número: ");
+                double num = Convert.ToDouble(Console.ReadLine());
 
-                    acm += num;
+                if (num < 0)
+                {
+                    Console.WriteLine("(i) Número negativo desconsiderado.");
+                    i--;
                 }
                 else
                 {
-                    Console.WriteLine("Número negativo desconsiderado.");
+                    acm += num;
                 }
             }
 
