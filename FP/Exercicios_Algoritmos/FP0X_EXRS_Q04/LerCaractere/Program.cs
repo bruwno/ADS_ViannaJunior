@@ -29,12 +29,13 @@ namespace LerCaractere
 
         private static char LerCaractere()
         {
-            Console.Write("Digite um caractere: ");
+            Console.Write("Digite uma vogal: ");
             char caractere = Convert.ToChar(Console.ReadLine().ToLower());
 
             while ((caractere != 'a') && (caractere != 'e') && (caractere != 'i') && (caractere != 'o') && (caractere != 'u'))
             {
-                Console.Write("Digite um caractere: ");
+                Console.WriteLine("O caractere digitado não é uma vogal! Tente novamente.");
+                Console.Write("Digite uma vogal: ");
                 caractere = Convert.ToChar(Console.ReadLine().ToLower());
             }
 
