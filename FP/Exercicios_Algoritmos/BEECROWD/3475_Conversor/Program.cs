@@ -4,7 +4,7 @@
  * Tipo     : 2 (AD-HOC)
  * ID       : 3475
  * Nome     : Conversor
- * Link     : (https://www.beecrowd.com.br/judge/pt/problems/view/3475)
+ * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3475
  */
 
 using System;
