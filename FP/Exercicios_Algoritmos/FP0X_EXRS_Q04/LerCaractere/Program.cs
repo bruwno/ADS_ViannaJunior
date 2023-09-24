@@ -1,4 +1,4 @@
-﻿/* Objetivo : Ler .
+﻿/* Objetivo : Ler um caractere enquanto não for digitada uma vogal.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 24/09/2023
  * Material : FP0X
