@@ -1,4 +1,4 @@
-﻿/* Objetivo : Ler números reais enquanto o valor digitado for negativo..
+﻿/* Objetivo : Ler números reais enquanto o valor digitado for negativo.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 24/09/2023
  * Material : FP0X
