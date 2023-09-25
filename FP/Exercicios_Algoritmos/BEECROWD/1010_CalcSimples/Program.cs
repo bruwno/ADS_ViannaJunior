@@ -9,9 +9,9 @@
 
 using System;
 
-class URI
+public class URI
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         double total = 0.0;
 

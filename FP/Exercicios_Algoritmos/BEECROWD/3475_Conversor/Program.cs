@@ -10,9 +10,9 @@
 using System;
 using System.Collections.Generic;
 
-class URI
+public class URI
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         string numExtenso = Console.ReadLine().ToLower();
 
