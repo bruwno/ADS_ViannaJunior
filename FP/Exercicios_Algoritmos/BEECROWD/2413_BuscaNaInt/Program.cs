@@ -10,7 +10,7 @@
 using System;
 public struct URI
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
         int t = int.Parse(Console.ReadLine());
         // O mesmo que t * 2 * 2
