@@ -27,8 +27,8 @@ class URI
 
         if (horaInicial == horaFinal)
         {
-            minutosTmp = (minInicial - minFinal) * 60;
-            tempoTotalEmSegundos += (24 * 3600) + minutosTmp;
+            minutosTmp = (minFinal - minInicial) * 60;
+            tempoTotalEmSegundos = (24 * 3600) + minutosTmp;
         }
 
         else if (horaFinal < horaInicial)
