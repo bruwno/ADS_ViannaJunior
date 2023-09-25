@@ -14,37 +14,61 @@ class URI
 {
     static void Main(string[] args)
     {
-        string[] tempoJogo = Console.ReadLine().Split(' ');
         int horaInicial = 0, minInicial = 0, horaFinal = 0, minFinal = 0;
+        int horas = 0, minutos = 0;
+        int tempoTotalEmSegundos = 0, tempoTotalEmSegundosH = 0, tempoTotalEmSegundosM = 0;
+
+        string[] tempoJogo = Console.ReadLine().Split(' ');
 
         horaInicial = int.Parse(tempoJogo[0]);
         minInicial = int.Parse(tempoJogo[1]);
         horaFinal = int.Parse(tempoJogo[2]);
         minFinal = int.Parse(tempoJogo[3]);
 
-        /*/ DIVIDIR A HORA INICIAL PELA HORA FINAL
-        if (horaInicial != 0 && horaInicial <= horaFinal)
+        #region FUNCIONANDO [Observar]
+        // SE A HORA INICIAL E A HORA FINAL FOREM IGUAIS
+        if (horaInicial == horaFinal)
         {
-            while (horaInicial < 24)
-            {
-                horaInicial += 3600;
-            }
-        }*/
+            minutos = (minInicial - minFinal) * 60;
+            tempoTotalEmSegundos += (24 * 3600) + minutos;
+        }
+        //
+        #endregion
 
-
-        #region FUNCIONANDO
-        // Convertendo de horas e minutos para segundos. #FUNCIONANDO
-        int tempoTotalEmSegundosH = (horaFinal - horaInicial) * 3600;
-        int tempoTotalEmSegundosM = (minFinal - minInicial) * 60;
+        // SE A HORA FINAL FOR MENOR QUE A HORA INICIAL
+        #region TESTANDO ...
+        else if (horaFinal < horaInicial)
+        {
+            minutos = (minInicial - minFinal) * 60;
+            tempoTotalEmSegundos += (((24 - horaInicial) + horaFinal) * 3600) + minutos;
+        }
         #endregion
 
         #region FUNCIONANDO
-        int tempoTotalEmSegundos = tempoTotalEmSegundosH + tempoTotalEmSegundosM;
-
-        if (tempoTotalEmSegundos < 0)
+        else
         {
-            tempoTotalEmSegundos = tempoTotalEmSegundos * -1;
+            #region FUNCIONANDO
+            // Convertendo de horas e minutos para segundos.
+            if (horaInicial > horaFinal)
+            {
+                int tmp = horaInicial;
+                horaInicial = horaFinal;
+                horaFinal = tmp;
+            }
+            //
+            #endregion
+
+            tempoTotalEmSegundosH = (horaFinal - horaInicial) * 3600;
+            tempoTotalEmSegundosM = (minFinal - minInicial) * 60;
+
+            tempoTotalEmSegundos = tempoTotalEmSegundosH + tempoTotalEmSegundosM;
+
+            if (tempoTotalEmSegundos < 0)
+            {
+                tempoTotalEmSegundos = tempoTotalEmSegundos * -1;
+            }
         }
+        //
         #endregion
 
         // DEBUG
@@ -52,11 +76,12 @@ class URI
 
         #region FUNCIONANDO
         // Convertendo de segundos para horas e minutos.
-        int horas = tempoTotalEmSegundos / 3600;
+        horas = tempoTotalEmSegundos / 3600;
         int tempoRestante = tempoTotalEmSegundos % 3600;
-        int minutos = tempoRestante / 60;
+        minutos = tempoRestante / 60;
 
         Console.WriteLine($"O JOGO DUROU {horas} HORA(S) E {minutos} MINUTO(S)");
+        //
         #endregion
     }
 }
