@@ -18,7 +18,7 @@ class URI
         int horas = 0, minutos = 0, minutosTmp = 0;
         int tempoTotalEmSegundos = 0, tempoTotalEmSegundosH = 0, tempoTotalEmSegundosM = 0;
 
-        string[] tempoJogo = Console.ReadLine().Split(' ');
+        string[] tempoJogo = Console.ReadLine()!.Split(' ');
 
         horaInicial = int.Parse(tempoJogo[0]);
         minInicial = int.Parse(tempoJogo[1]);
@@ -27,18 +27,54 @@ class URI
 
         if (horaInicial == horaFinal)
         {
+            // DEBUG
+            System.Console.WriteLine("[DEBUG] ENTROU NA 1ª ESTRATÉGIA");
+            //
             minutosTmp = (minFinal - minInicial) * 60;
-            tempoTotalEmSegundos = (24 * 3600) + minutosTmp;
+
+            if (horaInicial == horaFinal && minInicial == minFinal)
+            {
+                // DEBUG
+                System.Console.WriteLine("[DEBUG] ENTROU NA CONDICIONAL 1");
+                //
+                tempoTotalEmSegundos = (24 * 3600) + minutosTmp;
+            }
+
+            else if (horaInicial == horaFinal && minFinal < minInicial)
+            {
+                // DEBUG
+                System.Console.WriteLine("[DEBUG] ENTROU NA CONDICIONAL 2");
+                //
+                tempoTotalEmSegundos = (24 * 3600) + minutosTmp;
+            }
+
+            else
+            {
+                // DEBUG
+                System.Console.WriteLine("[DEBUG] ENTROU NA CONDICIONAL 3");
+                //
+                tempoTotalEmSegundos = ((horaInicial - horaFinal) * 3600) + minutosTmp;
+            }
+
+            //tempoTotalEmSegundos = (24 * 3600) + minutosTmp;
+            //tempoTotalEmSegundos = ((horaInicial - horaFinal) * 3600) + minutosTmp;
+            //tempoTotalEmSegundos = ((24 - horaInicial + horaFinal) * 3600) + minutosTmp;
         }
 
         else if (horaFinal < horaInicial)
         {
-            minutosTmp = (minInicial - minFinal) * 60;
-            tempoTotalEmSegundos += ((24 - horaInicial + horaFinal) * 3600) + minutosTmp;
+            // DEBUG
+            System.Console.WriteLine("[DEBUG] ENTROU NA 2ª ESTRATÉGIA");
+            //
+            minutosTmp = (minFinal - minInicial) * 60;
+            tempoTotalEmSegundos = ((24 - horaInicial + horaFinal) * 3600) + minutosTmp;
         }
 
         else
         {
+            // DEBUG
+            System.Console.WriteLine("[DEBUG] ENTROU NA 3ª ESTRATÉGIA");
+            //
             if (horaInicial > horaFinal)
             {
                 int tmp = horaInicial;
