@@ -20,16 +20,14 @@ class URI
 
     private static void CalcularTempoDeJogo(string[] tempoDeJogo)
     {
-        int horaInicial = 0, minInicial = 0, horaFinal = 0, minFinal = 0;
-        int minutos = 0;
         int tempoTotalEmSegundos = 0;
 
-        horaInicial = int.Parse(tempoDeJogo[0]);
-        minInicial = int.Parse(tempoDeJogo[1]);
-        horaFinal = int.Parse(tempoDeJogo[2]);
-        minFinal = int.Parse(tempoDeJogo[3]);
+        int horaInicial = int.Parse(tempoDeJogo[0]);
+        int minInicial = int.Parse(tempoDeJogo[1]);
+        int horaFinal = int.Parse(tempoDeJogo[2]);
+        int minFinal = int.Parse(tempoDeJogo[3]);
 
-        minutos = (minFinal - minInicial) * 60;
+        int minutos = (minFinal - minInicial) * 60;
 
         if (horaInicial == horaFinal)
         {
