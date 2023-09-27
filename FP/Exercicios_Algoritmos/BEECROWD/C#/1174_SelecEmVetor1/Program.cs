@@ -8,52 +8,26 @@
  */
 
 using System;
-using System.Collections.Generic;
 
 class URI
 {
     static void Main(string[] args)
     {
         double[] valores = new double[100];
-        double[] menoresQue10 = new double[100];
+        int[] indiceDoValor = new int[100];
 
-        int cont = 0;
-
-        for (int i = 0; i <= 100; i++)
+        for (int i = 0; i < valores.Length; i++)
         {
             valores[i] = double.Parse(Console.ReadLine());
+            indiceDoValor[i] = i;
+        }
 
-            if (valores[i] <= 10.0)
+        for (int j = 0; j < indiceDoValor.Length; j++)
+        {
+            if (valores[j] <= 10)
             {
-                while (true)
-                {
-                    menoresQue10[i] += valores[i];
-                }
-
-                //CapturarValoresMenoresQue10(menoresQue10, i);
+                Console.WriteLine($"A[{indiceDoValor[j]}] = {valores[j]:F1}");
             }
-
-
-        }
-
-        ExibirMenoresQue10(valores);
-    }
-
-    private static void CapturarValoresMenoresQue10(double[] nums, int posic)
-    {
-
-        for (int j = 0; j < nums.Length; j++)
-        {
-        }
-    }
-
-    private static void ExibirMenoresQue10(double[] nums)
-    {
-        for (int k = 0; k < nums.Length; k++)
-        {
-            double numero = nums[k];
-
-            Console.WriteLine($"A[{k}] = {numero}");
         }
     }
 }

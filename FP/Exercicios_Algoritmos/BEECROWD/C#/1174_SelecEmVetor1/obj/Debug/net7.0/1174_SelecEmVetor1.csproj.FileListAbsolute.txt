@@ -12,3 +12,18 @@ D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRI
 D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.pdb
 D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.genruntimeconfig.cache
 D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\ref\1174_SelecEmVetor1.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\bin\Debug\net7.0\1174_SelecEmVetor1.exe
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\bin\Debug\net7.0\1174_SelecEmVetor1.deps.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\bin\Debug\net7.0\1174_SelecEmVetor1.runtimeconfig.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\bin\Debug\net7.0\1174_SelecEmVetor1.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\bin\Debug\net7.0\1174_SelecEmVetor1.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.csproj.AssemblyReference.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.GeneratedMSBuildEditorConfig.editorconfig
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.AssemblyInfoInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.AssemblyInfo.cs
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.csproj.CoreCompileInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\refint\1174_SelecEmVetor1.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\1174_SelecEmVetor1.genruntimeconfig.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\BEECROWD\C#\1174_SelecEmVetor1\obj\Debug\net7.0\ref\1174_SelecEmVetor1.dll
