@@ -1,4 +1,4 @@
-﻿/* Objetivo : Ler uma string, que representa um número, e retornar o seu equivalente em numeral ou por extenso.
+﻿/* Objetivo : Calcular a posição de uma partícula.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 27/09/2023
  * Tipo     : 5 (MATEMÁTICA)
@@ -16,7 +16,7 @@ class URI
     {
         string valor;
 
-        while ((!string.IsNullOrEmpty(valor = Console.ReadLine())))
+        while (!string.IsNullOrEmpty(valor = Console.ReadLine()))
         {
             int[] dados = valor.Split(' ').Select(int.Parse).ToArray();
 

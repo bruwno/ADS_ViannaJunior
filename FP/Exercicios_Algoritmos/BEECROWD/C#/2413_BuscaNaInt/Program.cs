@@ -1,4 +1,4 @@
-﻿/* Objetivo : Determinar a quantdade de cliques que um link recebe com base nos demais.
+﻿/* Objetivo : Determinar a quantidade de cliques que um link recebe com base nos demais.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 24/09/2023
  * Tipo     : 2 (AD-HOC)
