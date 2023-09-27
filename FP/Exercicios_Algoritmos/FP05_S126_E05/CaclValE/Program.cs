@@ -39,9 +39,9 @@ namespace CalcValE
 
             for (int i = 1; i <= num; i++)
             {
-                // fatorial * 1,2,3,4..n (tamanho da contagem do laço).
+                // fatorial * 1,2,3,4..n (n = tamanho da contagem do laço).
                 fat *= i;
-                // Valor de E = 1 + 1 / fatorial
+                // Valor de E = 1 + 1 / fatorial (valor acumulado na var fat)
                 e += 1.0 / fat;
             }
 

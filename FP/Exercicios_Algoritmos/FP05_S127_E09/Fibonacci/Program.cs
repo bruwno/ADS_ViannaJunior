@@ -33,10 +33,14 @@ namespace Fibonacci
         {
             Console.Write("[i] Digite um valor para calcular a sequência: ");
             int valor = Convert.ToInt32(Console.ReadLine());
-
+            // Iterativo
             CalcularFibonacci(valor);
+
+            // Recursivo
+            Console.WriteLine($"\n Número de Fibonacci na {valor}ª posição = " + Fibonacci(valor));
         }
 
+        // Retorna os N primeiros fib, de acordo com a quantidade informada pelo usuário.
         private static void CalcularFibonacci(int n)
         {
             int antePenultVal = 0, penultVal = 0, valAtual = 1;
@@ -56,6 +60,16 @@ namespace Fibonacci
 
                 Console.Write($"{valAtual}, ");
             }
+        }
+
+        // Retorna o número de fibonacci na posição inserida pela usuário.
+        private static int Fibonacci(int fib)
+        {
+            if (fib == 0 || fib == 1)
+            {
+                return fib;
+            }
+            return Fibonacci(fib - 1) + Fibonacci(fib - 2);
         }
     }
 }
