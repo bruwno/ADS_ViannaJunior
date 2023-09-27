@@ -19,7 +19,7 @@ class URI
         {
             int proxSenha = int.Parse(senha);
             proxSenha++;
-            System.Console.WriteLine(proxSenha);
+            Console.WriteLine(proxSenha);
         }
     }
 }

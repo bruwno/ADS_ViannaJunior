@@ -52,6 +52,7 @@ namespace CalcPagDivida
             {
                 valorFinalDivida += valorFinalDivida * taxaJurosDiv;
                 valorFinalAplicacao += valorFinalAplicacao * taxaRendAplic;
+
                 qtdMeses++;
             }
 

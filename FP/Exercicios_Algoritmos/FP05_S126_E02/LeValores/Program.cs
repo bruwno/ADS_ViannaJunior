@@ -26,14 +26,16 @@ namespace LeValores
 
         private static void LerValor()
         {
-            int menor = 0, maior = 0;
+            Console.Write($"\nDigite o 1º valor: ");
+            int valor = Convert.ToInt32(Console.ReadLine());
+            int cont = 2, menor = valor, maior = valor;
 
-            for (int i = 1; i < 11; i++)
+            while (cont <= 10)
             {
-                Console.Write($"\n[i] Digite o {i}º valor: ");
-                int valor = Convert.ToInt32(Console.ReadLine());
+                Console.Write($"\nDigite o {cont}º valor: ");
+                valor = Convert.ToInt32(Console.ReadLine());
 
-                if (menor == 0 || valor < menor)
+                if (valor < menor)
                 {
                     menor = valor;
                 }
@@ -42,6 +44,7 @@ namespace LeValores
                     maior = valor;
                 }
 
+                cont++;
             }
 
             Console.WriteLine($"\n[>] Menor valor: {menor}" +
