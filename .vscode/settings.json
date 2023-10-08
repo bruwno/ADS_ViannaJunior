@@ -4,5 +4,7 @@
   "terminal.integrated.fontWeight": "normal",
   "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
-  "editor.fontVariations": false
+  "editor.fontVariations": false,
+  "html.autoClosingTags": false,
+  "html.format.wrapLineLength": 0
 }
