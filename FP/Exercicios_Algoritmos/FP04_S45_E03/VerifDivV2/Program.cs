@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Verificar divisibilidade por 2e por 3.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 45
  * Exercício: 03
  */

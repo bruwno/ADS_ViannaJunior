@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Verificar números reais.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 61
  * Exercício: 02
  */

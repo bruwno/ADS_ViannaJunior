@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Converter um valor de entrada de graus Celsius para graus Fahrenheit.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 15/08/2023
- * Material : FP02
+ * Material : FP02 (E/S de dados)
  * Slide    : 47
  * Exercício: 01
  */

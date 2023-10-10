@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Aplicar desconto sobre um valor e exibí-lo.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 15/08/2023
- * Material : FP02
+ * Material : FP02 (E/S de dados)
  * Slide    : 48
  * Exercício: 05
  */

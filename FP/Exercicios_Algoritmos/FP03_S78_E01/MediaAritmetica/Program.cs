@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular e exibir a média aritmética.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 17/08/2023
- * Material : FP03
+ * Material : FP03 (Subrotinas)
  * Slide    : 78
  * Exercício: 01
  */

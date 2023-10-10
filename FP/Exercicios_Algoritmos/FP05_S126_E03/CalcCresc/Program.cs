@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular a taxa de crescimento.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 06/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 126
  * Exercício: 03
  */

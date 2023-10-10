@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Determinar quanto tempo um intervalo em segundos representa.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 16/08/2023
- * Material : FP02
+ * Material : FP02 (E/S de dados)
  * Slide    : 48
  * Exercício: 06
  */

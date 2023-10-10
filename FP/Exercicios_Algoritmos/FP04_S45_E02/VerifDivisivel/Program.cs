@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Verificar divisibilidade por 2.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 45
  * Exercício: 02
  */
@@ -10,10 +10,10 @@
  * 2) Ler um número inteiro e informar se ele é divisível por 2.
  */
 
- using System;
+using System;
 
- namespace VerifDivisivel
- {
+namespace VerifDivisivel
+{
     public class Program
     {
         public static void Main(string[] args)
@@ -42,5 +42,5 @@
                 Console.WriteLine($"\n[>] O número {num} digitado não é divisível por 2.");
             }
         }
-    }    
- }
+    }
+}

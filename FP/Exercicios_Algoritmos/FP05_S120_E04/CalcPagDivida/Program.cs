@@ -1,14 +1,9 @@
 ﻿/* Objetivo : Determinar o tempo necessário para pagamento de uma dívida com o rendimento de uma aplicação financeira.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 05/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 120
  * Exercício: 04
- *******************************************************************************************************
- * OBS.     : Esta versão permite testar vários números em uma única entrada de dados, utilizando array.
- *            Propositalmente o algoritmo utilizado para testar os números não é o mais performático.
- *            A classe NumerosPrimos contém o algoritmo que realiza os testes com os valores.
- *******************************************************************************************************
  */
 
 /* 4. Dada uma dívida de 10000 reais que cresce a juros de 2,5% ao mês e uma aplicação de 1500 reais com

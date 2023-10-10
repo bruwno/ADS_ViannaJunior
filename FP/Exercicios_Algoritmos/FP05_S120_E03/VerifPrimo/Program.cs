@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Imprimir os números pares entre 1 e 100.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 120
  * Exercício: 03
  */

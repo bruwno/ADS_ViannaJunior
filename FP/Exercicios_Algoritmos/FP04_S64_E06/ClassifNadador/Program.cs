@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Informar uma idade e determinar a classificação do nadador.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 64
  * Exercício: 05
  */
@@ -16,10 +16,10 @@
  * • sênior = maiores de 30 anos
  */
 
- using System;
+using System;
 
- namespace ClassifNadador
- {
+namespace ClassifNadador
+{
     public class Program
     {
         public static void Main(string[] args)
@@ -40,15 +40,15 @@
 
         private static void ClassificaNadador(int idade)
         {
-            if ((idade >= 5) && (idade <= 7)) 
+            if ((idade >= 5) && (idade <= 7))
             {
                 Console.WriteLine("\nInfantil A");
             }
-            else if ((idade >= 8 ) && (idade <= 10))
+            else if ((idade >= 8) && (idade <= 10))
             {
                 Console.WriteLine("\nInfantil B");
             }
-            else if ((idade >= 11) && (idade <= 13)) 
+            else if ((idade >= 11) && (idade <= 13))
             {
                 Console.WriteLine("\nJuvenil A");
             }
@@ -56,7 +56,7 @@
             {
                 Console.WriteLine("\nJuvenil B");
             }
-            else if ((idade >= 18) && (idade <= 30)) 
+            else if ((idade >= 18) && (idade <= 30))
             {
                 Console.WriteLine("\nAdulto");
             }
@@ -66,4 +66,4 @@
             }
         }
     }
- }
+}

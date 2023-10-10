@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Determinar o caracetere digitado pelo usuário.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 63
  * Exercício: 05
  */
@@ -38,7 +38,7 @@ namespace LeChar
 
         private static void DeterminarCaractere(char caractereDigitado)
         {
-            if (caractereDigitado == '<') 
+            if (caractereDigitado == '<')
             {
                 Console.WriteLine("\nSinal de menor.");
             }
@@ -46,7 +46,7 @@ namespace LeChar
             {
                 Console.WriteLine("\nSinal de maior.");
             }
-            else if (caractereDigitado == '=') 
+            else if (caractereDigitado == '=')
             {
                 Console.WriteLine("\nSinal de igual.");
             }

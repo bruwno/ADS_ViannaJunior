@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular IMC com base no gênero do usuário.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 62
  * Exercício: 03
  */

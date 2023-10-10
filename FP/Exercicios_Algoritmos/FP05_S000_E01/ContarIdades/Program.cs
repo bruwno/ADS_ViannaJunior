@@ -2,7 +2,7 @@
 /* Objetivo : Ler idades e retornar o maior valor lido.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 20/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 000
  * Exercício: 01
  */

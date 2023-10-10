@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Ler o código de uma forma de pagamento e exibir uma descrição sobre as condições associadas a ela.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 29/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 49
  * Exercício: 09
  */
