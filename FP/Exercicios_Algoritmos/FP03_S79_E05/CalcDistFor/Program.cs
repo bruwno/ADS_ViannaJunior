@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Determinar resultados a partir de coordenadas informadas pelo usuário.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 17/08/2023
- * Material : FP03
+ * Material : FP03 (Subrotinas)
  * Slide    : 79
  * Exercício: 05 (Utilizando o laço for nessa versão).
  */

@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Determinar se 3 comprimentos digitados formam um triângulo.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 62
  * Exercício: 04
  */

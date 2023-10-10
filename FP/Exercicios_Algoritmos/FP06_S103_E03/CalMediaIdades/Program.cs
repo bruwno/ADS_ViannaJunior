@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular a média das idades de 10 alunos.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 10/10/2023
- * Material : FP06
+ * Material : FP06 (Vetores)
  * Slide    : 103
  * Exercício: 03
  */

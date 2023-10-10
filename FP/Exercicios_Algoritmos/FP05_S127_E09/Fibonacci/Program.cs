@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular a sequência de Fibonacci para um valor N.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 10/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 127
  * Exercício: 09
  */

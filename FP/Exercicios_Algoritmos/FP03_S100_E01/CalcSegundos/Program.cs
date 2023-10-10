@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Converter segundos para h, m e s.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 19/08/2023
- * Material : FP03
+ * Material : FP03 (Subrotinas)
  * Slide    : 100
  * Exercício: 01
  */

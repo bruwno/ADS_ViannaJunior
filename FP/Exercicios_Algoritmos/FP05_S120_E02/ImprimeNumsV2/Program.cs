@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Imprimir os números de 1 a 100.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 13/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 120
  * Exercício: 02
  */

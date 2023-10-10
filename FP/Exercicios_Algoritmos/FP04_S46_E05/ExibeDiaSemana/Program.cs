@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Exibir o dia da semana e acordo com o número digitado.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 46
  * Exercício: 05
  */

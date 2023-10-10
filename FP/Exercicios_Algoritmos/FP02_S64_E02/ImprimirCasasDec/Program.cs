@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Exibir valor com variações na quantidade de casas decimais.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 16/08/2023
- * Material : FP02
+ * Material : FP02 (E/S de dados)
  * Slide    : 64
  * Exercício: 02
  */

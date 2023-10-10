@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Verificar valores.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 45
  * Exercício: 01
  */
@@ -37,7 +37,7 @@ namespace VerificaValor
 
         private static void VerificarValores(int val1, int val2)
         {
-            if (val1 > val2) 
+            if (val1 > val2)
             {
                 Console.WriteLine("\n[>] O primeiro valor é maior que o segundo valor.");
             }

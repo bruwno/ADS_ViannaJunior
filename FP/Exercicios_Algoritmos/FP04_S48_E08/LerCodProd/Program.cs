@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Ler o código de um produto e exibir sua origem..
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 29/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 48
  * Exercício: 08
  */

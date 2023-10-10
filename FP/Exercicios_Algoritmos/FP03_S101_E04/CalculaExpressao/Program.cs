@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular a raíz quadrada de a e b.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 22/08/2023
- * Material : FP03
+ * Material : FP03 (Subrotinas)
  * Slide    : 101
  * Exercício: 04
  */

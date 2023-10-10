@@ -2,7 +2,7 @@
 /* Objetivo : Ler as notas e determinar a média das provas de um aluno.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP03
+ * Material : FP03 (Subrotinas)
  * Slide    : 101
  * Exercício: 06
  */

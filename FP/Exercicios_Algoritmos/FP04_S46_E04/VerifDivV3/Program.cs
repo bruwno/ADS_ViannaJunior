@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Verificar divisibilidade por 2, por 3 e por 5.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/08/2023
- * Material : FP04
+ * Material : FP04 (Estruturas Condicionais)
  * Slide    : 46
  * Exercício: 04
  */

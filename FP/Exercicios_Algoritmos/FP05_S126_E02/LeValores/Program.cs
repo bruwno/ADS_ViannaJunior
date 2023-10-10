@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Ler 10 valores e armazenar na mesma variável.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 06/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 126
  * Exercício: 02
  */

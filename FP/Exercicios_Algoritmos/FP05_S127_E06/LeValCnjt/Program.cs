@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Determinar o menor valor de um conjunto de inteiros.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 10/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 127
  * Exercício: 06
  */

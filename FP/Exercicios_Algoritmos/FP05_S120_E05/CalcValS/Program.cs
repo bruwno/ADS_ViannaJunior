@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Calcular o valor de S.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 05/09/2023
- * Material : FP05
+ * Material : FP05 (Comandos de Repetição)
  * Slide    : 120
  * Exercício: 05
  */
