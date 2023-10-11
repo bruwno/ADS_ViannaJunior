@@ -3,7 +3,7 @@
  * Data     : 10/10/2023
  * Material : FP06 (Vetores)
  * Slide    : 101
- * Exercício: 02
+ * Exercício: EXEMPLO 02
  */
 
 /* Algoritmo de ordenação por bolha (bubble sort).
