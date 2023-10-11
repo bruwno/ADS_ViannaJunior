@@ -3,11 +3,11 @@
  * Data     : 11/10/2023
  * Material : FP06 (Vetores)
  * Slide    : 104
- * Exercício: 07
+ * Exercício: 08
  */
 
-/* 7) Faça um algoritmo que leia, via teclado, 20 valores do tipo inteiro e determine qual o menor
- * valor existente no vetor e imprima esse valor e seu índice no vetor.
+/* 8) Refaça o exercício anterior criando um procedimento que receba como parâmetro o vetor 
+ * e imprima o menor valor e seu índice no vetor.
  */
 
 using System;
@@ -27,6 +27,14 @@ namespace DetMenorValor
                 vet[i] = Convert.ToInt32(Console.ReadLine());
             }
 
+            DeterminarMenorValor(vet);
+
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
+        }
+
+        private static void DeterminarMenorValor(int[] vet)
+        {
             int posic = 0, menorValor = int.MaxValue;
 
             for (int i = 0; i < vet.Length; i++)
@@ -39,9 +47,6 @@ namespace DetMenorValor
             }
 
             Console.WriteLine($"O menor valor digitado foi {menorValor}, seu índice no vetor é: {posic}.");
-
-            Console.Write("\nPressione qualquer tecla para finalizar...");
-            Console.ReadKey();
         }
     }
 }
