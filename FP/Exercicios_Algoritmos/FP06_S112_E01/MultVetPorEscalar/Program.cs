@@ -1,4 +1,4 @@
-﻿/* Objetivo : Multiplicar os valores de um vetor por um escalar.
+﻿/* Objetivo : Multiplicar os valores de um vetor por um valor escalar.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 11/10/2023
  * Material : FP06 (Vetores)
