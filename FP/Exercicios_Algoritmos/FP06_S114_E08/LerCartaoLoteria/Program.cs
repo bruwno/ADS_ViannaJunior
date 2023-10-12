@@ -12,66 +12,86 @@
  * Faça o teste através de funções.
  */
 
- using System;
+using System;
 
- namespace LerCartaoLoteria
- {
-        internal class Program
+namespace LerCartaoLoteria
+{
+    internal class Program
+    {
+        internal static void Main(string[] args)
         {
-            internal static void Main(string[] args)
+            Console.WriteLine("Loteria\n");
+            int[] g = new int[13];
+
+            Console.Write("Preencha o gabarito (13 números): ");
+            for (int i = 0, j = 12; i < g.Length; i++, j--)
             {
-                Console.WriteLine();
-                int[] g = new int[13];
-                int[] apostador1 = new int[13];
-                int[] apostador2 = new int[13];
-                int[] apostador3 = new int[13];
-                int[] apostador4 = new int[13];
-                int[] apostador5 = new int[13];
-
-                Console.WriteLine("Preencha o gabarito: ");
-                for (int i = 0, j = 1; i < g.Length; i++, j++) 
-                {
-                    Console.Write($"Digite o {j}º valor: ");
-                    g[i] = Convert.ToInt32(Console.ReadLine());
-                }
-
-                Console.WriteLine("Preencha o cartão de apostas: ");
-                Console.WriteLine("\nCartão do apostador 1:");
-                for (int i = 0; i < apostador1.Length; i++)
-                {
-                    Console.Write($"Digite o {j}º valor: ");
-                    g[i] = Convert.ToInt32(Console.ReadLine());
-                }
-
-                Console.WriteLine("\nCartão do apostador 2:");
-                for (int i = 0; i < apostador2.Length; i++) 
-                {
-
-                }
-
-                Console.WriteLine("\nCartão do apostador 3:");
-                for (int i = 0; i < apostador3.Length; i++) 
-                {
-
-                }
-
-                Console.WriteLine("\nCartão do apostador 4:");
-                for (int i = 0; i < apostador4.Length; i++)
-                {
-
-                }
-
-                Console.WriteLine("\nCartão do apostador 5:");
-                for (int i = 0; i < apostador5.Length; i++) 
-                {
-
-                }
-
+                g[i] = Convert.ToInt32(Console.ReadLine());
+                AtualizarDigitosGabarito(g, j);
             }
 
-            private static int ContabilizarAcertos(int[] vet)
-            {
+            LerDadosApostador(g);
 
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
+        }
+
+        private static void LerDadosApostador(int[] g)
+        {
+            int[] aposta = new int[13];
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Write("\nDigite o número do cartão de apostas: ");
+                int numeroCartao = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("[Preencha o cartão de apostas]");
+                for (int j = 0, k = 1; j < aposta.Length; j++, k++)
+                {
+                    Console.Write($"Digite o {k,2}º número: ", Console.ForegroundColor = ConsoleColor.Blue);
+                    aposta[j] = Convert.ToInt32(Console.ReadLine());
+                }
+
+                int qtdAcertos = ContabilizarAcertos(g, aposta);
+
+                Console.WriteLine($"O apostador {numeroCartao} teve {qtdAcertos} acertos.", Console.ForegroundColor = ConsoleColor.Gray);
             }
         }
- }
+
+        private static int ContabilizarAcertos(int[] g, int[] aposta)
+        {
+            int qtdAcertos = 0;
+
+            for (int i = 0; i < g.Length; i++)
+            {
+                if (aposta[i] == g[i])
+                {
+                    qtdAcertos++;
+                }
+            }
+
+            return qtdAcertos;
+        }
+
+        private static void AtualizarDigitosGabarito(int[] g, int cont)
+        {
+            Console.Clear();
+            Console.Write("[GABARITO] ", Console.ForegroundColor = ConsoleColor.Green);
+            Console.ForegroundColor = ConsoleColor.Gray;
+
+            for (int i = 0; i < g.Length - cont; i++)
+            {
+                Console.Write($"{g[i]} | ");
+            }
+
+            if (cont > 0)
+            {
+                Console.Write($"\n\nDigite mais {cont} número(s): ");
+            }
+            else
+            {
+                Console.Write("\nGabarito preenchido.\n");
+            }
+        }
+    }
+}
