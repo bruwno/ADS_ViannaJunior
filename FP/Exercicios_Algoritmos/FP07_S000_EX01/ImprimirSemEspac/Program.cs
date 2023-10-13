@@ -2,7 +2,7 @@
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 13/10/2023
  * Material : FP07 (Strings)
- * Slide    : 000
+ * Slide    : 000 | Aula: https://www.youtube.com/watch?v=tciSBkZvklg
  * Exercício: 01 (Exemplo)
  */
 
