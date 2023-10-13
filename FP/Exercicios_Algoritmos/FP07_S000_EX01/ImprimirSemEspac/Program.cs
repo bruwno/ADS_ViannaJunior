@@ -1,4 +1,4 @@
-﻿/* Objetivo : Imprimir apenas os caracteres minpusculos de uma string.
+﻿/* Objetivo : Imprimir uma string sem os espaços.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 13/10/2023
  * Material : FP07 (Strings)
@@ -6,12 +6,12 @@
  * Exercício: 01 (Exemplo)
  */
 
-/* 1) Imprimir apenas os caracteres minpusculos da string "Exemplo de Cadeia de Caracteres".
+/* 1) Imprimir a string "Exemplo de Cadeia de Caracteres" sem os espaços.
  */
 
 using System;
 
-namespace ImprimirMinusc
+namespace ImprimirSemEspac
 {
     internal class Program
     {
@@ -23,7 +23,7 @@ namespace ImprimirMinusc
             {
                 char caractere = str[i];
 
-                if (caractere >= 'a' && caractere <= 'z' || caractere == ' ')
+                if (caractere != ' ')
                 {
                     Console.Write(caractere);
                 }

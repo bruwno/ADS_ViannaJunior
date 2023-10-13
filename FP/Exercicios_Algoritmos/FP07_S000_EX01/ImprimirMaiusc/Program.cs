@@ -1,9 +1,9 @@
 ﻿/* Objetivo : Imprimir apenas os caracteres maiúsculos de uma string.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 12/10/2023
+ * Data     : 13/10/2023
  * Material : FP07 (Strings)
- * Slide    : 114
- * Exercício: 01
+ * Slide    : 000
+ * Exercício: 01 (Exemplo)
  */
 
 /* 1) Imprimir apenas os caracteres maíúsculos da string "Exemplo de Cadeia de Caracteres".
@@ -29,6 +29,8 @@ namespace ImprimirMaiusc
                 }
             }
 
+            Console.Write("\n\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
         }
     }
 }
