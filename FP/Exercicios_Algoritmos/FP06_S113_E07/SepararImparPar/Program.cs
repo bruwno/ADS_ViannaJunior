@@ -19,9 +19,9 @@ namespace SepararImparPar
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("");
+            int[] v = new int[20] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
 
-            int[] v = new int[20] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19};
+            Console.WriteLine("");
 
             DeterminarImparPar(v);
 
@@ -36,7 +36,7 @@ namespace SepararImparPar
 
             for (int j = 0; j < vet.Length; j++)
             {
-                if (vet[j] % 2 == 0) 
+                if (vet[j] % 2 == 0)
                 {
                     p[j] = vet[j];
                 }
@@ -64,7 +64,7 @@ namespace SepararImparPar
             Console.WriteLine("\nÍmpares:");
             for (int l = 0; l < i.Length; l++)
             {
-                if (i[l] != 0) 
+                if (i[l] != 0)
                 {
                     Console.Write($"{i[l]} | ");
                 }

@@ -17,9 +17,9 @@ namespace LerValores
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("Ler 10 valores");
-
             int[] vet = new int[10];
+
+            Console.WriteLine("Ler 10 valores");
 
             for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {

@@ -19,9 +19,9 @@ namespace BuscarValor
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("Ler valores");
-
             int[] vet = new int[10];
+
+            Console.WriteLine("Ler valores");
 
             for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {
@@ -34,7 +34,7 @@ namespace BuscarValor
 
             int posic = BuscarValor(vet, valorABuscar);
 
-            if (posic == -1) 
+            if (posic == -1)
             {
                 Console.WriteLine($"Elemento não foi encontrado.");
             }
@@ -52,9 +52,9 @@ namespace BuscarValor
             int posicValor = 0;
             bool valorEncontrado = false;
 
-            for (int i = 0; i < vet.Length; i++) 
+            for (int i = 0; i < vet.Length; i++)
             {
-                if (vet[i] == valorDaBusca) 
+                if (vet[i] == valorDaBusca)
                 {
                     posicValor = i;
                     valorEncontrado = true;
