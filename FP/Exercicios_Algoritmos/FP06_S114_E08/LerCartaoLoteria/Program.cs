@@ -20,8 +20,9 @@ namespace LerCartaoLoteria
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("Loteria\n");
             int[] g = new int[13];
+
+            Console.WriteLine("Loteria\n");
 
             Console.Write("Preencha o gabarito (13 números): ");
             for (int i = 0, j = 12; i < g.Length; i++, j--)

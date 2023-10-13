@@ -20,9 +20,9 @@ namespace CalcNotas
     {
         internal static void Main(string[] args)
         {
+            double[] vet = new double[20] { 50.7, 60.7, 61.6, 45.0, 60.0, 69.0, 70.4, 80.8, 90.2, 100, 45.1, 74.9, 56.4, 59.0, 47.8, 63.7, 63.5, 59.9, 45.0, 20.0 };
+
             Console.WriteLine("Ler notas");
-            
-            double[] vet = new double[20] {50.7, 60.7, 61.6, 45.0, 60.0, 69.0, 70.4, 80.8, 90.2, 100, 45.1, 74.9, 56.4, 59.0, 47.8, 63.7, 63.5, 59.9, 45.0, 20.0};
 
             double mediaNotas = CalcularMedia(vet);
 
@@ -52,9 +52,9 @@ namespace CalcNotas
         {
             int qtdReprovados = 0;
 
-            for (int i = 0; i < vet.Length; i++) 
+            for (int i = 0; i < vet.Length; i++)
             {
-                if (vet[i] >= 60.0) 
+                if (vet[i] >= 60.0)
                 {
                     qtdReprovados++;
                 }
@@ -69,7 +69,7 @@ namespace CalcNotas
 
             for (int i = 0; i < vet.Length; i++)
             {
-                if (vet[i] < 60.0) 
+                if (vet[i] < 60.0)
                 {
                     qtdAprovados++;
                 }

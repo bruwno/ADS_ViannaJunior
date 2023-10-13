@@ -18,9 +18,9 @@ namespace BuscarValNoVet
     {
         internal static void Main(string[] args)
         {
-            Console.WriteLine("Ler 15 valores");
-
             double[] vet = new double[15];
+
+            Console.WriteLine("Ler 15 valores");
 
             for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {

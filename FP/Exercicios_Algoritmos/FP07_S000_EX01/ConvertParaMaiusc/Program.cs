@@ -10,6 +10,7 @@
  */
 
 using System;
+using System.Text;
 
 namespace ConvertParaMaiusc
 {
@@ -27,7 +28,7 @@ namespace ConvertParaMaiusc
 
         private static void ConverterParaMaiuscula(string str)
         {
-            string strConvertida = string.Empty;
+            StringBuilder strConvertida = new StringBuilder();
 
             for (int i = 0; i < str.Length; i++)
             {
@@ -35,16 +36,16 @@ namespace ConvertParaMaiusc
 
                 if (caractere >= 'a' && caractere <= 'z')
                 {
-                    strConvertida += Convert.ToChar(caractere - 'a' + 'A');
+                    strConvertida.Append(Convert.ToChar(caractere - 'a' + 'A'));
                 }
                 else
                 {
                     // Preserva os espaços e as letras que já estão maíúsculas (se houverem).
-                    strConvertida += Convert.ToChar(caractere);
+                    strConvertida.Append(Convert.ToChar(caractere));
                 }
             }
 
-            Console.WriteLine(strConvertida);
+            Console.WriteLine(strConvertida.ToString());
         }
     }
 }
