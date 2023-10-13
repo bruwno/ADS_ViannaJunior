@@ -19,14 +19,29 @@ namespace CalcPercAcertos
         internal static void Main(string[] args)
         {
             Console.WriteLine("Loteria\n");
+
             int[] g = new int[13];
 
+            // Gerar números aleatoriamente | DEBUG ----
+            Random rdm = new Random();
+            for (int i = 0; i < g.Length; i++)
+            {
+                g[i] = rdm.Next(0, 4);
+            }
+            for (int i = 0; i < g.Length; i++)
+            {
+                Console.Write($"{g[i]} | ");
+            }
+            // DEBUG |-----------------------------------
+
+
+            /* Laço original
             Console.Write("Preencha o gabarito (13 números): ");
             for (int i = 0, j = 12; i < g.Length; i++, j--)
             {
                 g[i] = Convert.ToInt32(Console.ReadLine());
                 AtualizarDigitosGabarito(g, j);
-            }
+            }*/
 
             LerDadosApostador(g);
 
@@ -37,6 +52,7 @@ namespace CalcPercAcertos
         private static void LerDadosApostador(int[] g)
         {
             int[] aposta = new int[13];
+            int maisPontos = 0, menosPontos = 0;
 
             for (int i = 1; i <= 5; i++)
             {
@@ -52,8 +68,20 @@ namespace CalcPercAcertos
 
                 int qtdAcertos = ContabilizarAcertos(g, aposta);
 
+                if (qtdAcertos >= 10)
+                {
+                    maisPontos++;
+                }
+                else
+                {
+                    menosPontos++;
+                }
+
                 Console.WriteLine($"O apostador {numeroCartao} teve {qtdAcertos} acertos.", Console.ForegroundColor = ConsoleColor.Gray);
             }
+
+            var percAcertos = CalcularPercentualAcertos(maisPontos, menosPontos);
+            Console.WriteLine($"MAIS PONTOS: {percAcertos.percMaisPts}%,\nMENOS PONTOS: {percAcertos.percMenosPts}%");
         }
 
         private static int ContabilizarAcertos(int[] g, int[] aposta)
@@ -68,33 +96,15 @@ namespace CalcPercAcertos
                 }
             }
 
-            AcumularAcertos(qtdAcertos);
-
             return qtdAcertos;
         }
 
-        private static void AcumularAcertos(int qtdAcertos)
+        private static (double percMaisPts, double percMenosPts) CalcularPercentualAcertos(int maisPts, int menosPts)
         {
-            int[] maisPontos = new int[5];
-            int[] menosPontos = new int[5];
+            double percMaisPontos = (maisPts / 5.0) * 100.0;
+            double percMenosPontos = (menosPts / 5.0) * 100.0;
 
-            for (int i = 0; i < 5; i++)
-            {
-                if (qtdAcertos >= 10)
-                {
-                    maisPontos[i]++;
-                }
-                else if (qtdAcertos < 10)
-                {
-                    menosPontos[i]++;
-                }
-            }
-        }
-
-        private static void CalcularPercentualAcertos()
-        {
-            //AcumularAcertos();
-
+            return (percMaisPontos, percMenosPontos);
         }
 
         private static void AtualizarDigitosGabarito(int[] g, int cont)
