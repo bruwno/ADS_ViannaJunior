@@ -1,20 +1,18 @@
-﻿/* Objetivo : Verificar número de acertos de apostas.
+﻿/* Objetivo : Verificar percentual de acertos em apostas.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 11/10/2023
  * Material : FP06 (Vetores)
  * Slide    : 114
- * Exercício: 08
+ * Exercício: 09
  */
 
-/* 8) Faça um programa que leia um vetor G[13] que é o gabarito de um teste da loteria esportiva, contendo os valores 1 quando for coluna 1, 
- * 0 quando for coluna do meio e 2 quando for coluna 2.
- * Ler a seguir, para 5 apostadores, seu cartão de apostas (R[13]) e depois da leitura imprimir quantos acertos o apostador teve.
- * Faça o teste através de funções.
+/* 9) Com relação ao exercício anterior, calcule e mostre o percentual dos apostadores que fizeram de 10 a 13 pontos e 
+ * o percentual dos apostadores que fizeram menos do que 10 pontos.
  */
 
 using System;
 
-namespace LerCartaoLoteria
+namespace CalcPercAcertos
 {
     internal class Program
     {
@@ -70,7 +68,33 @@ namespace LerCartaoLoteria
                 }
             }
 
+            AcumularAcertos(qtdAcertos);
+
             return qtdAcertos;
+        }
+
+        private static void AcumularAcertos(int qtdAcertos)
+        {
+            int[] maisPontos = new int[5];
+            int[] menosPontos = new int[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (qtdAcertos >= 10)
+                {
+                    maisPontos[i]++;
+                }
+                else if (qtdAcertos < 10)
+                {
+                    menosPontos[i]++;
+                }
+            }
+        }
+
+        private static void CalcularPercentualAcertos()
+        {
+            //AcumularAcertos();
+
         }
 
         private static void AtualizarDigitosGabarito(int[] g, int cont)
