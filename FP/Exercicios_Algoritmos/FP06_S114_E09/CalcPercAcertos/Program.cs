@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Verificar percentual de acertos em apostas.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 11/10/2023
+ * Data     : 12/10/2023
  * Material : FP06 (Vetores)
  * Slide    : 114
  * Exercício: 09
