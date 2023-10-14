@@ -16,7 +16,7 @@ namespace OrdenarVet
 {
     internal class Program
     {
-        const int n = 5;
+        const int n = 7;
 
         internal static void Main(string[] args)
         {
@@ -24,7 +24,7 @@ namespace OrdenarVet
 
             for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {
-                Console.Write($"Digite o {j}º elemento de {n}: ");
+                Console.Write($"[{j} de {n}] Digite o {j}º elemento: ");
                 vet[i] = Convert.ToInt32(Console.ReadLine());
             }
 
