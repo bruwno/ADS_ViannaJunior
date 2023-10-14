@@ -41,7 +41,7 @@ namespace ConvertParaMaiusc
                 else
                 {
                     // Preserva os espaços e as letras que já estão maíúsculas (se houverem).
-                    strConvertida.Append(Convert.ToChar(caractere));
+                    strConvertida.Append(caractere);
                 }
             }
 
