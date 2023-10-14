@@ -22,11 +22,14 @@ namespace CalcPercAcertos
 
             int[] g = new int[13];
 
-            Console.Write("Preencha o gabarito (13 números): ");
-            for (int i = 0, j = 12; i < g.Length; i++, j--)
+            Random rdm = new Random();
+            for (int i = 0; i < g.Length; i++)
             {
-                g[i] = Convert.ToInt32(Console.ReadLine());
-                AtualizarDigitosGabarito(g, j);
+                g[i] = rdm.Next(0, 4);
+            }
+            for (int i = 0; i < g.Length; i++)
+            {
+                Console.Write($"{g[i]} | ");
             }
 
             LerDadosApostador(g);
@@ -66,7 +69,9 @@ namespace CalcPercAcertos
                 Console.WriteLine($"O apostador {numeroCartao} teve {qtdAcertos} acertos.", Console.ForegroundColor = ConsoleColor.Gray);
             }
 
-            CalcularPercentualAcertos(maisPontos, menosPontos);
+            var percAcertos = CalcularPercentualAcertos(maisPontos, menosPontos);
+            Console.WriteLine($"\n{percAcertos.percMaisPts}% dos apostadores fizeram de 10 a 13 pontos." +
+                              $"\n{percAcertos.percMenosPts}% dos apostadores fizeram menos de 10 pontos.");
         }
 
         private static int ContabilizarAcertos(int[] g, int[] aposta)
@@ -84,13 +89,12 @@ namespace CalcPercAcertos
             return qtdAcertos;
         }
 
-        private static void CalcularPercentualAcertos(int maisPts, int menosPts)
+        private static (double percMaisPts, double percMenosPts) CalcularPercentualAcertos(int maisPts, int menosPts)
         {
-            double percMaisPontos = ((double)maisPts / 5.0) * 100.0;
-            double percMenosPontos = ((double)menosPts / 5.0) * 100.0;
+            double percMaisPontos = (maisPts / 5.0) * 100.0;
+            double percMenosPontos = (menosPts / 5.0) * 100.0;
 
-            Console.WriteLine($"\n{percMaisPontos}% dos apostadores fizeram de 10 a 13 pontos." +
-                              $"\n{percMenosPontos}% dos apostadores fizeram menos de 10 pontos.");
+            return (percMaisPontos, percMenosPontos);
         }
 
         private static void AtualizarDigitosGabarito(int[] g, int cont)
