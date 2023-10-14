@@ -40,7 +40,7 @@ namespace ConvertParaMaiusc
                 }
                 else
                 {
-                    // Preserva os espaços e as letras que já estão maiúsculas (se houverem).
+                    // Preserva os espaços e as letras que já são maiúsculas (se houverem).
                     strConvertida.Append(caractere);
                 }
             }
