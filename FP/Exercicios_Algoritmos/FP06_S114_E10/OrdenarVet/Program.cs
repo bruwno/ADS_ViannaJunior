@@ -32,7 +32,7 @@ namespace OrdenarVet
 
             for (int i = 0; i < vet.Length; i++)
             {
-                System.Console.Write(vet[i] + " ");
+                Console.Write(vet[i] + " ");
             }
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
@@ -42,7 +42,6 @@ namespace OrdenarVet
         private static void OrdenarValores(int[] vet)
         {
             int aux;
-            int[] vetOrd = new int[n];
 
             for (int i = 0; i < vet.Length; i++)
             {
