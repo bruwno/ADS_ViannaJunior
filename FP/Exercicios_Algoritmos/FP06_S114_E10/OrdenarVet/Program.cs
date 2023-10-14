@@ -22,11 +22,11 @@ namespace OrdenarVet
         {
             int[] vet = new int[n] { 40, 10, 15, 5, 28 };
 
-            /*for (int i = 0, j = 1; i < vet.Length; i++, j++)
+            for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {
                 Console.Write($"Digite o {j}º elemento de {n}: ");
                 vet[i] = Convert.ToInt32(Console.ReadLine());
-            }*/
+            }
 
             OrdenarValores(vet);
 
@@ -41,20 +41,29 @@ namespace OrdenarVet
 
         private static void OrdenarValores(int[] vet)
         {
-            int aux;
+            int aux = 0;
 
-            for (int i = 0; i < vet.Length; i++)
+            for (int i = vet.Length - 1; i > 0; i--)
             {
-                for (int j = vet.Length - 1; j > i; j--)
-                {
-                    int valorAtual = vet[j], antecessor = vet[j - 1];
+                int alt = 0;
 
-                    if (valorAtual < antecessor)
+                for (int j = 0; j < i; j++)
+                {
+                    int valorAtual = vet[j], proxValor = vet[j + 1];
+
+                    if (valorAtual > proxValor)
                     {
                         aux = vet[j];
-                        vet[j] = vet[j - 1];
-                        vet[j - 1] = aux;
+                        vet[j] = vet[j + 1];
+                        vet[j + 1] = aux;
+                        // Contador de alterações. Evita que o array, uma vez ordenado, seja percorrido pelo laço externo.
+                        alt++;
                     }
+                }
+
+                if (alt == 0)
+                {
+                    break;
                 }
             }
         }
