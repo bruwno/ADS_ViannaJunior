@@ -20,18 +20,18 @@ namespace LerCartaoLoteria
     {
         internal static void Main(string[] args)
         {
-            int[] g = new int[13];
+            int[] gabarito = new int[13];
 
             Console.WriteLine("Loteria\n");
 
             Console.Write("Preencha o gabarito (13 números): ");
-            for (int i = 0, j = 12; i < g.Length; i++, j--)
+            for (int i = 0, j = 12; i < gabarito.Length; i++, j--)
             {
-                g[i] = Convert.ToInt32(Console.ReadLine());
-                AtualizarDigitosGabarito(g, j);
+                gabarito[i] = Convert.ToInt32(Console.ReadLine());
+                AtualizarDigitosGabarito(gabarito, j);
             }
 
-            LerDadosApostador(g);
+            LerDadosApostador(gabarito);
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
