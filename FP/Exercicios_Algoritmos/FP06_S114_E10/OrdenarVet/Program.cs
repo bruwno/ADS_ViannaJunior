@@ -20,7 +20,7 @@ namespace OrdenarVet
 
         internal static void Main(string[] args)
         {
-            int[] vet = new int[n] { 40, 10, 15, 5, 28 };
+            int[] vet = new int[n];
 
             for (int i = 0, j = 1; i < vet.Length; i++, j++)
             {
