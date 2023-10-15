@@ -55,7 +55,7 @@ namespace OrdenarVet
                         moverValor = vet[j];
                         vet[j] = vet[j + 1];
                         vet[j + 1] = moverValor;
-
+                        // Verifica quantas alterações foram feitas na útima passagem, SE alt == 0, interrompe o laço e evita iterações desnecessárias.
                         alt++;
                     }
                 }
