@@ -41,21 +41,21 @@ namespace OrdenarVet
 
         private static void OrdenarValores(int[] vet)
         {
+            int alt = 0;
+
             for (int i = vet.Length - 1; i >= 0; i--)
             {
-                int alt = 0;
-
                 for (int j = 0; j < i; j++)
                 {
-                    int aux;
+                    int moverValor;
                     int valorAtual = vet[j], proxValor = vet[j + 1];
 
                     if (valorAtual > proxValor)
                     {
-                        aux = vet[j];
+                        moverValor = vet[j];
                         vet[j] = vet[j + 1];
-                        vet[j + 1] = aux;
-                        // Contador de alterações. Evita que o array, uma vez ordenado, seja percorrido pelo laço externo.
+                        vet[j + 1] = moverValor;
+
                         alt++;
                     }
                 }
