@@ -47,7 +47,7 @@ namespace OrdenarVet
 
                 for (int j = 0; j < i; j++)
                 {
-                    int aux = 0;
+                    int aux;
                     int valorAtual = vet[j], proxValor = vet[j + 1];
 
                     if (valorAtual > proxValor)
