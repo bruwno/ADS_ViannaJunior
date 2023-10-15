@@ -41,14 +41,13 @@ namespace OrdenarVet
 
         private static void OrdenarValores(int[] vet)
         {
-            int aux = 0;
-
-            for (int i = vet.Length - 1; i > 0; i--)
+            for (int i = vet.Length - 1; i >= 0; i--)
             {
                 int alt = 0;
 
                 for (int j = 0; j < i; j++)
                 {
+                    int aux = 0;
                     int valorAtual = vet[j], proxValor = vet[j + 1];
 
                     if (valorAtual > proxValor)
