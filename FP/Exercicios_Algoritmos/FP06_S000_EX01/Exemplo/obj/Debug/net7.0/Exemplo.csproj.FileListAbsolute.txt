@@ -21,3 +21,17 @@ E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S000_
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.dll
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\refint\Exemplo.dll
 E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\refint\Exemplo.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\bin\Debug\net7.0\Exemplo.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\bin\Debug\net7.0\Exemplo.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\bin\Debug\net7.0\Exemplo.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\bin\Debug\net7.0\Exemplo.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\bin\Debug\net7.0\Exemplo.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\Exemplo.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S000_EX01\Exemplo\obj\Debug\net7.0\ref\Exemplo.dll
