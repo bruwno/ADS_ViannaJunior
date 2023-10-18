@@ -4,10 +4,10 @@
 
 internal class Program
 {
+    const int TAM = 4;
+
     private static void Main(string[] args)
     {
-        const int TAM = 10;
-
         int[] matriculas = new int[TAM];
         string[] nomes = new string[TAM];
         double[] notas1 = new double[TAM];
@@ -16,10 +16,10 @@ internal class Program
         for (int i = 0; i < matriculas.Length; i++)
         {
             Console.WriteLine("Aluno {0} de {1}:", i + 1, matriculas.Length);
-            
+
             Console.Write("  Matrícula: ");
             matriculas[i] = Convert.ToInt32(Console.ReadLine());
-            
+
             Console.Write("  Nome: ");
             nomes[i] = Console.ReadLine();
 
@@ -30,31 +30,36 @@ internal class Program
             notas2[i] = Convert.ToDouble(Console.ReadLine());
         }
 
-        string aprovados = VerificarAprovados(matriculas, nomes, notas1, notas2);
-        Console.WriteLine(aprovados);
+        double[] mediaAlunos = VerificarAprovados(notas1, notas2);
 
-    }
-
-    private static string VerificarAprovados(int[] mat, string[] nome, double[] notas1, double[] notas2)
-    {
-        string[] aprovados = new string[10];
-        int matricula = 0;
-        string nomeAluno = string.Empty;
-
-        for (int i = 0; i < notas1.Length; i++)
+        Console.WriteLine("Lista de alunos aprovados:");
+        for (int i = 0; i < mediaAlunos.Length; i++)
         {
-            matricula = mat[i];
-            nomeAluno = nome[i];
+            double media = mediaAlunos[i];
 
-            double media = notas1[i] + notas2[i];
-
-            if (media >= 7.0) 
+            if (media >= 7.0)
             {
-                aprovados[i] += matricula[i].ToString();
-                aprovados[i+1] += nome[i];
+                Console.WriteLine($"Matrícula: {matriculas[i]}");
+                Console.WriteLine($"Nome     : {nomes[i]}");
+                Console.WriteLine($"Média    : {media:N2}");
+                Console.WriteLine();
             }
         }
 
-        return aprovados;
+        Console.Write("\nPressione qualquer tecla para finalizar...");
+        Console.ReadKey();
+    }
+
+    private static double[] VerificarAprovados(double[] notas1, double[] notas2)
+    {
+        double[] mediaAlunos = new double[TAM];
+
+        for (int i = 0; i < notas1.Length; i++)
+        {
+            double media = (notas1[i] + notas2[i]) / 2.0;
+            mediaAlunos[i] = media;
+        }
+
+        return mediaAlunos;
     }
 }
