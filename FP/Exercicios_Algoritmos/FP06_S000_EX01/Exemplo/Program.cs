@@ -4,7 +4,7 @@
 
 internal class Program
 {
-    const int TAM = 4;
+    const int TAM = 10;
 
     private static void Main(string[] args)
     {
@@ -18,7 +18,12 @@ internal class Program
             Console.WriteLine("Aluno {0} de {1}:", i + 1, matriculas.Length);
 
             Console.Write("  Matrícula: ");
-            matriculas[i] = Convert.ToInt32(Console.ReadLine());
+            if (!int.TryParse(Console.ReadLine(), out matriculas[i]))
+            {
+                Console.WriteLine("Entrada inválida, tente novamente.", Console.ForegroundColor = ConsoleColor.Red);
+                Console.Write("  Matrícula: ", Console.ForegroundColor = ConsoleColor.Gray);
+                matriculas[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             Console.Write("  Nome: ");
             nomes[i] = Console.ReadLine();
@@ -28,10 +33,13 @@ internal class Program
 
             Console.Write("  Nota 2: ");
             notas2[i] = Convert.ToDouble(Console.ReadLine());
+            // Quebra de linha.
+            Console.WriteLine();
         }
 
-        double[] mediaAlunos = VerificarAprovados(notas1, notas2);
+        double[] mediaAlunos = VerificarMediaAlunos(notas1, notas2);
 
+        Console.Clear();
         Console.WriteLine("Lista de alunos aprovados:");
         for (int i = 0; i < mediaAlunos.Length; i++)
         {
@@ -42,6 +50,7 @@ internal class Program
                 Console.WriteLine($"Matrícula: {matriculas[i]}");
                 Console.WriteLine($"Nome     : {nomes[i]}");
                 Console.WriteLine($"Média    : {media:N2}");
+                // Quebra de linha.
                 Console.WriteLine();
             }
         }
@@ -50,7 +59,7 @@ internal class Program
         Console.ReadKey();
     }
 
-    private static double[] VerificarAprovados(double[] notas1, double[] notas2)
+    private static double[] VerificarMediaAlunos(double[] notas1, double[] notas2)
     {
         double[] mediaAlunos = new double[TAM];
 
