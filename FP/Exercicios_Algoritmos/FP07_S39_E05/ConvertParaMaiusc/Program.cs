@@ -35,6 +35,9 @@ namespace ConvertParaMaiusc
             }
 
             Console.WriteLine(strConvertida.ToString());
+
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
         }
     }
 }
