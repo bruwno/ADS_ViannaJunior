@@ -1,4 +1,4 @@
-﻿/* Objetivo : Separar os caracteres de uma frase em vogais e consoantes.
+﻿/* Objetivo : Remover um caractere de uma String.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 23/10/2023
  * Material : FP07 (Strings)
