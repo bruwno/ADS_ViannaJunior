@@ -21,7 +21,7 @@ namespace RemoveCaract
         internal static void Main(string[] args)
         {
             Console.Write("Digite uma frase (máx. 20 caracteres): ");
-            string str = Console.ReadLine();
+            string str = ConverterParaMinusculas(Console.ReadLine());
 
             switch (ContarQtdCaracteres(str))
             {
@@ -30,13 +30,47 @@ namespace RemoveCaract
                     break;
                 case true:
                     Console.Write("Digite o caractere que deseja remover: ");
-                    char caractereParaRemover = Convert.ToChar(Console.ReadLine());
+                    char caractereParaRemover = ConverterParaMinusculas(Convert.ToChar(Console.ReadLine()));
                     Console.WriteLine($"{RemoverCaractere(str, caractereParaRemover)}");
                     break;
             }
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
+        }
+
+        private static string ConverterParaMinusculas(string str)
+        {
+            StringBuilder convMinusc = new StringBuilder();
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                char caractere = str[i];
+                if (caractere >= 'A' && caractere <= 'Z')
+                {
+                    convMinusc.Append(Convert.ToChar(caractere - 'A' + 'a'));
+                }
+                else
+                {
+                    convMinusc.Append(caractere);
+                }
+            }
+
+            return convMinusc.ToString();
+        }
+
+        private static char ConverterParaMinusculas(char caractere)
+        {
+            char caractereConv;
+
+            if (caractere >= 'A' && caractere <= 'Z')
+            {
+                return caractereConv = Convert.ToChar(caractere - 'A' + 'a');
+            }
+            else
+            {
+                return caractere;
+            }
         }
 
         private static string RemoverCaractere(string str, char caractParaRemover)
@@ -58,8 +92,30 @@ namespace RemoveCaract
                 }
             }
 
+            //string frase = CapitalizarString(novaFrase.ToString());
+
             return $"Nova frase: {novaFrase.ToString()}\n" +
                    $"O caractere '{caractParaRemover}' foi removido : {qtdVezesRemovido} vezes";
+        }
+
+        private static string CapitalizarString(string str)
+        {
+            StringBuilder stringCapitalizada = new StringBuilder();
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                char caractere = str[i];
+                if (i == 0 || str[i - 1] == ' ')
+                {
+                    stringCapitalizada.Append(Convert.ToChar(caractere - 'a' + 'A'));
+                }
+                else
+                {
+                    stringCapitalizada.Append(caractere);
+                }
+            }
+
+            return stringCapitalizada.ToString();
         }
 
         private static bool ContarQtdCaracteres(string str)
