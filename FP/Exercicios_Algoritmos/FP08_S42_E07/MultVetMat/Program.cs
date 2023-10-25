@@ -3,7 +3,7 @@
  * Data     : 25/10/2023
  * Material : FP08 (Matriz)
  * Slide    : 42
- * Exercício: 06
+ * Exercício: 07
  */
 
 /* 7) Faça um programa que leia um vetor de dimensão 5 e uma matriz quadrada de dimensão 5. 
