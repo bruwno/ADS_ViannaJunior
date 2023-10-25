@@ -6,7 +6,7 @@
  * Exercício: 08
  */
 
-/* 7) 8) Faça um programa que leia duas matrizes quadradas de dimensão 3. 
+/* 8) Faça um programa que leia duas matrizes quadradas de dimensão 3. 
  * Crie um procedimento que multiplique as duas matrizes. Imprima o resultado.
  */
 
