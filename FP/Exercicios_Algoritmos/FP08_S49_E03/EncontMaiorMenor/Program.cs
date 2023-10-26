@@ -25,7 +25,7 @@ namespace EncontMaiorMenor
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"Elemento {i},{j}: ");
-                    mat[i,j] = Convert.ToInt32(Console.ReadLine());
+                    mat[i,j] = Convert.ToDouble(Console.ReadLine());
                 }
             }
 
