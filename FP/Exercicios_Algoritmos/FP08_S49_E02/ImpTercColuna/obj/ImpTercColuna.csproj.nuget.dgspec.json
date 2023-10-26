@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj": {}
+    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E02\\ImpTercColuna\\ImpTercColuna.csproj": {}
   },
   "projects": {
-    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj": {
+    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E02\\ImpTercColuna\\ImpTercColuna.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj",
-        "projectName": "MultMatPorEscal",
-        "projectPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj",
+        "projectUniqueName": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E02\\ImpTercColuna\\ImpTercColuna.csproj",
+        "projectName": "ImpTercColuna",
+        "projectPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E02\\ImpTercColuna\\ImpTercColuna.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\obj\\",
+        "outputPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E02\\ImpTercColuna\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",

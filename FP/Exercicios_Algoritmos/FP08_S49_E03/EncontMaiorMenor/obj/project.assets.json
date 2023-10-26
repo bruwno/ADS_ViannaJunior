@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj",
-      "projectName": "MultMatPorEscal",
-      "projectPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\MultMatPorEscal.csproj",
+      "projectUniqueName": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E03\\EncontMaiorMenor\\EncontMaiorMenor.csproj",
+      "projectName": "EncontMaiorMenor",
+      "projectPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E03\\EncontMaiorMenor\\EncontMaiorMenor.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E01\\MultMatPorEscal\\obj\\",
+      "outputPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP08_S49_E03\\EncontMaiorMenor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
