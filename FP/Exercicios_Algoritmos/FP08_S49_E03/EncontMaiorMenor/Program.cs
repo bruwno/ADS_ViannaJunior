@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Encontrar o maior e o menor valor de um matriz.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 25/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 49
  * Exercício: 03
  */
@@ -18,14 +18,14 @@ namespace EncontMaiorMenor
     {
         internal static void Main(string[] args)
         {
-            double[,] mat = new double[10,10];
+            double[,] mat = new double[10, 10];
 
             for (int i = 0; i < mat.GetLength(0); i++)
             {
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"Elemento {i},{j}: ");
-                    mat[i,j] = Convert.ToDouble(Console.ReadLine());
+                    mat[i, j] = Convert.ToDouble(Console.ReadLine());
                 }
             }
 
@@ -43,13 +43,13 @@ namespace EncontMaiorMenor
         {
             double maiorValor = double.MinValue;
 
-            for (int i = 0; i < mat.GetLength(0); i++) 
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for(int j = 0; j < mat.GetLength(1); j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    if (mat[i,j] > maiorValor) 
+                    if (mat[i, j] > maiorValor)
                     {
-                        maiorValor = mat[i,j];
+                        maiorValor = mat[i, j];
                     }
                 }
             }
@@ -61,13 +61,13 @@ namespace EncontMaiorMenor
         {
             double menorValor = double.MaxValue;
 
-            for (int i = 0; i < mat.GetLength(0); i++) 
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < mat.GetLength(1); j++) 
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    if (mat[i,j] < menorValor) 
+                    if (mat[i, j] < menorValor)
                     {
-                        menorValor = mat[i,j];
+                        menorValor = mat[i, j];
                     }
                 }
             }

@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Multiplicar um vetor por um matriz.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 25/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 42
  * Exercício: 07
  */

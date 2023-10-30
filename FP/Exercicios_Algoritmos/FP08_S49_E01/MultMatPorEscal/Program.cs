@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Multiplicar matriz por escalar.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 25/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 49
  * Exercício: 01
  */
@@ -20,7 +20,7 @@ namespace MultMatPorEscal
     {
         internal static void Main(string[] args)
         {
-            double[,] mat = new double[3,4];
+            double[,] mat = new double[3, 4];
 
             Console.Write("Informe o valor escalar: ");
             double escalar = Convert.ToInt32(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace MultMatPorEscal
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"Elemento {i},{j}: ");
-                    mat[i,j] = Convert.ToInt32(Console.ReadLine());
+                    mat[i, j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
 
@@ -48,18 +48,18 @@ namespace MultMatPorEscal
             {
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    mat[i,j] = mat[i,j] * escalar;
+                    mat[i, j] = mat[i, j] * escalar;
                 }
             }
         }
 
         private static void ImprimirMatriz(double[,] mat)
         {
-            for (int i = 0; i < mat.GetLength(0); i++) 
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < mat.GetLength(1); j++) 
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    Console.Write($"{mat[i,j]} ");
+                    Console.Write($"{mat[i, j]} ");
                 }
                 Console.WriteLine();
             }

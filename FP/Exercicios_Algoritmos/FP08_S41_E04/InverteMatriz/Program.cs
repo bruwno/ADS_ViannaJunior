@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Inverter linhas e colunas.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 24/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 41
  * Exercício: 04
  */
