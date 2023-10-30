@@ -19,7 +19,7 @@ namespace ContarCaract
     {
         internal static void Main(string[] args)
         {
-            string[,] mat = new string[5, 1];
+            string[,] mat = new string[5, 10];
 
             for (int i = 0; i < mat.GetLength(0); i++)
             {
