@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Contar  quantidade de letras a em uma matriz.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 50
  * Exercício: 05
  */

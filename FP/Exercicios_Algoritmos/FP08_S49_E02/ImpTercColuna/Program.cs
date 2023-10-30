@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Imprimir a terceira coluna de uma matriz.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 25/10/2023
- * Material : FP08 (Matriz)
+ * Material : FP08 (Matrizes)
  * Slide    : 49
  * Exercício: 02
  */
@@ -17,14 +17,14 @@ namespace ImpTerColuna
     {
         internal static void Main(string[] args)
         {
-            int[,] mat = new int[7,5];
+            int[,] mat = new int[7, 5];
 
-            for(int i = 0; i < mat.GetLength(0); i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for(int j = 0; j < mat.GetLength(1); j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"Elemento {i},{j}: ");
-                    mat[i,j] = Convert.ToInt32(Console.ReadLine());
+                    mat[i, j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
 
@@ -38,11 +38,11 @@ namespace ImpTerColuna
         {
             for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j< mat.GetLength(1); j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     if (j == 2)
                     {
-                        Console.Write($"{mat[i,j]} ");
+                        Console.Write($"{mat[i, j]} ");
                     }
                     else
                     {
