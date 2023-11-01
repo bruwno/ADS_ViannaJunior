@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\bin\Debug\net7.0\CartaoCred.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\bin\Debug\net7.0\CartaoCred.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\bin\Debug\net7.0\CartaoCred.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\bin\Debug\net7.0\CartaoCred.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\bin\Debug\net7.0\CartaoCred.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\refint\CartaoCred.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\CartaoCred.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S20_E01\CartaoCred\obj\Debug\net7.0\ref\CartaoCred.dll
