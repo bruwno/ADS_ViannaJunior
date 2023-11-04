@@ -13,8 +13,12 @@
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
         "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP08_S51_E08\\ExibirTabProd\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
