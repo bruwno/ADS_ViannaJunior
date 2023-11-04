@@ -19,7 +19,7 @@ namespace ExibirTabProd
     {
         internal static void Main(string[] args)
         {
-            int[,] mat = new int[3, 2];
+            int[,] mat = new int[7, 5];
 
             for (int i = 0; i < mat.GetLength(0); i++)
             {
@@ -34,36 +34,44 @@ namespace ExibirTabProd
                 Console.WriteLine();
             }
 
-            CalcularTotalProdutos(mat);
+            ExibirTabela(mat);
+            VerifLojaComMenosProdutos(mat);
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
 
-        private static void CalcularTotalProdutos(int[,] mat)
+        private static void ExibirTabela(int[,] mat)
         {
-            Console.WriteLine("\nTabela de Estoque:");
-            Console.WriteLine("Loja\tProduto 1\tProduto 2\tProduto 3\tProduto 4\tProduto 5");
+            Console.WriteLine("\nTabela de Estoque:\n");
+            Console.WriteLine("Loja |\tProduto 1 |\tProduto 2 |\tProduto 3 |\tProduto 4 |\tProduto 5 |\tTOTAIS");
 
             for (int i = 0; i < mat.GetLength(0); i++)
             {
                 Console.Write($"{i + 1}\t");
 
+                int quantidadeTotal = 0;
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"{mat[i, j]}\t\t");
+                    quantidadeTotal += mat[i, j];
                 }
-
+                Console.Write($"{quantidadeTotal}\t", Console.ForegroundColor = ConsoleColor.Green);
+                Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
-            }
 
-            int menorEstoqueLoja = -1;
+            }
+        }
+
+        private static void VerifLojaComMenosProdutos(int[,] mat)
+        {
+            int menorEstoqueLoja = 0;
             int menorQuantidade = int.MaxValue;
 
-            for (int i = 0; i < 7; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
                 int quantidadeTotal = 0;
-                for (int j = 0; j < 5; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     quantidadeTotal += mat[i, j];
                 }
@@ -71,58 +79,11 @@ namespace ExibirTabProd
                 if (quantidadeTotal < menorQuantidade)
                 {
                     menorQuantidade = quantidadeTotal;
-                    menorEstoqueLoja = i;
+                    menorEstoqueLoja = i + 1;
                 }
             }
 
-            Console.WriteLine($"\nA loja com menos produtos é a Loja {menorEstoqueLoja + 1}.");
-        }
-
-        /*
-                private static void CalcularTotalProdutos(int[,] mat)
-                {
-                    int[,] tabelaDeProdutos = new int[3, 2];
-                    int lojaComMenosProdutos = 0;
-                    int menorQtd = int.MaxValue;
-                    int i, j;
-
-                    for (i = 0; i < mat.GetLength(0); i++)
-                    {
-                        int qtdProdutos = 0;
-
-                        for (j = 0; j < mat.GetLength(1); j++)
-                        {
-                            qtdProdutos += mat[i, j];
-                            //tabelaDeProdutos[i, j] = qtdProdutos;
-                        }
-
-                        tabelaDeProdutos[i, j - 1] = qtdProdutos;
-
-                        if (qtdProdutos < menorQtd)
-                        {
-                            menorQtd = qtdProdutos;
-                            lojaComMenosProdutos = i + 1;
-                        }
-                    }
-
-                    ExibirTabela(tabelaDeProdutos, lojaComMenosProdutos, menorQtd);
-                }*/
-
-        private static void ExibirTabela(int[,] tabProd, int lojaComMenorQtd, int menorQtd)
-        {
-            Console.WriteLine("| LOJA 1 | LOJA 2 | LOJA 3 | LOJA 4 | LOJA 5 | LOJA 6 | LOJA 7 |");
-
-            for (int i = 0; i < tabProd.GetLength(0); i++)
-            {
-                for (int j = 0; j < tabProd.GetLength(1); j++)
-                {
-                    Console.Write($"  {tabProd[i, j]}\t ");
-                }
-
-                Console.WriteLine();
-            }
-
-            Console.WriteLine($"Loja com a menor quantidade de produtos: LOJA {lojaComMenorQtd} | Total de: {menorQtd} produtos.");
+            Console.WriteLine($"\nA loja com menos produtos é a Loja {menorEstoqueLoja}.");
         }
     }
 }
