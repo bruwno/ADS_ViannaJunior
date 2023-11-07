@@ -1,4 +1,4 @@
-/* Objetivo : Representar o peso e altura de uma pessoa.
+/* Objetivo : Representar uma pessoa que possui peso e altura.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 01/11/2023
  * Material : FP09 (Classes)
