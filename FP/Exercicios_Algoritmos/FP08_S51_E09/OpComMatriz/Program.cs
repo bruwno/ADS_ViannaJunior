@@ -28,11 +28,11 @@ namespace OpComMatrizes
         internal static void Main(string[] args)
         {
             Menu();
-
         }
 
         private static void Menu()
         {
+            Console.Clear();
             StringBuilder opcoesMenu = new StringBuilder("Escolha uma opção de cálculo para matrizes: \n" +
                                                          "1) Soma\n" +
                                                          "2) Diferença\n" +
@@ -49,6 +49,7 @@ namespace OpComMatrizes
                 opcDigitada = Convert.ToInt32(Console.ReadLine());
             }
 
+            Console.Clear();
             switch (opcDigitada)
             {
                 case 1:
@@ -69,14 +70,48 @@ namespace OpComMatrizes
             }
         }
 
-        private static double LerValores()
+        private static double[,] LerValores()
         {
-            return 0.0;
+            double[,] mat = new double[2, 2];
+
+            for (int i = 0; i < mat.GetLength(0); i++)
+            {
+                for (int j = 0; j < mat.GetLength(1); j++)
+                {
+                    Console.Write($"Digite o valor {i},{j}: ");
+                    mat[i, j] = Convert.ToDouble(Console.ReadLine());
+                }
+            }
+
+            return mat;
         }
 
         private static void SomarMatrizes()
         {
+            double[,] mat1 = new double[2, 2];
+            double[,] mat2 = new double[2, 2];
+            double soma = 0.0;
+            // Operação selecionada.
+            Console.WriteLine("[SOMA]", Console.ForegroundColor = ConsoleColor.Yellow);
+            Console.ForegroundColor = ConsoleColor.Gray;
+            //
+            Console.WriteLine("Informe os valores da 1ª matriz");
+            mat1 = LerValores();
+            Console.WriteLine("Informe os valores da 2ª matriz");
+            mat2 = LerValores();
 
+            for (int i = 0; i < mat2.GetLength(0); i++)
+            {
+                for (int j = 0; j < mat2.GetLength(1); j++)
+                {
+                    soma = mat1[i, j] + mat2[i, j];
+                    Console.WriteLine($"Resultado de {mat1[i, j]} + {mat2[i, j]} = {soma}");
+                }
+            }
+
+            Console.Write($"\nPressione qualquer tecla para retornar ao menu...");
+            Console.ReadKey();
+            Menu();
         }
 
         private static void SubtrairMatrizes()

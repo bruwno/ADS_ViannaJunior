@@ -36,7 +36,7 @@ namespace SomarNmsReais
 
         private static double RetornaSoma(double[,] mat)
         {
-            double soma = 0;
+            double soma = 0.0;
 
             for (int i = 0; i < mat.GetLength(0); i++)
             {
