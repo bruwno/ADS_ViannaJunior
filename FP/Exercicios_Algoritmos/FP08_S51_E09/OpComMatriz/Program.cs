@@ -86,6 +86,7 @@ namespace OpComMatrizes
 
             // Limpa os valores digitados e exibe apenas os resultados.
             Console.Clear();
+
             ExecutarOperacao(tipoOp, mat1, mat2);
         }
         #endregion
