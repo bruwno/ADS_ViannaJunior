@@ -32,6 +32,7 @@ namespace OpComMatrizes
             ExibirMenu();
         }
 
+        #region Leitura e preenchimento das matrizes
         private static double[,] LerValoresMatriz()
         {
             double[,] mat = new double[dim, dim];
@@ -85,7 +86,13 @@ namespace OpComMatrizes
 
             // Limpa os valores digitados e exibe apenas os resultados.
             Console.Clear();
+            ExecutarOperacao(tipoOp, mat1, mat2);
+        }
+        #endregion
 
+        #region Operações
+        private static void ExecutarOperacao(int tipoOp, double[,] mat1, double[,] mat2)
+        {
             switch (tipoOp)
             {
                 case 1:
@@ -109,12 +116,13 @@ namespace OpComMatrizes
 
         private static void SomarMatrizes(double[,] mat1, double[,] mat2)
         {
+            Console.WriteLine("RESULTADOS");
             for (int i = 0; i < mat1.GetLength(0); i++)
             {
                 for (int j = 0; j < mat1.GetLength(1); j++)
                 {
                     double soma = mat1[i, j] + mat2[i, j];
-                    Console.WriteLine($"Resultado de {mat1[i, j]} + {mat2[i, j]} = {soma}");
+                    Console.WriteLine($"{mat1[i, j]} + {mat2[i, j]} = {soma}");
                 }
             }
 
@@ -123,12 +131,13 @@ namespace OpComMatrizes
 
         private static void SubtrairMatrizes(double[,] mat1, double[,] mat2)
         {
+            Console.WriteLine("RESULTADOS");
             for (int i = 0; i < mat1.GetLength(0); i++)
             {
                 for (int j = 0; j < mat1.GetLength(1); j++)
                 {
                     double subtracao = mat1[i, j] - mat2[i, j];
-                    Console.WriteLine($"Resultado de {mat1[i, j]} - {mat2[i, j]} = {subtracao}");
+                    Console.WriteLine($"{mat1[i, j]} - {mat2[i, j]} = {subtracao}");
                 }
             }
 
@@ -151,6 +160,7 @@ namespace OpComMatrizes
 
         private static void MultiplicarMatrizes(double[,] mat1, double[,] mat2)
         {
+            Console.WriteLine("RESULTADOS");
             for (int i = 0; i < mat1.GetLength(0); i++)
             {
                 for (int j = 0; j < mat1.GetLength(1); j++)
@@ -162,7 +172,9 @@ namespace OpComMatrizes
 
             ExibirMsgPosOperacao();
         }
+        #endregion
 
+        #region Menu
         private static void ExibirMenu()
         {
             Console.Clear();
@@ -197,15 +209,18 @@ namespace OpComMatrizes
                     break;
             }
         }
+        #endregion
 
-        // Métodos utilitários.
+        #region Utilitários
         private static void ExibirCabecalhoDaOpSelec(string nomeOp = "OPERAÇÃO")
         {
             // Randomizando a cor.
             Random randomizarCor = new Random();
             byte cor = (byte)randomizarCor.Next(1, 14);
+
             // Exibindo o texto com a cor sorteada.
             Console.WriteLine($"[{nomeOp}]\n", Console.ForegroundColor = (ConsoleColor)cor);
+
             // Resetando o texto do Console para a cor padrão.
             Console.ForegroundColor = ConsoleColor.Gray;
         }
@@ -216,5 +231,6 @@ namespace OpComMatrizes
             Console.ReadKey();
             ExibirMenu();
         }
+        #endregion
     }
 }
