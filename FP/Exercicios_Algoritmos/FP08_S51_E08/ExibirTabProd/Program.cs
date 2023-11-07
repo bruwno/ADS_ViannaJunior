@@ -48,18 +48,22 @@ namespace ExibirTabProd
         private static void ExibirTabela(int[,] mat)
         {
             Console.WriteLine("\nTabela de Estoque:\n");
-            Console.WriteLine("Loja |\tProduto 1 |\tProduto 2 |\tProduto 3 |\tProduto 4 |\tProduto 5 |\tTOTAIS");
-
+            Console.WriteLine("Loja |\tProduto 1 |\tProduto 2 |\tProduto 3 |\tProduto 4 |\tProduto 5 |\tTOTAL PRODUTOS");
+            // LOJA.
             for (int i = 0; i < mat.GetLength(0); i++)
             {
-                Console.Write($"{i + 1}\t");
+                Console.WriteLine("-----------------------------------------------------------------------------------");
+                // Id da loja.
+                Console.Write($"{i + 1}    |\t");
 
                 int quantidadeTotal = 0;
+                // PRODUTO.
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"{mat[i, j]}\t\t");
                     quantidadeTotal += mat[i, j];
                 }
+
                 Console.Write($"{quantidadeTotal}\t", Console.ForegroundColor = ConsoleColor.Green);
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
@@ -87,7 +91,7 @@ namespace ExibirTabProd
                 }
             }
 
-            Console.WriteLine($"\nA loja com menos produtos é a Loja {menorEstoqueLoja}.");
+            Console.WriteLine($"\nA loja com a menor quantidade de produtos é a Loja {menorEstoqueLoja}.");
         }
     }
 }
