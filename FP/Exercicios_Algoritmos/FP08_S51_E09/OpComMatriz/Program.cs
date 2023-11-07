@@ -29,9 +29,7 @@ namespace OpComMatrizes
 
         internal static void Main(string[] args)
         {
-            Menu();
-            Console.Write("\nPressione qualquer tecla para finalizar...");
-            Console.ReadKey();
+            ExibirMenu();
         }
 
         private static double[,] LerValoresMatriz()
@@ -165,7 +163,7 @@ namespace OpComMatrizes
             ExibirMsgPosOperacao();
         }
 
-        private static void Menu()
+        private static void ExibirMenu()
         {
             Console.Clear();
             StringBuilder opcoesMenu = new StringBuilder("Escolha uma opção de cálculo para matrizes: \n" +
@@ -177,6 +175,11 @@ namespace OpComMatrizes
                                                          "Opção: ");
 
             Console.Write(opcoesMenu.ToString());
+            LerOpcaoDigitada();
+        }
+
+        private static void LerOpcaoDigitada()
+        {
             int opcDigitada = Convert.ToInt32(Console.ReadLine());
             while ((opcDigitada < 1) || (opcDigitada > 5))
             {
@@ -211,7 +214,7 @@ namespace OpComMatrizes
         {
             Console.Write($"\nPressione qualquer tecla para retornar ao menu...");
             Console.ReadKey();
-            Menu();
+            ExibirMenu();
         }
     }
 }
