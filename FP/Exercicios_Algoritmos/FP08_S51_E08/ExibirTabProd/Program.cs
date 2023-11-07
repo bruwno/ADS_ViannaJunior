@@ -21,6 +21,9 @@ namespace ExibirTabProd
         {
             int[,] mat = new int[7, 5];
 
+            // Preenche a matriz sem interação do usuário.
+            Random valoresRandomicos = new Random();
+
             for (int i = 0; i < mat.GetLength(0); i++)
             {
                 Console.WriteLine($"LOJA {i + 1}");
@@ -29,7 +32,8 @@ namespace ExibirTabProd
                 {
                     Console.WriteLine($"[Produto {j + 1}]");
                     Console.Write($"Digite a QTD do produto: ");
-                    mat[i, j] = Convert.ToInt32(Console.ReadLine());
+                    //mat[i, j] = Convert.ToInt32(Console.ReadLine());
+                    mat[i, j] = valoresRandomicos.Next(0, 500);
                 }
                 Console.WriteLine();
             }
