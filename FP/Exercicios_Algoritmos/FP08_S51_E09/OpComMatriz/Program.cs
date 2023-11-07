@@ -30,6 +30,8 @@ namespace OpComMatrizes
         internal static void Main(string[] args)
         {
             Menu();
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
         }
 
         private static double[,] LerValoresMatriz()
@@ -60,9 +62,17 @@ namespace OpComMatrizes
             }
 
             int matrizAtual = 1;
-            while (matrizAtual < qtdMatrizes)
+            while (matrizAtual <= qtdMatrizes)
             {
-                Console.WriteLine($"\nInforme os valores da {matrizAtual}ª matriz");
+                if (qtdMatrizes == 2)
+                {
+                    Console.WriteLine($"\nInforme os valores da {matrizAtual}ª matriz");
+                }
+                else
+                {
+                    Console.WriteLine($"\nInforme os valores da matriz");
+                }
+
                 switch (matrizAtual)
                 {
                     case 1:
@@ -72,12 +82,11 @@ namespace OpComMatrizes
                         mat2 = LerValoresMatriz();
                         break;
                 }
-
-                if (tipoOp != 3)
-                {
-                    matrizAtual++;
-                }
+                matrizAtual++;
             }
+
+            // Limpa os valores digitados e exibe apenas os resultados.
+            Console.Clear();
 
             switch (tipoOp)
             {
@@ -134,8 +143,9 @@ namespace OpComMatrizes
             {
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
-
+                    Console.Write($"{mat[j, i]} ");
                 }
+                Console.WriteLine();
             }
 
             ExibirMsgPosOperacao();
@@ -173,7 +183,6 @@ namespace OpComMatrizes
                 Console.Write("A opção digitada é inválida, tente novamente: ");
                 opcDigitada = Convert.ToInt32(Console.ReadLine());
             }
-            Console.Clear();
 
             switch (opcDigitada)
             {
@@ -193,7 +202,7 @@ namespace OpComMatrizes
             Random randomizarCor = new Random();
             byte cor = (byte)randomizarCor.Next(1, 14);
             // Exibindo o texto com a cor sorteada.
-            Console.WriteLine($"[{nomeOp}]", Console.ForegroundColor = (ConsoleColor)cor);
+            Console.WriteLine($"[{nomeOp}]\n", Console.ForegroundColor = (ConsoleColor)cor);
             // Resetando o texto do Console para a cor padrão.
             Console.ForegroundColor = ConsoleColor.Gray;
         }
