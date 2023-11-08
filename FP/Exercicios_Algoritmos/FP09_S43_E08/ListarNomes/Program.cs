@@ -25,7 +25,6 @@ namespace ListarNomes
                 pessoas[i] = new Pessoa();
 
                 Console.WriteLine($"\nInforme os dados da {i + 1}ª pessoa");
-
                 pessoas[i].Nome = LerNome();
                 pessoas[i].Idade = LerIdade();
             }
@@ -38,22 +37,18 @@ namespace ListarNomes
 
         private static void OrdenarIdades(Pessoa[] pessoas)
         {
-            double moverIdade = 0.0;
-            string moverPessoa = string.Empty;
-
             for (int i = pessoas.Length - 1; i >= 0; i--)
             {
                 for (int j = 0; j < i; j++)
                 {
-                    string pessoaAtual = pessoas[j].Nome;
                     double idadeAtual = pessoas[j].Idade;
                     double proxIdade = pessoas[j + 1].Idade;
+                    string nomeAtual = pessoas[j].Nome;
 
                     if (idadeAtual > proxIdade)
                     {
-                        moverIdade = idadeAtual;
-                        moverPessoa = pessoaAtual;
-                        //
+                        double moverIdade = idadeAtual;
+                        string moverPessoa = nomeAtual;
                         pessoas[j].Idade = pessoas[j + 1].Idade;
                         pessoas[j].Nome = pessoas[j + 1].Nome;
                         // Move a idade e o nome de posição.
