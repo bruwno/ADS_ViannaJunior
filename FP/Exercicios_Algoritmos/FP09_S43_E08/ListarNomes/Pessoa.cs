@@ -24,15 +24,18 @@ namespace ListarNomes
             get { return nome; }
             set
             {
-                if (nome.Length > 100) 
+                if (nome.Length <= 100)
                 {
-                    
+                    nome = value;
                 }
-                nome = value;
+                else
+                {
+                    Console.WriteLine("Entrada inválida. O nome deve ter no máximo 100 caracteres.");
+                }
             }
         }
 
-        public double Idade
+        public double[] Idade
         {
             get { return idade; }
             set { idade = value; }
