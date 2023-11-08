@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj": {}
+    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj": {}
   },
   "projects": {
-    "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj": {
+    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj",
+        "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj",
         "projectName": "ListarNomes",
-        "projectPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "E:\\1P\\_REPOSITÓRIO DE EXERCÍCIOS\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\obj\\",
+        "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\ListarNomes.csproj",
+        "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+        "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP09_S43_E08\\ListarNomes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

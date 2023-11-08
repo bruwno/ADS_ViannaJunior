@@ -2,10 +2,12 @@
   //"dotnet.defaultSolution": "FP/Exercicios_Algoritmos/Exercicios1P/FP03_S100_E01/CalcSegundos/CalcSegundos.sln",
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeight": "normal",
-  "editor.fontFamily": "JetBrains Mono NL",
+  "editor.fontFamily": "Input Mono",
   "editor.fontSize": 13,
   "editor.fontVariations": false,
   "html.autoClosingTags": false,
   "html.format.wrapLineLength": 0,
-  "editor.codeLensFontFamily": "Fira Code"
+  "editor.codeLensFontFamily": "Fira Code Retina",
+  "terminal.integrated.fontFamily": "Input Mono",
+  "editor.inlayHints.fontFamily": "Fira Code Retina"
 }

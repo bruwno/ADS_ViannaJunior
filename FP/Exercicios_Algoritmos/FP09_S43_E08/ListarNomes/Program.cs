@@ -10,10 +10,10 @@
  * Após o recebimento, listar os três nomes armazenados neste vetor por ordem crescente de idades.
  */
 
- using System;
+using System;
 
- namespace ListarNomes
- {
+namespace ListarNomes
+{
     internal class Program
     {
         internal static void Main(string[] args)
@@ -21,6 +21,5 @@
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
-
     }
- }
+}
