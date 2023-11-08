@@ -16,7 +16,26 @@ namespace LerDados
 {
     public class Pessoa
     {
-        public double Salario;
-        public double Idade;
+        private double salario;
+        private double idade;
+
+        public double Salario
+        {
+            get { return salario; }
+            set { salario = value; }
+        }
+
+        public double Idade
+        {
+            get { return salario; }
+
+            set
+            {
+                if (idade > 0)
+                {
+                    idade = value;
+                }
+            }
+        }
     }
 }
