@@ -1,6 +1,6 @@
 ﻿/* Objetivo : Listar nomes da menor para a maior idade.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 07/11/2023
+ * Data     : 08/11/2023
  * Material : FP09 (Classes)
  * Slide    : 43
  * Exercício: 08
@@ -22,61 +22,70 @@ namespace ListarNomes
 
             for (int i = 0; i < pessoas.Length; i++)
             {
-                pessoas[i] = new Pessoa();
-
                 Console.WriteLine($"\nInforme os dados da {i + 1}ª pessoa");
-                pessoas[i].Nome = LerNome();
-                pessoas[i].Idade = LerIdade();
+                pessoas[i] = LerDadosPessoas();
             }
 
-            OrdenarIdades(pessoas);
+            OrdenarPessoasPorIdade(pessoas);
+            ListarNomesPelaLetraInicial(pessoas);
 
             Console.Write("\nPressione qualquer tecla para finalizar...");
             Console.ReadKey();
         }
 
-        private static void OrdenarIdades(Pessoa[] pessoas)
+        private static Pessoa LerDadosPessoas()
+        {
+            Pessoa pessoa = new Pessoa();
+
+            Console.Write("Digite o nome : ");
+            pessoa.Nome = Console.ReadLine();
+            Console.Write("Digite a idade: ");
+            pessoa.Idade = Convert.ToDouble(Console.ReadLine());
+
+            return pessoa;
+        }
+
+        private static void OrdenarPessoasPorIdade(Pessoa[] pessoas)
         {
             for (int i = pessoas.Length - 1; i >= 0; i--)
             {
+                Pessoa moverPessoa = pessoas[i];
+
                 for (int j = 0; j < i; j++)
                 {
                     double idadeAtual = pessoas[j].Idade;
                     double proxIdade = pessoas[j + 1].Idade;
-                    string nomeAtual = pessoas[j].Nome;
 
                     if (idadeAtual > proxIdade)
                     {
-                        double moverIdade = idadeAtual;
-                        string moverPessoa = nomeAtual;
-                        pessoas[j].Idade = pessoas[j + 1].Idade;
-                        pessoas[j].Nome = pessoas[j + 1].Nome;
-                        // Move a idade e o nome de posição.
-                        pessoas[j + 1].Idade = moverIdade;
-                        pessoas[j + 1].Nome = moverPessoa;
+                        moverPessoa = pessoas[j];
+                        pessoas[j] = pessoas[j + 1];
+                        pessoas[j + 1] = moverPessoa;
                     }
                 }
             }
 
-            Console.WriteLine("Exibindo os nomes pela ordem de idades");
-            for (int x = 0; x < pessoas.Length; x++)
+            Console.WriteLine("\nExibindo os nomes pela ordem de idades");
+            Console.WriteLine("\nNOME\t\t\tIDADE");
+            for (int p = 0; p < pessoas.Length; p++)
             {
-                Console.WriteLine($"Nome: {pessoas[x].Nome} | Idade: {pessoas[x].Idade}");
+                Console.WriteLine($"{pessoas[p].Nome}\t\t{pessoas[p].Idade}");
             }
         }
 
-        private static string LerNome()
+        private static void ListarNomesPelaLetraInicial(Pessoa[] pessoas)
         {
-            Console.Write("Digite o nome : ");
-            string nome = Console.ReadLine();
-            return nome;
-        }
+            Console.Write("\nDigite a letra inicial para filtrar os nomes: ");
+            char letraInicial = Convert.ToChar(Console.ReadLine());
 
-        private static double LerIdade()
-        {
-            Console.Write($"Digite a idade: ");
-            double idade = Convert.ToDouble(Console.ReadLine());
-            return idade;
+            Console.WriteLine($"\nNomes na lista iniciados com a letra '{letraInicial}'");
+            for (int i = 0; i < pessoas.Length; i++)
+            {
+                if (pessoas[i].Nome[0] == letraInicial)
+                {
+                    Console.WriteLine($"{pessoas[i].Nome}");
+                }
+            }
         }
     }
 }
