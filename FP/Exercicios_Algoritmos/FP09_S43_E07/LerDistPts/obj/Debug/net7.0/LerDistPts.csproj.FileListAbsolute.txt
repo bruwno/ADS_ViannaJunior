@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\bin\Debug\net7.0\LerDistPts.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\bin\Debug\net7.0\LerDistPts.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\bin\Debug\net7.0\LerDistPts.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\bin\Debug\net7.0\LerDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\bin\Debug\net7.0\LerDistPts.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\refint\LerDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\LerDistPts.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E07\LerDistPts\obj\Debug\net7.0\ref\LerDistPts.dll
