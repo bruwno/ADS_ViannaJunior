@@ -1,5 +1,4 @@
 CREATE DATABASE Autopecas;
-
 USE Autopecas;
 
 CREATE TABLE FORNECEDOR (
