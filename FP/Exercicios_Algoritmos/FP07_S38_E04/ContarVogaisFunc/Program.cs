@@ -13,7 +13,7 @@
 using System;
 using System.Text;
 
-namespace ContraVogaisFunc
+namespace ContarVogaisFunc
 {
     internal class Program
     {

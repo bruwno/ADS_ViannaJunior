@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Listar nomes da menor para a maior idade.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 07/11/2023
- * Material : 
+ * Material : Simulado
  * Slide    : 00
  * Exercício: 01
  */
@@ -34,59 +34,50 @@ namespace ConverterString
 
         private static bool EhVogal(char caractere)
         {
-            switch (caractere)
+            const string vogais = "aeiouAEIOU";
+
+            for (int i = 0; i < vogais.Length; i++)
             {
-                case 'A':
+                if (vogais[i] == caractere)
+                {
                     return true;
-                    break;
-                case 'E':
-                    return true;
-                    break;
-                case 'I':
-                    return true;
-                    break;
-                case 'O':
-                    return true;
-                    break;
-                case 'U':
-                    return true;
-                    break;
-                default:
-                    return false;
-                    break;
+                }
             }
+
+            return false;
         }
 
         private static string ConverterCaractere(string str)
         {
             StringBuilder strConv = new StringBuilder();
 
-            if ((EhVogal(str[0]) == true))
+            char letraInicial = str[0];
+
+            if (EhVogal(letraInicial) == true)
             {
                 for (int i = 0; i < str.Length; i++)
                 {
                     if (str[i] >= 'a' && str[i] <= 'z')
                     {
-                        strConv.Append(Convert.ToChar(str[i] - 'A' + 'a'));
+                        strConv.Append(Convert.ToChar(str[i] - 'a' + 'A'));
                     }
                     else
                     {
-                        strConv.Append(str[i]);
+                        strConv.Append(Convert.ToChar(str[i]));
                     }
                 }
             }
-
             else
             {
                 for (int i = 0; i < str.Length; i++)
                 {
                     if (str[i] >= 'A' && str[i] <= 'Z')
                     {
-                        strConv.Append(Convert.ToChar(str[i] - 'a' + 'A'));
+                        strConv.Append(Convert.ToChar(str[i] - 'A' + 'a'));
                     }
                     else
                     {
-                        strConv.Append(str[i]);
+                        strConv.Append(Convert.ToChar(str[i]));
                     }
                 }
             }
