@@ -1,0 +1,29 @@
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.csproj.AssemblyReference.cache
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.AssemblyInfoInputs.cache
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.AssemblyInfo.cs
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.csproj.CoreCompileInputs.cache
+D:\Simulado\exercicios\Questao03For\bin\Debug\net7.0\Questao03For.exe
+D:\Simulado\exercicios\Questao03For\bin\Debug\net7.0\Questao03For.deps.json
+D:\Simulado\exercicios\Questao03For\bin\Debug\net7.0\Questao03For.runtimeconfig.json
+D:\Simulado\exercicios\Questao03For\bin\Debug\net7.0\Questao03For.dll
+D:\Simulado\exercicios\Questao03For\bin\Debug\net7.0\Questao03For.pdb
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.dll
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\refint\Questao03For.dll
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.pdb
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\Questao03For.genruntimeconfig.cache
+D:\Simulado\exercicios\Questao03For\obj\Debug\net7.0\ref\Questao03For.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\refint\Questao03For.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\bin\Debug\net7.0\Questao03For.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\bin\Debug\net7.0\Questao03For.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\bin\Debug\net7.0\Questao03For.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\bin\Debug\net7.0\Questao03For.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\bin\Debug\net7.0\Questao03For.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\Questao03For.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao03For\obj\Debug\net7.0\ref\Questao03For.dll

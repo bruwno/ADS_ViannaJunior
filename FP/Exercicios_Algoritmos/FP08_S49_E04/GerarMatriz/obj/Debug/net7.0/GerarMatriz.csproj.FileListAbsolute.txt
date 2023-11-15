@@ -1,0 +1,29 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\refint\GerarMatriz.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\ref\GerarMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\bin\Debug\net7.0\GerarMatriz.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\refint\GerarMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\GerarMatriz.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S49_E04\GerarMatriz\obj\Debug\net7.0\ref\GerarMatriz.dll

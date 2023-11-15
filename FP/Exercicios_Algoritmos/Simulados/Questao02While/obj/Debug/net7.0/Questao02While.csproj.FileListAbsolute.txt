@@ -1,0 +1,15 @@
+D:\Simulado\exercicios\Questao02While\bin\Debug\net7.0\Questao02While.exe
+D:\Simulado\exercicios\Questao02While\bin\Debug\net7.0\Questao02While.deps.json
+D:\Simulado\exercicios\Questao02While\bin\Debug\net7.0\Questao02While.runtimeconfig.json
+D:\Simulado\exercicios\Questao02While\bin\Debug\net7.0\Questao02While.dll
+D:\Simulado\exercicios\Questao02While\bin\Debug\net7.0\Questao02While.pdb
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.csproj.AssemblyReference.cache
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.AssemblyInfoInputs.cache
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.AssemblyInfo.cs
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.csproj.CoreCompileInputs.cache
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.dll
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\refint\Questao02While.dll
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.pdb
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\Questao02While.genruntimeconfig.cache
+D:\Simulado\exercicios\Questao02While\obj\Debug\net7.0\ref\Questao02While.dll

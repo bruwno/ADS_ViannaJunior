@@ -1,0 +1,29 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\refint\CalcDistPts.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\ref\CalcDistPts.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\bin\Debug\net7.0\CalcDistPts.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\refint\CalcDistPts.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\CalcDistPts.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP09_S43_E06\CalcDistPts\obj\Debug\net7.0\ref\CalcDistPts.dll

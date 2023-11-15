@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML>
+<HTML lang='PT-BR'>
+	<HEAD>
+		<META charset='UTF-8'>
+		<TITLE>Formulário</TITLE>
+	</HEAD>
+	<BODY text='white' bgcolor='#1FA5C8'>
+		<H1>Formulário de contato</H1>
+		<H2>Por favor, preencha as informações abaixo:</H2>
+		<FORM action='#' method='get'>
+			<LABEL><font size=5>Nome <font color='red'>*</font></font></LABEL>
+			<INPUT type='text' name='pnome' required placeholder='Primeiro Nome'>
+			<INPUT type='text' name='sobrenome' required placeholder='Sobrenome'><BR>
+			
+			<LABEL><font size=5>Email</font></LABEL>
+			<INPUT type='email' name='email' placeholder='Email' autofocus size=45><BR>
+			
+			<LABEL><font size=5>Telefone</font></LABEL>
+			<INPUT type='number' name='ddi' placeholder='###'>
+			<INPUT type='number' name='ddd' placeholder='###'>
+			<INPUT type='number' name='numero' placeholder='###'><BR>
+			
+			<LABEL><FONT size=5>Assunto</FONT></LABEL>
+			<SELECT>
+				<OPTION>Sugestão</OPTION>
+				<OPTION>Elogio</OPTION>
+				<OPTION>Reclamação</OPTION>
+			</SELECT><BR>
+			
+			<LABEL><font size=5>Mensagem</FONT></LABLE>
+			<TEXTAREA rows=10 cols=50 placeholder='Sua mensagem...'></TEXTAREA><BR>
+			
+			<INPUT type='submit'><INPUT type='reset'>
+		</FORM>
+	</BODY>
+</HTML>

@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\bin\Debug\net7.0\MultMatPorEscal.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\bin\Debug\net7.0\MultMatPorEscal.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\bin\Debug\net7.0\MultMatPorEscal.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\bin\Debug\net7.0\MultMatPorEscal.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\bin\Debug\net7.0\MultMatPorEscal.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\refint\MultMatPorEscal.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\MultMatPorEscal.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E01\MultMatPorEscal\obj\Debug\net7.0\ref\MultMatPorEscal.dll

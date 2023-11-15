@@ -1,0 +1,29 @@
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.exe
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.deps.json
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.runtimeconfig.json
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.pdb
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.csproj.AssemblyReference.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.GeneratedMSBuildEditorConfig.editorconfig
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.AssemblyInfoInputs.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.AssemblyInfo.cs
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.csproj.CoreCompileInputs.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\refint\CalcMov.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.pdb
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.genruntimeconfig.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\ref\CalcMov.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\bin\Debug\net7.0\CalcMov.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\refint\CalcMov.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\CalcMov.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E05\CalcMov\obj\Debug\net7.0\ref\CalcMov.dll

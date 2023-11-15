@@ -1,0 +1,29 @@
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.exe
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.deps.json
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.runtimeconfig.json
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.dll
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.pdb
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.csproj.AssemblyReference.cache
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.GeneratedMSBuildEditorConfig.editorconfig
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.AssemblyInfoInputs.cache
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.AssemblyInfo.cs
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.csproj.CoreCompileInputs.cache
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.dll
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\refint\ProdutoComDesc.dll
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.pdb
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.genruntimeconfig.cache
+D:\William_Projects\Exercicios\FP02_S064_E03\ProdutoComDesc\obj\Debug\net7.0\ref\ProdutoComDesc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\bin\Debug\net7.0\ProdutoComDesc.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\refint\ProdutoComDesc.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ProdutoComDesc.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S64_E03\ProdutoComDesc\obj\Debug\net7.0\ref\ProdutoComDesc.dll

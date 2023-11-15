@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\bin\Debug\net7.0\ImpTercColuna.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\bin\Debug\net7.0\ImpTercColuna.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\bin\Debug\net7.0\ImpTercColuna.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\bin\Debug\net7.0\ImpTercColuna.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\bin\Debug\net7.0\ImpTercColuna.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\refint\ImpTercColuna.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ImpTercColuna.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S49_E02\ImpTercColuna\obj\Debug\net7.0\ref\ImpTercColuna.dll
