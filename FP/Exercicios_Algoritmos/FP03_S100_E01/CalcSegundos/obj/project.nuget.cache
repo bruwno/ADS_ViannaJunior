@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WbXjP7qjb/GIywkE6SgqwLsv/J86pJCMXzzczpGFH7+EQqL34ux+fr0JDo91KXbzLaeMOPDJIsGJzrHHkYC7dw==",
+  "dgSpecHash": "UioLUbh8sZrfK7b5wCd01/0AsblOFYlHaOEn56NcRGJV6U+oO77BjPHPh4jFWW56E1RLXCmrUiZlTfbtHPQ38w==",
   "success": true,
   "projectFilePath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP03_S100_E01\\CalcSegundos\\CalcSegundos.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\William\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\William\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\William\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
-    "C:\\Users\\William\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
