@@ -1,0 +1,14 @@
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\bin\Debug\net7.0\1013_OMaior.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\bin\Debug\net7.0\1013_OMaior.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\bin\Debug\net7.0\1013_OMaior.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\bin\Debug\net7.0\1013_OMaior.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\bin\Debug\net7.0\1013_OMaior.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\refint\1013_OMaior.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\1013_OMaior.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\BEECROWD\C#\1013_OMaior\obj\Debug\net7.0\ref\1013_OMaior.dll

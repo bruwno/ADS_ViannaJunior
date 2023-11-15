@@ -1,0 +1,14 @@
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\bin\Debug\net7.0\ImprimeMatriz.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\bin\Debug\net7.0\ImprimeMatriz.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\bin\Debug\net7.0\ImprimeMatriz.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\bin\Debug\net7.0\ImprimeMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\bin\Debug\net7.0\ImprimeMatriz.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\refint\ImprimeMatriz.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ImprimeMatriz.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S41_E05\ImprimeMatriz\obj\Debug\net7.0\ref\ImprimeMatriz.dll

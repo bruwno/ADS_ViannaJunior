@@ -1,0 +1,30 @@
+D:\Prova\Questao01\Questao01\bin\Debug\net7.0\Questao01.exe
+D:\Prova\Questao01\Questao01\bin\Debug\net7.0\Questao01.deps.json
+D:\Prova\Questao01\Questao01\bin\Debug\net7.0\Questao01.runtimeconfig.json
+D:\Prova\Questao01\Questao01\bin\Debug\net7.0\Questao01.dll
+D:\Prova\Questao01\Questao01\bin\Debug\net7.0\Questao01.pdb
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.csproj.AssemblyReference.cache
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfoInputs.cache
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfo.cs
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.csproj.CoreCompileInputs.cache
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.dll
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\refint\Questao01.dll
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.pdb
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\Questao01.genruntimeconfig.cache
+D:\Prova\Questao01\Questao01\obj\Debug\net7.0\ref\Questao01.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\bin\Debug\net7.0\Questao01.exe
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\bin\Debug\net7.0\Questao01.deps.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\bin\Debug\net7.0\Questao01.runtimeconfig.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\bin\Debug\net7.0\Questao01.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\bin\Debug\net7.0\Questao01.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.csproj.AssemblyReference.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.GeneratedMSBuildEditorConfig.editorconfig
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfoInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfo.cs
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.csproj.CoreCompileInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\refint\Questao01.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\Questao01.genruntimeconfig.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Provas\Prova\Questao01\obj\Debug\net7.0\ref\Questao01.dll

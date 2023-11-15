@@ -1,0 +1,29 @@
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.csproj.AssemblyReference.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.GeneratedMSBuildEditorConfig.editorconfig
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.AssemblyInfoInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.AssemblyInfo.cs
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.csproj.CoreCompileInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.exe
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.deps.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.runtimeconfig.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\refint\CalcMediaIdades.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.genruntimeconfig.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\ref\CalcMediaIdades.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\bin\Debug\net7.0\CalcMediaIdades.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\refint\CalcMediaIdades.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\CalcMediaIdades.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E06\CalcMediaIdades\obj\Debug\net7.0\ref\CalcMediaIdades.dll

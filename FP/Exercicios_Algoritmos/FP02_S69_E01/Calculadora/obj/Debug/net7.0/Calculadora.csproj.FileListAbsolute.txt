@@ -1,0 +1,29 @@
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.csproj.AssemblyReference.cache
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.AssemblyInfoInputs.cache
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.AssemblyInfo.cs
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.exe
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.deps.json
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.runtimeconfig.json
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.dll
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.pdb
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.dll
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\refint\Calculadora.dll
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.pdb
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.genruntimeconfig.cache
+D:\William_Projects\Exercicios\FP02_S69_E01\Calculadora\obj\Debug\net7.0\ref\Calculadora.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\bin\Debug\net7.0\Calculadora.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\refint\Calculadora.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\Calculadora.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\#1133 - Fundamentos de Programação\_EXERCÍCIOS\Exercicios_Algoritmos\Exercicios1P\FP02_S69_E01\Calculadora\obj\Debug\net7.0\ref\Calculadora.dll

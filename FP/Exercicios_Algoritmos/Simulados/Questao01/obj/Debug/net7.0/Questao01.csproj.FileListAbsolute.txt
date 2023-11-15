@@ -1,0 +1,29 @@
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.csproj.AssemblyReference.cache
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfoInputs.cache
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfo.cs
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.csproj.CoreCompileInputs.cache
+D:\Simulado\exercicios\Questao01\bin\Debug\net7.0\Questao01.exe
+D:\Simulado\exercicios\Questao01\bin\Debug\net7.0\Questao01.deps.json
+D:\Simulado\exercicios\Questao01\bin\Debug\net7.0\Questao01.runtimeconfig.json
+D:\Simulado\exercicios\Questao01\bin\Debug\net7.0\Questao01.dll
+D:\Simulado\exercicios\Questao01\bin\Debug\net7.0\Questao01.pdb
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.dll
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\refint\Questao01.dll
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.pdb
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\Questao01.genruntimeconfig.cache
+D:\Simulado\exercicios\Questao01\obj\Debug\net7.0\ref\Questao01.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\bin\Debug\net7.0\Questao01.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\bin\Debug\net7.0\Questao01.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\bin\Debug\net7.0\Questao01.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\bin\Debug\net7.0\Questao01.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\bin\Debug\net7.0\Questao01.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\refint\Questao01.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\Questao01.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\SIMULADOS\Questao01\obj\Debug\net7.0\ref\Questao01.dll

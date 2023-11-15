@@ -1,0 +1,29 @@
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.csproj.AssemblyReference.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.GeneratedMSBuildEditorConfig.editorconfig
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.AssemblyInfoInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.AssemblyInfo.cs
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.csproj.CoreCompileInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.exe
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.deps.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.runtimeconfig.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\refint\SomarValEmVetor.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.genruntimeconfig.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\ref\SomarValEmVetor.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\bin\Debug\net7.0\SomarValEmVetor.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\refint\SomarValEmVetor.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\SomarValEmVetor.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP06_S103_E04\SomarValEmVetor\obj\Debug\net7.0\ref\SomarValEmVetor.dll

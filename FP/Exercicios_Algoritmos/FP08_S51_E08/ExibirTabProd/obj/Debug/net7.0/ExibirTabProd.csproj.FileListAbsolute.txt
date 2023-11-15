@@ -1,0 +1,29 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\refint\ExibirTabProd.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ref\ExibirTabProd.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\refint\ExibirTabProd.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\bin\Debug\net7.0\ExibirTabProd.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ExibirTabProd.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP08_S51_E08\ExibirTabProd\obj\Debug\net7.0\ref\ExibirTabProd.dll

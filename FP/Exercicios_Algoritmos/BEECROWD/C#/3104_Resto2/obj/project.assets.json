@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ExtendedNumerics.BigRational/2023.1000.1.255": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/ExtendedNumerics.BigRational.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/ExtendedNumerics.BigRational.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExtendedNumerics.BigRational/2023.1000.1.255": {
+      "sha512": "KyGC3csDXO0YmbIgIKubuAL1KGKErR+mLqFIlzituVBfj1X0aWkl5VfIRaMiPrkWfRC4L9RtSUt60bOJieAzbQ==",
+      "type": "package",
+      "path": "extendednumerics.bigrational/2023.1000.1.255",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "extendednumerics.bigrational.2023.1000.1.255.nupkg.sha512",
+        "extendednumerics.bigrational.nuspec",
+        "lib/net45/ExtendedNumerics.BigRational.dll",
+        "lib/net45/ExtendedNumerics.BigRational.xml",
+        "lib/net46/ExtendedNumerics.BigRational.dll",
+        "lib/net46/ExtendedNumerics.BigRational.xml",
+        "lib/net48/ExtendedNumerics.BigRational.dll",
+        "lib/net48/ExtendedNumerics.BigRational.xml",
+        "lib/net5.0/ExtendedNumerics.BigRational.dll",
+        "lib/net5.0/ExtendedNumerics.BigRational.xml",
+        "lib/net6.0/ExtendedNumerics.BigRational.dll",
+        "lib/net6.0/ExtendedNumerics.BigRational.xml",
+        "lib/net7.0/ExtendedNumerics.BigRational.dll",
+        "lib/net7.0/ExtendedNumerics.BigRational.xml",
+        "lib/netcoreapp3.1/ExtendedNumerics.BigRational.dll",
+        "lib/netcoreapp3.1/ExtendedNumerics.BigRational.xml",
+        "lib/netstandard2.1/ExtendedNumerics.BigRational.dll",
+        "lib/netstandard2.1/ExtendedNumerics.BigRational.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ExtendedNumerics.BigRational >= 2023.1000.1.255"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\William\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\BEECROWD\\C#\\3104_Resto2\\3104_Resto2.csproj",
+      "projectName": "3104_Resto2",
+      "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\BEECROWD\\C#\\3104_Resto2\\3104_Resto2.csproj",
+      "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
+      "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\BEECROWD\\C#\\3104_Resto2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "ExtendedNumerics.BigRational": {
+            "target": "Package",
+            "version": "[2023.1000.1.255, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

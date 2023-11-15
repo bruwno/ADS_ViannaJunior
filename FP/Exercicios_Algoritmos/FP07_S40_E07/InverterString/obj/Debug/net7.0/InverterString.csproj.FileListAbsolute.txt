@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\bin\Debug\net7.0\InverterString.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\bin\Debug\net7.0\InverterString.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\bin\Debug\net7.0\InverterString.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\bin\Debug\net7.0\InverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\bin\Debug\net7.0\InverterString.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\refint\InverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\InverterString.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S40_E07\InverterString\obj\Debug\net7.0\ref\InverterString.dll
