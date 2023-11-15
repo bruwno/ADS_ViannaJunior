@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\bin\Debug\net7.0\ConverterString.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\bin\Debug\net7.0\ConverterString.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\bin\Debug\net7.0\ConverterString.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\bin\Debug\net7.0\ConverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\bin\Debug\net7.0\ConverterString.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\refint\ConverterString.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ConverterString.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\Simulados\SimuladoFP_Prova2\Questao01\ConverterString\obj\Debug\net7.0\ref\ConverterString.dll
