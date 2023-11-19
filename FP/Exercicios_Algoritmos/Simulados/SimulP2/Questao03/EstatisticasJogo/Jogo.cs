@@ -20,7 +20,7 @@ namespace EstatisticasJogo
     {
         private string adversario;
         private int pontos;
-        private int quedasClerysmar;
+        private int quedasEmCampo;
 
         public string Adversario
         {
@@ -34,10 +34,10 @@ namespace EstatisticasJogo
             set { pontos = value; }
         }
 
-        public int QuedasClerysmar
+        public int QuedasEmCampo
         {
-            get { return quedasClerysmar; }
-            set { quedasClerysmar = value; }
+            get { return quedasEmCampo; }
+            set { quedasEmCampo = value; }
         }
 
     }
