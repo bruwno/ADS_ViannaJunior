@@ -19,6 +19,31 @@ namespace LerRestaurantes
     {
         private string rua;
         private int numero;
-        private long cep;
+        private string bairro;
+        private int cep;
+
+        public string Rua
+        {
+            get { return rua; }
+            set { rua = value; }
+        }
+
+        public int Numero
+        {
+            get { return numero; }
+            set { numero = value; }
+        }
+
+        public string Bairro
+        {
+            get { return bairro; }
+            set { bairro = value; }
+        }
+
+        public int Cep
+        {
+            get { return cep; }
+            set { cep = value; }
+        }
     }
 }
