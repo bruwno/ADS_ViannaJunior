@@ -19,14 +19,14 @@ namespace SomaMat
         const int dimMat = 5;
         internal static void Main(string[] args)
         {
-            double[,] mat = new double[dimMat, dimMat];
-            /*{{ 1, 2.1, 2, 4, 3 },
+            double[,] mat = new double[dimMat, dimMat]
+            {{ 1, 2.1, 2, 4, 3 },
             { 1, 2, 4, 3, 6    },
             { 5, 3, -2, 6, 5   },
             { 1, -3, 2, 5, 4   },
             { 9, 1, 4, 33, 44  }
-            };*/
-
+            };
+            /*
             for (int i = 0; i < mat.GetLength(0); i++)
             {
                 for (int j = 0; j < mat.GetLength(1); j++)
@@ -34,7 +34,7 @@ namespace SomaMat
                     Console.Write($"Digite o valor de {i},{j}: ");
                     mat[i, j] = Convert.ToDouble(Console.ReadLine());
                 }
-            }
+            }*/
 
             SomarPositivosDiagSecundaria(mat);
         }
@@ -48,7 +48,7 @@ namespace SomaMat
             {
                 for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    if ((mat[i, j] >= 0) && (j == mat.GetLength(1) - i))
+                    if ((mat[i, j] >= 0) && (j == (mat.GetLength(1) - 1) - i))
                     {
                         soma += mat[i, j];
                     }
