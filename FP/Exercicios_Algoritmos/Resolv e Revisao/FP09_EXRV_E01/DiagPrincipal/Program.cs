@@ -1,7 +1,7 @@
 ﻿/* Objetivo : Exibir os valores da diagonal principal.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 22/11/2023
- * Material : FP09 (Matrizes)
+ * Material : FP08 (Matrizes)
  * Slide    : EXRV (Exercícios de Revisão)
  * Exercício: 01
  */
