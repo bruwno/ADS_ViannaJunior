@@ -21,5 +21,29 @@ namespace LerRestaurantes
         private Endereco endereco;
         private string tipoComida;
         private double nota;
+
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
+
+        public Endereco Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
+
+        public string TipoComida
+        {
+            get { return tipoComida; }
+            set { tipoComida = value; }
+        }
+
+        public double Nota
+        {
+            get { return nota; }
+            set { nota = value; }
+        }
     }
 }
