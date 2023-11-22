@@ -6,7 +6,7 @@
  * Exercício: 01
  */
 
-/* 5) Faça um programa que que leia uma matriz quadrada e exiba apenas os valores contidos na diagonal principal.
+/* 1) Faça um programa que leia uma matriz quadrada e exiba apenas os valores contidos na diagonal principal.
  */
 
 using System;
