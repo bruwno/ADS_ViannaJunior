@@ -1,0 +1,15 @@
+D:\PROVA\Questao02\bin\Debug\net7.0\Questao02.exe
+D:\PROVA\Questao02\bin\Debug\net7.0\Questao02.deps.json
+D:\PROVA\Questao02\bin\Debug\net7.0\Questao02.runtimeconfig.json
+D:\PROVA\Questao02\bin\Debug\net7.0\Questao02.dll
+D:\PROVA\Questao02\bin\Debug\net7.0\Questao02.pdb
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.csproj.AssemblyReference.cache
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.AssemblyInfoInputs.cache
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.AssemblyInfo.cs
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.csproj.CoreCompileInputs.cache
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.dll
+D:\PROVA\Questao02\obj\Debug\net7.0\refint\Questao02.dll
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.pdb
+D:\PROVA\Questao02\obj\Debug\net7.0\Questao02.genruntimeconfig.cache
+D:\PROVA\Questao02\obj\Debug\net7.0\ref\Questao02.dll
