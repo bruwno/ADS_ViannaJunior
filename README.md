@@ -6,7 +6,7 @@ Curso: **Análise e Desenvolvimento de Sistemas** - FIVJ
 
 Período: **1º**
 
-Discente: **William Silva** [37943]
+Discente: **William Silva**
 
 ---
 
@@ -26,4 +26,5 @@ Discente: **William Silva** [37943]
 > Padrão: **DSC00_S00_E00**
 
 ---
-[![](ADS_logo.jpg)](https://www.vianna.edu.br/analise-e-desenv-de-sistemas/) 
+
+[![](ADS_logo.jpg)](https://www.vianna.edu.br/analise-e-desenv-de-sistemas/)
