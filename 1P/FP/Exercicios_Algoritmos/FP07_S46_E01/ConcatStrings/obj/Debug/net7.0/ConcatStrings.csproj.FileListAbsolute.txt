@@ -1,0 +1,15 @@
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\bin\Debug\net7.0\ConcatStrings.exe
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\bin\Debug\net7.0\ConcatStrings.deps.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\bin\Debug\net7.0\ConcatStrings.runtimeconfig.json
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\bin\Debug\net7.0\ConcatStrings.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\bin\Debug\net7.0\ConcatStrings.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.csproj.AssemblyReference.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.GeneratedMSBuildEditorConfig.editorconfig
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.AssemblyInfoInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.AssemblyInfo.cs
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.csproj.CoreCompileInputs.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\refint\ConcatStrings.dll
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.pdb
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ConcatStrings.genruntimeconfig.cache
+E:\1P\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios_Algoritmos\FP07_S46_E01\ConcatStrings\obj\Debug\net7.0\ref\ConcatStrings.dll
