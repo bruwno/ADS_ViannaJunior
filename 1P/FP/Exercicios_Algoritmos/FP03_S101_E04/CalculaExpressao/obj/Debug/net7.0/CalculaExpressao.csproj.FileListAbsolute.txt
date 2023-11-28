@@ -1,0 +1,15 @@
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\bin\Debug\net7.0\CalculaExpressao.exe
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\bin\Debug\net7.0\CalculaExpressao.deps.json
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\bin\Debug\net7.0\CalculaExpressao.runtimeconfig.json
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\bin\Debug\net7.0\CalculaExpressao.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\bin\Debug\net7.0\CalculaExpressao.pdb
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.csproj.AssemblyReference.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.GeneratedMSBuildEditorConfig.editorconfig
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.AssemblyInfoInputs.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.AssemblyInfo.cs
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.csproj.CoreCompileInputs.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\refint\CalculaExpressao.dll
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.pdb
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\CalculaExpressao.genruntimeconfig.cache
+E:\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP03_S101_E04\CalculaExpressao\obj\Debug\net7.0\ref\CalculaExpressao.dll

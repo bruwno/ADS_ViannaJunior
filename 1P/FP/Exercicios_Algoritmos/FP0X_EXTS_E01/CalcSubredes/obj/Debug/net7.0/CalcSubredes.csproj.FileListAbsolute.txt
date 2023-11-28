@@ -1,0 +1,43 @@
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\refint\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\ref\CalcSubredes.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.exe
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.deps.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.runtimeconfig.json
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.csproj.AssemblyReference.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.GeneratedMSBuildEditorConfig.editorconfig
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfoInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfo.cs
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.csproj.CoreCompileInputs.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\refint\CalcSubredes.dll
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.pdb
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.genruntimeconfig.cache
+E:\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\FP\Exercicios1P\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\ref\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.exe
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.deps.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.runtimeconfig.json
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\bin\Debug\net7.0\CalcSubredes.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfoInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.AssemblyInfo.cs
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.csproj.CoreCompileInputs.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\refint\CalcSubredes.dll
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.pdb
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\CalcSubredes.genruntimeconfig.cache
+D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP0X_EXTS_E01\CalcSubredes\obj\Debug\net7.0\ref\CalcSubredes.dll
