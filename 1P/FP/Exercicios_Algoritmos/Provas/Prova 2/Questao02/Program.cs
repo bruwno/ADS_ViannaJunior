@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Prova do dia 22/11/23
+
+using System;
 
 namespace Questao02
 {
@@ -11,7 +13,7 @@ namespace Questao02
 
             for (int i = 0; i < investimentos.Length; i++)
             {
-                Console.Write($"\nInvestimento {i+1} de {TAM}\n");
+                Console.Write($"\nInvestimento {i + 1} de {TAM}\n");
                 investimentos[i] = LerERetornarDados();
             }
 
