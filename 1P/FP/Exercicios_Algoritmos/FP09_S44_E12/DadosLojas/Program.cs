@@ -44,7 +44,7 @@ namespace DadosLojas
                                                         "|3| Exibir uma loja específica\n" +
                                                         "|4| Sair\n" +
                                                         "Digite uma opção: ");
-            Console.Write(exibeMenu);
+            Console.Write(exibeMenu.ToString());
 
             int opcDigitada = Convert.ToInt32(Console.ReadLine());
 
