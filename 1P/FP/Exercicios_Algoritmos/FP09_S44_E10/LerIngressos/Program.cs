@@ -1,4 +1,4 @@
-﻿/* Objetivo : Listar nomes da menor para a maior idade.
+﻿/* Objetivo : Ler dados de ingressos.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 07/11/2023
  * Material : FP09 (Classes)
