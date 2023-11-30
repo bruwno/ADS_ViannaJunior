@@ -59,6 +59,7 @@ namespace DadosLojas
                     ExibirDadosLojas(lojas);
                     break;
                 case 3:
+                    Console.Clear();
                     ExibirLojaEspecifica(lojas);
                     break;
                 case 4:
@@ -112,17 +113,28 @@ namespace DadosLojas
             Console.Write("\nDigite o nome da loja que deseja exibir: ");
             string nomeLoja = Console.ReadLine();
 
-            Console.WriteLine($"Exibindo os dados da loja {nomeLoja}");
-
             for (int i = 0; i < lojas.Length; i++)
             {
-                if (lojas[i].Nome == nomeLoja)
+                if (nomeLoja == lojas[i].Nome)
                 {
-                    Console.WriteLine($"Nome: {lojas[i].Nome}\nTelefone: {lojas[i].Telefone}\nPreço: {lojas[i].Preco:C2}");
+                    Console.WriteLine($"\nNome: {lojas[i].Nome}\nTelefone: {lojas[i].Telefone}\nPreço: {lojas[i].Preco:C2}");
                 }
             }
 
             ExibirMenu(lojas);
+        }
+
+        private static bool LojaExisteNoCadastro(Loja[] lojas, string nomeLoja)
+        {
+            for (int i = 0; i < lojas.Length; i++)
+            {
+                if (nomeLoja == lojas[i].Nome)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private static double CalcularPrecoMedio(Loja[] lojas)
