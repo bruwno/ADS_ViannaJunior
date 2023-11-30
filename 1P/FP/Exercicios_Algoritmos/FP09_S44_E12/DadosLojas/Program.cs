@@ -14,6 +14,7 @@
  */
 
 using System;
+using System.Text;
 
 namespace DadosLojas
 {
@@ -23,17 +24,59 @@ namespace DadosLojas
         {
             Loja[] lojas = new Loja[3];
 
+            if (lojas != null)
+            {
+                CadastrarLojas(lojas);
+            }
+            else
+            {
+                ExibirMenu(lojas);
+            }
+
+            Console.Write("\nPressione qualquer tecla para finalizar...");
+            Console.ReadKey();
+        }
+
+        private static void ExibirMenu(Loja[] lojas)
+        {
+            StringBuilder exibeMenu = new StringBuilder("\n|1| Cadastrar lojas\n" +
+                                                        "|2| Exibir lojas\n" +
+                                                        "|3| Exibir uma loja específica\n" +
+                                                        "|4| Sair\n" +
+                                                        "Digite uma opção: ");
+            Console.Write(exibeMenu);
+
+            int opcDigitada = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcDigitada)
+            {
+                case 1:
+                    Console.Clear();
+                    CadastrarLojas(lojas);
+                    break;
+                case 2:
+                    Console.Clear();
+                    ExibirDadosLojas(lojas);
+                    break;
+                case 3:
+                    ExibirLojaEspecifica(lojas);
+                    break;
+                case 4:
+                    return;
+            }
+        }
+
+        private static void CadastrarLojas(Loja[] lojas)
+        {
+            //Loja[] lojas = new Loja[3];
+
             for (int i = 0, j = 1; i < lojas.Length; i++, j++)
             {
                 Console.WriteLine($"\nInforme os dados para a {j}ª loja");
                 lojas[i] = LerDados();
             }
 
-            ExibirDadosLojas(lojas);
-            ExibirLojasComPrecosAbaixoDaMedia(lojas);
-
-            Console.Write("\nPressione qualquer tecla para finalizar...");
-            Console.ReadKey();
+            ExibirMenu(lojas);
         }
 
         private static Loja LerDados()
@@ -54,11 +97,32 @@ namespace DadosLojas
 
         private static void ExibirDadosLojas(Loja[] lojas)
         {
-            Console.WriteLine("Dados das lojas cadastradas\n");
+            Console.WriteLine("\nDados das lojas cadastradas\n");
             for (int i = 0; i < lojas.Length; i++)
             {
                 Console.WriteLine($"Nome: {lojas[i].Nome}\nTelefone: {lojas[i].Telefone}\nPreço: {lojas[i].Preco:C2}\n");
             }
+
+            ExibirLojasComPrecosAbaixoDaMedia(lojas);
+            ExibirMenu(lojas);
+        }
+
+        private static void ExibirLojaEspecifica(Loja[] lojas)
+        {
+            Console.Write("\nDigite o nome da loja que deseja exibir: ");
+            string nomeLoja = Console.ReadLine();
+
+            Console.WriteLine($"Exibindo os dados da loja {nomeLoja}");
+
+            for (int i = 0; i < lojas.Length; i++)
+            {
+                if (lojas[i].Nome == nomeLoja)
+                {
+                    Console.WriteLine($"Nome: {lojas[i].Nome}\nTelefone: {lojas[i].Telefone}\nPreço: {lojas[i].Preco:C2}");
+                }
+            }
+
+            ExibirMenu(lojas);
         }
 
         private static double CalcularPrecoMedio(Loja[] lojas)
@@ -88,6 +152,5 @@ namespace DadosLojas
                 }
             }
         }
-
     }
 }
