@@ -19,7 +19,7 @@ namespace LerIngressos
     {
         internal static void Main(string[] args)
         {
-            Ingresso[] ingressos = new Ingresso[4];
+            Ingresso[] ingressos = new Ingresso[10];
 
             for (int i = 0; i < ingressos.Length; i++)
             {

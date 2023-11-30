@@ -1,4 +1,4 @@
-/* Objetivo : Ler e atualizar valores de ingressos.
+/* Objetivo : Ler e atualizar os valores de um ingressos.
  * Autor    : William Silva (https://github.com/unclWill)
  * Data     : 30/11/2023
  * Material : FP09 (Classes)
