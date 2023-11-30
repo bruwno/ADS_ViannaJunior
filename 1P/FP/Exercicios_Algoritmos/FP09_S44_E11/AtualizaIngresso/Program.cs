@@ -53,7 +53,7 @@ namespace AtualizaIngresso
 
         private static void AtualizarValorIngresso(Ingresso[] ingresso, double novoPreco)
         {
-            Console.Write("Digite o ingresso que deseja modificar: ");
+            Console.Write("Digite a posição do ingresso que deseja modificar: ");
             int posicaoIngresso = Convert.ToInt32(Console.ReadLine());
 
             posicaoIngresso = posicaoIngresso - 1;
