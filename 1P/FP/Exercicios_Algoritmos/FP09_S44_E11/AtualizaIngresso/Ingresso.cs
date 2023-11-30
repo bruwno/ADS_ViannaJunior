@@ -1,19 +1,19 @@
-/* Objetivo : Ler dados de ingressos.
+/* Objetivo : Ler e atualizar valores de ingressos.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 07/11/2023
+ * Data     : 30/11/2023
  * Material : FP09 (Classes)
  * Slide    : 44
- * Exercício: 10
+ * Exercício: 11
  */
 
-/* 10) Faça um programa que leia os dados de 10 ingressos. 
- * As informações que deverão ser lidas de cada ingresso são: preço, local e atração. 
- * Ao final, informe os eventos de ingresso mais barato e mais caros.
+/* 11) Utilizando a classe definida no exercício anterior.
+ * Faça um procedimento que recebe um parâmetro do tipo ingresso e outro contendo um novo preço que atualiza o preço do ingresso para o novo valor. 
+ * E um procedimento que recebe um parâmetro do tipo ingresso e mostra na tela os valores de seus campos.
  */
 
 using System;
 
-namespace LerIngressos
+namespace AtualizaIngresso
 {
     public class Ingresso
     {
