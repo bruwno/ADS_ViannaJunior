@@ -43,19 +43,19 @@ namespace CadastroVeiculos
             switch (opcSelecionada)
             {
                 case 1:
-
+                    LerDadosVeiculo();
                     break;
                 case 2:
-
+                    VerificarPlaca();
                     break;
                 case 3:
-
+                    ImprimirPorAno();
                     break;
                 case 4:
-
+                    PesquisarVeiculoPorPlaca();
                     break;
                 case 5:
-
+                    ImprimirVeiculosCadastrados();
                     break;
                 case 6:
                     return;
