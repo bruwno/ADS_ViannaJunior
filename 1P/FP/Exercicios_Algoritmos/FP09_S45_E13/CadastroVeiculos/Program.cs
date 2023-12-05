@@ -55,7 +55,7 @@ namespace CadastroVeiculos
                     PesquisarVeiculoPorPlaca();
                     break;
                 case 5:
-                    ImprimirVeiculosCadastrados();
+
                     break;
                 case 6:
                     return;
