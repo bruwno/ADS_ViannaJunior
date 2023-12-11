@@ -22,6 +22,47 @@ namespace GerenciarGado
 {
     internal class Gado
     {
+        private int codigo;
+        private double leite;
+        private double alimento;
+        private int mesNascimento;
+        private int anoNascimento;
+        private bool abate;
 
+        public int Codigo
+        {
+            get { return codigo; }
+            set { codigo = value; }
+        }
+
+        public double Leite
+        {
+            get { return leite; }
+            set { leite = value; }
+        }
+
+        public double Alimento
+        {
+            get { return alimento; }
+            set { alimento = value; }
+        }
+
+        public int MesNascimento
+        {
+            get { return mesNascimento; }
+            set { mesNascimento = value; }
+        }
+
+        public int AnoNascimento
+        {
+            get { return anoNascimento; }
+            set { anoNascimento = value; }
+        }
+
+        public bool Abate
+        {
+            get { return abate; }
+            set { abate = value; }
+        }
     }
 }
