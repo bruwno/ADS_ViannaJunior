@@ -27,7 +27,7 @@ namespace CadastroVeiculos
             veiculos = new Veiculo[5]
             {
                 new Veiculo { Placa = "YKB2001", Marca = "Volkswagen", Modelo = "Gol", Ano = 2012 },
-                new Veiculo { Placa = "HDH9578", Marca = "Fiat", Modelo = "Uno Mille", Ano = 2006 },
+                new Veiculo { Placa = "HDH9575", Marca = "Fiat", Modelo = "Uno Mille", Ano = 2006 },
                 new Veiculo { Placa = "JDF7961", Marca = "Renault", Modelo = "Sandero", Ano = 2010 },
                 new Veiculo { Placa = "GHJ7896", Marca = "Toyota", Modelo = "Corolla", Ano = 2015 },
                 new Veiculo { Placa = "TDK7963", Marca = "GM", Modelo = "S10", Ano = 2007 }
@@ -53,21 +53,28 @@ namespace CadastroVeiculos
             switch (opcSelecionada)
             {
                 case 1:
+                    Console.Clear();
                     LerDadosVeiculo(veiculos);
                     break;
                 case 2:
+                    Console.Clear();
                     VerificarPlaca(veiculos);
                     break;
                 case 3:
+                    Console.Clear();
                     ImprimirPorAno(veiculos);
                     break;
                 case 4:
+                    Console.Clear();
                     PesquisarVeiculoPorPlaca(veiculos);
                     break;
                 case 5:
+                    Console.Clear();
                     ImprimirVeiculosCadastrados(veiculos);
                     break;
                 case 6:
+                    Console.Clear();
+                    Console.WriteLine("Você escolheu sair...");
                     return;
             }
         }
@@ -91,8 +98,18 @@ namespace CadastroVeiculos
             }
 
             Console.WriteLine("DIGITE AS NOVAS INFORMAÇÕES PARA O VEÍCULO");
+        DigitarPlaca:
             Console.Write("PLACA : ");
-            veiculos[indiceBusca].Placa = Console.ReadLine();
+            string placa = Console.ReadLine();
+            if (PlacaEhValida(placa) == true)
+            {
+                veiculos[indiceBusca].Placa = placa;
+            }
+            else
+            {
+                goto DigitarPlaca;
+            }
+
             Console.Write("MARCA : ");
             veiculos[indiceBusca].Marca = Console.ReadLine();
             Console.Write("MODELO: ");
@@ -116,30 +133,8 @@ namespace CadastroVeiculos
                     string placaVerificada = veiculos[i].Placa;
 
                     Console.WriteLine($"PLACA: {placaVerificada}");
-                    // Verificar comprimento.
-                    if (placaVerificada.Length < 7 || placaVerificada.Length > 7)
-                    {
-                        Console.WriteLine("[FORMATO INCORRETO] Comprimento inválido!");
-                        break;
-                    }
 
-                    // Verificar a sequência de caracteres alfabéticos.
-                    if (EhCaractereAlfabetico(placaVerificada[0]) && EhCaractereAlfabetico(placaVerificada[1]) && EhCaractereAlfabetico(placaVerificada[2]) == true)
-                    {
-                        // Verificar a sequência de caracteres numéricos.
-                        if (EhCaractereNumerico(placaVerificada[3]) && EhCaractereNumerico(placaVerificada[4]) && EhCaractereNumerico(placaVerificada[5]) == true)
-                        {
-                            Console.WriteLine($"A placa {placaVerificada} está no formato correto.");
-                        }
-                        else
-                        {
-                            Console.WriteLine("[FORMATO INCORRETO] Os quatro últimos dígitos devem ser números.");
-                        }
-                    }
-                    else
-                    {
-                        Console.WriteLine("[FORMATO INCORRETO] Os três primeiros caracteres devem ser letras maiúsculas.");
-                    }
+                    PlacaEhValida(placaVerificada);
                 }
             }
 
@@ -148,12 +143,51 @@ namespace CadastroVeiculos
 
         private static void ImprimirPorAno(Veiculo[] veiculos)
         {
-            Console.WriteLine("");
+            Console.WriteLine("IMPRIMIR VEÍCULOS POR ANO");
+            Console.WriteLine("Digite o intervalo que deseja exibir: ");
+            Console.Write("  Ano inicial: ");
+            int anoInicial = Convert.ToInt32(Console.ReadLine());
+            Console.Write("  Ano final  : ");
+            int anoFinal = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"VEÍCULOS CADASTRADOS COM ANOS ENTRE {anoInicial} e {anoFinal}");
+            for (int i = 0; i < veiculos.Length; i++)
+            {
+                if (veiculos[i].Ano >= anoInicial && veiculos[i].Ano <= anoFinal)
+                {
+                    Console.WriteLine($"PLACA : {veiculos[i].Placa}\n" +
+                                      $"MARCA : {veiculos[i].Marca}\n" +
+                                      $"MODELO: {veiculos[i].Modelo}\n" +
+                                      $"ANO   : {veiculos[i].Ano}\n");
+                }
+            }
+
+            ExibirMenu(veiculos);
         }
 
         private static void PesquisarVeiculoPorPlaca(Veiculo[] veiculos)
         {
+            Console.WriteLine("PESQUISAR VEÍCULO POR PLACA");
+            Console.Write("Digite a placa para exibir os dados do veículo: ");
+            string placa = Console.ReadLine();
 
+            int indiceVeiculo = VerificarSeVeiculoEstaCadastrado(veiculos, placa);
+
+            Console.WriteLine("\nDADOS DO VEÍCULO");
+            if (indiceVeiculo != -1)
+            {
+                Console.WriteLine($"PLACA : {veiculos[indiceVeiculo].Placa}\n" +
+                                  $"MARCA : {veiculos[indiceVeiculo].Marca}\n" +
+                                  $"MODELO: {veiculos[indiceVeiculo].Modelo}\n" +
+                                  $"ANO   : {veiculos[indiceVeiculo].Ano}\n");
+            }
+            else
+            {
+                Console.WriteLine("A placa digitada não está associada a nenhum dos veículos cadastrados.");
+            }
+
+
+            ExibirMenu(veiculos);
         }
 
         private static void ImprimirVeiculosCadastrados(Veiculo[] veiculos)
@@ -185,6 +219,52 @@ namespace CadastroVeiculos
             }
 
             return false;
+        }
+
+        private static bool PlacaEhValida(string placa)
+        {
+            // Verificar comprimento.
+            if (placa.Length < 7 || placa.Length > 7)
+            {
+                Console.WriteLine("[FORMATO INCORRETO] Comprimento inválido!");
+                return false;
+            }
+
+            // Verificar a sequência de caracteres alfabéticos.
+            if (EhCaractereAlfabetico(placa[0]) && EhCaractereAlfabetico(placa[1]) && EhCaractereAlfabetico(placa[2]) == true)
+            {
+                // Verificar a sequência de caracteres numéricos.
+                if (EhCaractereNumerico(placa[3]) && EhCaractereNumerico(placa[4]) && EhCaractereNumerico(placa[5]) == true)
+                {
+                    Console.WriteLine($"A placa {placa} está no formato correto.");
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("[FORMATO INCORRETO] Os quatro últimos dígitos devem ser números.");
+                    return false;
+                }
+            }
+            else
+            {
+                Console.WriteLine("[FORMATO INCORRETO] Os três primeiros caracteres devem ser letras maiúsculas.");
+                return false;
+            }
+        }
+
+        private static int VerificarSeVeiculoEstaCadastrado(Veiculo[] veiculos, string placa)
+        {
+            int indiceOcorrencia = -1;
+
+            for (int i = 0; i < veiculos.Length; i++)
+            {
+                if (veiculos[i].Placa == placa)
+                {
+                    indiceOcorrencia = i;
+                }
+            }
+
+            return indiceOcorrencia;
         }
     }
 }
