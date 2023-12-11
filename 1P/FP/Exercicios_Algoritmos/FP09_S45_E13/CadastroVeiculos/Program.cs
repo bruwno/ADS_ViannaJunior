@@ -78,6 +78,7 @@ namespace CadastroVeiculos
             Console.Write("Digite o índice que deseja consultar: ");
             int indiceBusca = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("INFORMAÇÕES CADASTRADAS");
             for (int i = 0; i < veiculos.Length; i++)
             {
                 if (i == indiceBusca)
@@ -88,6 +89,18 @@ namespace CadastroVeiculos
                                       $"ANO   : {veiculos[i].Ano}\n");
                 }
             }
+
+            Console.WriteLine("DIGITE AS NOVAS INFORMAÇÕES PARA O VEÍCULO");
+            Console.Write("PLACA : ");
+            veiculos[indiceBusca].Placa = Console.ReadLine();
+            Console.Write("MARCA : ");
+            veiculos[indiceBusca].Marca = Console.ReadLine();
+            Console.Write("MODELO: ");
+            veiculos[indiceBusca].Modelo = Console.ReadLine();
+            Console.Write("ANO   : ");
+            veiculos[indiceBusca].Ano = Convert.ToInt32(Console.ReadLine());
+
+            ExibirMenu(veiculos);
         }
 
         private static void VerificarPlaca(Veiculo[] veiculos)
@@ -129,11 +142,13 @@ namespace CadastroVeiculos
                     }
                 }
             }
+
+            ExibirMenu(veiculos);
         }
 
         private static void ImprimirPorAno(Veiculo[] veiculos)
         {
-
+            Console.WriteLine("");
         }
 
         private static void PesquisarVeiculoPorPlaca(Veiculo[] veiculos)
@@ -146,6 +161,7 @@ namespace CadastroVeiculos
 
         }
 
+        // Métodos que fornecem funcionalidades para os métodos principais.
         private static bool EhCaractereAlfabetico(char caractere)
         {
             if (caractere >= 'A' && caractere <= 'Z')
