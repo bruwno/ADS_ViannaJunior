@@ -192,7 +192,17 @@ namespace CadastroVeiculos
 
         private static void ImprimirVeiculosCadastrados(Veiculo[] veiculos)
         {
+            Console.WriteLine("EXIBIR VEÍCULOS CADASTRADOS");
+            for (int i = 0; i < veiculos.Length; i++)
+            {
+                Console.WriteLine($"PLACA : {veiculos[i].Placa}\n" +
+                                  $"MARCA : {veiculos[i].Marca}\n" +
+                                  $"MODELO: {veiculos[i].Modelo}\n" +
+                                  $"ANO   : {veiculos[i].Ano}\n");
 
+            }
+
+            ExibirMenu(veiculos);
         }
 
         // Métodos que fornecem funcionalidades para os métodos principais.
