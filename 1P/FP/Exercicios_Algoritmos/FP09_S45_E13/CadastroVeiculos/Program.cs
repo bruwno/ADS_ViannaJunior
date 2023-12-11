@@ -92,7 +92,43 @@ namespace CadastroVeiculos
 
         private static void VerificarPlaca(Veiculo[] veiculos)
         {
+            Console.WriteLine("VERIFICAR FORMATO DE PLACA");
+            Console.Write("Digite o índice do veículo que deseja verificar: ");
+            int indiceVerif = Convert.ToInt32(Console.ReadLine());
 
+            for (int i = 0; i < veiculos.Length; i++)
+            {
+                if (i == indiceVerif)
+                {
+                    string placaVerificada = veiculos[i].Placa;
+
+                    Console.WriteLine($"PLACA: {placaVerificada}");
+                    // Verificar comprimento.
+                    if (placaVerificada.Length < 7 || placaVerificada.Length > 7)
+                    {
+                        Console.WriteLine("[FORMATO INCORRETO] Comprimento inválido!");
+                        break;
+                    }
+
+                    // Verificar a sequência de caracteres alfabéticos.
+                    if (EhCaractereAlfabetico(placaVerificada[0]) && EhCaractereAlfabetico(placaVerificada[1]) && EhCaractereAlfabetico(placaVerificada[2]) == true)
+                    {
+                        // Verificar a sequência de caracteres numéricos.
+                        if (EhCaractereNumerico(placaVerificada[3]) && EhCaractereNumerico(placaVerificada[4]) && EhCaractereNumerico(placaVerificada[5]) == true)
+                        {
+                            Console.WriteLine($"A placa {placaVerificada} está no formato correto.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("[FORMATO INCORRETO] Os quatro últimos dígitos devem ser números.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("[FORMATO INCORRETO] Os três primeiros caracteres devem ser letras maiúsculas.");
+                    }
+                }
+            }
         }
 
         private static void ImprimirPorAno(Veiculo[] veiculos)
@@ -108,6 +144,31 @@ namespace CadastroVeiculos
         private static void ImprimirVeiculosCadastrados(Veiculo[] veiculos)
         {
 
+        }
+
+        private static bool EhCaractereAlfabetico(char caractere)
+        {
+            if (caractere >= 'A' && caractere <= 'Z')
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private static bool EhCaractereNumerico(char caractere)
+        {
+            string caracteresNumericos = "0123456789";
+
+            for (int i = 0; i < caracteresNumericos.Length; i++)
+            {
+                if (caracteresNumericos[i] == caractere)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
