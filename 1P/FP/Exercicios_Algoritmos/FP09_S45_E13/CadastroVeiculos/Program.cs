@@ -74,7 +74,20 @@ namespace CadastroVeiculos
 
         private static void LerDadosVeiculo(Veiculo[] veiculos)
         {
+            Console.WriteLine("LER INFO DE UM VEÍCULO");
+            Console.Write("Digite o índice que deseja consultar: ");
+            int indiceBusca = Convert.ToInt32(Console.ReadLine());
 
+            for (int i = 0; i < veiculos.Length; i++)
+            {
+                if (i == indiceBusca)
+                {
+                    Console.WriteLine($"PLACA : {veiculos[i].Placa}\n" +
+                                      $"MARCA : {veiculos[i].Marca}\n" +
+                                      $"MODELO: {veiculos[i].Modelo}\n" +
+                                      $"ANO   : {veiculos[i].Ano}\n");
+                }
+            }
         }
 
         private static void VerificarPlaca(Veiculo[] veiculos)
