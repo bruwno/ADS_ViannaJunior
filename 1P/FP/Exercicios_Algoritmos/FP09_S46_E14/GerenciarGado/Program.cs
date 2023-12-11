@@ -97,10 +97,10 @@ namespace GerenciarGado
 
         private static void CadastrarDados(Gado[] gados)
         {
-            Console.WriteLine("Digite os dados da cabeça de gado");
+            Console.WriteLine("Digite os dados dos animais");
             for (int i = 0; i < gados.Length; i++)
             {
-                Console.WriteLine($"\nDados do {i + 1}º animal");
+                Console.WriteLine($"\nDados da {i + 1}ª cabeça de gado");
                 gados[i] = LeERetornarDados();
             }
 
@@ -137,17 +137,53 @@ namespace GerenciarGado
 
         private static void TotalLeiteProdAposAbate(Gado[] gados)
         {
+            double totalLitrosAposAbate = 0.0;
 
+            for (int i = 0; i < gados.Length; i++)
+            {
+                if (gados[i].Abate == 'N')
+                {
+                    totalLitrosAposAbate += gados[i].Leite;
+                }
+            }
+
+            Console.WriteLine($"\nSERÃO PRODUZIDOS {totalLitrosAposAbate} litros DE LEITE POR SEMANA APÓS OS ABATES.\n");
+
+            ExibirMenu(gados);
         }
 
         private static void TotalAlimentoConsumidoAposAbate(Gado[] gados)
         {
+            double totalKilosAposAbate = 0.0;
 
+            for (int i = 0; i < gados.Length; i++)
+            {
+                if (gados[i].Abate == 'N')
+                {
+                    totalKilosAposAbate += gados[i].Alimento;
+                }
+            }
+
+            Console.WriteLine($"\nSERÃO CONSUMIDOS {totalKilosAposAbate} kg DE ALIMENTO POR SEMANA APÓS OS ABATES.\n");
+
+            ExibirMenu(gados);
         }
 
         private static void QtdCabecasGadoParaAbate(Gado[] gados)
         {
+            int qtdCabecasParaAbate = 0;
 
+            for (int i = 0; i < gados.Length; i++)
+            {
+                if (gados[i].Abate == 'S')
+                {
+                    qtdCabecasParaAbate++;
+                }
+            }
+
+            Console.WriteLine($"\n{qtdCabecasParaAbate} CABEÇAS DE GADO IRÃO PARA O ABATE.\n");
+
+            ExibirMenu(gados);
         }
 
         // Métodos de suporte.
