@@ -23,10 +23,20 @@ namespace CadastroVeiculos
     {
         internal static void Main(string[] args)
         {
-            ExibirMenu();
+            Veiculo[] veiculos = new Veiculo[5];
+            veiculos = new Veiculo[5]
+            {
+                new Veiculo { Placa = "YKB2001", Marca = "Volkswagen", Modelo = "Gol", Ano = 2012 },
+                new Veiculo { Placa = "HDH9578", Marca = "Fiat", Modelo = "Uno Mille", Ano = 2006 },
+                new Veiculo { Placa = "JDF7961", Marca = "Renault", Modelo = "Sandero", Ano = 2010 },
+                new Veiculo { Placa = "GHJ7896", Marca = "Toyota", Modelo = "Corolla", Ano = 2015 },
+                new Veiculo { Placa = "TDK7963", Marca = "GM", Modelo = "S10", Ano = 2007 }
+            };
+
+            ExibirMenu(veiculos);
         }
 
-        private static void ExibirMenu()
+        private static void ExibirMenu(Veiculo[] veiculos)
         {
             StringBuilder exibeMenu = new StringBuilder("\nMenu:" +
                                                         "\n1 - Ler as informações de um veículo" +
@@ -43,46 +53,46 @@ namespace CadastroVeiculos
             switch (opcSelecionada)
             {
                 case 1:
-                    LerDadosVeiculo();
+                    LerDadosVeiculo(veiculos);
                     break;
                 case 2:
-                    VerificarPlaca();
+                    VerificarPlaca(veiculos);
                     break;
                 case 3:
-                    ImprimirPorAno();
+                    ImprimirPorAno(veiculos);
                     break;
                 case 4:
-                    PesquisarVeiculoPorPlaca();
+                    PesquisarVeiculoPorPlaca(veiculos);
                     break;
                 case 5:
-                    ImprimirVeiculosCadastrados();
+                    ImprimirVeiculosCadastrados(veiculos);
                     break;
                 case 6:
                     return;
             }
         }
 
-        private static void LerDadosVeiculo()
+        private static void LerDadosVeiculo(Veiculo[] veiculos)
         {
 
         }
 
-        private static void VerificarPlaca()
+        private static void VerificarPlaca(Veiculo[] veiculos)
         {
 
         }
 
-        private static void ImprimirPorAno()
+        private static void ImprimirPorAno(Veiculo[] veiculos)
         {
 
         }
 
-        private static void PesquisarVeiculoPorPlaca()
+        private static void PesquisarVeiculoPorPlaca(Veiculo[] veiculos)
         {
 
         }
 
-        private static void ImprimirVeiculosCadastrados()
+        private static void ImprimirVeiculosCadastrados(Veiculo[] veiculos)
         {
 
         }
