@@ -36,7 +36,7 @@ namespace GerenciarGado
 {
     internal class Program
     {
-        const int qtdCabecasGado = 2;
+        const int qtdCabecasGado = 5;
         internal static void Main(string[] args)
         {
             Gado[] gados = new Gado[qtdCabecasGado];
@@ -183,6 +183,16 @@ namespace GerenciarGado
 
             Console.WriteLine($"\n{qtdCabecasParaAbate} CABEÇAS DE GADO IRÃO PARA O ABATE.\n");
 
+            /*
+            for (int j = 0; j < gados.Length; j++)
+            {
+                if (gados[j].Abate == 'S')
+                {
+                    Console.Write($"Códigos: {gados[j].Codigo}");
+                }
+            }
+            */
+
             ExibirMenu(gados);
         }
 
@@ -198,7 +208,7 @@ namespace GerenciarGado
             gado.Alimento = Convert.ToDouble(Console.ReadLine());
             Console.Write("  MÊS NASCIMENTO : ");
             gado.MesNascimento = Convert.ToInt32(Console.ReadLine());
-            Console.Write("  ANO  NASCIMENTO: ");
+            Console.Write("  ANO NASCIMENTO : ");
             gado.AnoNascimento = Convert.ToInt32(Console.ReadLine());
 
             //
