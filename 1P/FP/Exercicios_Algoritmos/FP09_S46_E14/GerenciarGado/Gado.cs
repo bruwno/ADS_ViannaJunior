@@ -27,7 +27,7 @@ namespace GerenciarGado
         private double alimento;
         private int mesNascimento;
         private int anoNascimento;
-        private bool abate;
+        private char abate;
 
         public int Codigo
         {
@@ -59,7 +59,7 @@ namespace GerenciarGado
             set { anoNascimento = value; }
         }
 
-        public bool Abate
+        public char Abate
         {
             get { return abate; }
             set { abate = value; }
