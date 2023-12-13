@@ -184,6 +184,7 @@ namespace GerenciarGado
             Console.WriteLine($"\n{qtdCabecasParaAbate} CABEÇAS DE GADO IRÃO PARA O ABATE.\n");
 
             /*
+            // Exibe os códigos das cabeças de gado que serão abatidas.
             for (int j = 0; j < gados.Length; j++)
             {
                 if (gados[j].Abate == 'S')
