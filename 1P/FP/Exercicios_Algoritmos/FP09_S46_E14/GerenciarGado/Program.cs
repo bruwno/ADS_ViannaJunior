@@ -181,7 +181,7 @@ namespace GerenciarGado
                 }
             }
 
-            Console.WriteLine($"\n{qtdCabecasParaAbate} CABEÇAS DE GADO IRÃO PARA O ABATE.\n");
+            Console.WriteLine($"\n{qtdCabecasParaAbate} CABEÇAS DE GADO QUE IRÃO PARA O ABATE.\n");
 
             /*
             // Exibe os códigos das cabeças de gado que serão abatidas.
