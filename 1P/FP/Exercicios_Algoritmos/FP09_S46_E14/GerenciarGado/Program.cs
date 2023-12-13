@@ -36,10 +36,12 @@ namespace GerenciarGado
 {
     internal class Program
     {
-        const int qtdCabecasGado = 5;
+        const int qtdCabecasGado = 100;
         internal static void Main(string[] args)
         {
             Gado[] gados = new Gado[qtdCabecasGado];
+
+            // Iniciar o array preenchido.
             /*gados = new Gado[qtdCabecasGado]
             {
                 new Gado { Codigo = 1, Leite = 20.0, Alimento = 40.0, MesNascimento = 12, AnoNascimento = 2021, Abate = 'N' },
