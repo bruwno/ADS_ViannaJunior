@@ -239,6 +239,5 @@ namespace GerenciarGado
 
             return idade;
         }
-
     }
 }
