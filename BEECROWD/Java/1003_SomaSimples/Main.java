@@ -15,6 +15,7 @@ public class Main {
         Scanner readLine = new Scanner(System.in);
         int a = readLine.nextInt();
         int b = readLine.nextInt();
+        readLine.close();
 
         int soma = a + b;
         System.out.printf("SOMA = %d\n", soma);

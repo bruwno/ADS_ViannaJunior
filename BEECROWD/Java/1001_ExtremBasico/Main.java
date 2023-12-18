@@ -15,6 +15,7 @@ public class Main {
         Scanner readLine = new Scanner(System.in);
         int a = readLine.nextInt();
         int b = readLine.nextInt();
+        readLine.close();
         int result = a + b;
 
         System.out.println("X = " + result);
