@@ -3,7 +3,7 @@
  * Data     : 19/12/2023
  * Tipo     : 1 (INICIANTE)
  * ID       : 1066
- * Nome     : Pares, Õmpares, Positivos e Negativos
+ * Nome     : Pares, √çmpares, Positivos e Negativos
  * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1066
  */
 
