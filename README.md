@@ -4,7 +4,7 @@ _Exercícios para fixação dos conteúdos ministrados no curso._
 
 Curso: **Análise e Desenvolvimento de Sistemas** - FIVJ
 
-Período: **1º**
+Período: **2º**
 
 Discente: **William Silva**
 
