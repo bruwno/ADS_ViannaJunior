@@ -26,7 +26,7 @@ public class Main {
         final String odd = "ODD";
         final String positive = "POSITIVE";
         final String negative = "NEGATIVE";
-        final String nullNumber = "NULL";
+        final String nullValue = "NULL";
 
         for (int i = 0; i < valores.length; i++) {
             int num = valores[i];
@@ -40,7 +40,7 @@ public class Main {
             } else if (ehPar(num) == false && (ehPositivo(num) == false && num != 0)) {
                 System.out.printf("%s %s\n", odd, negative);
             } else {
-                System.out.printf("%s\n", nullNumber);
+                System.out.printf("%s\n", nullValue);
             }
         }
     }
