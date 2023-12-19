@@ -1,6 +1,6 @@
 /* Objetivo : Apresentar um sequência de valores.
  * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 18/12/2023
+ * Data     : 19/12/2023
  * Tipo     : 1 (INICIANTE)
  * ID       : 1095
  * Nome     : Sequência IJ 1
