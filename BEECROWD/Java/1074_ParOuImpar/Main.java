@@ -4,7 +4,7 @@
  * Data : 19/12/2023
  * Tipo : 1 (INICIANTE)
  * ID : 1074
- * Nome : Par ou ímpar
+ * Nome : Par ou Ímpar
  * Link : https://www.beecrowd.com.br/judge/pt/problems/view/1074
  */
 
