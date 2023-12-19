@@ -20,6 +20,7 @@ class URI
         entrada = Console.ReadLine().Trim().Split(' ');
 
         double[] valores = ConverterArray(entrada);
+
         double a = valores[0], b = valores[1], c = valores[2];
 
         double areaTriangRet = a * c / 2.0;
