@@ -22,6 +22,10 @@ public class Main {
         }
         readLine.close();
 
+        definir(valores);
+    }
+
+    public static void definir(int[] valores) {
         final String even = "EVEN";
         final String odd = "ODD";
         final String positive = "POSITIVE";
