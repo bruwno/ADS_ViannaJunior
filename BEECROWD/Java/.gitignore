@@ -1,1 +1,7 @@
-**/.class
+# Arquivos compilados Java
+*.class
+
+# Diretório de saída de compilação (pode variar dependendo da configuração do seu projeto)
+bin/
+target/
+out/
