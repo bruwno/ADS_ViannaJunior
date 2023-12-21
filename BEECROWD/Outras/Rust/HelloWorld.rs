@@ -7,10 +7,8 @@
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1000
  */
 
-// Para Windows.
-//var lines = require('fs').readFileSync(process.stdin.fd, 'utf8').split('\n');
+use std::io;
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
-
-console.log("Hello World!");
+fn main() {
+    println!("Hello World!");
+}

@@ -1,10 +1,10 @@
-/* Objetivo : Apresentar um sequência de valores.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 18/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1096
- * Nome     : Sequência IJ 2
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1096
+/* Objetivo: Apresentar um sequência de valores.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 18/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1096
+ * Nome    : Sequência IJ 2
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1096
  */
 
 import java.io.IOException;

@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler uma string, que representa um número, e retornar o seu equivalente em numeral ou por extenso.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 24/09/2023
- * Tipo     : 2 (AD-HOC)
- * ID       : 3475
- * Nome     : Conversor
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3475
+﻿/* Objetivo: Ler uma string, que representa um número, e retornar o seu equivalente em numeral ou por extenso.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 24/09/2023
+ * Tipo    : 2 (AD-HOC)
+ * ID      : 3475
+ * Nome    : Conversor
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3475
  */
 
 using System;

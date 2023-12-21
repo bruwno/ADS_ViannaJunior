@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler um número, que representa uma senha, e exibir o número que vem depois dele.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 27/09/2023
- * Tipo     : 2 (AD-HOC)
- * ID       : 3473
- * Nome     : Alerte o Próximo!
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3473
+﻿/* Objetivo: Ler um número, que representa uma senha, e exibir o número que vem depois dele.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 27/09/2023
+ * Tipo    : 2 (AD-HOC)
+ * ID      : 3473
+ * Nome    : Alerte o Próximo!
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3473
  */
 
 using System;

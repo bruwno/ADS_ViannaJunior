@@ -1,10 +1,10 @@
-﻿/* Objetivo : Calcular a média ponderada sobre 2 notas.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 20/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1005
- * Nome     : Média 1
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1005
+﻿/* Objetivo: Calcular a média ponderada sobre 2 notas.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 20/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1005
+ * Nome    : Média 1
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1005
  */
 
 using System;

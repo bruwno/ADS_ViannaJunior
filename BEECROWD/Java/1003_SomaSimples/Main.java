@@ -1,10 +1,10 @@
-/* Objetivo : Realizar a soma de dois valores.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 18/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1003
- * Nome     : Soma Simples
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1003
+/* Objetivo: Realizar a soma de dois valores.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 18/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1003
+ * Nome    : Soma Simples
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1003
  */
 
 import java.io.IOException;

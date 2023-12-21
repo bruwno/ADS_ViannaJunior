@@ -1,10 +1,10 @@
-﻿/* Objetivo : Calcular volume de uma esfera.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 26/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1011
- * Nome     : Esfera
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1011
+﻿/* Objetivo: Calcular volume de uma esfera.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 26/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1011
+ * Nome    : Esfera
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1011
  */
 
 using System;

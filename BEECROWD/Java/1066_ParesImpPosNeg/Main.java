@@ -1,10 +1,10 @@
-/* Objetivo : Imprimir a quantidade de números pares, ípares, positivos e negativos.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 19/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1066
- * Nome     : Pares, Ímpares, Positivos e Negativos
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1066
+/* Objetivo: Imprimir a quantidade de números pares, ípares, positivos e negativos.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 19/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1066
+ * Nome    : Pares, Ímpares, Positivos e Negativos
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1066
  */
 
 import java.io.IOException;

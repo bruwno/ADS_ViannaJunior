@@ -1,10 +1,10 @@
-﻿/* Objetivo : Calcular área.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 26/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1012
- * Nome     : Área
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1012
+﻿/* Objetivo: Calcular área.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 26/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1012
+ * Nome    : Área
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1012
  */
 
 using System;
