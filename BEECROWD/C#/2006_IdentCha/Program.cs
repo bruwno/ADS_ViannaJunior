@@ -1,10 +1,10 @@
-﻿/* Objetivo : Determinar quantos participantes acertaram o tipo de chá.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 21/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 2006
- * Nome     : Identificando o Chá
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/2006
+﻿/* Objetivo: Determinar quantos participantes acertaram o tipo de chá.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 21/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 2006
+ * Nome    : Identificando o Chá
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/2006
  */
 
 using System;

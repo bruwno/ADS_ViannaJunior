@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler um vetor de 100 posições e retornar todos as posições onde os valores armazenados forem menores ou iguais a 10.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 26/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1174
- * Nome     : Seleçao em Vetor I
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1174
+﻿/* Objetivo: Ler um vetor de 100 posições e retornar todos as posições onde os valores armazenados forem menores ou iguais a 10.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 26/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1174
+ * Nome    : Seleçao em Vetor I
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1174
  */
 
 using System;

@@ -1,11 +1,11 @@
 /*
- * Objetivo : Encontrar entre 100 npumeros e maior valor e a sua posição.
- * Autor : William Silva (https://github.com/unclWill)
- * Data : 19/12/2023
- * Tipo : 1 (INICIANTE)
- * ID : 1080
- * Nome : Maior e Posição
- * Link : https://www.beecrowd.com.br/judge/pt/problems/view/1080
+ * Objetivo: Encontrar entre 100 npumeros e maior valor e a sua posição.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 19/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1080
+ * Nome    : Maior e Posição
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1080
  */
 
 import java.io.IOException;

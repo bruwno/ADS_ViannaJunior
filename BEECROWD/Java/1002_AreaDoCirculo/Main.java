@@ -1,10 +1,10 @@
-/* Objetivo : Calcular a �rea do c�rculo.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 18/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1002
- * Nome     : �rea do C�rculo
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1002
+/* Objetivo: Calcular a área do círculo.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 18/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1002
+ * Nome    : Área do Círculo
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1002
  */
 
 import java.io.IOException;

@@ -1,10 +1,10 @@
-﻿/* Objetivo : Calcular o fatorial de um valor N.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 16/10/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1153
- * Nome     : Fatorial Simples
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1153
+﻿/* Objetivo: Calcular o fatorial de um valor N.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 16/10/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1153
+ * Nome    : Fatorial Simples
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1153
  */
 
 using System;

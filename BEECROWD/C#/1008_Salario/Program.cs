@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler dados de um funcionário e retornar o seu salário.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 21/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1008
- * Nome     : Salário
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1008
+﻿/* Objetivo: Ler dados de um funcionário e retornar o seu salário.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 21/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1008
+ * Nome    : Salário
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1008
  */
 
 using System;

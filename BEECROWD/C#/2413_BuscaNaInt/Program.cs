@@ -1,10 +1,10 @@
-﻿/* Objetivo : Determinar a quantidade de cliques que um link recebe com base nos demais.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 24/09/2023
- * Tipo     : 2 (AD-HOC)
- * ID       : 2413
- * Nome     : Busca na Internet
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/2413
+﻿/* Objetivo: Determinar a quantidade de cliques que um link recebe com base nos demais.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 24/09/2023
+ * Tipo    : 2 (AD-HOC)
+ * ID      : 2413
+ * Nome    : Busca na Internet
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/2413
  */
 
 using System;

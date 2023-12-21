@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler um número, que representa uma senha, e exibir o número que vem depois dele.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 27/09/2023
- * Tipo     : 5 (MATEMÁTICA)
- * ID       : 3104
- * Nome     : Resto 2.0
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3104
+﻿/* Objetivo: Ler um número, que representa uma senha, e exibir o número que vem depois dele.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 27/09/2023
+ * Tipo    : 5 (MATEMÁTICA)
+ * ID      : 3104
+ * Nome    : Resto 2.0
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3104
  */
 
 /*

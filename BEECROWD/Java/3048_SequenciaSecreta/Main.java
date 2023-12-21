@@ -1,10 +1,10 @@
-/* Objetivo : Exibir a quantidade máxima de números que podem estar em uma sequência sem se repetir.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 19/12/2023
- * Tipo     : 2 (AD-HOC)
- * ID       : 3048
- * Nome     : Sequência Secreta
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3048
+/* Objetivo: Exibir a quantidade máxima de números que podem estar em uma sequência sem se repetir.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 19/12/2023
+ * Tipo    : 2 (AD-HOC)
+ * ID      : 3048
+ * Nome    : Sequência Secreta
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3048
  */
 
 import java.io.IOException;

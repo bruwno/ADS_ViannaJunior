@@ -1,10 +1,10 @@
-﻿/* Objetivo : Contar quantas casas brancas e quantas casas pretas um tabuleiro de xadrez com n linhas e colunas possui.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 21/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 3342
- * Nome     : Keanu
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3342
+﻿/* Objetivo: Contar quantas casas brancas e quantas casas pretas um tabuleiro de xadrez com n linhas e colunas possui.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 21/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 3342
+ * Nome    : Keanu
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3342
  */
 
 using System;

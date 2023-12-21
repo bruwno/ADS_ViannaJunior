@@ -1,10 +1,10 @@
-/* Objetivo : Contar a quantidade de letras em uma palavra e definir se a mesma é "palavrão" ou "palavrinha".
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 21/12/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 3303
- * Nome     : Palavrão
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/3303
+/* Objetivo: Contar a quantidade de letras em uma palavra e definir se a mesma é "palavrão" ou "palavrinha".
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 21/12/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 3303
+ * Nome    : Palavrão
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3303
  */
 
 import java.io.IOException;

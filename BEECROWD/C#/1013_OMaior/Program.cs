@@ -1,10 +1,10 @@
-﻿/* Objetivo : Ler três valores e retornar o maior.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 29/09/2023
- * Tipo     : 1 (INICIANTE)
- * ID       : 1013
- * Nome     : O Maior
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1013
+﻿/* Objetivo: Ler três valores e retornar o maior.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 29/09/2023
+ * Tipo    : 1 (INICIANTE)
+ * ID      : 1013
+ * Nome    : O Maior
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1013
  */
 
 using System;

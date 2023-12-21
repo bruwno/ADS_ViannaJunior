@@ -1,10 +1,10 @@
-﻿/* Objetivo : Calcular a posição de uma partícula.
- * Autor    : William Silva (https://github.com/unclWill)
- * Data     : 27/09/2023
- * Tipo     : 5 (MATEMÁTICA)
- * ID       : 1197
- * Nome     : Volta à Faculdade de Física
- * Link     : https://www.beecrowd.com.br/judge/pt/problems/view/1197
+﻿/* Objetivo: Calcular a posição de uma partícula.
+ * Autor   : William Silva (https://github.com/unclWill)
+ * Data    : 27/09/2023
+ * Tipo    : 5 (MATEMÁTICA)
+ * ID      : 1197
+ * Nome    : Volta à Faculdade de Física
+ * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1197
  */
 
 using System;
