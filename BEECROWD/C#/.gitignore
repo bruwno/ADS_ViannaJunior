@@ -1,4 +1,4 @@
 # Ignore any files in /bin and /obj Folders
 # Ignorar diretórios "Bin" e "Obj" em todos os projetos C#
-**/Bin/
-**/Obj/
+**/[Bb]in/
+**/[Oo]bj/
