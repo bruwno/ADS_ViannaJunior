@@ -21,11 +21,7 @@ class URI
         {
             for (int j = 0; j < tabuleiro.GetLength(1); j++)
             {
-                if ((i % 2 == 0) && (j % 2 == 0))
-                {
-                    casasBrancas++;
-                }
-                else if ((i % 2 != 0) && (j % 2 != 0))
+                if ((i % 2 == 0) && (j % 2 == 0) || (i % 2 != 0) && (j % 2 != 0))
                 {
                     casasBrancas++;
                 }
