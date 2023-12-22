@@ -11,7 +11,7 @@ using System;
 
 class URI
 {
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
         int[] nums = new int[5];
 
