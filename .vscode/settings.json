@@ -9,5 +9,6 @@
   "html.format.wrapLineLength": 0,
   "editor.codeLensFontFamily": "Fira Code Retina",
   "terminal.integrated.fontFamily": "Input Mono",
-  "editor.inlayHints.fontFamily": "Fira Code Retina"
+  "editor.inlayHints.fontFamily": "Fira Code Retina",
+  "C_Cpp.errorSquiggles": "enabled"
 }
