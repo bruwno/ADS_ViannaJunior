@@ -11,7 +11,7 @@
   "terminal.integrated.fontFamily": "Input Mono",
   "editor.inlayHints.fontFamily": "Fira Code Retina",
   "C_Cpp.errorSquiggles": "enabled",
-  "editor.wordWrapColumn": 120,
+  "editor.wordWrapColumn": 150,
   "java.project.encoding": "setDefault",
   "files.autoGuessEncoding": true
 }
