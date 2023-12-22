@@ -1,9 +1,9 @@
-/* Objetivo: Determinas se um sobrenome é difícil a partir da quantidade de consoantes consecutivas.
+/* Objetivo: Determinas se um sobrenome Ã­ difÃ­cil a partir da quantidade de consoantes consecutivas.
  * Autor   : William Silva (https://github.com/unclWill)
  * Data    : 22/12/2023
  * Tipo    : 3 (STRINGS)
  * ID      : 3358
- * Nome    : Sobrenome Não é Fácil
+ * Nome    : Sobrenome NÃ£o Ã© FÃ¡cil
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/3358
  */
 
