@@ -1,9 +1,9 @@
-/* Objetivo: Imprimir a quantidade de n√∫meros pares, √≠pares, positivos e negativos.
+/* Objetivo: Imprimir a quantidade de n˙meros pares, Ìpares, positivos e negativos.
  * Autor   : William Silva (https://github.com/unclWill)
  * Data    : 19/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1066
- * Nome    : Pares, √çmpares, Positivos e Negativos
+ * Nome    : Pares, Õmpares, Positivos e Negativos
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1066
  */
 
