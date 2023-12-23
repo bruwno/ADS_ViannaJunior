@@ -10,7 +10,7 @@
  */
 
  -- Script da tabela
-CREATE TABLE students (id integer, name varchar, grade numeric);
+CREATE TABLE students (id INTEGER PRIMARY KEY, name VARCHAR, grade NUMERIC);
         INSERT INTO students (id, name, grade) VALUES (1, 'Terry B. Padilla', 7.3);
         INSERT INTO students (id, name, grade) VALUES (2, 'William S. Ray', 0.6);
         INSERT INTO students (id, name, grade) VALUES (3, 'Barbara A. Gongora', 5.2);
