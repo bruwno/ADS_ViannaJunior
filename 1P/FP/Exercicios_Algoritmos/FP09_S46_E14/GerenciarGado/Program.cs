@@ -200,7 +200,7 @@ namespace GerenciarGado
         }
 
         // Métodos de suporte.
-        private static Gado LeERetornarDados()
+        private static Gado LerERetornarDados()
         {
             Gado gado = new Gado();
             Console.Write("  CÓDIGO: ");
