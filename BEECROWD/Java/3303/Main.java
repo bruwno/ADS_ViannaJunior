@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner readLine = new Scanner(System.in);
         String palavra = readLine.nextLine();
-        determinarPalavra(palavra);
         readLine.close();
+        determinarPalavra(palavra);
     }
 
     public static void determinarPalavra(String palavra) {
