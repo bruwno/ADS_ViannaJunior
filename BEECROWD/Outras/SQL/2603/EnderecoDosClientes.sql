@@ -5,11 +5,10 @@
  * ID      : 2603
  * Nome    : Endereço dos Clientes
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/2603
+ *
+ * Plataforma utilizada para montar a solução: https://coderpad.io/languages/postgresql/
  */
 
-SELECT 
-    name,street
-FROM
-    customers
-WHERE
-    city = 'Porto Alegre'
+SELECT name,street
+    FROM customers
+    WHERE city = 'Porto Alegre';

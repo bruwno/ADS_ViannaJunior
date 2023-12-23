@@ -5,11 +5,13 @@
  * ID      : 2604
  * Nome    : Menores que 10 ou Maiores que 100
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/2604
+ *
+ * Plataforma utilizada para montar a solução: https://coderpad.io/languages/postgresql/
  */
 
--- Script
+-- Script da tabela
 CREATE TABLE products (id NUMERIC, name VARCHAR, amount NUMERIC, price NUMERIC);
-		INSERT INTO products (id, name, amount, price) VALUES (1, 'Two-door wardrobe', 100, 80);
+        INSERT INTO products (id, name, amount, price) VALUES (1, 'Two-door wardrobe', 100, 80);
         INSERT INTO products (id, name, amount, price) VALUES (2, 'Dining table', 1000, 560);
         INSERT INTO products (id, name, amount, price) VALUES (3, 'Towel holder', 10000, 5.50);
         INSERT INTO products (id, name, amount, price) VALUES (4, 'Computer desk', 350, 100);
