@@ -11,15 +11,15 @@
 
  -- Script da tabela
 CREATE TABLE students (id INTEGER PRIMARY KEY, name VARCHAR, grade NUMERIC);
-        INSERT INTO students (id, name, grade) VALUES (1, 'Terry B. Padilla', 7.3);
-        INSERT INTO students (id, name, grade) VALUES (2, 'William S. Ray', 0.6);
-        INSERT INTO students (id, name, grade) VALUES (3, 'Barbara A. Gongora', 5.2);
-        INSERT INTO students (id, name, grade) VALUES (4, 'Julie B. Manzer', 6.7);
-        INSERT INTO students (id, name, grade) VALUES (5, 'Teresa J. Axtell', 4.6);
-        INSERT INTO students (id, name, grade) VALUES (6, 'Ben M. Dantzler', 9.6);
+    INSERT INTO students (id, name, grade) VALUES (1, 'Terry B. Padilla', 7.3);
+    INSERT INTO students (id, name, grade) VALUES (2, 'William S. Ray', 0.6);
+    INSERT INTO students (id, name, grade) VALUES (3, 'Barbara A. Gongora', 5.2);
+    INSERT INTO students (id, name, grade) VALUES (4, 'Julie B. Manzer', 6.7);
+    INSERT INTO students (id, name, grade) VALUES (5, 'Teresa J. Axtell', 4.6);
+    INSERT INTO students (id, name, grade) VALUES (6, 'Ben M. Dantzler', 9.6);
 
 -- Solução
 SELECT CONCAT('Approved: ', name) AS aluno_aprovado, grade
-        FROM students
-        WHERE grade >= 7.0
-        ORDER BY grade DESC;
+    FROM students
+    WHERE grade >= 7.0
+    ORDER BY grade DESC;
