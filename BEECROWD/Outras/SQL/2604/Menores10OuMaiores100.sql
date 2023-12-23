@@ -10,7 +10,7 @@
  */
 
 -- Script da tabela
-CREATE TABLE products (id NUMERIC, name VARCHAR, amount NUMERIC, price NUMERIC);
+CREATE TABLE products (id NUMERIC PRIMARY KEY, name VARCHAR, amount NUMERIC, price NUMERIC);
         INSERT INTO products (id, name, amount, price) VALUES (1, 'Two-door wardrobe', 100, 80);
         INSERT INTO products (id, name, amount, price) VALUES (2, 'Dining table', 1000, 560);
         INSERT INTO products (id, name, amount, price) VALUES (3, 'Towel holder', 10000, 5.50);
