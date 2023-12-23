@@ -103,7 +103,7 @@ namespace GerenciarGado
             for (int i = 0; i < gados.Length; i++)
             {
                 Console.WriteLine($"\nDados da {i + 1}ª cabeça de gado");
-                gados[i] = LeERetornarDados();
+                gados[i] = LerERetornarDados();
             }
 
             ExibirMenu(gados);
@@ -200,7 +200,7 @@ namespace GerenciarGado
         }
 
         // Métodos de suporte.
-        private static Gado LeERetornarDados()
+        private static Gado LerERetornarDados()
         {
             Gado gado = new Gado();
             Console.Write("  CÓDIGO: ");
