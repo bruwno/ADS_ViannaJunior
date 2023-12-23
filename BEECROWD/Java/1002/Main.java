@@ -1,9 +1,9 @@
-/* Objetivo: Calcular a √°rea do c√≠rculo.
+/* Objetivo: Calcular a ·rea do cÌrculo.
  * Autor   : William Silva (https://github.com/unclWill)
  * Data    : 18/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1002
- * Nome    : √Årea do C√≠rculo
+ * Nome    : ¡rea do CÌrculo
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1002
  */
 
