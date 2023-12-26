@@ -2,22 +2,25 @@
 
 _Sobre as resoluções._
 
-Linguagens mais utilizadas: **C# e Java** 
+Linguagens mais utilizadas: **C# e Java**
 
 #### Na maioria das vezes abro mão de uma abordagem mais elegante para utilizar uma solução na qual eu precise exercitar mais a minha lógica ;)
+
+#### De acordo que eu for evoluindo meus conhecimentos vou melhorando as soluções, seja para aumnetar a performance, seja para escrever um código mais limpo.
+
 ---
 
 #### Organização dos diretórios:
 
+| +-- Nome da Linguagem/
 
- |  +-- Nome da Linguagem/
- 
      |   +-- ID DO PROBLEMA
-     
-           |       +-- CodigoFonte.cs 
+
+           |       +-- CodigoFonte.cs
 
 #### Organização dos fontes:
-  - **Cada arquivo contendo o código fonte da solução tem em seu cabeçalho a descrição geral do mesmo**
+
+- **Cada arquivo contendo o código fonte da solução tem em seu cabeçalho a descrição geral do mesmo**
 
 ---
 
