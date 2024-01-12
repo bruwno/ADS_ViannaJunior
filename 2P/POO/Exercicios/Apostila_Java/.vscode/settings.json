@@ -1,6 +1,7 @@
 {
   "terminal.integrated.fontFamily": "JetBrains Mono",
-  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.codeLensFontFamily": "Fira Code",
-  "editor.inlayHints.fontFamily": "Fira Code"
+  "editor.inlayHints.fontFamily": "Fira Code",
+  "editor.fontSize": 13
 }
