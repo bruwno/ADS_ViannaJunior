@@ -1,6 +1,14 @@
+import java.util.Scanner;
+
 public class Fibonacci {
     public static void main(String[] args) {
-        System.out.println(fibonacci(6));
+        Scanner readLine = new Scanner(System.in);
+        //
+        System.out.print("Digite o valor: ");
+        int fib = readLine.nextInt();
+        readLine.close();
+        //
+        System.out.printf("O Fibonacci de %d é = %d", fib, fibonacci(fib));
     }
 
     public static int fibonacci(int n) {
