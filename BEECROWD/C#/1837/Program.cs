@@ -1,4 +1,4 @@
-﻿/* Objetivo: .
+﻿/* Objetivo: Imprimir o quociente q seguido pelo resto r da divisão de a por b.
  * Autor   : William Silva (https://github.com/unclWill)
  * Data    : 30/01/2024
  * Tipo    : 7 (INICIANTE)
