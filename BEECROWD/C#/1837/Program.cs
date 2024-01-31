@@ -13,11 +13,10 @@ class URI
 {
     public static void Main(string[] args)
     {
-        string[] entrada = Console.ReadLine().Trim().Split(' ');
+        string[] entrada = Console.ReadLine()!.Trim().Split(' ');
         int a = Convert.ToInt32(entrada[0]);
         int b = Convert.ToInt32(entrada[1]);
-
-        int q = 0, r = 0;
+        int q, r;
 
         if (a >= 0)
         {
@@ -26,9 +25,9 @@ class URI
         }
         else
         {
-            int c = 0, d = 0;
+            int c, d = 0;
 
-            c = TransformarEmPositivo(b);
+            c = RetornarNumeroPositivo(b);
 
             for (r = 0; r < c; r++)
             {
@@ -45,7 +44,7 @@ class URI
         Console.WriteLine($"{q} {r}");
     }
 
-    private static int TransformarEmPositivo(int num)
+    private static int RetornarNumeroPositivo(int num)
     {
         if (num < 0)
         {
