@@ -1,7 +1,7 @@
 ﻿/* Objetivo: Imprimir o quociente q seguido pelo resto r da divisão de a por b.
  * Autor   : William Silva (https://github.com/unclWill)
  * Data    : 30/01/2024
- * Tipo    : 7 (INICIANTE)
+ * Tipo    : 1 (INICIANTE)
  * ID      : 1837
  * Nome    : Prefácio
  * Link    : https://www.beecrowd.com.br/judge/pt/problems/view/1837
