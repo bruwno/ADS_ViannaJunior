@@ -8,7 +8,7 @@
  */
 
 using System;
-public struct URI
+public class URI
 {
     public static void Main(string[] args)
     {
