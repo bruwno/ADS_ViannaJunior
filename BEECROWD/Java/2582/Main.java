@@ -33,6 +33,7 @@ public class Main {
             armazenaSomas[i] = soma;
         }
         exibeMusica(armazenaSomas);
+        readLine.close();
     }
 
     private static void exibeMusica(int[] somasArmazenadas) {
