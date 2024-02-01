@@ -1,5 +1,6 @@
-/* Autor: William Silva (https://github.com/unclWill) | Retirado de: https://www.youtube.com/watch?v=78OjRDFO2n4
- * Data : 01/02/2024
+/* Autor      : William Silva (https://github.com/unclWill)
+ * Retirado de: https://www.youtube.com/watch?v=78OjRDFO2n4
+ * Data       : 01/02/2024
  */
 
 namespace MultiplicacaoRecursiva
