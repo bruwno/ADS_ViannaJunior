@@ -15,7 +15,7 @@ namespace MultiplicacaoRecursiva
             }
             else
             {
-                return m + Multiplicar(m, n - 1);
+                return m + Multiplicar(m, n + 1);
             }
         }
     }
