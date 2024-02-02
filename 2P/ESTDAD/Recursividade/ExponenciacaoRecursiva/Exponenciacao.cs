@@ -16,6 +16,8 @@ namespace ExponenciacaoRecursiva
             {
                 return b * Potencia(b, e - 1);
             }
+
+            // return (e == 0) ? 1 : b * Potencia(b, e - 1);
         }
     }
 }

@@ -11,6 +11,7 @@ namespace DivisaoRecursiva
                 throw new ArgumentException("[Operação ilegal] Tentativa de divisão por zero.");
             }
 
+            /*
             // Caso base.
             if (d < div)
             {
@@ -21,6 +22,9 @@ namespace DivisaoRecursiva
             {
                 return 1 + Dividir(d - div, div);
             }
+            */
+
+            return (d < div) ? 0 : 1 + Dividir(d - div, div);
         }
     }
 }
