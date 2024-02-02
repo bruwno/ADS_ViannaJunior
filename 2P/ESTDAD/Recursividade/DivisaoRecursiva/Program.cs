@@ -7,7 +7,7 @@ namespace DivisaoRecursiva
         public static void Main(string[] args)
         {
             Divisao div = new Divisao();
-            Console.WriteLine($" Resultado = {div.Dividir(10, 3)}");
+            Console.WriteLine($" Resultado = {div.Dividir(10, 2)}");
         }
     }
 }
