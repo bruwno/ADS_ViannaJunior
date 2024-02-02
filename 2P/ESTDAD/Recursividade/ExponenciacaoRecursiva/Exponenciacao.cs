@@ -4,7 +4,7 @@ namespace ExponenciacaoRecursiva
 {
     public class Exponenciacao
     {
-        public int Exponencial(int b, int e)
+        public int Potencia(int b, int e)
         {
             // Caso base.
             if (e == 0)
@@ -14,7 +14,7 @@ namespace ExponenciacaoRecursiva
             // Caso recursivo.
             else
             {
-                return b * Exponencial(b, e - 1);
+                return b * Potencia(b, e - 1);
             }
         }
     }
