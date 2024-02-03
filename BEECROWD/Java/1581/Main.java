@@ -41,8 +41,6 @@ public class Main {
             idiomaBase = idiomasFalados[0];
 
             if (idiomaBase.equals(idiomasFalados[i])) {
-                if (qtdIdiomasIguais > 1)
-                    break;
                 qtdIdiomasIguais++;
             } else {
                 qtdIdiomasDiferentes++;
