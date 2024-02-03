@@ -16,12 +16,10 @@ public class Main {
         Scanner readLine = new Scanner(System.in);
         ArrayList<String> resultados = new ArrayList<>();
 
-        int n = readLine.nextInt();
+        int n = Integer.parseInt(readLine.nextLine());
         for (int i = 0; i < n; i++) {
 
-            int k = readLine.nextInt();
-            readLine.nextLine();
-
+            int k = Integer.parseInt(readLine.nextLine());
             String[] conversas = new String[k];
             for (int j = 0; j < k; j++) {
                 conversas[j] = readLine.nextLine();
@@ -43,6 +41,8 @@ public class Main {
         for (int i = 0; i < idiomasFalados.length; i++) {
             idiomaBase = idiomasFalados[0];
             if (idiomaBase.equals(idiomasFalados[i])) {
+                if (qtdIdiomasIguais > 1)
+                    break;
                 qtdIdiomasIguais++;
             } else {
                 qtdIdiomasDiferentes++;
