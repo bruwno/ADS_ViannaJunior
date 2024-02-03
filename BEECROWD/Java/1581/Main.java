@@ -40,6 +40,10 @@ public class Main {
         for (int i = 0; i < idiomasFalados.length; i++) {
             idiomaBase = idiomasFalados[0];
 
+            if (qtdIdiomasDiferentes > 1) {
+                break;
+            }
+
             if (idiomaBase.equals(idiomasFalados[i])) {
                 qtdIdiomasIguais++;
             } else {
