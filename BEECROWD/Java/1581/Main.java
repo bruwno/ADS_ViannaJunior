@@ -34,8 +34,7 @@ public class Main {
     }
 
     public static String determinaIdiomaDaConversa(String[] idiomasFalados) {
-        String determinarIdioma = null;
-        String idiomaBase = null;
+        String determinarIdioma = null, idiomaBase = null;
         int qtdIdiomasIguais = 0, qtdIdiomasDiferentes = 0;
 
         for (int i = 0; i < idiomasFalados.length; i++) {
