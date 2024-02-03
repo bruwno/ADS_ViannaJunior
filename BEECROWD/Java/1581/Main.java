@@ -15,12 +15,12 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner readLine = new Scanner(System.in);
         ArrayList<String> resultados = new ArrayList<>();
-
         int n = Integer.parseInt(readLine.nextLine());
-        for (int i = 0; i < n; i++) {
 
+        for (int i = 0; i < n; i++) {
             int k = Integer.parseInt(readLine.nextLine());
             String[] conversas = new String[k];
+
             for (int j = 0; j < k; j++) {
                 conversas[j] = readLine.nextLine();
             }
@@ -33,12 +33,13 @@ public class Main {
         }
     }
 
-    public static String determinaIdiomaDaConversa(String[] idiomasFalados) {
+    private static String determinaIdiomaDaConversa(String[] idiomasFalados) {
         String determinarIdioma = null, idiomaBase = null;
         int qtdIdiomasIguais = 0, qtdIdiomasDiferentes = 0;
 
         for (int i = 0; i < idiomasFalados.length; i++) {
             idiomaBase = idiomasFalados[0];
+
             if (idiomaBase.equals(idiomasFalados[i])) {
                 if (qtdIdiomasIguais > 1)
                     break;
