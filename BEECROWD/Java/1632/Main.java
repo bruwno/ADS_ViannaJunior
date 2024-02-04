@@ -15,8 +15,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<Integer> resultados = new ArrayList<>();
         Scanner readLine = new Scanner(System.in);
-
         int t = Integer.parseInt(readLine.nextLine());
+
         for (int i = 0; i < t; i++) {
             String s = readLine.nextLine();
             resultados.add(retornaQtdPossibilidades(s));
