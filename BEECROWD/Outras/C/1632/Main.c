@@ -52,7 +52,7 @@ int main()
 
     for (int i = 0; i < t; i++)
     {
-        char s[16];
+        char s[17];
         scanf("%s", s);
         resultados[i] = retornarQtdPossibilidades(s);
     }
