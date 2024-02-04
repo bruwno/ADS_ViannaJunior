@@ -46,9 +46,9 @@ int retornarQtdPossibilidades(char str[])
 
 int main()
 {
-    int resultados[100];
     int t = 0;
     scanf("%d", &t);
+    int resultados[t];
 
     for (int i = 0; i < t; i++)
     {
