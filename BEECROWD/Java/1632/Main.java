@@ -40,7 +40,6 @@ public class Main {
                 qtdPossib *= 2;
             }
         }
-
         return qtdPossib;
     }
 
