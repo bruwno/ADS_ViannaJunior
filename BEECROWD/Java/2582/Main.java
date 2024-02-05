@@ -17,10 +17,9 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) throws IOException {
         Scanner readLine = new Scanner(System.in);
-        int c = readLine.nextInt();
+        int c = Integer.parseInt(readLine.nextLine());
         String[] xy = new String[c];
         int[] armazenaSomas = new int[c];
-        readLine.nextLine();
 
         for (int i = 0; i < c; i++) {
             int soma = 0;
