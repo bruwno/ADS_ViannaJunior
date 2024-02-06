@@ -63,7 +63,9 @@ UPDATE aeronave SET anofabricacao = '2011' WHERE prefixo = 'PR-AZB';
 UPDATE aeronave SET capacidade = '525' WHERE nomefabricante = 'BOING';
 UPDATE aeronave SET capacidade = '215' WHERE nomefabricante = 'AIRBUS';
 UPDATE aeronave SET capacidade = capacidade*1.15 WHERE nomefabricante = 'AIRBUS';
--- TABELA assento:
-UPDATE assento SET status = 'Disponível' AND classe = 'Primeira Classe' WHERE numeroassento = 'K06';
-
-SELECT * FROM assento
+-- TABELA: assento
+UPDATE assento SET status = 'Disponível' WHERE numeroassento = 'K06';
+UPDATE assento SET classe = 'Primeira Classe' WHERE numeroassento = 'K06';
+UPDATE assento SET status = 'Disponível';
+-- TABELA: reserva
+UPDATE reserva SET preco = preco*1.1 WHERE datareserva = '2014-12-01';
