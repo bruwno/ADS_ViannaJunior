@@ -16,7 +16,7 @@ listaDeDestinos.push(`Belo Horizonte`);
 console.log("Destinos possíveis: ");
 console.log(listaDeDestinos);
 
-// Removendo um item da lista com o método slice(). 
+// Removendo um item da lista com o método slice().
 /* Os argumentos passados são o índice do item e quantos itens devem ser deletados.
  */
 listaDeDestinos.splice(1, 1);
