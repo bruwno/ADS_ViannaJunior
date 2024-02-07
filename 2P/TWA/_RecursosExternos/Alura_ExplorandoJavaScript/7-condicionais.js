@@ -6,20 +6,27 @@ const listaDeDestinos = new Array(
     `Rio de Janeiro`,
 );
 
-const idadeComprador = 17;
+const idadeComprador = 18;
 const estaAcompanhado = false;
+const temPassagemComprada = true;
 
 console.log("Destinos possíveis: ");
 console.log(listaDeDestinos);
 
-if (idadeComprador >= 18) {
-    console.log("[Venda autorizada] Comprador maior de idade.");
-    listaDeDestinos.splice(1, 1);
-} else if (idadeComprador < 18 && estaAcompanhado) {
-    console.log("[Venda autorizada] Comprador menor de idade, acompanhado de um adulto.");
+// Operador lógico OR
+if ((idadeComprador >= 18) || (estaAcompanhado)) {
+    console.log("[Venda autorizada] Boa viagem!");
     listaDeDestinos.splice(1, 1);
 } else {
     console.log("[Venda bloqueada] Comprador menor de idade.");
+}
+
+// Operador lógico AND
+console.log("Embarque:");
+if ((idadeComprador >= 18) || (temPassagemComprada) && (estaAcompanhado)) {
+    console.log("Boa viagem!");
+} else {
+    console.log("Você não pode embarcar.");
 }
 
 console.log(listaDeDestinos);
