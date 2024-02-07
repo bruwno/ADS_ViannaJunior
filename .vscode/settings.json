@@ -66,5 +66,6 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "c-cpp-compile-run.output-location": "output"
+  "c-cpp-compile-run.output-location": "output",
+  "cmake.options.statusBarVisibility": "compact"
 }
