@@ -19,6 +19,7 @@ public class Main {
 
         // Populando o array de alunos.
         Aluno[] alunos = new Aluno[] { a1, a2, a3, a4, a5, a6 };
+        // Instancia da classe Professor.
         Professor prof = new Professor(alunos);
 
         // Exibindo os resultados.
