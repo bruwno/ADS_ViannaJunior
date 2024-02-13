@@ -1,19 +1,29 @@
 public class Professor {
-    Aluno[] notas;
+    private Aluno[] alunos;
     
     // Construtor da classe Professor.
-    public Professor(Aluno[] notas) {
-        this.notas = notas;
+    public Professor(Aluno[] alunos) {
+        this.alunos = alunos;
     }
     
-    public Aluno calcularMaiorNota(){
+    public void exibeSituacaoAluno() {
+        for (Aluno aluno : alunos) {
+            if (aluno.aprovado()) {
+                System.out.printf("O aluno %s esta APROVADO.\n", aluno.getNome());
+            } else {
+                System.out.printf("O aluno %s esta REPROVADO.\n", aluno.getNome());
+            }
+        }
+    }
+    
+    public Aluno calculaMaiorNota(){
         double maiorNota = 0.0;
         Aluno alunoMaiorNota = new Aluno();
         
-        for (int i = 0; i < notas.length; i++) {
-            if (notas[i].nota > maiorNota) {
-                maiorNota = notas[i].nota;
-                alunoMaiorNota = notas[i];
+        for (int i = 0; i < alunos.length; i++) {
+            if (alunos[i].getNota() > maiorNota) {
+                maiorNota = alunos[i].getNota();
+                alunoMaiorNota = alunos[i];
             }
         }
         

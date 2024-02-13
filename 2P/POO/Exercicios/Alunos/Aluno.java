@@ -1,7 +1,7 @@
 public class Aluno {
     // Declarar atributos.
-    String nome;
-    double nota;
+    private String nome;
+    private double nota;
     
     // Metodo Construtor
     public Aluno(String nNome, double nNota) {
@@ -29,8 +29,17 @@ public class Aluno {
         nota = 0;
     }
     
+    // Metodos acessores
+    public String getNome() {
+        return this.nome;
+    }
+    
+    public double getNota() {
+        return this.nota;
+    }
+    
     // Declarar metodos.
     public boolean aprovado() {
-      return nota >= 7;
+      return nota >= 7.0;
     }
 }
