@@ -6,7 +6,7 @@ Tarefas:
 * Calculo Aprovaçao;
 * Calculo aluno maior nota;
 
-1º passo: Agrupar as informaçoes (Classe);
+1º passo: Agrupar as informaçoes (Classes);
 Aluno    : nome e nota
 Professor: aprovar
 Main     : leituras
