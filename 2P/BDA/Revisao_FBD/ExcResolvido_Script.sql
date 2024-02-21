@@ -10,25 +10,27 @@ USE reserva;
 CREATE TABLE cidade (
 	codigocidade DECIMAL(4),
     nomecidade VARCHAR(40),
-    PRIMARY KEY (codigocidade)
+    CONSTRAINT pk_codigocidade PRIMARY KEY (codigocidade)
 );
 
 -- QUESTÃO 3 --
 -- TABELA: aeronave
-ALTER TABLE aeronave CHANGE COLUMN `fabricante` `nomefabricante` VARCHAR(20);
-ALTER TABLE aeronave ADD COLUMN `capacidade` INT;
+ALTER TABLE aeronave CHANGE COLUMN fabricante nomefabricante VARCHAR(20);
+ALTER TABLE aeronave ADD COLUMN capacidade INT; 
+-- Poderia ser apenas: ADD capacidade INT;
 -- TABELA: assento
-ALTER TABLE assento ALTER COLUMN `classe` SET DEFAULT 'Econômica';
+ALTER TABLE assento ALTER COLUMN classe SET DEFAULT 'Econômica';
 ALTER TABLE assento ADD COLUMN `status` VARCHAR(15) DEFAULT 'Disponível';
 -- TABELA: cidade
-ALTER TABLE cidade MODIFY COLUMN `nomecidade` VARCHAR(40) NOT NULL;
+ALTER TABLE cidade MODIFY COLUMN nomecidade VARCHAR(40) NOT NULL;
 -- TABELA: cliente
-ALTER TABLE cliente MODIFY COLUMN `cpf` VARCHAR(13) UNIQUE;
-ALTER TABLE cliente MODIFY COLUMN `endereco` VARCHAR(45);
+ALTER TABLE cliente MODIFY COLUMN cpf VARCHAR(13) UNIQUE;
+-- Eliminando a chave candidata: ALTER TABLE cliente DROP INDEX cpf;
+ALTER TABLE cliente MODIFY COLUMN endereco VARCHAR(45);
 -- TABELA: reserva
-ALTER TABLE reserva MODIFY COLUMN `codigocliente` DECIMAL(5,0) NOT NULL;
+ALTER TABLE reserva MODIFY COLUMN codigocliente DECIMAL(5,0) NOT NULL;
 -- TABELA: voo
-ALTER TABLE voo MODIFY COLUMN `numerovoo` VARCHAR(6) NOT NULL;
+ALTER TABLE voo MODIFY COLUMN numerovoo VARCHAR(6) NOT NULL;
 ALTER TABLE voo ADD COLUMN `status` VARCHAR(15);
 
 -- QUESTÃO 4 --
@@ -55,7 +57,9 @@ DELETE FROM cliente WHERE endereco = 'Olípio Costa, Rio de Janeiro - RJ' OR cpf
 -- TABELA: reserva
 DELETE FROM reserva WHERE datareserva = '2014-12-08';
 -- TABELA: voo
-DELETE FROM voo WHERE status = 'Cancelado';
+DELETE FROM voo WHERE `status` = 'Cancelado';
+-- IS NULL -----> compara se um campo possui valor nulo.
+-- IS NOT NULL -> compara se um campo possui é diferente de nulo.
 
 -- QUESTÃO 7 --
 -- TABELA: aeronave
