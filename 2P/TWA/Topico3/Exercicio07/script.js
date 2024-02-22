@@ -1,4 +1,3 @@
-// Atribua true para a variável darCredito, caso o cliente possua carro e casa e false caso o contrário.
 function ehPar(num) {
     return num % 2 == 0;
 }
