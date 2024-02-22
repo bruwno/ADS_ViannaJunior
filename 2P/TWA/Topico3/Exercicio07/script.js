@@ -21,6 +21,7 @@ function tocarMusicaPrimeiraParte() {
             console.log("muito mais\n");
         }
     }
+    tocarMusicaSegundaParte();
 }
 
 function tocarMusicaSegundaParte() {
@@ -47,4 +48,3 @@ function tocarMusicaSegundaParte() {
 }
 
 tocarMusicaPrimeiraParte();
-tocarMusicaSegundaParte();
