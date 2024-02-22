@@ -17,7 +17,7 @@ bool ehPar(int num)
 
 int main()
 {
-    int A, B, C, D;
+    int a, b, c, d;
     char readLine[100];
 
     fgets(readLine, sizeof(readLine), stdin);
@@ -26,12 +26,12 @@ int main()
            "%d"
            "%d"
            "%d",
-           &A, &B, &C, &D);
+           &a, &b, &c, &d);
 
-    int somaAB = A + B;
-    int somaCD = C + D;
+    int somaAB = a + b;
+    int somaCD = c + d;
 
-    if ((B > C) && (D > A) && (somaCD > somaAB) && (C > 0 && D > 0) && (ehPar(A)))
+    if ((b > c) && (d > a) && (somaCD > somaAB) && (c > 0 && d > 0) && (ehPar(a)))
     {
         printf("Valores aceitos\n");
     }
