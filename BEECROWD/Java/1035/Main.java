@@ -14,18 +14,19 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner readLine = new Scanner(System.in);
         String[] valores = readLine.nextLine().trim().split(" ");
-        int A = Integer.parseInt(valores[0]);
-        int B = Integer.parseInt(valores[1]);
-        int C = Integer.parseInt(valores[2]);
-        int D = Integer.parseInt(valores[3]);
-        int somaAB = A + B;
-        int somaCD = C + D;
+        int a = Integer.parseInt(valores[0]);
+        int b = Integer.parseInt(valores[1]);
+        int c = Integer.parseInt(valores[2]);
+        int d = Integer.parseInt(valores[3]);
+        int somaAB = a + b;
+        int somaCD = c + d;
 
-        if ((B > C) && (D > A) && (somaCD > somaAB) && (C > 0 && D > 0) && (ehPar(A))) {
+        if ((b > c) && (d > a) && (somaCD > somaAB) && (c > 0 && d > 0) && (ehPar(a))) {
             System.out.println("Valores aceitos");
         } else {
             System.out.println("Valores nao aceitos");
         }
+        readLine.close();
     }
 
     private static boolean ehPar(int num) {
