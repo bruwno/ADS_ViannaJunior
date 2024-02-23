@@ -6,16 +6,6 @@ public class Professor {
         this.alunos = alunos;
     }
 
-    public void exibeSituacaoAluno() {
-        for (Aluno aluno : alunos) {
-            if (aluno.aprovado()) {
-                System.out.printf("O aluno %s esta APROVADO.\n", aluno.getNome());
-            } else {
-                System.out.printf("O aluno %s esta REPROVADO.\n", aluno.getNome());
-            }
-        }
-    }
-
     public Aluno calculaMaiorNota() {
         double maiorNota = 0.0;
         Aluno alunoMaiorNota = new Aluno();
