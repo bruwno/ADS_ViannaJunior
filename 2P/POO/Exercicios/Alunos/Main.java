@@ -19,13 +19,20 @@ public class Main {
 
         // Populando o array de alunos.
         Aluno[] alunos = new Aluno[] { a1, a2, a3, a4, a5, a6 };
-        // Instancia da classe Professor.
-        Professor prof = new Professor(alunos);
 
         // Exibindo os resultados.
         System.out.println("[RESULTADOS]");
-        prof.exibeSituacaoAluno();
-
+        for (Aluno aluno : alunos) {
+            if (aluno.aprovado()) {
+                System.out.printf("O aluno %s esta APROVADO.\n", aluno.getNome());
+            } else {
+                System.out.printf("O aluno %s esta REPROVADO.\n", aluno.getNome());
+            }
+        }
+        
+        // Instancia da classe Professor.
+        Professor prof = new Professor(alunos);
+        
         System.out.println("\n[PROFESSOR]");
         Aluno maiorNota = prof.calculaMaiorNota();
         System.out.printf("A maior nota foi do aluno %s com %.1f pontos.\n", maiorNota.getNome(), maiorNota.getNota());
