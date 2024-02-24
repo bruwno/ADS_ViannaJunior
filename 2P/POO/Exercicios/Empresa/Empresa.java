@@ -1,3 +1,7 @@
+// O relacionamento entre as classes pode ser uni-direcional ou bi-direcional.
+// Ou seja, nesse caso, apenas a Empresa precisa conhecer seus funcionarios (relacionamento uni-direcional),
+// Caso o funcionario tbm precise conhecer a empresa, basta declarar um atributo do tipo Empresa na classe Funcionario (relacionamento di-direcional).
+
 public class Empresa {
     // Atributos.
     private String nome;
