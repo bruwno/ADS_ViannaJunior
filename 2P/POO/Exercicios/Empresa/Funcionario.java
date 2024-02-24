@@ -90,6 +90,7 @@ public class Funcionario {
         }
     }
 
+    // Métodos da classe (Responsabilidades).
     public double descontoInss() { 
         return salario * 0.13;
     }
@@ -114,7 +115,6 @@ public class Funcionario {
         return (filhos < 3) ? filhos * 50 : 150;
     }
     
-    // Métodos da classe (Responsabilidades).
     public double salarioLiquido() {
         return salario - descontoInss() + bonusGerente() + bonusVendedor() - descValeTransporte() + bonusTrabalhadorNoturno() + bonusPorFilho();
     }
