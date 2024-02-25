@@ -5,4 +5,4 @@ var anoNascimento;
 var linguagemFavorita;
 var filmeFavorito;
 
-console.log(`Meu nome é ${nome}, tenho ${idade} e a minha comida favorita é ${comidaFavorita}!`);
+console.log(`Meu nome é ${nome}, tenho ${idade} anos de idade e a minha comida favorita é ${comidaFavorita}!`);
