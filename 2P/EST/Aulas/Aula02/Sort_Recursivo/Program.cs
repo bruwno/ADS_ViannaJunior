@@ -30,7 +30,7 @@ namespace Sort_Iterativo
                 Sort1(i + 1, a);
             }
 
-            Console.WriteLine(a);
+            // Console.WriteLine(a);
         }
 
         private static void Min(int k, int[] a, ref int j)
