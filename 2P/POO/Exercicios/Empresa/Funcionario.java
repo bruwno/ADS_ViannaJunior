@@ -57,7 +57,7 @@ public class Funcionario {
     }
 
     public void setNoturno(boolean noturno) {
-            this.noturno = noturno;
+        this.noturno = noturno;
     }
 
     public int getFilhos() {
