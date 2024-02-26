@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sort_Iterativo
+namespace Sort_Recursivo
 {
     public class Program
     {
