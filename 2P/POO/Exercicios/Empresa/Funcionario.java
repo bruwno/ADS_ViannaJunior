@@ -52,14 +52,12 @@ public class Funcionario {
         }
     }
 
-    public boolean getTurno() {
+    public boolean getNoturno() {
         return this.noturno;
     }
 
-    public void setNoturno(String turno) {
-        if (turno != null || !turno.equals("")) {
+    public void setNoturno(boolean noturno) {
             this.noturno = noturno;
-        }
     }
 
     public int getFilhos() {
