@@ -34,8 +34,7 @@ public class NumerosImpares {
 
     public ArrayList<Integer> retornaListaDeImpares() {
         ArrayList<Integer> listaDeImpares = new ArrayList<>();
-
-        if (aEhMenorQueB()) {
+        if (a < b) {
             for (int i = a; i <= b; i++) {
                 if (i % 2 != 0) {
                     listaDeImpares.add(i);
@@ -43,9 +42,5 @@ public class NumerosImpares {
             }
         }
         return listaDeImpares;
-    }
-
-    private boolean aEhMenorQueB() {
-        return (a < b);
     }
 }
