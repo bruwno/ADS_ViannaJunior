@@ -1,5 +1,4 @@
 /*
- * Objetivo: Imprimir um intervalo entre dois números.
  * Autor   : William Silva (https://gitlab.com/unclWill)
  * Data    : 26/02/2024
  *

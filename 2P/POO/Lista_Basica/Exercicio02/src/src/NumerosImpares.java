@@ -1,10 +1,6 @@
 /*
- * Objetivo: Define a classe números ímpares.
  * Autor   : William Silva (https://gitlab.com/unclWill)
  * Data    : 26/02/2024
- *
- * 2) Escreva um programa que carregue dois valores A e B pelo teclado e imprima todos
- * os números ímpares entre A e B.
  */
 
 import java.util.ArrayList;
@@ -13,8 +9,7 @@ public class NumerosImpares {
     private int a;
     private int b;
 
-    public NumerosImpares() {
-    }
+    public NumerosImpares() {}
 
     public NumerosImpares(int a, int b) {
         this.a = a;
