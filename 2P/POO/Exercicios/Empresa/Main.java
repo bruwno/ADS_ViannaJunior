@@ -19,13 +19,18 @@ public class Main {
         }
         
         // Instanciando a Empresa.
-        Empresa emp = new Empresa("A firma", funcionarios);
-        
-        System.out.println("\nFuncionário com o maior salário: ");
-        Funcionario funcMaiorSalario = emp.funcionarioMaiorSalario();
-        System.out.printf("NOME FUNCIONÁRIO: %s%n", funcMaiorSalario.getNome());
-        
-        System.out.printf("%nSOMA DOS SALÁRIOS = R$ %.2f%n", emp.somaSalarios());
+        Empresa empresa = new Empresa("A firma", funcionarios);
+        imprimeMaiorSalario(empresa);
+        imprimeSomaSalarios(empresa);
+    }
+    
+    private static void imprimeMaiorSalario(Empresa empresa) {
+        Funcionario funcMaiorSalario = empresa.funcionarioMaiorSalario();
+        System.out.printf("%nFuncionário com o maior salário: %s%n", funcMaiorSalario.getNome());
+    }
+    
+    private static void imprimeSomaSalarios(Empresa empresa) {
+        System.out.printf("%nSoma dos salários = R$ %.2f%n", empresa.somaSalarios());
     }
 
 }
