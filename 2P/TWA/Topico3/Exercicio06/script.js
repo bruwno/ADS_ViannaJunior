@@ -6,4 +6,4 @@ function exibeNomeCompleto() {
     console.log("William Silva");
 }
 
-window.addEventListener('onscroll', exibeNomeCompleto());
+window.addEventListener('click', exibeNomeCompleto);

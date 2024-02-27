@@ -1,11 +1,4 @@
-/* Objetivo:
- * Autor   : William Silva (https://gitlab.com/unclWill)
- * Data    : 26/02/2024
- * Exercício 1) Crie um programa que calcule a distância entre dois pontos no plano cartesiano.
- */
-
 public class Ponto {
-    // Um ponto tem as coordenadas A e B.
     private double x;
     private double y;
     public Ponto(double x, double y) {
