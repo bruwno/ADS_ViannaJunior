@@ -23,7 +23,7 @@ SELECT * FROM funcionario WHERE dnr IS NULL;
 
 -- Relação Departamento
 -- a)	Selecione os departamentos que possuem gerente.
-SELECT * FROM departamento WHERE data_inicio_gerente IS NOT NULL;
+SELECT * FROM departamento WHERE cpf_gerente IS NOT NULL;
 -- b)	Selecione o departamento de nome Matriz;
 SELECT * FROM departamento WHERE dnome = 'Matriz';
 -- c)	Selecione o departamento que não possui data inicio gerente cadastrada.
@@ -58,4 +58,3 @@ SELECT * FROM trabalha_em WHERE horas > 20;
 SELECT * FROM trabalha_em WHERE horas > 10 OR pnr = 3;
 -- c)	Selecione os empregados em que o cpf é igual a 98765432168 e que trabalham no projeto 30.
 SELECT * FROM trabalha_em WHERE fcpf = 98765432168 AND pnr = 30;
-

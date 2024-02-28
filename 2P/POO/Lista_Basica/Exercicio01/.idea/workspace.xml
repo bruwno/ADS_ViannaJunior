@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd311fc-d472-47d8-825d-b80b77a3b16d" name="Changes" comment="Resolucao do Exercicio 1." />
+    <list default="true" id="4883047f-3091-4fec-911f-b7a7031812ce" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,35 +14,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitLabMergeRequestFiltersHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPENED&quot;,
-    &quot;assignee&quot;: {
-      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
-      &quot;username&quot;: &quot;unclWill&quot;,
-      &quot;fullname&quot;: &quot;William Silva&quot;
-    }
-  }
-}</component>
-  <component name="GitLabMergeRequestsSettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;first&quot;: &quot;https://gitlab.com/aula-daves/vianna/2024-1/fpoo/william.silva/lista&quot;,
-    &quot;second&quot;: &quot;a181f829-a03f-488d-8146-2a94faee8a35&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2cts4xE6vHVPYanFnvsNSJ2xCnZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2cznzxPIiLsCuZxKADvW522h7br" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,15 +30,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/.Arquivos na Nuvem/Google Drive/My Drive/_REPOSITORIO/ADS_ViannaJunior/2P/POO/Lista_Basica/Exercicio01",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "D:/.Arquivos na Nuvem/Google Drive/My Drive/_REPOSITORIO/ADS_ViannaJunior/2P/POO/Lista_Basica/Exercicio02"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\.Arquivos na Nuvem\Google Drive\My Drive\_REPOSITORIO\ADS_ViannaJunior\2P\POO\Lista_Basica\Exercicio01\src" />
-      <recent name="D:\.Arquivos na Nuvem\Google Drive\My Drive\_REPOSITORIO\ADS_ViannaJunior\2P\POO\Lista_Basica\Exercicio01\esc" />
-    </key>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="exercicio01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="exercicio01" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -78,76 +58,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fd311fc-d472-47d8-825d-b80b77a3b16d" name="Changes" comment="" />
-      <created>1708942023192</created>
+      <changelist id="4883047f-3091-4fec-911f-b7a7031812ce" name="Changes" comment="" />
+      <created>1709123542254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708942023192</updated>
+      <updated>1709123542254</updated>
     </task>
-    <task id="LOCAL-00001" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1708974181759</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708974181759</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1708974443475</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1708974443475</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1709048922461</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709048922461</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1709050104064</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709050104064</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1709050266257</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709050266257</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Resolucao do Exercicio 1.">
-      <option name="closed" value="true" />
-      <created>1709051196984</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709051196984</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Resolucao do Exercicio 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolucao do Exercicio 1." />
   </component>
 </project>
