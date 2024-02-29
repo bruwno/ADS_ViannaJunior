@@ -24,9 +24,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Acessorios acessorios = new Acessorios(true, false, false, false, true, false, false);
-        Motor motor = new Motor(2.0);
-        Carro carro = new Carro("Mustang", "Ford", motor, acessorios, true, 300000);
+        Acessorios acessorios = new Acessorios(true, true, true, true, true, true, true);
+        Motor motor = new Motor(5.0, "V8");
+        Carro carro = new Carro("Mustang", "Ford", motor, acessorios, true, 500000);
 
         System.out.println(carro.exibeInformacoes());
 

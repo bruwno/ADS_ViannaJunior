@@ -82,8 +82,7 @@ public class Carro {
     }
 
     public double valorFinalCarro() {
-        double valorFinal = (precoBase + Impostos.aplicaImpostoIPI(precoBase)) + acrescimoCarroImportado() + acessorios.valorTotalEmAcessorios() - descontoCarroMotorizacao();
-        return valorFinal;
+        return (precoBase + taxaDeIPI()) + acrescimoCarroImportado() + acessorios.valorTotalEmAcessorios() - descontoIPIParaMotores1000();
     }
 
     public String exibeInformacoes() {
@@ -92,7 +91,7 @@ public class Carro {
         info.append("Informações do Carro:\n");
         info.append(formatInfo.formatarInformacao("Modelo     ", modelo));
         info.append(formatInfo.formatarInformacao("Marca      ", marca));
-        info.append(formatInfo.formatarInformacao("Motorização", String.format("%.1f", motor.getCilindradas())));
+        info.append(formatInfo.formatarInformacao("Motorização", String.format("%.1f ", motor.getCilindradas()) + formatInfo.formatarInformacao(motor.getConfiguracaoMotor())));
         info.append(formatInfo.formatarInformacao("Fabricação ", fabricacao()));
         info.append(formatInfo.formatarInformacao("Valor      ", String.format("R$ %.2f", valorFinalCarro())));
         return info.toString();
@@ -103,7 +102,7 @@ public class Carro {
         List<TiposDeAcessorios> tiposDeAcessoriosDisponiveis = TiposDeAcessorios.getTiposAcessorios();
 
         for (TiposDeAcessorios acessorio : tiposDeAcessoriosDisponiveis) {
-            if (acessorios.hasAcessorio(acessorio)) {
+            if (acessorios.temAcessorio(acessorio)) {
                 listaDeAcessorios.add(acessorio.getTipoAcessorio());
             }
         }
@@ -114,7 +113,11 @@ public class Carro {
         return (importado) ? precoBase * 0.30 : 0;
     }
 
-    private double descontoCarroMotorizacao() {
+    private double taxaDeIPI() {
+        return Impostos.aplicaImpostoIPI(precoBase);
+    }
+
+    private double descontoIPIParaMotores1000() {
         return (motor.getCilindradas() == 1.0) ? Impostos.aplicaIsencaoImpostoIPI(precoBase) : 0;
     }
 
