@@ -2,9 +2,9 @@ function ehPar(num) {
     return num % 2 == 0;
 }
 
-function tocarMusicaPrimeiraParte() {
+function tocarMusicaPrimeiraParte(k) {
     // Primeira parte da música.
-    for (i = 1; i <= 10; i++) {
+    for (i = 1; i <= k; i++) {
         if (i == 1 && ehPar(i) == false) {
             console.log(`${i} elefante incomoda muita gente\n`);
         } else if (i > 1 && ehPar(i) == false) {
@@ -21,12 +21,12 @@ function tocarMusicaPrimeiraParte() {
             console.log("muito mais\n");
         }
     }
-    tocarMusicaSegundaParte();
+    tocarMusicaSegundaParte(k);
 }
 
-function tocarMusicaSegundaParte() {
+function tocarMusicaSegundaParte(k) {
     // Segunda parte da música.
-    for (i = 10; i >= 1; i--) {
+    for (i = k; i >= 1; i--) {
         if (i > 1 && ehPar(i)) {
             console.log(`${i} elefantes incomodam muita gente\n`);
         }
