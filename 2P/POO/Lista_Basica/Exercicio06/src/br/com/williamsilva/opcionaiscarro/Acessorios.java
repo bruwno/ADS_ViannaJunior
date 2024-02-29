@@ -19,7 +19,7 @@ public class Acessorios {
         this.kitMultimidia = kitMultimidia;
     }
 
-    public boolean hasAcessorio(TiposDeAcessorios acessorio) {
+    public boolean temAcessorio(TiposDeAcessorios acessorio) {
         switch (acessorio) {
             case AR_CONDICIONADO:
                 return arCondicionado;
@@ -72,6 +72,4 @@ public class Acessorios {
     private double adicionalKitMultimidia() {
         return (kitMultimidia) ? 1800 : 0;
     }
-
-
 }
