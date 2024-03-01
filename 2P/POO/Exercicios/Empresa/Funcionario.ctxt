@@ -2,8 +2,8 @@
 comment0.target=Funcionario
 comment1.params=
 comment1.target=Funcionario()
-comment10.params=turno
-comment10.target=void\ setNoturno(java.lang.String)
+comment10.params=noturno
+comment10.target=void\ setNoturno(boolean)
 comment11.params=
 comment11.target=int\ getFilhos()
 comment12.params=filhos
@@ -45,5 +45,5 @@ comment7.target=java.lang.String\ getFuncao()
 comment8.params=funcao
 comment8.target=void\ setFuncao(java.lang.String)
 comment9.params=
-comment9.target=boolean\ getTurno()
+comment9.target=boolean\ getNoturno()
 numComments=24

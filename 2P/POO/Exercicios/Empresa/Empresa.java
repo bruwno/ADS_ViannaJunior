@@ -5,7 +5,7 @@
 public class Empresa {
     // Atributos.
     private String nome;
-    public Funcionario[] listaFuncionarios;
+    private Funcionario[] listaFuncionarios;
 
     // Construtor
     public Empresa() {}
@@ -32,23 +32,17 @@ public class Empresa {
 
     // Métodos da classe (Responsabilidades).
     public Funcionario funcionarioMaiorSalario() {
-        double maiorSalario = 0.0;
-        Funcionario funcMaiorSalario = new Funcionario();
-
-        // Retorna o funcionário com o maior salário bruto.
-        /*
-        for (int i = 0; i < listaFuncionarios.length; i++) {
-        if (listaFuncionarios[i].getSalario() > maiorSalario) {
-        maiorSalario = listaFuncionarios[i].getSalario();
-        funcMaiorSalario = listaFuncionarios[i];
+        if (listaFuncionarios[0] == null) {
+            return null;
         }
-        }
-         */
+        
+        Funcionario funcMaiorSalario = listaFuncionarios[0];
         // Retorna o funcionário com o maior salário líquido.
         for (int i = 0; i < listaFuncionarios.length; i++) {
-            if (listaFuncionarios[i].salarioLiquido() > maiorSalario) {
-                maiorSalario = listaFuncionarios[i].salarioLiquido();
-                funcMaiorSalario = listaFuncionarios[i];
+            if (listaFuncionarios[i] != null) {
+                if (listaFuncionarios[i].salarioLiquido() > funcMaiorSalario.salarioLiquido()) {
+                    funcMaiorSalario = listaFuncionarios[i];
+                }
             }
         }
 
@@ -59,7 +53,7 @@ public class Empresa {
         double somaSalarios = 0.0;
 
         for (Funcionario funcionario : listaFuncionarios) {
-            somaSalarios += funcionario.getSalario();
+            somaSalarios += funcionario.salarioLiquido();
         }
         return somaSalarios;
     }
