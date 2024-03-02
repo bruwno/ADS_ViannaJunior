@@ -21,8 +21,6 @@ public class Main {
 
         ret3 = new Retangulo(9.5, 6);
         exibeResultado(ret3.calculaArea(), ret3.calculaPerimetro());
-
-
     }
 
     private static void exibeResultado(double area, double perimetro) {
