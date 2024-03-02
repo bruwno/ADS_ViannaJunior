@@ -37,11 +37,11 @@ public class Retangulo {
         }
     }
 
-    public double calcularArea() {
+    public double calculaArea() {
         return comprimento * largura;
     }
 
-    public double calcularPerimetro() {
+    public double calculaPerimetro() {
         return 2 * (comprimento + largura);
     }
 }
