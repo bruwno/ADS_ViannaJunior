@@ -3,7 +3,6 @@ function ehPar(num) {
 }
 
 function tocarMusicaPrimeiraParte(k) {
-    // Primeira parte da música.
     for (i = 1; i <= k; i++) {
         if (i == 1 && ehPar(i) == false) {
             console.log(`${i} elefante incomoda muita gente\n`);
@@ -25,7 +24,6 @@ function tocarMusicaPrimeiraParte(k) {
 }
 
 function tocarMusicaSegundaParte(k) {
-    // Segunda parte da música.
     for (i = k; i >= 1; i--) {
         if (i > 1 && ehPar(i)) {
             console.log(`${i} elefantes incomodam muita gente\n`);
@@ -47,4 +45,4 @@ function tocarMusicaSegundaParte(k) {
     }
 }
 
-tocarMusicaPrimeiraParte();
+tocarMusicaPrimeiraParte(10);
