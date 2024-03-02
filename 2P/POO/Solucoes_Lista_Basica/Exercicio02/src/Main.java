@@ -11,13 +11,13 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        NumerosImpares intervaloDeImpares = new NumerosImpares();
 
-        System.out.print("Digite o valor inicial (A): ");
-        int a = Integer.parseInt(sc.nextLine());
-        System.out.print("Digite o valor final   (B): ");
-        int b = Integer.parseInt(sc.nextLine());
+        System.out.print("Digite o valor inicial: ");
+        intervaloDeImpares.setA(sc.nextInt());
+        System.out.print("Digite o valor final  : ");
+        intervaloDeImpares.setB(sc.nextInt());
 
-        NumerosImpares intervaloDeImpares = new NumerosImpares(a, b);
         ArrayList<Integer> listaDeImpares =  intervaloDeImpares.retornaListaDeImpares();
 
         System.out.println("Números ímpares neste intervalo: ");
