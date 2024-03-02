@@ -1,0 +1,23 @@
+1 - Você acessa o seu GitLab;
+  1.1 - Vai na sua pasta de projetos https://gitlab.com/aula-daves/vianna/2024-1/fpoo/seu-nome-de-usuario
+
+2 - Vai no canto superior direito e clica em New Project
+   2.1 - Create blank project
+      2.2 - No topo põe o nome do projeto como ele pediu, "lista"
+	 2.3 - Copia o link do repositório direto da barra de busca do navegador mesmo
+
+3 - Vai no seu PC, onde você preferir, cria uma pasta, eu chamei de Repo_GitLab
+
+4 - Abre o VSCode
+   4.1 - Digita CTRL + SHIFT + P
+      4.2 - Digita Git Clone
+ 	 4.3 - Cola o link do repositório
+	    4.4 - Vai perguntar pra onde quer clonar, seleciona a pasta que você criou no passo 3
+               4.5 - Vai pedir pra autenticar, faz a autenticação
+
+5 - Com o repositório clonado, vai ter um ícone na lateral esquerda do VSCode, normalmente fica na 3ª posição, se chama "Source Control"
+  5.1 - Você vai clicar nele
+     5.2 - Depois vai clicar a pasta do seu projeto, que quer subir pro GitLab e vai jogar dentro dessa pasta "lista", ou pode também criar novos projetos direto dentro dessa pasta, que é o repositório
+	5.3 - Com isso, toda vez que você fizer uma alteração no projeto, aquele ícone no VSCode vai mostrar a quantidade de alterações
+	   5.4 - Daí é só adicionar uma mensagem curta no campo "Message", descrevendo o que você fez no projeto
+	      5.5 - E depois é só clicar em "Commit", ele vai fazer o staging dos arquivos e vai enviar pro repositório remoto (GitLab)
