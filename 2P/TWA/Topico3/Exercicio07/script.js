@@ -2,47 +2,62 @@ function ehPar(num) {
     return num % 2 == 0;
 }
 
-function tocarMusicaPrimeiraParte(k) {
-    for (i = 1; i <= k; i++) {
-        if (i == 1 && ehPar(i) == false) {
-            console.log(`${i} elefante incomoda muita gente\n`);
-        } else if (i > 1 && ehPar(i) == false) {
-            console.log(`${i} elefantes incomodam muita gente\n`);
+function tocarMusica(k) {
+    var letraCompleta = "";
+
+    for (var i = 1; i <= k; i++) {
+        var letra = "";
+
+        if (i == 1 && !ehPar(i)) {
+            letra += `${i} elefante incomoda muita gente\n`;
+        } else if (i > 1 && !ehPar(i)) {
+            letra += `${i} elefantes incomodam muita gente\n`;
         }
 
-        cont = 0;
         if (ehPar(i)) {
-            console.log(`${i} elefantes`);
-            while (cont < i) {
-                console.log("incomodam");
-                cont++;
+            letra += `${i} elefantes `;
+            for (var j = 0; j < i; j++) {
+                letra += "incomodam";
+                if (j != i - 1) {
+                    letra += ", "
+                }
             }
-            console.log("muito mais\n");
+            letra += " muito mais\n\n";
         }
+        letraCompleta += letra;
     }
+    console.log(letraCompleta);
     tocarMusicaSegundaParte(k);
 }
 
 function tocarMusicaSegundaParte(k) {
-    for (i = k; i >= 1; i--) {
+    var letraCompleta = "";
+
+    for (var i = k; i >= 1; i--) {
+        var letra = "";
+
         if (i > 1 && ehPar(i)) {
-            console.log(`${i} elefantes incomodam muita gente\n`);
+            letra += `${i} elefantes incomodam muita gente\n`;
         }
 
-        cont = 1;
-        if (ehPar(i) == false) {
+        if (!ehPar(i)) {
             if (i == 1) {
-                console.log(`${i} elefante incomoda muito menos`);
+                letra += `${i} elefante incomoda muito menos\n`;
             } else {
-                console.log(`${i} elefantes`);
-                while (cont <= i) {
-                    console.log("incomodam");
-                    cont++;
+                letra += `${i} elefantes `;
+
+                for (var j = 1; j <= i; j++) {
+                    letra += "incomodam";
+                    if (j != i) {
+                        letra += ", ";
+                    }
                 }
-                console.log("muito menos\n");
+                letra += " muito menos\n\n";
             }
         }
+        letraCompleta += letra;
     }
+    console.log(letraCompleta)
 }
 
-tocarMusicaPrimeiraParte(10);
+tocarMusica(10);
