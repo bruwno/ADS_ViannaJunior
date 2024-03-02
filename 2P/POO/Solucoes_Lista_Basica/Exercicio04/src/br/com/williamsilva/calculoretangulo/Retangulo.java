@@ -22,7 +22,7 @@ public class Retangulo {
     }
 
     public void setComprimento(double comprimento) {
-        if (!Double.isNaN(comprimento)) {
+        if (comprimento >= 0) {
             this.comprimento = comprimento;
         }
     }
@@ -32,7 +32,7 @@ public class Retangulo {
     }
 
     public void setLargura(double largura) {
-        if (!Double.isNaN(comprimento)) {
+        if (largura >= 0) {
             this.largura = largura;
         }
     }
