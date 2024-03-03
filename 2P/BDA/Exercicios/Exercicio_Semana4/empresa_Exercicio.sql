@@ -33,9 +33,9 @@ SELECT * FROM departamento WHERE data_inicio_gerente IS NULL;
 -- a)	Selecione as dependentes que são esposas;
 SELECT * FROM dependente WHERE parentesco = 'Esposa';
 -- b)	Selecione as dependentes que são esposas e filhas;
-SELECT * FROM dependente WHERE parentesco = 'Filha';
+SELECT * FROM dependente WHERE parentesco = 'Esposa' OR parentesco = 'Filha';
 -- c)	Selecione os dependentes em que o cpf do funcionário é 12345678966;
-SELECT * FROM dependente WHERE fcpf = 12345678966;
+SELECT * FROM dependente WHERE fcpf = '12345678966';
 -- d)	Selecione os dependentes que são homens ou filhos.
 SELECT * FROM dependente WHERE sexo = 'M' OR parentesco = 'Filho';
 
@@ -57,4 +57,4 @@ SELECT * FROM trabalha_em WHERE horas > 20;
 -- b)	Selecione os empregados que trabalham mais de 10 horas ou trabalham no projeto 3;
 SELECT * FROM trabalha_em WHERE horas > 10 OR pnr = 3;
 -- c)	Selecione os empregados em que o cpf é igual a 98765432168 e que trabalham no projeto 30.
-SELECT * FROM trabalha_em WHERE fcpf = 98765432168 AND pnr = 30;
+SELECT * FROM trabalha_em WHERE fcpf = '98765432168' AND pnr = 30;
