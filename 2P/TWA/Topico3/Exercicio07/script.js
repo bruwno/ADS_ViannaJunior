@@ -2,9 +2,9 @@ function ehPar(num) {
     return num % 2 == 0;
 }
 
-function tocarMusica(k) {
+function tocarMusica(k = 10) {
     var letraCompleta = "";
-
+    // Primeira parte.
     for (var i = 1; i <= k; i++) {
         var letra = "";
 
@@ -26,13 +26,7 @@ function tocarMusica(k) {
         }
         letraCompleta += letra;
     }
-    console.log(letraCompleta);
-    tocarMusicaSegundaParte(k);
-}
-
-function tocarMusicaSegundaParte(k) {
-    var letraCompleta = "";
-
+    // Segunda parte.
     for (var i = k; i >= 1; i--) {
         var letra = "";
 

@@ -70,5 +70,7 @@
   "cmake.options.statusBarVisibility": "compact",
   "gitlens.telemetry.enabled": false,
   "dotnetAcquisitionExtension.enableTelemetry": false,
-  "rest-client.enableTelemetry": false
+  "rest-client.enableTelemetry": false,
+  "editor.wordWrap": "on",
+  "diffEditor.wordWrap": "inherit"
 }
