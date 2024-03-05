@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* Algoritmo BuubleSort
+ *
+ * Troca de valores
+ * Data: 04/03/2024
+ */
+
+using System;
 
 namespace BubbleSort
 {
