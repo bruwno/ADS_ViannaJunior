@@ -19,7 +19,7 @@ function tocarMusica(k = 10) {
             for (var j = 0; j < i; j++) {
                 letra += "incomodam";
                 if (j != i - 1) {
-                    letra += ", "
+                    letra += ", ";
                 }
             }
             letra += " muito mais\n\n";
