@@ -14,7 +14,7 @@ namespace InsertionSort
         {
             double[] vet = new double[] { 200, 199, 156, 101, 98, 75, 68, 60, 50, 45, 30, 29, 13, 9, 8, 3, 1 }; // Pior caso.
             InsertionSort(vet);
-            ExibirDadosDoArray(vet);
+            ExibirArrayOrdenado(vet);
         }
 
         public static void InsertionSort(double[] vetor)
@@ -32,10 +32,10 @@ namespace InsertionSort
             }
         }
 
-        private static void ExibirDadosDoArray(double[] vet)
+        private static void ExibirArrayOrdenado(double[] vetor)
         {
             Console.WriteLine("ARRAY ORDENADO [InsertionSort]");
-            foreach (double num in vet)
+            foreach (double num in vetor)
             {
                 Console.Write($"{num} ");
             }

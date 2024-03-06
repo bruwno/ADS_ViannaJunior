@@ -45,7 +45,7 @@ namespace InsertionSort
 
         private static void ExibirArrayOrdenado(double[] vetor)
         {
-            Console.WriteLine("Array ordenado [SelectionSort]");
+            Console.WriteLine("ARRAY ORDENADO [SelectionSort]");
             foreach (double num in vetor)
             {
                 Console.Write($"{num} ");
