@@ -1,0 +1,12 @@
+#container > h1{
+    font-size: 24px;
+}
+
+.lista{
+    color: green;
+}
+
+.lista > .item{
+    font-weight: bold;;
+}
+
