@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Empresa
+comment1.params=
+comment1.target=Empresa()
+comment2.params=nome\ listaFuncionarios
+comment2.target=Empresa(java.lang.String,\ Funcionario[])
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=Funcionario[]\ getFuncionarios()
+comment6.params=newFunc
+comment6.target=void\ addFuncionario(Funcionario)
+comment7.params=
+comment7.target=Funcionario\ funcionarioMaiorSalario()
+comment8.params=
+comment8.target=double\ somaSalarios()
+numComments=9
