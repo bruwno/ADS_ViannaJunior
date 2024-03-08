@@ -2,8 +2,4 @@
 comment0.target=Main
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=empresa
-comment2.target=void\ imprimeMaiorSalario(Empresa)
-comment3.params=empresa
-comment3.target=void\ imprimeSomaSalarios(Empresa)
-numComments=4
+numComments=2

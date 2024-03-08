@@ -34,10 +34,22 @@ public class Aluno {
         return this.nome;
     }
     
+    public void setNome(String nome) {
+        if (nome != null && !nome.equals("")) {
+            this.nome = nome;
+        }
+    }
+    
     public double getNota() {
         return this.nota;
     }
     
+    public void setNota(double nota) {
+        if (nota >= 0) {
+            this.nota = nota;
+        }
+    }
+     
     // Declarar metodos.
     public boolean aprovado() {
       return nota >= 7.0;

@@ -82,7 +82,7 @@ public class Funcionario {
         return this.totalVendas;
     }
 
-    public void setTotalVendas(int totalVendas) {
+    public void setTotalVendas(double totalVendas) {
         if (totalVendas >= 0) {
             this.totalVendas = totalVendas;
         }

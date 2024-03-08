@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=Professor
-comment1.params=alunos
-comment1.target=Professor(Aluno[])
-comment2.params=
-comment2.target=Aluno\ calculaMaiorNota()
-numComments=3
+comment1.params=
+comment1.target=Professor()
+comment2.params=alunos
+comment2.target=Professor(Aluno[])
+comment3.params=novoAluno
+comment3.target=void\ addAluno(Aluno)
+comment4.params=
+comment4.target=Aluno\ calculaMaiorNota()
+numComments=5
