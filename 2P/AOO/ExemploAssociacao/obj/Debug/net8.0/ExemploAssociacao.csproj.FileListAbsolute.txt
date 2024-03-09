@@ -1,0 +1,14 @@
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.GeneratedMSBuildEditorConfig.editorconfig
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.AssemblyInfoInputs.cache
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.AssemblyInfo.cs
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.csproj.CoreCompileInputs.cache
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\bin\Debug\net8.0\ExemploAssociacao.exe
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\bin\Debug\net8.0\ExemploAssociacao.deps.json
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\bin\Debug\net8.0\ExemploAssociacao.runtimeconfig.json
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\bin\Debug\net8.0\ExemploAssociacao.dll
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\bin\Debug\net8.0\ExemploAssociacao.pdb
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.dll
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\refint\ExemploAssociacao.dll
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.pdb
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ExemploAssociacao.genruntimeconfig.cache
+G:\_REPOSITORIO\2P\AOO\ExemploAssociacao\obj\Debug\net8.0\ref\ExemploAssociacao.dll
