@@ -17,21 +17,19 @@
  */
 
 import br.com.williamsilva.opcionaiscarro.Acessorios;
+import br.com.williamsilva.opcionaiscarro.TiposDeAcessorios;
 import br.com.williamsilva.veiculo.Carro;
 import br.com.williamsilva.veiculo.Motor;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
-        Acessorios acessorios = personalizarCarro();
-        Motor motor = new Motor(5.0, "V8");
-        Carro carro = new Carro("Mustang", "Ford", motor, acessorios, true, 500000);
-
-        // Leitura do modelo.
-        //Carro modeloEscolhido = new Carro();
-        //modeloEscolhido = selecionarModelo();
+        System.out.println("Escolha dentre os modelos disponíveis abaixo e personalize o seu carro novo!");
+        Carro carro = selecionarModelo();
 
         System.out.println(carro.exibeInformacoes());
 
@@ -43,44 +41,129 @@ public class Main {
     }
 
     private static Carro selecionarModelo() {
-        Carro carro = new Carro();
-        Motor motor1000, motor2000, motor3000;
+        Scanner sc = new Scanner(System.in);
+        Motor motor = new Motor();
+        String modelo = "", marca = "";
+        boolean ehImportado = false;
+        double precoBase = 0;
 
         StringBuilder sb = new StringBuilder();
-        sb.append("Modelos:" +
-                "1 - VW Gol" +
-                "2 - Hyundai HB20" +
-                "3 - Ford Mustang" +
-                "4 - Fiat Strada");
+        sb.append("Modelos disponíveis:\n" +
+                "[1] Volkswagen Gol\n" +
+                "[2] Hyundai HB20\n" +
+                "[3] Ford Mustang\n");
 
-        System.out.println("Esolha entre os modelos disponíveis: ");
+        System.out.println("Esolha entre os modelos disponíveis digitando o seu número correspondente: ");
+        System.out.println(sb);
+        int modeloSelecionado = opcaoEscolhida();
 
-        personalizarCarro();
+        switch (modeloSelecionado) {
+            case 1:
+                modelo = "Gol";
+                marca = "Volkswagen";
+                ehImportado = false;
+                precoBase = 50000.00;
+                motor.setCilindradas(1.0);
+                motor.setConfiguracaoMotor("16V");
+                break;
+            case 2:
+                modelo = "HB20";
+                marca = "Hyundai";
+                ehImportado = false;
+                precoBase = 86000.00;
+                motor.setCilindradas(1.0);
+                motor.setConfiguracaoMotor("8V");
+                break;
+            case 3:
+                modelo = "Mustang";
+                marca = "Ford";
+                ehImportado = true;
+                precoBase = 500000.00;
+                motor.setCilindradas(5.0);
+                motor.setConfiguracaoMotor("V8");
+                break;
+        }
+
+        motor = selecionarMotor();
+        Acessorios acessorios = personalizarCarro();
+        Carro carro = new Carro(modelo, marca, motor, acessorios, ehImportado, precoBase);
 
         return carro;
     }
 
+    private static Motor selecionarMotor() {
+        Motor motor = new Motor(1.0, "V8");
+
+        return motor;
+    }
+
     private static Acessorios personalizarCarro() {
-        Acessorios acessorios = new Acessorios();
-        System.out.println("Agora vamos escolher os acessórios do seu novo carro:");
+        List<String> listaDeAcessorios = new ArrayList<>();
+        List<TiposDeAcessorios> tiposDeAcessoriosDisponiveis = TiposDeAcessorios.getTiposAcessorios();
+
+        for (TiposDeAcessorios acessorio : tiposDeAcessoriosDisponiveis) {
+            listaDeAcessorios.add(acessorio.getTipoAcessorio() + " (R$ " + acessorio.getPrecoAcessorio() + ")");
+        }
+
+        System.out.println("Vamos escolher os acessórios do seu novo carro");
         System.out.println("(i) Para adicionar um acessório digite S");
-        //
-        System.out.print("Deseja que o seu carro tenha Ar Condicionado?: ");
-        acessorios.setArCondicionado(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Vidro Automático?: ");
-        acessorios.setVidroAutomatico(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Câmbio Automático?: ");
-        acessorios.setCambioAutomatico(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Alarme?: ");
-        acessorios.setAlarme(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Pitura Especial?: ");
-        acessorios.setTipoDePintura(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Teto Solar?: ");
-        acessorios.setTetoSolar(converterOpcao());
-        System.out.print("Deseja que o seu carro tenha Kit Multimídia?: ");
-        acessorios.setKitMultimidia(converterOpcao());
+
+        List<Boolean> acessoriosSelecionados = new ArrayList<>();
+        for (int i = 0; i < listaDeAcessorios.size(); i++) {
+            System.out.printf("Deseja que o seu carro tenha %s: ", listaDeAcessorios.get(i));
+            boolean opcao = converterOpcao();
+            acessoriosSelecionados.add(opcao);
+        }
+
+        Acessorios acessorios = new Acessorios();
+        acessorios.setArCondicionado(acessoriosSelecionados.get(0));
+        acessorios.setVidroAutomatico(acessoriosSelecionados.get(1));
+        acessorios.setCambioAutomatico(acessoriosSelecionados.get(2));
+        acessorios.setAlarme(acessoriosSelecionados.get(3));
+        acessorios.setTipoDePintura(acessoriosSelecionados.get(4));
+        acessorios.setTetoSolar(acessoriosSelecionados.get(5));
+        acessorios.setKitMultimidia(acessoriosSelecionados.get(6));
 
         return acessorios;
+    }
+
+    private static String tipoPintura() {
+        StringBuilder sb = new StringBuilder();
+        String pintura;
+
+        System.out.println("Selecione o tipo de pintura do seu carro: ");
+        sb.append("[1] Pintura Especial (R$ 2.500,00)" +
+                "[2] Pintura Metálica (R$ 2.500,00)" +
+                "[3] Pintura Comemorativa (R$ 2.500,00)" +
+                "[4] Pintura Padrão (Grátis)");
+        int pinturaEscolhida = opcaoEscolhida();
+
+        switch (pinturaEscolhida) {
+            case 1:
+                pintura = "Pintura Especial";
+                break;
+            case 2:
+                pintura = "Pintura Metálica";
+                break;
+            case 3:
+                pintura = "Pintura Comemorativa";
+                break;
+            default:
+                pintura = "Pintura Padrão";
+        }
+
+        return pintura;
+    }
+
+    // Métodos auxiliares.
+    private static int opcaoEscolhida() {
+        Scanner sc = new Scanner(System.in);
+        int opcaoEscolhida = 0;
+        while (opcaoEscolhida == 0) {
+            System.out.print("|>| ");
+            opcaoEscolhida = sc.nextInt();
+        }
+        return opcaoEscolhida;
     }
 
     private static boolean converterOpcao(){
@@ -90,5 +173,4 @@ public class Main {
         }
         return false;
     }
-
 }

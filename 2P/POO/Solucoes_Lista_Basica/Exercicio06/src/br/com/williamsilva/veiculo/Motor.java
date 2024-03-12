@@ -9,11 +9,25 @@ public class Motor {
         this.configuracaoMotor = configuracaoMotor;
     }
 
+    public Motor() {}
+
     public double getCilindradas(){
         return cilindradas;
     }
 
+    public void setCilindradas(double cilindradas) {
+        if (cilindradas > 0) {
+            this.cilindradas = cilindradas;
+        }
+    }
+
     public String getConfiguracaoMotor() {
         return configuracaoMotor;
+    }
+
+    public void setConfiguracaoMotor(String configuracaoMotor) {
+        if (!configuracaoMotor.isEmpty()) {
+            this.configuracaoMotor = configuracaoMotor;
+        }
     }
 }

@@ -15,7 +15,6 @@ public class Carro {
     private Acessorios acessorios;
     private boolean importado;
     private double precoBase;
-    private Impostos impostos;
     public Carro() {}
 
     public Carro(String modelo, String marca, Motor motor, Acessorios acessorios, boolean importado, double precoBase) {
