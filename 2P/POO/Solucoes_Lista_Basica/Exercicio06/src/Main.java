@@ -20,13 +20,18 @@ import br.com.williamsilva.opcionaiscarro.Acessorios;
 import br.com.williamsilva.veiculo.Carro;
 import br.com.williamsilva.veiculo.Motor;
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Main {
     public static void main(String[] args) {
-        Acessorios acessorios = new Acessorios(true, true, true, true, true, true, true);
+        Acessorios acessorios = personalizarCarro();
         Motor motor = new Motor(5.0, "V8");
         Carro carro = new Carro("Mustang", "Ford", motor, acessorios, true, 500000);
+
+        // Leitura do modelo.
+        //Carro modeloEscolhido = new Carro();
+        //modeloEscolhido = selecionarModelo();
 
         System.out.println(carro.exibeInformacoes());
 
@@ -36,4 +41,54 @@ public class Main {
             System.out.println("\t" + acessorio);
         }
     }
+
+    private static Carro selecionarModelo() {
+        Carro carro = new Carro();
+        Motor motor1000, motor2000, motor3000;
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Modelos:" +
+                "1 - VW Gol" +
+                "2 - Hyundai HB20" +
+                "3 - Ford Mustang" +
+                "4 - Fiat Strada");
+
+        System.out.println("Esolha entre os modelos disponíveis: ");
+
+        personalizarCarro();
+
+        return carro;
+    }
+
+    private static Acessorios personalizarCarro() {
+        Acessorios acessorios = new Acessorios();
+        System.out.println("Agora vamos escolher os acessórios do seu novo carro:");
+        System.out.println("(i) Para adicionar um acessório digite S");
+        //
+        System.out.print("Deseja que o seu carro tenha Ar Condicionado?: ");
+        acessorios.setArCondicionado(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Vidro Automático?: ");
+        acessorios.setVidroAutomatico(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Câmbio Automático?: ");
+        acessorios.setCambioAutomatico(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Alarme?: ");
+        acessorios.setAlarme(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Pitura Especial?: ");
+        acessorios.setTipoDePintura(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Teto Solar?: ");
+        acessorios.setTetoSolar(converterOpcao());
+        System.out.print("Deseja que o seu carro tenha Kit Multimídia?: ");
+        acessorios.setKitMultimidia(converterOpcao());
+
+        return acessorios;
+    }
+
+    private static boolean converterOpcao(){
+        Scanner sc = new Scanner(System.in);
+        if (sc.next().toUpperCase().equals("S")) {
+            return true;
+        }
+        return false;
+    }
+
 }
