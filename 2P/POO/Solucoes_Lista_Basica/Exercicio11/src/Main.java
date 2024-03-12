@@ -7,13 +7,12 @@ import br.com.williamsilva.utils.Data;
 
 public class Main {
     public static void main(String[] args) {
-        Data data = new Data(29,2, 1997);
-        data.avancaData();
-        System.out.println(data);
+        Data data = new Data(29,2,1996);
 
-        data.setDia(30);
-        data.setMes(2);
-        data.setAno(2024);
+        //data.setDia(31);
+        //data.setMes(6);
+        //data.setAno(1996);
+
         data.avancaData();
         System.out.println(data);
     }
