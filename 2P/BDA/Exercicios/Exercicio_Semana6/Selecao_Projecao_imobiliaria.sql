@@ -30,6 +30,7 @@ SELECT DISTINCT nome_proprietario, cpf FROM proprietario WHERE nome_proprietario
 
 -- i) Selecione as informações cujo tipo de imóvel é apartamento.
 SELECT DISTINCT rua, bairro, cidade, cep, descricao FROM imovel WHERE codigo_tipo = 1;
+-- SELECT DISTINCT * FROM tipo_imovel WHERE tipo = 'Apartamento';
 
 -- j) Selecione todas as informações da tabela venda cujos valores dos imóveis sejam de R$150.000,00.
 SELECT DISTINCT * FROM venda WHERE valor = 200000;
