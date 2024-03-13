@@ -13,6 +13,7 @@ public class Carro {
     private String marca;
     private Motor motor;
     private Acessorios acessorios;
+    private String tipoPintura;
     private boolean importado;
     private double precoBase;
     public Carro() {}
@@ -117,7 +118,7 @@ public class Carro {
     }
 
     private double descontoIPIParaMotores1000() {
-        return (motor.getCilindradas() == 1.0) ? Impostos.aplicaIsencaoImpostoIPI(precoBase) : 0;
+        return (motor.getCilindradas() == 1.0) ? Impostos.aplicaDescontoIsencaoImpostoIPI(precoBase) : 0;
     }
 
     private String fabricacao() {

@@ -6,18 +6,18 @@ Acessorios {
     private boolean vidroAutomatico;
     private boolean cambioAutomatico;
     private boolean alarme;
-    private boolean tipoDePintura;
+    private boolean pinturaEspecial;
     private boolean tetoSolar;
     private boolean kitMultimidia;
 
     public Acessorios() {}
 
-    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean tipoDePintura, boolean tetoSolar, boolean kitMultimidia) {
+    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean pinturaEspecial, boolean tetoSolar, boolean kitMultimidia) {
         this.arCondicionado = arCondicionado;
         this.vidroAutomatico = vidroAutomatico;
         this.cambioAutomatico = cambioAutomatico;
         this.alarme = alarme;
-        this.tipoDePintura = tipoDePintura;
+        this.pinturaEspecial = pinturaEspecial;
         this.tetoSolar = tetoSolar;
         this.kitMultimidia = kitMultimidia;
     }
@@ -33,7 +33,7 @@ Acessorios {
             case ALARME:
                 return alarme;
             case PINTURA:
-                return tipoDePintura;
+                return pinturaEspecial;
             case TETO_SOLAR:
                 return tetoSolar;
             case KIT_MULTIMIDIA:
@@ -76,12 +76,12 @@ Acessorios {
         this.alarme = alarme;
     }
 
-    public boolean isTipoDePintura() {
-        return tipoDePintura;
+    public boolean isPinturaEspecial() {
+        return pinturaEspecial;
     }
 
-    public void setTipoDePintura(boolean tipoDePintura) {
-        this.tipoDePintura = tipoDePintura;
+    public void setPinturaEspecial(boolean pinturaEspecial) {
+        this.pinturaEspecial = pinturaEspecial;
     }
 
     public boolean isTetoSolar() {
@@ -123,7 +123,7 @@ Acessorios {
     }
 
     private double adicionalTipoPintura() {
-        return (tipoDePintura) ? 2500 : 0;
+        return (pinturaEspecial) ? 2500 : 0;
     }
 
     private double adicionalTetoSolar(){
