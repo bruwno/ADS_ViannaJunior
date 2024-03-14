@@ -16,15 +16,18 @@ public class Carro {
     private String tipoPintura;
     private boolean importado;
     private double precoBase;
+
     public Carro() {}
 
-    public Carro(String modelo, String marca, Motor motor, Acessorios acessorios, boolean importado, double precoBase) {
+    public Carro(String modelo, String marca, Motor motor, Acessorios acessorios, String tipoPintura, boolean importado, double precoBase) {
         this.modelo = modelo;
         this.marca = marca;
         this.motor = motor;
         this.acessorios = acessorios;
+        this.tipoPintura = tipoPintura;
         this.importado = importado;
         this.precoBase = precoBase;
+        //definirTipoPintura();
     }
 
     public String getModelo() {
@@ -91,8 +94,9 @@ public class Carro {
         info.append("Informações do Carro:\n");
         info.append(formatInfo.formatarInformacao("Modelo     ", modelo));
         info.append(formatInfo.formatarInformacao("Marca      ", marca));
-        info.append(formatInfo.formatarInformacao("Motorização", String.format("%.1f ", motor.getCilindradas()) + formatInfo.formatarInformacao(motor.getConfiguracaoMotor())));
+        info.append(formatInfo.formatarInformacao("Motorização", String.format("%.1f ", motor.getPotenciaMotor())));
         info.append(formatInfo.formatarInformacao("Fabricação ", fabricacao()));
+        info.append(formatInfo.formatarInformacao("Pintura    ", acessorios.getTipoPintura()));
         info.append(formatInfo.formatarInformacao("Valor      ", String.format("R$ %.2f", valorFinalCarro())));
         return info.toString();
     }
@@ -110,7 +114,7 @@ public class Carro {
     }
 
     private double acrescimoCarroImportado() {
-        return (importado) ? precoBase * 0.30 : 0;
+        return (importado) ? Impostos.aplicaImpostoDeImportacao(precoBase) : 0;
     }
 
     private double taxaDeIPI() {
@@ -118,7 +122,11 @@ public class Carro {
     }
 
     private double descontoIPIParaMotores1000() {
-        return (motor.getCilindradas() == 1.0) ? Impostos.aplicaDescontoIsencaoImpostoIPI(precoBase) : 0;
+        return (motor.getPotenciaMotor() == 1.0) ? Impostos.aplicaDescontoIsencaoImpostoIPI(precoBase) : 0;
+    }
+
+    private void definirTipoPintura() {
+        acessorios.setTipoPintura(tipoPintura);
     }
 
     private String fabricacao() {

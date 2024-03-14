@@ -1,5 +1,7 @@
 package br.com.williamsilva.opcionaiscarro;
 
+import static br.com.williamsilva.opcionaiscarro.TiposDeAcessorios.*;
+
 public class
 Acessorios {
     private boolean arCondicionado;
@@ -7,17 +9,19 @@ Acessorios {
     private boolean cambioAutomatico;
     private boolean alarme;
     private boolean pinturaEspecial;
+    private String tipoPintura;
     private boolean tetoSolar;
     private boolean kitMultimidia;
 
     public Acessorios() {}
 
-    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean pinturaEspecial, boolean tetoSolar, boolean kitMultimidia) {
+    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean pinturaEspecial, String tipoPintura, boolean tetoSolar, boolean kitMultimidia) {
         this.arCondicionado = arCondicionado;
         this.vidroAutomatico = vidroAutomatico;
         this.cambioAutomatico = cambioAutomatico;
         this.alarme = alarme;
         this.pinturaEspecial = pinturaEspecial;
+        this.tipoPintura = tipoPintura;
         this.tetoSolar = tetoSolar;
         this.kitMultimidia = kitMultimidia;
     }
@@ -84,6 +88,16 @@ Acessorios {
         this.pinturaEspecial = pinturaEspecial;
     }
 
+    public String getTipoPintura() {
+        return tipoPintura;
+    }
+
+    public void setTipoPintura(String tipoPintura) {
+        if (!tipoPintura.isEmpty()) {
+            this.tipoPintura = tipoPintura;
+        }
+    }
+
     public boolean isTetoSolar() {
         return tetoSolar;
     }
@@ -107,30 +121,30 @@ Acessorios {
     }
 
     private double adicionalArCondicionado() {
-        return (arCondicionado) ? 3000 : 0;
+        return (arCondicionado) ? AR_CONDICIONADO.getPrecoAcessorio() : 0;
     }
 
     private double adicionalVidroAutomativo() {
-        return vidroAutomatico ? 1500 : 0;
+        return vidroAutomatico ? VIDRO_AUTOMATICO.getPrecoAcessorio() : 0;
     }
 
     private double adicionalCambioAutomatico() {
-        return (cambioAutomatico) ? 5000 : 0;
+        return (cambioAutomatico) ? CAMBIO_AUTOMATICO.getPrecoAcessorio() : 0;
     }
 
     private double adicionalAlarme() {
-        return (alarme) ? 800 : 0;
+        return (alarme) ? ALARME.getPrecoAcessorio() : 0;
     }
 
     private double adicionalTipoPintura() {
-        return (pinturaEspecial) ? 2500 : 0;
+        return (pinturaEspecial) ? PINTURA.getPrecoAcessorio() : 0;
     }
 
-    private double adicionalTetoSolar(){
-        return (tetoSolar) ? 4000 : 0;
+    private double adicionalTetoSolar() {
+        return (tetoSolar) ? TETO_SOLAR.getPrecoAcessorio() : 0;
     }
 
     private double adicionalKitMultimidia() {
-        return (kitMultimidia) ? 1800 : 0;
+        return (kitMultimidia) ? KIT_MULTIMIDIA.getPrecoAcessorio() : 0;
     }
 }

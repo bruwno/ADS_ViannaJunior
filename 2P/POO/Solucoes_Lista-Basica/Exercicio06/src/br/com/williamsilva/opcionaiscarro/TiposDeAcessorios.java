@@ -8,7 +8,7 @@ public enum TiposDeAcessorios {
     VIDRO_AUTOMATICO("Vidro Automático", 1500),
     CAMBIO_AUTOMATICO("Câmbio Automático", 5000),
     ALARME("Alarme", 800),
-    PINTURA("Pintura especial", 2500), // Preciso retornar o tipo da pintura! <AJUSTAR>
+    PINTURA("Pintura customizada", 2500), // Preciso retornar o tipo da pintura! <AJUSTAR>
     TETO_SOLAR("Teto Solar", 4000),
     KIT_MULTIMIDIA("Kit Multimídia", 1800);
 

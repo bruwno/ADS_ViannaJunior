@@ -9,4 +9,8 @@ public class Impostos {
         double valorComIsencao = valor * 0.10;
         return (valor > 0) ? valorComIsencao : 0;
     }
+
+    public static double aplicaImpostoDeImportacao(double valor) {
+        return valor * 0.30;
+    }
 }

@@ -1,33 +1,22 @@
 package br.com.williamsilva.veiculo;
 
 public class Motor {
-    private double cilindradas;
+    private double potenciaMotor;
     private String configuracaoMotor;
 
-    public Motor(double cilindradas, String configuracaoMotor) {
-        this.cilindradas = cilindradas;
-        this.configuracaoMotor = configuracaoMotor;
+    public Motor(double potenciaMotor) {
+        this.potenciaMotor = potenciaMotor;
     }
 
     public Motor() {}
 
-    public double getCilindradas(){
-        return cilindradas;
+    public double getPotenciaMotor(){
+        return potenciaMotor;
     }
 
-    public void setCilindradas(double cilindradas) {
-        if (cilindradas > 0) {
-            this.cilindradas = cilindradas;
-        }
-    }
-
-    public String getConfiguracaoMotor() {
-        return configuracaoMotor;
-    }
-
-    public void setConfiguracaoMotor(String configuracaoMotor) {
-        if (!configuracaoMotor.isEmpty()) {
-            this.configuracaoMotor = configuracaoMotor;
+    public void setPotenciaMotor(double potenciaMotor) {
+        if (potenciaMotor > 0) {
+            this.potenciaMotor = potenciaMotor;
         }
     }
 }

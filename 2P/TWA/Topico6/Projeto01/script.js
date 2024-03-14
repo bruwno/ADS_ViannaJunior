@@ -34,7 +34,7 @@ let lista = document.querySelector("ul");
 console.log(lista);
 
 // Pega todos os elementos da classe.
-let cabecalhosPequenos = document.querySelectorAll(".small-heading");
+let cabecalhosPequenos = document.querySelectorAll(".small-heading"); // Retorna uma NodeList
 console.log(cabecalhosPequenos);
 
 // Todos os <li> filhos de <ul>

@@ -16,15 +16,14 @@
  * multimidia -> R$ 1.800,00
  */
 
-import br.com.williamsilva.opcionaiscarro.Acessorios;
-import br.com.williamsilva.opcionaiscarro.TiposDeAcessorios;
-import br.com.williamsilva.veiculo.Carro;
-import br.com.williamsilva.veiculo.Motor;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.com.williamsilva.opcionaiscarro.Acessorios;
+import br.com.williamsilva.opcionaiscarro.TiposDeAcessorios;
+import br.com.williamsilva.veiculo.Carro;
+import br.com.williamsilva.veiculo.Motor;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,6 +43,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Motor motor = new Motor();
         String modelo = "", marca = "";
+        String tipoPintura = "Padrão";
         boolean ehImportado = false;
         double precoBase = 0;
 
@@ -55,58 +55,39 @@ public class Main {
 
         System.out.println("Esolha entre os modelos disponíveis digitando o seu número correspondente: ");
         System.out.println(sb);
-        int modeloSelecionado = opcaoDigitada();
+        int modeloSelecionado = opcaoDigitada(3);
 
         switch (modeloSelecionado) {
             case 1:
                 modelo = "Gol";
                 marca = "Volkswagen";
+                tipoPintura = "Padrão";
                 ehImportado = false;
-                precoBase = 50000.00;
-                motor.setCilindradas(1.0);
-                motor.setConfiguracaoMotor("16V");
+                motor.setPotenciaMotor(1.0);
+                precoBase = 40000.00;
                 break;
             case 2:
                 modelo = "HB20";
                 marca = "Hyundai";
+                tipoPintura = "Padrão";
                 ehImportado = false;
+                motor.setPotenciaMotor(1.0);
                 precoBase = 86000.00;
-                motor.setCilindradas(1.0);
-                motor.setConfiguracaoMotor("8V");
                 break;
             case 3:
                 modelo = "Mustang";
                 marca = "Ford";
+                tipoPintura = "Padrão";
                 ehImportado = true;
+                motor.setPotenciaMotor(5.0);
                 precoBase = 500000.00;
-                motor.setCilindradas(5.0);
-                motor.setConfiguracaoMotor("V8");
                 break;
         }
-        //motor = selecionarMotor();
-        Acessorios acessorios = personalizarCarro();
-        Carro carro = new Carro(modelo, marca, motor, acessorios, ehImportado, precoBase);
-        return carro;
+        Acessorios acessorios = personalizarCarro(marca, modelo);
+        return new Carro(modelo, marca, motor, acessorios, tipoPintura, ehImportado, precoBase);
     }
 
-    private static Motor selecionarMotor() {
-        Motor motor = new Motor();
-        StringBuilder sb = new StringBuilder();
-        System.out.println("Selecione a potência do motor: ");
-        sb.append("[1] Motor 1.0 (isento de IPI)" +
-                  "[2] Motor 1.4 (20% IPI)" +
-                  "[3] Motor 1.6 (20% IPI)" +
-                  "[4] Motor 2.0 (20% IPI)");
-        int motorEscolhido = opcaoDigitada();
-
-        switch(motorEscolhido) {
-
-        }
-
-        return motor;
-    }
-
-    private static Acessorios personalizarCarro() {
+    private static Acessorios personalizarCarro(String marca, String modelo) {
         Acessorios acessorios;
         List<String> listaDeAcessorios = new ArrayList<>();
         List<TiposDeAcessorios> tiposDeAcessoriosDisponiveis = TiposDeAcessorios.getTiposAcessorios();
@@ -115,22 +96,15 @@ public class Main {
             listaDeAcessorios.add(acessorio.getTipoAcessorio() + " (R$ " + acessorio.getPrecoAcessorio() + ")");
         }
 
-        System.out.println("Vamos escolher os acessórios do seu novo carro");
-        System.out.println("(i) Para adicionar um acessório digite S");
+        System.out.printf("Vamos escolher os acessórios do seu novo %s %s%n", marca, modelo);
+        System.out.println("(i) Para adicionar um acessório digite [S]im");
         List<Boolean> acessoriosSelec = new ArrayList<>();
         for (int i = 0; i < listaDeAcessorios.size(); i++) {
             System.out.printf("Deseja que o seu carro tenha %s: ", listaDeAcessorios.get(i));
             boolean opcao = converterOpcao();
             acessoriosSelec.add(opcao);
         }
-//        Acessorios acessorios = new Acessorios();
-//        acessorios.setArCondicionado(acessoriosSelec.get(0));
-//        acessorios.setVidroAutomatico(acessoriosSelec.get(1));
-//        acessorios.setCambioAutomatico(acessoriosSelec.get(2));
-//        acessorios.setAlarme(acessoriosSelec.get(3));
-//        acessorios.setTipoDePintura(acessoriosSelec.get(4));
-//        acessorios.setTetoSolar(acessoriosSelec.get(5));
-//        acessorios.setKitMultimidia(acessoriosSelec.get(6));
+
         boolean arCondicionado = acessoriosSelec.get(0);
         boolean vidro = acessoriosSelec.get(1);
         boolean cambioAutomatico = acessoriosSelec.get(2);
@@ -138,20 +112,28 @@ public class Main {
         boolean pinturaEspecial = acessoriosSelec.get(4);
         boolean tetoSolar = acessoriosSelec.get(5);
         boolean kitMultimida = acessoriosSelec.get(6);
-        acessorios = new Acessorios(arCondicionado, vidro, cambioAutomatico, alarme, pinturaEspecial, tetoSolar, kitMultimida);
+
+        String tipoPintura = "Padrão";
+        if (pinturaEspecial) {
+            tipoPintura = escolherTipoPintura();
+        }
+
+        acessorios = new Acessorios(arCondicionado, vidro, cambioAutomatico, alarme, pinturaEspecial, tipoPintura,
+                tetoSolar, kitMultimida);
         return acessorios;
     }
 
-    private static String tipoPintura() {
+    private static String escolherTipoPintura() {
         StringBuilder sb = new StringBuilder();
         String pintura;
 
         System.out.println("Selecione o tipo de pintura do seu carro: ");
-        sb.append("[1] Pintura Especial (R$ 2.500,00)" +
-                "[2] Pintura Metálica (R$ 2.500,00)" +
-                "[3] Pintura Comemorativa (R$ 2.500,00)" +
-                "[4] Pintura Padrão (Grátis)");
-        int pinturaEscolhida = opcaoDigitada();
+        sb.append("[1] Pintura Especial (R$ 2.500,00)\n" +
+                "[2] Pintura Metálica (R$ 2.500,00)\n" +
+                "[3] Pintura Comemorativa (R$ 2.500,00)\n" +
+                "[4] Manter a Pintura Padrão (Grátis)\n");
+        System.out.println(sb);
+        int pinturaEscolhida = opcaoDigitada(4);
 
         switch (pinturaEscolhida) {
             case 1:
@@ -166,26 +148,22 @@ public class Main {
             default:
                 pintura = "Pintura Padrão";
         }
-
         return pintura;
     }
 
     // Métodos auxiliares.
-    private static int opcaoDigitada() {
+    private static int opcaoDigitada(int qtdOpcoes) {
         Scanner sc = new Scanner(System.in);
         int opcaoEscolhida = 0;
-        while (opcaoEscolhida == 0) {
+        while (opcaoEscolhida <= 0 || opcaoEscolhida > qtdOpcoes) {
             System.out.print("|>| ");
             opcaoEscolhida = sc.nextInt();
         }
         return opcaoEscolhida;
     }
 
-    private static boolean converterOpcao(){
+    private static boolean converterOpcao() {
         Scanner sc = new Scanner(System.in);
-        if (sc.next().toUpperCase().equals("S")) {
-            return true;
-        }
-        return false;
+        return sc.next().toUpperCase().equals("S");
     }
 }
