@@ -5,7 +5,7 @@ public class Impostos {
         return (valor > 0) ? valor * 0.20 : 0;
     }
 
-    public static double aplicaDescontoIsencaoImpostoIPI(double valor) {
+    public static double aplicaDescontoImpostoIPI(double valor) {
         double valorComIsencao = valor * 0.10;
         return (valor > 0) ? valorComIsencao : 0;
     }

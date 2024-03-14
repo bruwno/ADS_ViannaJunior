@@ -2,13 +2,12 @@ package br.com.williamsilva.veiculo;
 
 public class Motor {
     private double potenciaMotor;
-    private String configuracaoMotor;
+
+    public Motor() {}
 
     public Motor(double potenciaMotor) {
         this.potenciaMotor = potenciaMotor;
     }
-
-    public Motor() {}
 
     public double getPotenciaMotor(){
         return potenciaMotor;

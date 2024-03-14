@@ -9,13 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Carro {
-    private String modelo;
-    private String marca;
-    private Motor motor;
+    protected String modelo;
+    protected String marca;
+    protected Motor motor;
     private Acessorios acessorios;
-    private String tipoPintura;
-    private boolean importado;
-    private double precoBase;
+    protected String tipoPintura;
+    protected boolean importado;
+    protected double precoBase;
 
     public Carro() {}
 
@@ -27,7 +27,6 @@ public class Carro {
         this.tipoPintura = tipoPintura;
         this.importado = importado;
         this.precoBase = precoBase;
-        //definirTipoPintura();
     }
 
     public String getModelo() {
@@ -62,6 +61,16 @@ public class Carro {
         return acessorios;
     }
 
+    public String getTipoPintura() {
+        return tipoPintura;
+    }
+
+    public void setTipoPintura(String tipoPintura) {
+        if (!tipoPintura.isEmpty()) {
+            this.tipoPintura = tipoPintura;
+        }
+    }
+
     public void setAcessorios(Acessorios acessorios) {
         this.acessorios = acessorios;
     }
@@ -85,10 +94,10 @@ public class Carro {
     }
 
     public double valorFinalCarro() {
-        return (precoBase + taxaDeIPI()) + acrescimoCarroImportado() + acessorios.valorTotalEmAcessorios() - descontoIPIParaMotores1000();
+        return (precoBase + impostoDeIPI()) + impostoDeImportacao() + acessorios.valorTotalEmAcessorios() - descontoIPIParaMotores1000();
     }
 
-    public String exibeInformacoes() {
+    public String exibirResumoDoModeloEscolhido() {
         FormatarInformacaoCarro formatInfo = new FormatarInformacaoCarro();
         StringBuilder info = new StringBuilder();
         info.append("Informações do Carro:\n");
@@ -97,7 +106,7 @@ public class Carro {
         info.append(formatInfo.formatarInformacao("Motorização", String.format("%.1f ", motor.getPotenciaMotor())));
         info.append(formatInfo.formatarInformacao("Fabricação ", fabricacao()));
         info.append(formatInfo.formatarInformacao("Pintura    ", acessorios.getTipoPintura()));
-        info.append(formatInfo.formatarInformacao("Valor      ", String.format("R$ %.2f", valorFinalCarro())));
+        info.append(formatInfo.formatarInformacao("Valor final", String.format("R$ %.2f", valorFinalCarro())));
         return info.toString();
     }
 
@@ -110,23 +119,23 @@ public class Carro {
                 listaDeAcessorios.add(acessorio.getTipoAcessorio());
             }
         }
+        if (listaDeAcessorios.isEmpty()) {
+            listaDeAcessorios.add("Nenhum acessório selecionado.");
+        }
+
         return listaDeAcessorios;
     }
 
-    private double acrescimoCarroImportado() {
+    private double impostoDeImportacao() {
         return (importado) ? Impostos.aplicaImpostoDeImportacao(precoBase) : 0;
     }
 
-    private double taxaDeIPI() {
+    private double impostoDeIPI() {
         return Impostos.aplicaImpostoIPI(precoBase);
     }
 
     private double descontoIPIParaMotores1000() {
-        return (motor.getPotenciaMotor() == 1.0) ? Impostos.aplicaDescontoIsencaoImpostoIPI(precoBase) : 0;
-    }
-
-    private void definirTipoPintura() {
-        acessorios.setTipoPintura(tipoPintura);
+        return (motor.getPotenciaMotor() == 1.0) ? Impostos.aplicaDescontoImpostoIPI(precoBase) : 0;
     }
 
     private String fabricacao() {

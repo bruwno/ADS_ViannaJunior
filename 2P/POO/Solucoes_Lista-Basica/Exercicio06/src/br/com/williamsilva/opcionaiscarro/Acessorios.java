@@ -8,19 +8,19 @@ Acessorios {
     private boolean vidroAutomatico;
     private boolean cambioAutomatico;
     private boolean alarme;
-    private boolean pinturaEspecial;
+    private boolean pinturaCustomizada;
     private String tipoPintura;
     private boolean tetoSolar;
     private boolean kitMultimidia;
 
     public Acessorios() {}
 
-    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean pinturaEspecial, String tipoPintura, boolean tetoSolar, boolean kitMultimidia) {
+    public Acessorios(boolean arCondicionado, boolean vidroAutomatico, boolean cambioAutomatico, boolean alarme, boolean pinturaCustomizada, String tipoPintura, boolean tetoSolar, boolean kitMultimidia) {
         this.arCondicionado = arCondicionado;
         this.vidroAutomatico = vidroAutomatico;
         this.cambioAutomatico = cambioAutomatico;
         this.alarme = alarme;
-        this.pinturaEspecial = pinturaEspecial;
+        this.pinturaCustomizada = pinturaCustomizada;
         this.tipoPintura = tipoPintura;
         this.tetoSolar = tetoSolar;
         this.kitMultimidia = kitMultimidia;
@@ -37,7 +37,7 @@ Acessorios {
             case ALARME:
                 return alarme;
             case PINTURA:
-                return pinturaEspecial;
+                return pinturaCustomizada;
             case TETO_SOLAR:
                 return tetoSolar;
             case KIT_MULTIMIDIA:
@@ -80,12 +80,12 @@ Acessorios {
         this.alarme = alarme;
     }
 
-    public boolean isPinturaEspecial() {
-        return pinturaEspecial;
+    public boolean isPinturaCustomizada() {
+        return pinturaCustomizada;
     }
 
-    public void setPinturaEspecial(boolean pinturaEspecial) {
-        this.pinturaEspecial = pinturaEspecial;
+    public void setPinturaCustomizada(boolean pinturaCustomizada) {
+        this.pinturaCustomizada = pinturaCustomizada;
     }
 
     public String getTipoPintura() {
@@ -137,7 +137,7 @@ Acessorios {
     }
 
     private double adicionalTipoPintura() {
-        return (pinturaEspecial) ? PINTURA.getPrecoAcessorio() : 0;
+        return (pinturaCustomizada) ? PINTURA.getPrecoAcessorio() : 0;
     }
 
     private double adicionalTetoSolar() {

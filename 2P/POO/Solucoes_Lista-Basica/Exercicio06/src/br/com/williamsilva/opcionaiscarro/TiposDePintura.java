@@ -3,7 +3,8 @@ package br.com.williamsilva.opcionaiscarro;
 public enum TiposDePintura {
     ESPECIAL("Especial"),
     METALICA("Metálica"),
-    COMEMORATIVA("Comemorativa");
+    COMEMORATIVA("Comemorativa"),
+    PADRAO("Padrão");
 
     private final String tipoPintura;
 
