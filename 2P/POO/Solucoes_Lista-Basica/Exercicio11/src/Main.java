@@ -13,7 +13,7 @@ public class Main {
         //data.setMes(6);
         //data.setAno(1996);
 
-        data.avancaData();
+        //data.avancaData();
         System.out.println(data);
     }
 }
