@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <article>
+        <div class="header-container">
+            <header>
+                <h1>
+                    <img src="./img/Java_Logo2.webp" width="" height="" alt="Imagem com o logotipo da linguagem Java">
+                    <br>A linguagem de programação Java e o JDK
+                </h1>
+                <p>
+                    <img id="duke" src="./img/Duke.png" alt="Duke, o mascote do Java.">
+                    Este breve artigo trata da origem da linguagem de programação Java e elenca algumas de suas
+                    características mais marcantes.<br><br>
+                </p>
+            </header>
+        </div>
+
+        <h2 class="subtitle-topic">Contexto histórico</h2>
+        <p class="content-texts">
+            Java surgiu em um momento em que o setor de tecnologia estava a pleno vapor, com a Internet se popularizando
+            em grande parte do mundo e permitindo que diferentes tipos de dispositivos se comunicassem e trocassem
+            informações em tempo real.
+            <br><br>
+            Nesse contexto surge, criada na Sun Microsystems, em 1991 a linguagem de programação Oak, que teve a sua
+            criação liderada por James Gosling, uma referência na área de programação na época. Um fato interessante é
+            que, como Oak já era uma marca registrada o time de desenvolvimento teve que trocar o nome do projeto, e por
+            conta do tipo de café que os membros do time mais consumiam ser o café proveniente da Ilha de Java este
+            acabou sendo o nome escolhido para a linguagem, não por acaso o logo do Java é uma xícara de café.
+        </p>
+
+        <h2 class="subtitle-topic">Introdução</h2>
+        <p class="content-texts">
+            Podemos expandir o que foi contado na contextualização histórico de forma mais aprofundada citando o projeto
+            que culminou na criação do Java, o <i><a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)#Hist%C3%B3ria" target="_parent">Project Green</a></i>, que visava desenvolver as tecnologias mais modernas de
+            software para clientes empresariais que fabricassem dispositivos eletrônicos ou que dependessem do software
+            para alavancar os seus negócios. O principal objetivo era permitir que diferentes tipos de eletrodomésticos
+            e eletrônicos pudessem receber algum tipo de “inteligência”, tornando-os mais úteis no dia a dia das
+            pessoas, através da automatização de tarefas, onde tudo estaria conectado, buscando simplificar a vida dos
+            usuários.
+        </p>
+
+        <p class="content-texts">
+            O foco principal do Project Green era que a plataforma criada, isto é o Java, pudesse ser facilmente
+            executado em qualquer dispositivo móvel da época, sem depender de um sistema operacional em específico, ou
+            seja, os desenvolvedores queriam portabilidade e simplicidade, para poderem escrever um código uma vez e
+            executá-lo em qualquer lugar, com isso surge o sistema operacional GreenOS.
+        </p>
+
+        <p class="content-texts">
+            No ano de 1993 foi lançada a primeira versão do navegador gráfico Web, MOSAIC. O que permitiu que a Internet
+            aumentasse exponencialmente em popularidade, haja visto que agora as pessoas tinham uma forma mais acessível
+            de se conectar na rede.
+        </p>
+
+        <p class="content-texts">
+            Todavia, já no ano de 1995, as páginas Web ainda eram completamente estáticas e quase sem interatividade,
+            então a Sun viu a oportunidade de finalmente introduzir o seu produto no mercado, através do ambiente Java,
+            que consistia de uma máquina virtual, a JVM, responsável por permitir a execução dos código escritos em
+            qualquer plataforma que possuísse o kit de desenvolvimento, JDK, tornando os softwares escritos
+            independentes de plataforma, que já serviu para revolucionar o mercado de software dali em diante e tornar o
+            Java uma das tecnologias mais importantes da sua geração, sendo extremamente relevante até os dias de hoje,
+            quase 30 anos depois do seu lançamento.
+        </p>
+
+        <hr class="content-separator">
+
+        <p id="highlights-list-title"><b>As principais características e vantagens da linguagem Java são:</b></p>
+        <ul class="highlights-list">
+            <li>Suporte à orientação a objetos;</li>
+            <li>Portabilidade;</li>
+            <li>Segurança;</li>
+            <li>Linguagem Simples;</li>
+            <li>Alta Performance;</li>
+            <li>Dinamismo;</li>
+            <li>Interpretada (o compilador pode executar os bytecodes do Java diretamente em qualquer máquina);</li>
+            <li>Distribuído;</li>
+            <li>Independente de plataforma;</li>
+            <li>Tipada (detecta os tipos de variáveis quando declaradas).</li>
+        </ul>
+
+        <hr class="content-separator">
+
+        <h2 class="subtitle-topic">O segredo para o Java ser multiplataforma</h2>
+        <p class="content-texts">
+            O fato de poder ser executado em computadores com diferentes tipos de sistemas operacionais instalados e em
+            diferentes tipos de processadores trouxe ao Java uma popularidade extraordinária, e isso se deve ao conceito
+            então introduzido <em>"Write once, run anywhere"</em>, em tradução literal <i>"Escreva uma vez, execute em
+                qualquer lugar"</i>. Em linguagens como C e C++ o código que escrevemos é compilado para a linguagem de
+            máquina correspondente à arquitetura da CPU onde o mesmo está sendo desenvolvido além de ficar atrelado à
+            bilbiotecas específicas daquele sistema operacional, e isso acaba forçando o programador a fazer alterações
+            no código e gerar um programa diferente se quiser ou precisar disponibilizar o seu software para diferentes
+            plataformas.
+            <br>
+            No Java isso não ocorre, justamente porque ele próprio é uma plataforma, contemplando uma máquina virtual
+            (JVM), um kit desenvolvimento de software (JDK) e um runtime (JRE) - que permite executar os softwares no
+            computador.
+        </p>
+
+        <figure>
+            <img class="jvm-illustration" src="./img/Java_JVM.png" width="" height="" alt="Exemplificação do funcionamento da JVM">
+            <figcaption><i>Como a JVM funciona.</i></figcaption>
+        </figure>
+
+        <p class="content-texts">
+            A JVM é a <em>Java Virtual Machine</em>, em tradução livre <i>Máquina Virtual Java</i>, responsável por
+            executar os aplicativos escritos em Java em tempo real. O grande segredo está aqui, já que a JVM é a
+            grande responsável por tornar o Java independente de plataforma, já que ela emula um computador de
+            forma virtual, de forma parece com o funcionamento de ferramento como o QEMU ou o VirtualBox. Desta
+            forma, o Java não compila para a máquina física, que é onde o software será executado de fato, mas
+            sim para a máquina virtual, que entende uma linguagem intermediária, chamada de
+            <i><b>bytecode</b></i>. Assim sendo, para que uma pessoa consiga utilizar um programa desenvolvida
+            com a plataforma java, basta que ela instale o JRE (Java Environment Runtime) específico para o seu
+            sistema operacional para que o programa execute, sem que o desenvolvedor tenha fazer nenhuma
+            modificação no código original.
+        </p>
+
+
+        <h2 class="subtitle-topic">Bibliotecas de classes</h2>
+        <p class="content-texts">
+            Na maioria dos sistemas operacionais modernos, um corpo formado por código reusável é organizado e
+            disponibilizado para simplificar o trabalho do programador. Este código encontra-se, normalmente, na forma
+            de bibliotecas dinâmicas que a aplicação utiliza durante a sua execução. Como a plataforma Java não é
+            dependente de qualquer sistema operacional, as aplicações não podem depender das bibliotecas destes
+            sistemas. Ao contrário, a plataforma Java disponibiliza um grande conjunto padronizado de bibliotecas de
+            classe, que contém praticamente o mesmo número de funções encontradas nos sistemas operacionais modernos.
+
+            Uma classe de biblioteca Java serve a três propósitos dentro da plataforma Java. Como outras bibliotecas
+            padrão, elas disponibilizam ao programador um conjunto de funções bem conhecidas que realizam tarefas
+            comuns, como a manutenção de listas de elementos ou manipulação de strings. Em adição, a biblioteca contém
+            uma interface para tarefas que dependem do hardware e do sistema operacional. Tarefas como acesso a rede e a
+            arquivos são altamente dependentes das capacidades nativas do ambiente. As bibliotecas java.net e java.io
+            implementam o código necessário internamente, e disponibilizam uma interface padrão para que as aplicações
+            Java possam executar estas tarefas. Finalmente, se alguma plataforma não suportar alguma função que uma
+            aplicação Java necessita, as bibliotecas implementam esta funcionalidade usando os recursos disponíveis, ou
+            disponibilizam um meio consistente para que a aplicação verifique a presença de determinada funcionalidade.
+        </p>
+
+        <h2 class="subtitle-topic">Código aberto</h2>
+        <p class="content-texts">
+            Em 2006 a Sun Microsystem tornou pública a maior parte do código fonte do Java, tornando-o um software
+            livre, o que contribuiu para popularizar ainda mais a plataforma e expandir a sua adoção em todo tipo de
+            dispositivo e para todo tipo de aplicação que se possa imaginar.
+        </p>
+
+        <hr class="content-separator">
+
+        <footer class="article-footer">
+            <p>Texto adaptado por <a href="https://github.com/unclWill" target="_blank"><br>William Silva</a></p>
+            <p>
+                Fontes de pesquisa<br>
+                <cite><a href="https://www.devmedia.com.br/java-historia-e-principais-conceitos/25178" target="_blank">DevMedia</a></cite>,
+                <cite><a href="https://www.ibm.com/br-pt/topics/jre" target="_blank">IBM</a></cite>,
+                <cite><a href="https://eddiescj.medium.com/qual-a-grande-hist%C3%B3ria-por-tr%C3%A1s-do-java-af38339de436" target="_blank">Medium</a></cite>,
+                <cite><a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank">Wikipédia</a></cite>
+                <br>
+            </p>
+        </footer>
+    </article>
+</body>
+
+<footer>
+    <div class="footer-container">
+        <img src="./img/ViannaJr.png" alt="Logo do Instituto Vianna Júnior">
+        <p>© 2024 William Silva. ADS | <b>FIVJ - Instituto Vianna Júnior.</b></p>
+    </div>
+</footer>
+
+</html>

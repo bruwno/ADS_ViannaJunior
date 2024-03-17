@@ -1,0 +1,152 @@
+/*
+O objetivo do site;
+Todas as cores da paleta de cores utilizada;
+A justificativa de cada cor utilizada com base na teoria das cores;
+O esquema de cor utilziado( monocromático, análogo ou complementar) e a justificativa da utilização deste esquema;
+ */
+
+/* Objetivo do site:
+  Tratar breve e resumida da plataforma Java e do Java Development Kit (JDK).
+ */
+
+/* Todas as cores da paleta de cores utilizada:
+  #E9DFDF, #268DBD, #37698A, #0090F0, #344957, #292F33
+  Paleta: https://color.adobe.com/pt/Site-Colors-color-theme-5db05839-cd7f-4846-b60f-fa171ae393c2
+*/
+
+/* Esquema de cores: Monocromático personalizado (utilizei uma variação de cinza (#E9DFDF) para o plano de fundo e para o texto de rodapé).
+Escolhi esse esquema de cores por entender que ele traz maior solidez à página, as variações de azul, mais puxadas para o preto, transmitem seriedade e dão uma maior consistência para a estrutura visual do site, além disso a caoir mais escura da paleta (#292F33) contrasta muito bem com o fundo, o que auxilia na leitura dos textos, e é bem importante já que o objetivo principal da página é transmitir a mensagem de forma 99% textual, contando com apenas uma imagem ilustrativa.
+*/
+
+/* No plano de fundo do site utilizei um tom que não fosse 100% branco, para não cansar excessivamente os olhos, por isso escolhi um cinza bem claro.
+*/
+body {
+  background-color: #e9dfdf;
+}
+
+.header-container {
+  padding: 5px 0px 0px 5px;
+}
+
+.header-container img {
+  width: 250px;
+  height: 150px;
+}
+
+.header-container h1 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #268dbd;
+}
+
+#duke {
+  width: 35px;
+  height: 40px;
+  display: inline-block;
+}
+
+/* Na descrição do site utilizei um tom de azul acinzentado, com o objetivo de diferenciar este texto do restante dos textos do site.
+*/
+.header-container p {
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 0px 0px 20px;
+  color: #37698a;
+}
+
+/* Nos títulos dos tópicos utilizei um azul mais brilhante, para destacar para o leitor o assunto que é tratado nos parágrafos que se seguem.
+*/
+.subtitle-topic {
+  font-family: Helvetica, sans-serif;
+  font-size: 27px;
+  padding: 20px;
+  color: #0090f0;
+  background-color: #292f33;
+}
+
+/* Nos textos com o conteúdo relevante utilizei um tom de azul bem escuro, mais próximo do preto, já que melhora o contraste com o plano de fundo do site e permite uma leitura mais agradável.
+*/
+.content-texts {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  padding: 1em;
+  color: #292f33;
+}
+
+/* Nas duas linhas que delimitam a lista com as caractéristicas do Java utilizei um tom de azul mais escuro, para ficar próximo da cor dos textos, mas ainda sim com um pequeno contraste.
+*/
+.content-separator {
+  width: 80%;
+  height: 1px;
+  size: 100;
+  background-color: #344957;
+}
+
+/* No título da lista utilizei o mesmo tom de azul das linhas, o intuito é manter um coesão entre a diferença dos textos principais para esta seção específica.
+*/
+#highlights-list-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  color: #344957;
+}
+
+/* Nos textos da lista utilizei a mesma cor dos demais textos, que se referem à conteúdo, um azul bem escuro.
+*/
+.highlights-list {
+  font-family: Helvetica, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 1em;
+  color: #292f33;
+}
+
+/* Nesta imagem, que ilustra como a JVM funciona, eu adicionei uma borda, para aumentar o destaque da imagem e chamar a atenção do leitor, já que é uma imagem bem relevante para a seção, e que resume bem o que está sendo dito nos textos abaixo e acima dela.
+*/
+.jvm-illustration {
+  width: 30%;
+  margin: auto;
+  display: block;
+  padding: 1em;
+  background-color: #2680bd;
+}
+
+.jvm-illustration + figcaption {
+  text-align: center;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.article-footer {
+  text-align: center;
+  font-size: 17px;
+  font-family: Helvetica, sans-serif;
+  padding: 1em;
+}
+
+/* No rodapé da página eu utilizei o segundo tom de azul mais escuiro da paleta, para diferenciá-lo dos tópicos de conteúdo.
+*/
+.footer-container {
+  display: flex;
+  align-items: center;
+  background-color: #344957;
+}
+
+.footer-container img {
+  width: 4%;
+  margin-right: 34%;
+}
+
+/* No texto do rodapé utilizei o mesmo tom de branco do plano de fundo do site.
+*/
+.footer-container p {
+  font-family: Helvetica, sans-serif;
+  color: #e9dfdf;
+}
