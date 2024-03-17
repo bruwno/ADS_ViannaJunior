@@ -7,10 +7,9 @@ EXERCÍCIO: Crie um documento html que tenha um título h1 e três parágrafos, 
 2.2) Botão diminuir: Se o texto estiver grande vai para regular e se o texto estiver regular vai para pequeno.
 */
 
-
-let body = document.querySelector('body');
-let btnAumentarTexto = document.getElementById('btnAumentarTexto');
-let btnDiminuirText = document.getElementById('btnDiminuirTexto');
+const body = document.querySelector('body');
+const btnAumentarTexto = document.getElementById('btnAumentarTexto');
+const btnDiminuirText = document.getElementById('btnDiminuirTexto');
 
 function aumentarTexto() {
     if (body.classList.contains('texto-pequeno')) {

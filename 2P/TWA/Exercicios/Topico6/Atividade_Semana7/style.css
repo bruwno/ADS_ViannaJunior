@@ -1,3 +1,4 @@
+/*Atividade*/
 .texto-pequeno {
   font-size: 0.8rem;
 }
@@ -9,3 +10,46 @@
 .texto-grande {
   font-size: 1.5rem;
 }
+
+/*Personalização dos botões*/
+.button-container {
+  display: block;
+  width: 30%;
+  margin: auto;
+  display: block;
+  padding: 16px;
+}
+#btnAumentarTexto {
+  font-size: 17px;
+  background: #3d467a;
+  color: #fff;
+  border-style: outset;
+  border-color: #3d467a;
+  height: 50px;
+  width: 200px;
+  text-shadow: none;
+}
+
+#btnDiminuirTexto {
+  font-size: 17px;
+  background: #0026fa;
+  color: #fff;
+  border-style: outset;
+  border-color: #0026fa;
+  height: 50px;
+  width: 200px;
+  text-shadow: none;
+}
+
+.btnAumentarTexto:hover {
+  background: #016abc;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: #016abc;
+}
+
+/* Escolha das cores: 
+
+*/
