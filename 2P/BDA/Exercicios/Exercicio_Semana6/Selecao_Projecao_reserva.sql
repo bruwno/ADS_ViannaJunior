@@ -10,7 +10,7 @@ SELECT DISTINCT fabricante, anofabricacao FROM aeronave WHERE capacidade > 200;
 SELECT DISTINCT numerovoo, horariosaida FROM voo WHERE cidadedestino = 4567;
   
 -- QUESTÃO 04: Recupere o preço das reservas para o voo de código 1100.
-SELECT DISTINCT preco FROM reserva WHERE codigoreserva = 1100;
+SELECT DISTINCT preco FROM reserva WHERE codigovoo = 1100;
  
 -- QUESTÃO 05: Recupere o código do cliente que reservou um voo no dia 10/11/2014.
 SELECT DISTINCT codigocliente FROM reserva WHERE datareserva = '2014-11-10';
