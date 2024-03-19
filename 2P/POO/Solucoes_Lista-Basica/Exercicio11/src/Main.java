@@ -1,19 +1,26 @@
 /*
  * Autor: William Silva (https://gitlab.com/unclWill)
- * br.com.williamsilva.utils.Data : 07/03/2024
+ * Data : 07/03/2024
  */
-
-import br.com.williamsilva.utils.Data;
 
 public class Main {
     public static void main(String[] args) {
-        Data data = new Data();
+        // Data atual do sistema (construtor padrão).
+        Data dataAtual = new Data();
+        System.out.printf("Data do sistema operacional: %s%n", dataAtual);
 
-        data.setDia(28);
-        data.setMes(2);
-        data.setAno(20234);
+        // Data inicializada a partir do construtor.
+        Data novaData = new Data(10, 03, 2000);
+        System.out.printf("Data definida no construtor: %s%n", novaData);
 
-        data.avancaData();
-        System.out.println(data);
+        // Data inicializada com o construtor padrão e modificada via métodos set de cada campo.
+        Data outraData = new Data();
+        outraData.setDia(27);
+        outraData.setMes(2);
+        outraData.setAno(2023);
+        System.out.printf("Data definida nos métodos set: %s%n", outraData);
+        // Avançando um dia.
+        outraData.avancaData();
+        System.out.printf("Avançando um dia na data anterior: %s%n", outraData);
     }
 }

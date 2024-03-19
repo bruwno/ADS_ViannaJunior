@@ -1,11 +1,9 @@
-package br.com.williamsilva.utils;
-
 import java.time.LocalDate;
 
 public class Data {
-    private int dia;
-    private int mes;
-    private int ano;
+    private int dia = 1;
+    private int mes = 1;
+    private int ano = 1970;
 
     public Data() {
         LocalDate dataAtual = LocalDate.now();
@@ -15,9 +13,9 @@ public class Data {
     }
 
     public Data(int dia, int mes, int ano) {
-        setAno(ano);
-        setMes(mes);
         setDia(dia);
+        setMes(mes);
+        setAno(ano);
     }
 
     public int getDia() {
@@ -43,15 +41,8 @@ public class Data {
     }
 
     public void setAno(int ano) {
-        String qtdDigitos = String.valueOf(ano);
-        if (qtdDigitos.length() > 4) {
-            LocalDate dataAtual = LocalDate.now();
-            this.ano = dataAtual.getYear();
-        } else {
-            this.ano = ano;
-            validaData();
-        }
-
+        this.ano = ano;
+        validaData();
     }
 
     @Override
