@@ -9,7 +9,10 @@ public class NumerosImpares {
     private int a;
     private int b;
 
-    public NumerosImpares() {}
+    public NumerosImpares() {
+        this.a = 0;
+        this.b = 0;
+    }
 
     public NumerosImpares(int a, int b) {
         this.a = a;

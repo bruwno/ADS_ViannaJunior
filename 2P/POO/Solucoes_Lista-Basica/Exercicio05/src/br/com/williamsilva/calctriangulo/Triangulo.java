@@ -5,7 +5,11 @@ public class Triangulo {
     private double b;
     private double c;
 
-    public Triangulo() {}
+    public Triangulo() {
+        this.a = 0.0;
+        this.b = 0.0;
+        this.c = 0.0;
+    }
 
     public Triangulo(double a, double b, double c) {
         this.a = a;

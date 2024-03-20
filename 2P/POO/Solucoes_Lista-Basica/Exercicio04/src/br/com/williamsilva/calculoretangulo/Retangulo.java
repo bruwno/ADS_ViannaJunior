@@ -10,7 +10,10 @@ public class Retangulo {
     private double comprimento;
     private double largura;
 
-    public Retangulo() {}
+    public Retangulo() {
+        this.largura = 0.0;
+        this.comprimento = 0.0;
+    }
 
     public Retangulo(double comprimento, double largura) {
         this.comprimento = comprimento;

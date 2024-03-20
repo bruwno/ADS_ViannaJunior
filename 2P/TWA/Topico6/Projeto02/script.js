@@ -29,8 +29,8 @@ proximo.addEventListener('click', event => {
 let anterior = document.getElementById('anterior');
 anterior.addEventListener('click', event => {
     event.preventDefault();
-    if (atual == 0) {
-        atual = 9;
+    if (atual == imagens.length) {
+        atual = 0;
     }
     imgs.setAttribute("src", imagens[atual--])
 })

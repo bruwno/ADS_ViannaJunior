@@ -3,7 +3,11 @@ public class Emprestimo {
     private double taxaDeJuros;
     private int prazoParaPagamento;
 
-    public Emprestimo() {}
+    public Emprestimo() {
+        this.valor = 0.0;
+        this.taxaDeJuros = 0.0;
+        this.prazoParaPagamento = 0;
+    }
 
     public Emprestimo(double valor, double taxaDeJuros, int prazoParaPagamento) {
         this.valor = valor;

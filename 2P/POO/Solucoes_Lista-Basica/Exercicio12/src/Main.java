@@ -1,10 +1,12 @@
 /*
  * Autor: William Silva (https://gitlab.com/unclWill)
- * Data : 19/03/2024
+ * br.com.williamsilva.calendario.Data : 19/03/2024
  *
  * Exercício 12 - Crie um programa que determine se uma pessoa possui uma idade superior a 17 anos.
  * O usuário deverá informar o nome, ano de nascimento e email da pessoa. Faça uso da classe acima.
  */
+
+import br.com.williamsilva.calendario.Data;
 
 public class Main {
     public static void main(String[] args) {

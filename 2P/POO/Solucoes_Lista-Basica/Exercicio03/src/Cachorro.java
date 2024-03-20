@@ -9,7 +9,11 @@ public class Cachorro {
         private int idade;
         private String raca;
 
-        public Cachorro() {}
+        public Cachorro() {
+            this.nome = "";
+            this.idade = 0;
+            this.raca = "";
+        }
 
         public Cachorro(String nome, int idade, String raca) {
             this.nome = nome;

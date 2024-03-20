@@ -1,9 +1,15 @@
+import br.com.williamsilva.calendario.Data;
+
 public class Pessoa {
     private String nome;
     private Data anoNascimento;
     private String email;
 
-    public Pessoa() {}
+    public Pessoa() {
+        this.nome = "";
+        this.anoNascimento = new Data();
+        this.email = "";
+    }
 
     public Pessoa(String nome, Data anoNascimento, String email) {
         this.nome = nome;
