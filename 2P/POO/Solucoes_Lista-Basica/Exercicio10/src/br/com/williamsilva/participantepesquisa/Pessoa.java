@@ -3,23 +3,23 @@ package br.com.williamsilva.participantepesquisa;
 import java.util.ArrayList;
 
 public class Pessoa {
-    private Character sexo;
-    private String corDosOlhos;
-    private String corDosCabelos;
+    private Generos sexo;
+    private CoresOlhos corDosOlhos;
+    private CoresCabelos corDosCabelos;
     private double altura;
     private int idade;
     private ArrayList<Pessoa> listaDePessoas;
 
     public Pessoa() {
-        this.sexo = ' ';
-        this.corDosOlhos = "";
-        this.corDosCabelos = "";
+        this.sexo = Generos.MASCULINO;
+        this.corDosOlhos = CoresOlhos.AZUIS;
+        this.corDosCabelos = CoresCabelos.LOUROS;
         this.altura = 0.0;
         this.idade = 0;
         listaDePessoas = new ArrayList<>();
     }
 
-    public Pessoa(char sexo, String corDosOlhos, String corDosCabelos, double altura, int idade) {
+    public Pessoa(Generos sexo, CoresOlhos corDosOlhos, CoresCabelos corDosCabelos, double altura, int idade) {
         this.sexo = sexo;
         this.corDosOlhos = corDosOlhos;
         this.corDosCabelos = corDosCabelos;
@@ -28,32 +28,32 @@ public class Pessoa {
         listaDePessoas = new ArrayList<>();
     }
 
-    public char getSexo() {
+    public Generos getSexo() {
         return sexo;
     }
 
-    public void setSexo(Character sexo) {
-        if (!sexo.equals(' ')) {
+    public void setSexo(Generos sexo) {
+        if (sexo != null) {
             this.sexo = sexo;
         }
     }
 
-    public String getCorDosOlhos() {
+    public CoresOlhos getCorDosOlhos() {
         return corDosOlhos;
     }
 
-    public void setCorDosOlhos(String corDosOlhos) {
-        if (!corDosOlhos.isBlank()) {
+    public void setCorDosOlhos(CoresOlhos corDosOlhos) {
+        if (corDosOlhos != null) {
             this.corDosOlhos = corDosOlhos;
         }
     }
 
-    public String getCorDosCabelos() {
+    public CoresCabelos getCorDosCabelos() {
         return corDosCabelos;
     }
 
-    public void setCorDosCabelos(String corDosCabelos) {
-        if (!corDosCabelos.isBlank()) {
+    public void setCorDosCabelos(CoresCabelos corDosCabelos) {
+        if (corDosCabelos != null) {
             this.corDosCabelos = corDosCabelos;
         }
     }
@@ -85,6 +85,4 @@ public class Pessoa {
     public void addPessoa(Pessoa pessoa) {
         listaDePessoas.add(pessoa);
     }
-
-
 }

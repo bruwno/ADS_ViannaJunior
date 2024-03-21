@@ -20,6 +20,7 @@
 
 import br.com.williamsilva.participantepesquisa.CoresOlhos;
 import br.com.williamsilva.participantepesquisa.CoresCabelos;
+import br.com.williamsilva.participantepesquisa.Generos;
 import br.com.williamsilva.participantepesquisa.Habitante;
 
 import java.util.List;
@@ -34,7 +35,7 @@ public class Main {
 
         for (int i = 0; i < qtdParticipantes; i++) {
             System.out.printf("%n| Participante %d de %d |%n", i + 1, qtdParticipantes);
-            h.addHabitante(lerDadosHabitante());
+            h.addPessoa(lerDadosHabitante());
         }
 
         exibirResultadosDaPesquisa(h);
@@ -45,32 +46,13 @@ public class Main {
         return sc.nextInt();
     }
 
-    public static void exibirResultadosDaPesquisa(Habitante h) {
-        System.out.println("\nResultados da pesquisa");
-        System.out.println("ALTURA DA POPULAÇÃO");
-        System.out.printf("\tMENOR ALTURA: %.2f m%n", h.calcularMenorAltura());
-        System.out.printf("\tMAIOR ALTURA: %.2f m%n", h.calcularMaiorAltura());
-
-        System.out.println("\nALTURA MÉDIA ENTRE AS MULHERES");
-        System.out.printf("\tMÉDIA: %.2f m%n", h.calcularMediaAlturaMulheres());
-
-        System.out.println("\nPARTICIPANTES DA PESQUISA QUE SÃO HOMENS");
-        System.out.printf("\tTOTAL: %d%n", h.calcularQtdHabitantesSexoMasculino());
-
-        System.out.println("\nPERCENTUAL DE COMPOSIÇÃO DA POPULAÇÃO (por gênero)");
-        System.out.printf("\t%s%n", h.obterPorcentDeHomensEMulheres());
-
-        System.out.println("\nPERCENTUAL DE LOIRAS NA FAIXA (18-35 anos) QUE TÊM OLHOS VERDES");
-        System.out.printf("\t%.2f%%%n", h.obterPorcentLoirasOlhosVerdes());
-    }
-
     public static Habitante lerDadosHabitante() {
         Scanner sc = new Scanner(System.in);
         Habitante h = new Habitante();
-        System.out.println("\t[Informe seus dados para a pesquisa]");
+        System.out.println("\tInforme seus dados para a pesquisa");
 
-        System.out.print("\tGênero (M)asculino ou (F)eminino: ");
-        h.setSexo(leRetornaGenero(sc));
+        System.out.print("\tGênero: \n");
+        h.setSexo(escolherGenero());
 
         System.out.print("\tCor dos olhos: \n");
         h.setCorDosOlhos(escolherCorDosOlhos());
@@ -81,14 +63,39 @@ public class Main {
         System.out.print("\tAltura: ");
         h.setAltura(leRetornaAltura(sc));
 
-        System.out.print("\tIdade: ");
+        System.out.print("\tIdade : ");
         h.setIdade(leRetornaIdade(sc));
 
         return h;
     }
 
-    public static Character leRetornaGenero(Scanner sc) {
-        return sc.next().toUpperCase().charAt(0);
+    public static void exibirResultadosDaPesquisa(Habitante h) {
+        System.out.println("\nResultados da pesquisa");
+        System.out.println("ALTURA DA POPULAÇÃO");
+        System.out.printf("\tMenor altura: %.2f m%n", h.calcularMenorAltura());
+        System.out.printf("\tMaior altura: %.2f m%n", h.calcularMaiorAltura());
+
+        System.out.println("\nALTURA MÉDIA ENTRE AS MULHERES");
+        System.out.printf("\tMédia: %.2f m%n", h.calcularMediaAlturaMulheres());
+
+        System.out.println("\nPARTICIPANTES DA PESQUISA QUE SÃO HOMENS");
+        System.out.printf("\tTotal: %d%n", h.calcularQtdHabitantesSexoMasculino());
+
+        System.out.println("\nPERCENTUAL DE COMPOSIÇÃO DA POPULAÇÃO (por gênero)");
+        System.out.printf("\tTotais: %s%n", h.obterPercentDeHomensEMulheres());
+
+        System.out.println("\nPERCENTUAL DE LOIRAS NA FAIXA (18-35 anos) QUE TÊM OLHOS VERDES");
+        System.out.printf("\tTotal: %.2f%%%n", h.obterPercentLoirasOlhosVerdes());
+    }
+
+    public static char leRetornaGenero() {
+        Scanner sc = new Scanner(System.in);
+        char opcaoDigitada = ' ';
+        while (opcaoDigitada != 'M' && opcaoDigitada != 'F') {
+            System.out.print("\t\t|>| ");
+            opcaoDigitada = sc.next().toUpperCase().charAt(0);
+        }
+        return opcaoDigitada;
     }
 
     public static double leRetornaAltura(Scanner sc) {
@@ -99,6 +106,28 @@ public class Main {
         return sc.nextInt();
     }
 
+    public static void listarGeneros() {
+        List<Generos> listaDeGeneros = Generos.getGeneros();
+        for (Generos genero : listaDeGeneros) {
+            System.out.printf("\t\t[%c] %s%n", genero.getIdGenero(), genero.getNomeGenero());
+        }
+    }
+
+    public static Generos escolherGenero() {
+        listarGeneros();
+        char opcDigitada = leRetornaGenero();
+        Generos genero = null;
+        switch (opcDigitada) {
+            case 'M':
+                genero = Generos.MASCULINO;
+                break;
+            case 'F':
+                genero = Generos.FEMININO;
+                break;
+        }
+        return genero;
+    }
+
     public static void listarCoresDeOlhos() {
         List<CoresOlhos> listaDeCoresDeOlhos = CoresOlhos.getCoresOlhos();
         for (CoresOlhos coresOlhos : listaDeCoresDeOlhos) {
@@ -106,19 +135,19 @@ public class Main {
         }
     }
 
-    public static String escolherCorDosOlhos() {
+    public static CoresOlhos escolherCorDosOlhos() {
         listarCoresDeOlhos();
         int opcDigitada = lerOpcaoDigitada(3);
-        String corDosOlhos = "";
+        CoresOlhos corDosOlhos = null;
         switch (opcDigitada) {
             case 1:
-                corDosOlhos = CoresOlhos.AZUIS.getCorDosOlhos();
+                corDosOlhos = CoresOlhos.AZUIS;
                 break;
             case 2:
-                corDosOlhos = CoresOlhos.VERDES.getCorDosOlhos();
+                corDosOlhos = CoresOlhos.VERDES;
                 break;
             case 3:
-                corDosOlhos = CoresOlhos.CASTANHOS.getCorDosOlhos();
+                corDosOlhos = CoresOlhos.CASTANHOS;
                 break;
         }
         return corDosOlhos;
@@ -131,19 +160,19 @@ public class Main {
         }
     }
 
-    public static String escolherCorDosCabelos() {
+    public static CoresCabelos escolherCorDosCabelos() {
         listarCoresDeCabelos();
         int opcDigitada = lerOpcaoDigitada(3);
-        String corDosCabelos = "";
+        CoresCabelos corDosCabelos = null;
         switch (opcDigitada) {
             case 1:
-                corDosCabelos = CoresCabelos.LOUROS.getCorDosCabelos();
+                corDosCabelos = CoresCabelos.LOUROS;
                 break;
             case 2:
-                corDosCabelos = CoresCabelos.CASTANHOS.getCorDosCabelos();
+                corDosCabelos = CoresCabelos.CASTANHOS;
                 break;
             case 3:
-                corDosCabelos = CoresCabelos.PRETOS.getCorDosCabelos();
+                corDosCabelos = CoresCabelos.PRETOS;
                 break;
         }
         return corDosCabelos;

@@ -3,7 +3,13 @@ public class Produto {
     private String codigoDeBarras;
     private double preco;
     private int quantidadeEmEstoque;
-    public Produto() {}
+
+    public Produto() {
+        this.nome = "";
+        this.codigoDeBarras = "";
+        this.preco = 0.0;
+        this.quantidadeEmEstoque = 0;
+    }
 
     public Produto(String nome, String codigoDeBarras, double preco, int quantidadeEmEstoque) {
         this.nome = nome;

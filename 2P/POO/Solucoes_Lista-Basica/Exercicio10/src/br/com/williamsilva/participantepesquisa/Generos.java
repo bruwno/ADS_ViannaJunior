@@ -1,16 +1,29 @@
 package br.com.williamsilva.participantepesquisa;
 
+import java.util.Arrays;
+import java.util.List;
+
 public enum Generos {
-    MASCULINO('M'),
-    FEMININO('F');
+    MASCULINO('M', "Masculino"),
+    FEMININO('F',"Feminino");
 
-    private final Character genero;
+    private final char idGenero;
+    private final String nomeGenero;
 
-    Generos(Character genero) {
-        this.genero = genero;
+    Generos(char idGenero, String nomeGenero) {
+        this.idGenero = idGenero;
+        this.nomeGenero = nomeGenero;
     }
 
-    public Character getGenero() {
-        return genero;
+    public char getIdGenero() {
+        return idGenero;
+    }
+
+    public String getNomeGenero() {
+        return nomeGenero;
+    }
+
+    public static List<Generos> getGeneros() {
+        return Arrays.asList((Generos.values()));
     }
 }

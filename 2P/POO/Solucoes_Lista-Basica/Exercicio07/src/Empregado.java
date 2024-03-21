@@ -4,6 +4,9 @@ public class Empregado {
     private int tempoDeServico;
 
     public Empregado() {
+        this.nome = "";
+        this.idade = 0;
+        this.tempoDeServico = 0;
     }
 
     public Empregado(String nome, int idade, int tempoDeServico) {
@@ -43,7 +46,8 @@ public class Empregado {
     }
 
     public String exibeInformacoes() {
-        return String.format("Nome: %s %nIdade: %d anos de idade %nTempo de Serviço: %d anos", nome, idade, tempoDeServico);
+        return String.format("Nome: %s %nIdade: %d anos de idade %nTempo de Serviço: %d anos", nome, idade,
+                tempoDeServico);
     }
 
     public boolean verificaSituacaoAposentadoria() {
