@@ -1,0 +1,50 @@
+
+/* -- COMENTÁRIOS:
+    Função: repeat(qtdRepeticoes,oqueSeraExecutado)
+
+    Palavra-chave: auto -> calcula uma dimensão de modo automático
+
+    fr = fração, divide as partes do site de forma igual.
+
+    Função: minmax(min,max) -> define um intervalo maior ou igual ao mínimo e menor ou igual ao máximo.
+*/
+
+* {
+    color: #FFF;
+}
+
+.cabecalho {
+    background-color: cadetblue;
+
+    /*grid-column e grid-row -> são ideais para pequenas alterações*/
+    /*grid-column: 1 / 3; /*Determinando onde o grid começa e onde ele termina, em colunas*/
+    /*grid-row: 1 / 3; -> Determinando onde o grid começa e onde ele termina, em linhas*/
+    grid-area: cabecalho;
+}
+
+.lateral {
+    background-color: rgb(95, 160, 104);
+    grid-area: lateral;
+}
+
+.principal {
+    background-color: rgb(213, 91, 40);
+    grid-area: principal;
+}
+
+.rodape {
+    background-color: rgb(12, 98, 169);
+    grid-column: 1 / 3;
+    grid-area: rodape;
+}
+
+.pagina {
+    display: grid;
+    /*grid-template-columns: 1fr 2fr; -> Uma das formas de definir o tamanho das colunas*/
+    /*grid-template-rows: 150px 400px 150px; -> Uma das formas de definir a dimensão das linhas*/
+    grid-template: 
+    "cabecalho cabecalho" 150px
+    "lateral principal" 400px
+    "rodape rodape" 150px / 1fr 2fr; /*altura das linhas / largura das colunas*/
+    /*Para deixar um espaço em branco basta preencher o grid-areas com ponto: "cabecalho ."*/
+}

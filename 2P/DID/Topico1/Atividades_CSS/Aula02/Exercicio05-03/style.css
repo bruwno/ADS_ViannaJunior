@@ -1,0 +1,29 @@
+/* Altere o tamanho do título para 24px usando um seletor de ID e o atributo font-size: 24px; */
+#container > h1 {
+  font-size: 24px;
+}
+
+/* Faça com que os itens da lista tenham cor verde usando um seletor de classe e atributo color: green; */
+.lista {
+  color: green;
+}
+
+/* Torne o primeiro item da lista em negrito usando um seletor de filho direto e o atributo font-weight: bold; */
+ul > li:first-child {
+  font-weight: bold;
+}
+
+/* Faça com que os parágrafos ao lado de outro paragráfo tenham uma linha maior usando um seletor de irmãos adjacentes e o atributo line-height: 3em; */
+p + p {
+  line-height: 3em;
+}
+
+/* Faça o parágrafo dentro do contêiner tenha estilo itálico usando um seletor de descendentes e o atributo font-style: italic; */
+#container p {
+  font-style: italic;
+}
+
+/* Mude a cor de fundo dos itens da lista quando o mouse estiver sobre eles usando um seletor de pseudo-classe e atributo background-color: yellow; */
+.lista li:hover {
+  background-color: yellow;
+}

@@ -1,0 +1,107 @@
+/*Seletor universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/*Seletor de tipo*/
+h1, h2, h3, h4, h5, h6{
+    color: crimson;
+}
+
+p{
+    color: black;
+}
+
+/*Seletor de classe*/
+.small-heading {
+    text-transform: uppercase;
+    color: purple;
+}
+
+.list{
+    color: green;
+}
+
+/*Seletor de id*/
+#quote-by-author{
+    background: lightgray;
+    padding: 10px;
+    line-height: 1.75;
+}
+
+#quarto-paragrafo{
+    background: yellow;
+}
+
+article p{
+    line-height: 2;
+}
+
+h6 .small-heading{ /*Selecionando todos os decendentes de h6 (filhos de h6 que tem a classe small-heading)*/
+    color: red;
+}
+
+h6.small-heading{ /*Selecionando apenas o h6 que possui a classe small-heading*/
+    color: blue;
+}
+
+.list > li { /*Aplica apenas aos filhos diretos*/
+    color: crimson;
+}
+
+.list > li ul{
+    color: crimson;
+}
+
+h5.small-heading{
+    color: brown;
+}
+
+article .small-heading{
+    color: purple;
+}
+
+header + p{
+    font-size: 1.5rem;
+    font-weight: 2;
+}
+
+header ~ img{
+    border: 4px solid crimson;
+}
+
+
+/*Pseudo-classes - modificam estados dos elementos*/
+a:link{
+    color: #1D70B8;
+}
+
+a:hover{
+    color: #003078;
+}
+
+a:visited{
+    color: #4C2C92;
+}
+
+a:focus{
+    outline: solid 1px crimson;
+}
+
+/*Pseudo-elementos*/
+article:has(a){
+    color: blue;
+}
+
+/*Modifica apenas a primeira letra*/
+header + p::first-letter{
+    color: crimson;
+    font-style: italic;
+}
+
+/*Injetando um emoji através do CSS*/
+[lang="it"]::after{
+    content: "\01F1EE \01F1F9"
+}

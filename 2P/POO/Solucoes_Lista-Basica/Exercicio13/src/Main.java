@@ -16,9 +16,31 @@
  * depois de cada movimento, determine se houve uma derrota ou um empate.
  */
 
+import br.com.williamsilva.jogo.Jogador;
+import br.com.williamsilva.jogo.JogoDaVelha;
+import br.com.williamsilva.jogo.auxiliar.SorteiaPrimeiraJogada;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        exibirCabecalho();
+
+        JogoDaVelha jogo = new JogoDaVelha();
+        SorteiaPrimeiraJogada sortear = new SorteiaPrimeiraJogada();
+
+        System.out.println("| PRIMEIRO A JOGAR | Jogador " + sortear.sortearPrimeiraJogada());
+
+        Jogador j1 = new Jogador();
+        j1.setNumJogador(1);
+        jogo.jogar(0,0, j1);
+
+        Jogador j2 = new Jogador();
+        j2.setNumJogador(2);
+        jogo.jogar(1,1, j2);
     }
+
+    public static void exibirCabecalho() {
+        System.out.println("||| JOGO DA VELHA |||");
+        System.out.println("Pressione [1] para começar a jogar!\n");
+    }
+
 }
