@@ -6,6 +6,7 @@ import static br.com.williamsilva.jogo.PossibilidadeDeOcupacao.*;
 
 public class JogoDaVelha {
     private char[][] grade;
+    private Jogador jogador;
     private int qtdJogadas;
 
     public JogoDaVelha() {
@@ -14,6 +15,7 @@ public class JogoDaVelha {
                 {VAZIO.getSimbolo(), VAZIO.getSimbolo(), VAZIO.getSimbolo()},
                 {VAZIO.getSimbolo(), VAZIO.getSimbolo(), VAZIO.getSimbolo()}
         };
+        this.jogador = new Jogador();
     }
 
     public char[][] getGrade() {
@@ -28,6 +30,10 @@ public class JogoDaVelha {
 
     public void setQtdJogadas(int qtdJogadas) {
         this.qtdJogadas = qtdJogadas;
+    }
+
+    public void setJogador(Jogador jogador) {
+        this.jogador = jogador;
     }
 
     public void montarGrade() {
@@ -46,7 +52,7 @@ public class JogoDaVelha {
         registrarJogadaNaGrade(linha, coluna, jogador);
     }
 
-    private int alternarJogadores(Jogador jogador) {
+    public int alternarJogadores(Jogador jogador) {
         int numJogador = 0;
         if (jogador.getNumJogador() == 1) {
             numJogador = 2;
@@ -73,11 +79,11 @@ public class JogoDaVelha {
         verificarEstadoDaGrade();
     }
 
-    private void condicoesDeVitoria(char[][] grade) {
-        if (diagonalPrincipal(grade)) {
-            System.out.println("Fim de jogo! [Vitória]");
-        } else if (diagonalSecundaria(grade)) {
-            System.out.println("Fim de jogo! [Vitória]");
+    private void condicoesDeVitoria() {
+        if (diagonalPrincipal(this.grade)) {
+            System.out.println("[Fim de jogo!] Vitória do jogador");
+        } else if (diagonalSecundaria(this.grade)) {
+            System.out.println("[Fim de jogo!] Vitória do jogador");
         }
     }
 
@@ -86,7 +92,7 @@ public class JogoDaVelha {
         for (int i = 0; i < grade.length; i++) {
             for (int j = 0; j < grade[0].length; j++) {
                 if (i == j) {
-                    if ((grade[i][j] == 'X' && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
+                    if ((grade[i][j] == 'O')) { // && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
                         ij++;
                     }
                 }
@@ -101,7 +107,7 @@ public class JogoDaVelha {
         for (int i = 0; i < grade.length; i++) {
             for (int j = 0; j < grade[0].length; j++) {
                 if (j == grade.length - 1 - i) {
-                    if ((grade[i][j] == 'X' && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
+                    if ((grade[i][j] == 'X')) { // && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
                         ij++;
                     }
                 }
@@ -114,12 +120,12 @@ public class JogoDaVelha {
     private void verificarEstadoDaGrade() {
         // Só varre a grade se tiverem acontecido 4 ou mais jogadas.
         if (otimizacoes(this.qtdJogadas)) {
-            condicoesDeVitoria(grade);
+            condicoesDeVitoria();
         }
     }
 
     public boolean otimizacoes(int qtdJogadas) {
-        if (qtdJogadas >= 3) {
+        if (qtdJogadas > 4) {
             return true;
         }
         return false;

@@ -37,15 +37,16 @@ public class Main {
         j2.setNumJogador(2);
 
         int primeiroAJogar = sortear.sortearPrimeiraJogada();
-        System.out.printf("| PRIMEIRO A JOGAR |%nJogador %d | Símbolo: %c%n%n", primeiroAJogar, j1.getSimbolo());
+        System.out.printf("| PRIMEIRO A JOGAR |%nJogador %d | Símbolo: %c%n%n", primeiroAJogar, j2.getSimbolo());
 
-        jogo.montarGrade();
         iniciarJogo(sc, jogo, j1, j2);
     }
 
     public static void iniciarJogo(Scanner sc, JogoDaVelha jogo, Jogador j1, Jogador j2) {
         int qtdJogadas = 0;
+        jogo.montarGrade();
         while (true) {
+            jogo.alternarJogadores(j1);
             System.out.printf("\n[JOGADA] Sua vez jogador %d: ", j1.getNumJogador());
             int[] coordenadas = lerCoordenadasDaJogada(sc);
             int linha = coordenadas[0];

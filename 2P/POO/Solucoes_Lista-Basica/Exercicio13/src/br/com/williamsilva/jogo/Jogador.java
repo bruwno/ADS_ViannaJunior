@@ -2,7 +2,7 @@ package br.com.williamsilva.jogo;
 
 public class Jogador {
     private int numJogador;
-    private PossibilidadeDeOcupacao simbolo;
+    private final PossibilidadeDeOcupacao simbolo;
 
     public Jogador() {
         this.simbolo = PossibilidadeDeOcupacao.JOGADOR1;
