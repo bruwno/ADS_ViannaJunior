@@ -16,7 +16,7 @@ public class SorteiaPrimeiraJogada {
 
     public int sortearPrimeiraJogada() {
         SecureRandom idJogador = new SecureRandom();
-        primeiroAJogar.setNumJogador(idJogador.nextInt(2));
+        primeiroAJogar.setNumJogador(idJogador.nextInt(1,2));
         return primeiroAJogar.getNumJogador();
     }
 

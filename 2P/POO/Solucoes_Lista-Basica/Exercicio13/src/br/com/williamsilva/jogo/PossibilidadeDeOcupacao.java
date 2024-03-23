@@ -3,20 +3,20 @@ package br.com.williamsilva.jogo;
 import java.util.Arrays;
 
 public enum PossibilidadeDeOcupacao {
-    VAZIO(' ', "Vazio"),
+    VAZIO('-', "Vazio"),
     JOGADOR1('X', "Jogador 1"),
     JOGADOR2('O', "Jogador 2");
 
-    private final char ocupacao;
+    private final char simbolo;
     private final String nomeOcupacao;
 
-    PossibilidadeDeOcupacao(char ocupacao, String nomeOcupacao) {
-        this.ocupacao = ocupacao;
+    PossibilidadeDeOcupacao(char simbolo, String nomeOcupacao) {
+        this.simbolo = simbolo;
         this.nomeOcupacao = nomeOcupacao;
     }
 
-    public char getOcupacao() {
-        return ocupacao;
+    public char getSimbolo() {
+        return simbolo;
     }
 
     public String getNomeOcupacao() {
