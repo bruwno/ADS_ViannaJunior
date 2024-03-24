@@ -2,15 +2,15 @@ package br.com.williamsilva.jogo;
 
 public class Jogador {
     private int numJogador;
-    private final PossibilidadeDeOcupacao simbolo;
+    private final Jogada simbolo;
 
     public Jogador() {
-        this.simbolo = PossibilidadeDeOcupacao.JOGADOR1;
+        this.simbolo = Jogada.JOGADOR1;
     }
 
     public Jogador(int numJogador) {
         this.numJogador = numJogador;
-        this.simbolo = PossibilidadeDeOcupacao.JOGADOR1;
+        this.simbolo = Jogada.JOGADOR1;
     }
 
     public int getNumJogador() {

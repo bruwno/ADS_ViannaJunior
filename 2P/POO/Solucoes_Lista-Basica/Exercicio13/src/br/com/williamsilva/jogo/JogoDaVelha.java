@@ -2,7 +2,7 @@ package br.com.williamsilva.jogo;
 
 import br.com.williamsilva.jogo.auxiliar.TextoEmCores;
 
-import static br.com.williamsilva.jogo.PossibilidadeDeOcupacao.*;
+import static br.com.williamsilva.jogo.Jogada.*;
 
 public class JogoDaVelha {
     private char[][] grade;
@@ -22,12 +22,6 @@ public class JogoDaVelha {
         return grade;
     }
 
-    public void setGrade(char[][] grade) {
-        if (grade != null) {
-            this.grade = grade;
-        }
-    }
-
     public void setQtdJogadas(int qtdJogadas) {
         this.qtdJogadas = qtdJogadas;
     }
@@ -36,6 +30,7 @@ public class JogoDaVelha {
         this.jogador = jogador;
     }
 
+    // Métodos da classe.
     public void montarGrade() {
         System.out.println(TextoEmCores.AZUL + "\tA\tB\tC" + TextoEmCores.RESET); // Imprime a coordenada alfabética.
         for (int i = 0; i < this.grade.length; i++) {
@@ -47,87 +42,136 @@ public class JogoDaVelha {
         }
     }
 
-    public void jogar(int linha, int coluna, Jogador jogador) {
+    public void jogar(int[] coordenadas, Jogador jogador) {
+        int lin = coordenadas[0];
+        int col = coordenadas[1];
+
         jogador.setNumJogador(alternarJogadores(jogador));
-        registrarJogadaNaGrade(linha, coluna, jogador);
+        registrarJogadaNaGrade(lin, col, jogador);
     }
 
     public int alternarJogadores(Jogador jogador) {
-        int numJogador = 0;
-        if (jogador.getNumJogador() == 1) {
-            numJogador = 2;
-        } else if (jogador.getNumJogador() == 2) {
-            numJogador = 1;
-        }
-        return numJogador;
+        return (jogador.getNumJogador() == 1) ? 2 : 1;
+    }
+
+    public boolean impedirSobrescritaDeJogada(int[] coordenadas) {
+        int lin = coordenadas[0];
+        int col = coordenadas[1];
+        return grade[lin][col] != VAZIO.getSimbolo();
+    }
+
+    private char verificaSimboloPosicao(int lin, int col) {
+        return this.grade[lin][col];
     }
 
     private void registrarJogadaNaGrade(int linha, int coluna, Jogador jogador) {
-        for (int i = 0; i < this.grade.length; i++) {
-            for (int j = 0; j < this.grade[0].length; j++) {
-                if (jogador.getNumJogador() == 1) {
-                    grade[linha][coluna] = JOGADOR1.getSimbolo();
-                    break;
-                } else if (jogador.getNumJogador() == 2) {
-                    grade[linha][coluna] = JOGADOR2.getSimbolo();
-                    break;
-                }
-                System.out.println();
-            }
+        int numJogador = jogador.getNumJogador();
+
+        if (numJogador == 1) {
+            grade[linha][coluna] = JOGADOR1.getSimbolo();
+        } else if (numJogador == 2) {
+            grade[linha][coluna] = JOGADOR2.getSimbolo();
         }
+
         montarGrade();
         verificarEstadoDaGrade();
     }
 
-    private void condicoesDeVitoria() {
-        if (diagonalPrincipal(this.grade)) {
-            System.out.println("[Fim de jogo!] Vitória do jogador");
-        } else if (diagonalSecundaria(this.grade)) {
-            System.out.println("[Fim de jogo!] Vitória do jogador");
+    private boolean vitoriaNaDiagonalPrincipal() {
+        char simboloPosicao = verificaSimboloPosicao(0,0);
+        if (simboloPosicao == VAZIO.getSimbolo()) {
+            return false;
         }
+
+        for (int i = 0; i < this.grade.length; i++) {
+            if (this.grade[i][i] != simboloPosicao) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
-    private boolean diagonalPrincipal(char[][] grade) {
-        int ij = 0;
-        for (int i = 0; i < grade.length; i++) {
-            for (int j = 0; j < grade[0].length; j++) {
-                if (i == j) {
-                    if ((grade[i][j] == 'O')) { // && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
-                        ij++;
-                    }
+    private boolean vitoriaNaDiagonalSecundaria() {
+        char simboloPosicao = verificaSimboloPosicao(0,2);
+        if (simboloPosicao == VAZIO.getSimbolo()) {
+            return false;
+        }
+
+        for (int i = 0; i < this.grade.length; i++) {
+            if (this.grade[i][this.grade.length - 1 - i] != simboloPosicao) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private boolean vitoriaNaHorizontal() {
+        for (int i = 0; i < this.grade.length; i++) {
+            char simbolo = verificaSimboloPosicao(i, 0);
+            if (simbolo != VAZIO.getSimbolo() && simbolo == verificaSimboloPosicao(i, 1) && simbolo == verificaSimboloPosicao(i, 2)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean vitoriaNaVertical() {
+        for (int i = 0; i < this.grade[0].length; i++) {
+            char simbolo = verificaSimboloPosicao(0, i);
+            if (simbolo != VAZIO.getSimbolo() && simbolo == verificaSimboloPosicao(1, i) && simbolo == verificaSimboloPosicao(2, i)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private boolean verificaEmpate() {
+        int qtdCamposVazios = 0;
+        for (int i = 0; i < this.grade.length; i++) {
+            for (int j = 0; j < this.grade[0].length; j++) {
+                if (this.grade[i][j] == VAZIO.getSimbolo()) {
+                    qtdCamposVazios++;
                 }
             }
         }
-        System.out.println("DP-" + ij);
-        return ij == 3;
+        return qtdCamposVazios == 1;
     }
 
-    private boolean diagonalSecundaria(char[][] grade) {
-        int ij = 0;
-        for (int i = 0; i < grade.length; i++) {
-            for (int j = 0; j < grade[0].length; j++) {
-                if (j == grade.length - 1 - i) {
-                    if ((grade[i][j] == 'X')) { // && grade[i][j] != 'O') || (grade[i][j] == 'O' && grade[i][j] != 'X')) {
-                        ij++;
-                    }
-                }
-            }
+    private void verificarCondicoesDeVitoria() {
+        String vencedor = String.format("Fim de jogo! VITÓRIA DO JOGADOR %d", jogador.getNumJogador());
+
+        if (vitoriaNaDiagonalPrincipal()) {
+            //return vencedor;
+            System.out.println(vencedor);
+            System.exit(-1);
+        } else if (vitoriaNaDiagonalSecundaria()) {
+            //return vencedor;
+            System.out.println(vencedor);
+            System.exit(-1);
+        } else if (vitoriaNaHorizontal()) {
+            //return vencedor;
+            System.out.println(vencedor);
+            System.exit(-1);
+        }  else if (vitoriaNaVertical()) {
+            //return vencedor;
+            System.out.println(vencedor);
+            System.exit(-1);
+        } else if (verificaEmpate()) {
+            System.out.println("Empate!");
+            System.exit(-1);
         }
-        System.out.println("DS-" + ij);
-        return ij == 3;
     }
 
     private void verificarEstadoDaGrade() {
         // Só varre a grade se tiverem acontecido 4 ou mais jogadas.
         if (otimizacoes(this.qtdJogadas)) {
-            condicoesDeVitoria();
+            verificarCondicoesDeVitoria();
         }
     }
 
-    public boolean otimizacoes(int qtdJogadas) {
-        if (qtdJogadas > 4) {
-            return true;
-        }
-        return false;
+    private boolean otimizacoes(int qtdJogadas) {
+        return qtdJogadas >= 4;
     }
 }

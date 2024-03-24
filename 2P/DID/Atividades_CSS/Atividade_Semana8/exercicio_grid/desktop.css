@@ -1,0 +1,12 @@
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 7fr 2fr 2fr 2fr;
+  grid-template-areas:
+    "header menu menu"
+    "hero hero hero"
+    "main main image"
+    "main main extra"
+    "banner banner banner";
+}

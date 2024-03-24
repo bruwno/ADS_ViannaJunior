@@ -37,24 +37,39 @@ public class Main {
         j2.setNumJogador(2);
 
         int primeiroAJogar = sortear.sortearPrimeiraJogada();
-        System.out.printf("| PRIMEIRO A JOGAR |%nJogador %d | Símbolo: %c%n%n", primeiroAJogar, j2.getSimbolo());
+        System.out.printf("|PRIMEIRO A JOGAR|%nJogador %d | Símbolo: %c%n%n", primeiroAJogar, j2.getSimbolo());
 
         iniciarJogo(sc, jogo, j1, j2);
     }
 
     public static void iniciarJogo(Scanner sc, JogoDaVelha jogo, Jogador j1, Jogador j2) {
-        int qtdJogadas = 0;
+        int contaJogadas = 0;
         jogo.montarGrade();
         while (true) {
             jogo.alternarJogadores(j1);
-            System.out.printf("\n[JOGADA] Sua vez jogador %d: ", j1.getNumJogador());
+            System.out.printf("\n|JOGADOR %d| Sua vez: ", j1.getNumJogador());
             int[] coordenadas = lerCoordenadasDaJogada(sc);
-            int linha = coordenadas[0];
-            int coluna = coordenadas[1];
-            jogo.jogar(linha, coluna, j1);
-            qtdJogadas++;
-            jogo.setQtdJogadas(qtdJogadas);
+
+            if (verificaSobrescritaDeJogada(coordenadas, jogo, j1, sc)) {
+                jogo.jogar(coordenadas, j1);
+            }
+
+            contaJogadas++;
+            jogo.setQtdJogadas(contaJogadas);
         }
+    }
+
+    public static boolean verificaSobrescritaDeJogada(int[] coordenadas, JogoDaVelha jogo, Jogador j1, Scanner sc) {
+        while (jogo.impedirSobrescritaDeJogada(coordenadas)) {
+            System.out.print("|JOGADA INVÁLIDA| Esta posição já está ocupada, escolha outra: ");
+            coordenadas = lerCoordenadasDaJogada(sc);
+
+            if (!jogo.impedirSobrescritaDeJogada(coordenadas)) {
+                jogo.jogar(coordenadas, j1);
+                return false;
+            }
+        }
+        return true;
     }
 
     public static int[] lerCoordenadasDaJogada(Scanner sc) {

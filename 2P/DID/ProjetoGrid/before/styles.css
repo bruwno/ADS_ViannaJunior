@@ -6,42 +6,51 @@ body {
   background: #fff9e8;
   min-height: 100vh;
   font-family: sans-serif;
-  color: #151412
+  color: #151412;
 }
 
 main {
   margin: 24px;
   display: grid;
-  grid-template-columns: repeat(2,minmax(auto, 1fr)) 250px;
-  grid-template-areas: 
-  "header header header"
-  "content content author"
-  "content content aside"
-  "plays . aside"
-  "footer footer footer";
+  grid-template-columns: repeat(2, minmax(auto, 1fr)) 250px;
+  grid-template-areas:
+    "header header header"
+    "content content author"
+    "content content aside"
+    "plays . aside"
+    "footer footer footer";
 }
 
-img { 
-  float: left; 
-  margin: 12px 12px 12px 0
+img {
+  float: left;
+  margin: 12px 12px 12px 0;
 }
 
-main > * { 
+main > * {
   border: solid 1px #bfbfbf;
   padding: 12px;
 }
-main > *, section { display: flow-root }
-
-p, ul { line-height: 1.5 }
-
-article p span { display: block; }
-article p span:last-of-type,
-article p span:nth-last-child(2) {
-  text-indent: 16px
+main > *,
+section {
+  display: flow-root;
 }
 
-.plays ul { margin-left: 162px }
+p,
+ul {
+  line-height: 1.5;
+}
 
+article p span {
+  display: block;
+}
+article p span:last-of-type,
+article p span:nth-last-child(2) {
+  text-indent: 16px;
+}
+
+.plays ul {
+  margin-left: 162px;
+}
 
 header {
   grid-area: header;
@@ -55,7 +64,7 @@ article {
   grid-area: author;
 }
 
-aside{
+aside {
   grid-area: aside;
 }
 
@@ -66,4 +75,3 @@ aside{
 footer {
   grid-area: footer;
 }
-

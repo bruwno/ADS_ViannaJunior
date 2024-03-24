@@ -2,7 +2,7 @@ package br.com.williamsilva.jogo;
 
 import java.util.Arrays;
 
-public enum PossibilidadeDeOcupacao {
+public enum Jogada {
     VAZIO('-', "Vazio"),
     JOGADOR1('X', "Jogador 1"),
     JOGADOR2('O', "Jogador 2");
@@ -10,7 +10,7 @@ public enum PossibilidadeDeOcupacao {
     private final char simbolo;
     private final String nomeOcupacao;
 
-    PossibilidadeDeOcupacao(char simbolo, String nomeOcupacao) {
+    Jogada(char simbolo, String nomeOcupacao) {
         this.simbolo = simbolo;
         this.nomeOcupacao = nomeOcupacao;
     }
@@ -23,7 +23,7 @@ public enum PossibilidadeDeOcupacao {
         return nomeOcupacao;
     }
 
-    public static PossibilidadeDeOcupacao[] getPossibilidades() {
-        return (PossibilidadeDeOcupacao[]) Arrays.stream(PossibilidadeDeOcupacao.values()).toArray();
+    public static Jogada[] getPossibilidades() {
+        return (Jogada[]) Arrays.stream(Jogada.values()).toArray();
     }
 }
