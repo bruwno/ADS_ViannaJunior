@@ -2,10 +2,10 @@ package br.com.williamsilva.jogo;
 
 public class Jogador {
     private int numJogador;
-    private final Jogada simbolo;
+    private Jogada simbolo;
 
     public Jogador() {
-        this.simbolo = Jogada.JOGADOR1;
+        //this.simbolo = Jogada.JOGADOR1;
     }
 
     public Jogador(int numJogador) {
@@ -25,7 +25,7 @@ public class Jogador {
         return simbolo.getSimbolo();
     }
 
-    public void efetuarJogada() {
-
+    public void setSimbolo(Jogada simbolo) {
+        this.simbolo = simbolo;
     }
 }

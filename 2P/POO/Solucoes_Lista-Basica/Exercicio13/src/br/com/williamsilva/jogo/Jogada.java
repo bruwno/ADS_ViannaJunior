@@ -1,7 +1,5 @@
 package br.com.williamsilva.jogo;
 
-import java.util.Arrays;
-
 public enum Jogada {
     VAZIO('-', "Vazio"),
     JOGADOR1('X', "Jogador 1"),
@@ -21,9 +19,5 @@ public enum Jogada {
 
     public String getNomeOcupacao() {
         return nomeOcupacao;
-    }
-
-    public static Jogada[] getPossibilidades() {
-        return (Jogada[]) Arrays.stream(Jogada.values()).toArray();
     }
 }

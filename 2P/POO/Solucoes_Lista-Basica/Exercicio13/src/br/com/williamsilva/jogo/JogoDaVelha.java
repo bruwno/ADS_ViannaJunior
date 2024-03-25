@@ -26,10 +26,6 @@ public class JogoDaVelha {
         this.qtdJogadas = qtdJogadas;
     }
 
-    public void setJogador(Jogador jogador) {
-        this.jogador = jogador;
-    }
-
     // Métodos da classe.
     public void montarGrade() {
         System.out.println(TextoEmCores.AZUL + "\tA\tB\tC" + TextoEmCores.RESET); // Imprime a coordenada alfabética.
@@ -43,15 +39,8 @@ public class JogoDaVelha {
     }
 
     public void jogar(int[] coordenadas, Jogador jogador) {
-        int lin = coordenadas[0];
-        int col = coordenadas[1];
-
-        jogador.setNumJogador(alternarJogadores(jogador));
-        registrarJogadaNaGrade(lin, col, jogador);
-    }
-
-    public int alternarJogadores(Jogador jogador) {
-        return (jogador.getNumJogador() == 1) ? 2 : 1;
+        registrarJogadaNaGrade(coordenadas, jogador);
+        //verificarEstadoDaGrade();
     }
 
     public boolean impedirSobrescritaDeJogada(int[] coordenadas) {
@@ -64,17 +53,18 @@ public class JogoDaVelha {
         return this.grade[lin][col];
     }
 
-    private void registrarJogadaNaGrade(int linha, int coluna, Jogador jogador) {
+    private void registrarJogadaNaGrade(int[] coordenadas, Jogador jogador) {
+        int lin = coordenadas[0];
+        int col = coordenadas[1];
         int numJogador = jogador.getNumJogador();
 
         if (numJogador == 1) {
-            grade[linha][coluna] = JOGADOR1.getSimbolo();
+            grade[lin][col] = JOGADOR1.getSimbolo();
         } else if (numJogador == 2) {
-            grade[linha][coluna] = JOGADOR2.getSimbolo();
+            grade[lin][col] = JOGADOR2.getSimbolo();
         }
 
         montarGrade();
-        verificarEstadoDaGrade();
     }
 
     private boolean vitoriaNaDiagonalPrincipal() {
@@ -127,7 +117,7 @@ public class JogoDaVelha {
         return false;
     }
 
-    private boolean verificaEmpate() {
+    public boolean verificaEmpate() {
         int qtdCamposVazios = 0;
         for (int i = 0; i < this.grade.length; i++) {
             for (int j = 0; j < this.grade[0].length; j++) {
@@ -139,39 +129,19 @@ public class JogoDaVelha {
         return qtdCamposVazios == 1;
     }
 
-    private void verificarCondicoesDeVitoria() {
-        String vencedor = String.format("Fim de jogo! VITÓRIA DO JOGADOR %d", jogador.getNumJogador());
-
-        if (vitoriaNaDiagonalPrincipal()) {
-            //return vencedor;
-            System.out.println(vencedor);
-            System.exit(-1);
-        } else if (vitoriaNaDiagonalSecundaria()) {
-            //return vencedor;
-            System.out.println(vencedor);
-            System.exit(-1);
-        } else if (vitoriaNaHorizontal()) {
-            //return vencedor;
-            System.out.println(vencedor);
-            System.exit(-1);
-        }  else if (vitoriaNaVertical()) {
-            //return vencedor;
-            System.out.println(vencedor);
-            System.exit(-1);
-        } else if (verificaEmpate()) {
-            System.out.println("Empate!");
-            System.exit(-1);
-        }
-    }
-
-    private void verificarEstadoDaGrade() {
+    public boolean verificarEstadoDaGrade() {
         // Só varre a grade se tiverem acontecido 4 ou mais jogadas.
-        if (otimizacoes(this.qtdJogadas)) {
-            verificarCondicoesDeVitoria();
+        if (otimizacaoDeVarredura(this.qtdJogadas)) {
+            return verificarCondicoesDeVitoria();
         }
+        return false;
     }
 
-    private boolean otimizacoes(int qtdJogadas) {
+    private boolean verificarCondicoesDeVitoria() {
+        return (vitoriaNaHorizontal() || vitoriaNaVertical() || vitoriaNaDiagonalPrincipal() || vitoriaNaDiagonalSecundaria());
+    }
+
+    private boolean otimizacaoDeVarredura(int qtdJogadas) {
         return qtdJogadas >= 4;
     }
 }

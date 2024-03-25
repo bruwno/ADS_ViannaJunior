@@ -16,6 +16,7 @@
  * depois de cada movimento, determine se houve uma derrota ou um empate.
  */
 
+import br.com.williamsilva.jogo.Jogada;
 import br.com.williamsilva.jogo.Jogador;
 import br.com.williamsilva.jogo.JogoDaVelha;
 import br.com.williamsilva.jogo.auxiliar.SorteiaPrimeiraJogada;
@@ -25,47 +26,84 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        JogoDaVelha jogo = new JogoDaVelha();
+        Jogador j1, j2;
+        j1 = new Jogador();
+        j1.setNumJogador(1);
+        j1.setSimbolo(Jogada.JOGADOR1);
+
+        j2 = new Jogador();
+        j2.setNumJogador(2);
+        j2.setSimbolo(Jogada.JOGADOR2);
 
         exibirCabecalho();
-
-        JogoDaVelha jogo = new JogoDaVelha();
-        SorteiaPrimeiraJogada sortear = new SorteiaPrimeiraJogada();
-
-        Jogador j1 = new Jogador();
-        j1.setNumJogador(1);
-        Jogador j2 = new Jogador();
-        j2.setNumJogador(2);
-
-        int primeiroAJogar = sortear.sortearPrimeiraJogada();
-        System.out.printf("|PRIMEIRO A JOGAR|%nJogador %d | Símbolo: %c%n%n", primeiroAJogar, j2.getSimbolo());
-
-        iniciarJogo(sc, jogo, j1, j2);
+        iniciarJogo(sc, jogo, sortearPrimeiroAJogar(j1, j2));
     }
 
-    public static void iniciarJogo(Scanner sc, JogoDaVelha jogo, Jogador j1, Jogador j2) {
+    public static Jogador sortearPrimeiroAJogar(Jogador j1, Jogador j2) {
+        SorteiaPrimeiraJogada sortear = new SorteiaPrimeiraJogada();
+        int primeiroAJogar = sortear.sortearPrimeiraJogada();
+        System.out.printf("| PRIMEIRO A JOGAR: Jogador %d | Símbolo: %c%n%n", primeiroAJogar, definirSimbolo(primeiroAJogar));
+        return (primeiroAJogar == 1) ? j1 : j2;
+    }
+
+    public static void iniciarJogo(Scanner sc, JogoDaVelha jogo, Jogador j) {
         int contaJogadas = 0;
         jogo.montarGrade();
+
         while (true) {
-            jogo.alternarJogadores(j1);
-            System.out.printf("\n|JOGADOR %d| Sua vez: ", j1.getNumJogador());
+            exibeDadosDaJogada(j);
+
             int[] coordenadas = lerCoordenadasDaJogada(sc);
-
-            if (verificaSobrescritaDeJogada(coordenadas, jogo, j1, sc)) {
-                jogo.jogar(coordenadas, j1);
+            if (verificaSobrescritaDeJogada(sc, coordenadas, jogo, j)) {
+                jogo.jogar(coordenadas, j);
             }
+            verificaSeExisteVencedor(jogo, j);
 
-            contaJogadas++;
-            jogo.setQtdJogadas(contaJogadas);
+            ++contaJogadas;
+            defineDadosDoJogadorAtual(jogo, j, contaJogadas);
         }
     }
 
-    public static boolean verificaSobrescritaDeJogada(int[] coordenadas, JogoDaVelha jogo, Jogador j1, Scanner sc) {
+    public static void verificaSeExisteVencedor(JogoDaVelha jogo, Jogador j) {
+        if (jogo.verificarEstadoDaGrade()) {
+            System.out.printf("| FIM DE JOGO | Vitória do Jogador %d!", j.getNumJogador());
+            System.exit(-1);
+        } else if (jogo.verificaEmpate()) {
+            System.out.println("|FIM DE JOGO | Empate!");
+            System.exit(-1);
+        }
+    }
+
+    public static void exibeDadosDaJogada(Jogador j) {
+        System.out.printf("\n| JOGADOR %d (%c) | Sua vez: ", j.getNumJogador(), j.getSimbolo());
+    }
+
+    public static void defineDadosDoJogadorAtual(JogoDaVelha jogo, Jogador j, int contaJogadas) {
+        jogo.setQtdJogadas(contaJogadas);
+        j.setNumJogador(alternarJogadores(j));
+        j.setSimbolo(alternarSimbolo(j));
+    }
+
+    public static int alternarJogadores(Jogador j) {
+        return (j.getNumJogador() == 1) ? 2 : 1;
+    }
+
+    public static Jogada alternarSimbolo(Jogador j) {
+        return (j.getSimbolo() == Jogada.JOGADOR1.getSimbolo()) ? Jogada.JOGADOR2 : Jogada.JOGADOR1;
+    }
+
+    public static char definirSimbolo(int primeiroAJogar) {
+        return (primeiroAJogar == 1) ? Jogada.JOGADOR1.getSimbolo() : Jogada.JOGADOR2.getSimbolo();
+    }
+
+    public static boolean verificaSobrescritaDeJogada(Scanner sc, int[] coordenadas, JogoDaVelha jogo, Jogador j) {
         while (jogo.impedirSobrescritaDeJogada(coordenadas)) {
-            System.out.print("|JOGADA INVÁLIDA| Esta posição já está ocupada, escolha outra: ");
+            System.out.print("| JOGADA INVÁLIDA | Esta posição já está ocupada, escolha outra: ");
             coordenadas = lerCoordenadasDaJogada(sc);
 
             if (!jogo.impedirSobrescritaDeJogada(coordenadas)) {
-                jogo.jogar(coordenadas, j1);
+                jogo.jogar(coordenadas, j);
                 return false;
             }
         }
@@ -97,7 +135,21 @@ public class Main {
     }
 
     public static void exibirCabecalho() {
-        System.out.println("\t### JOGO DA VELHA ###");
-        //System.out.println("Pressione [1] para começar a jogar!\n");
+        System.out.println("\t\t### JOGO DA VELHA ###");
+    }
+
+    public static int escolherOpcNoMenu() {
+        Scanner sc = new Scanner(System.in);
+        int opcDigitada = 0;
+
+        exibirCabecalho();
+        System.out.println("[1] JOGAR" + "\n[2] SAIR");
+
+        while (opcDigitada != 1) {
+            System.out.print("|>| ");
+            opcDigitada = sc.nextInt();
+        }
+
+        return opcDigitada;
     }
 }
