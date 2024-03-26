@@ -1,13 +1,14 @@
 package br.com.williamsilva.jogo;
 
-import br.com.williamsilva.jogo.auxiliar.TextoEmCores;
+import br.com.williamsilva.jogo.auxiliar.CorTexto;
 
 import static br.com.williamsilva.jogo.Jogada.*;
 
 public class JogoDaVelha {
     private char[][] grade;
+    private int[] coordenadas;
     private Jogador jogador;
-    private int qtdJogadas;
+    private int contadorJogadas;
 
     public JogoDaVelha() {
         grade = new char[][]{
@@ -15,45 +16,64 @@ public class JogoDaVelha {
                 {VAZIO.getSimbolo(), VAZIO.getSimbolo(), VAZIO.getSimbolo()},
                 {VAZIO.getSimbolo(), VAZIO.getSimbolo(), VAZIO.getSimbolo()}
         };
-        this.jogador = new Jogador();
+        this.coordenadas = new int[2];
     }
 
-    public char[][] getGrade() {
-        return grade;
+    // Métodos acessores.
+    public void setJogador(Jogador jogador) {
+        if (jogador != null) {
+            this.jogador = jogador;
+        }
     }
 
-    public void setQtdJogadas(int qtdJogadas) {
-        this.qtdJogadas = qtdJogadas;
+    public void setContadorJogadas(int contadorJogadas) {
+        if (contadorJogadas >= 0) {
+            this.contadorJogadas = contadorJogadas;
+        }
     }
 
     // Métodos da classe.
+    public boolean validarCoordenadas(int[] coordenadas) {
+        if (coordenadas.length != 2) {
+            return false;
+        }
+
+        if (impedirSobrescritaDeJogada(coordenadas)) {
+            return false;
+        }
+
+        int lin = coordenadas[0];
+        int col = coordenadas[1];
+
+        return lin >= 0 && lin <= 2 && col >= 0 && col <= 2;
+    }
+
     public void montarGrade() {
-        System.out.println(TextoEmCores.AZUL + "\tA\tB\tC" + TextoEmCores.RESET); // Imprime a coordenada alfabética.
+        System.out.println(CorTexto.AZUL.getCodCor() + "\tA\tB\tC" + CorTexto.RESET.getCodCor()); // Imprime a coordenada alfabética.
         for (int i = 0; i < this.grade.length; i++) {
-            System.out.print(TextoEmCores.VERDE + (i + 1) + TextoEmCores.RESET); // Imprime a coordenada numérica.
+            System.out.print(CorTexto.VERDE.getCodCor() + (i + 1) + CorTexto.RESET.getCodCor()); // Imprime a coordenada numérica.
             for (int j = 0; j < this.grade[0].length; j++) {
-                System.out.print("\t" + this.grade[i][j]); // Imprime a jogada.
+                System.out.print("\t" + this.grade[i][j]);
             }
             System.out.println();
         }
     }
 
     public void jogar(int[] coordenadas, Jogador jogador) {
-        registrarJogadaNaGrade(coordenadas, jogador);
-        //verificarEstadoDaGrade();
+        if (validarCoordenadas(coordenadas)) {
+            this.coordenadas = coordenadas;
+            setJogador(jogador);
+            registrarJogadaNaGrade();
+        }
     }
 
-    public boolean impedirSobrescritaDeJogada(int[] coordenadas) {
+    private boolean impedirSobrescritaDeJogada(int[] coordenadas) {
         int lin = coordenadas[0];
         int col = coordenadas[1];
         return grade[lin][col] != VAZIO.getSimbolo();
     }
 
-    private char verificaSimboloPosicao(int lin, int col) {
-        return this.grade[lin][col];
-    }
-
-    private void registrarJogadaNaGrade(int[] coordenadas, Jogador jogador) {
+    private void registrarJogadaNaGrade() {
         int lin = coordenadas[0];
         int col = coordenadas[1];
         int numJogador = jogador.getNumJogador();
@@ -67,14 +87,18 @@ public class JogoDaVelha {
         montarGrade();
     }
 
+    private char retornaSimboloPosicao(int lin, int col) {
+        return this.grade[lin][col];
+    }
+
     private boolean vitoriaNaDiagonalPrincipal() {
-        char simboloPosicao = verificaSimboloPosicao(0,0);
-        if (simboloPosicao == VAZIO.getSimbolo()) {
+        char simbolo = retornaSimboloPosicao(0,0);
+        if (simbolo == VAZIO.getSimbolo()) {
             return false;
         }
 
         for (int i = 0; i < this.grade.length; i++) {
-            if (this.grade[i][i] != simboloPosicao) {
+            if (this.grade[i][i] != simbolo) {
                 return false;
             }
         }
@@ -83,13 +107,13 @@ public class JogoDaVelha {
     }
 
     private boolean vitoriaNaDiagonalSecundaria() {
-        char simboloPosicao = verificaSimboloPosicao(0,2);
-        if (simboloPosicao == VAZIO.getSimbolo()) {
+        char simbolo = retornaSimboloPosicao(0,2);
+        if (simbolo == VAZIO.getSimbolo()) {
             return false;
         }
 
         for (int i = 0; i < this.grade.length; i++) {
-            if (this.grade[i][this.grade.length - 1 - i] != simboloPosicao) {
+            if (this.grade[i][this.grade.length - 1 - i] != simbolo) {
                 return false;
             }
         }
@@ -99,8 +123,8 @@ public class JogoDaVelha {
 
     private boolean vitoriaNaHorizontal() {
         for (int i = 0; i < this.grade.length; i++) {
-            char simbolo = verificaSimboloPosicao(i, 0);
-            if (simbolo != VAZIO.getSimbolo() && simbolo == verificaSimboloPosicao(i, 1) && simbolo == verificaSimboloPosicao(i, 2)) {
+            char simbolo = retornaSimboloPosicao(i, 0);
+            if (simbolo != VAZIO.getSimbolo() && simbolo == retornaSimboloPosicao(i, 1) && simbolo == retornaSimboloPosicao(i, 2)) {
                 return true;
             }
         }
@@ -109,29 +133,17 @@ public class JogoDaVelha {
 
     private boolean vitoriaNaVertical() {
         for (int i = 0; i < this.grade[0].length; i++) {
-            char simbolo = verificaSimboloPosicao(0, i);
-            if (simbolo != VAZIO.getSimbolo() && simbolo == verificaSimboloPosicao(1, i) && simbolo == verificaSimboloPosicao(2, i)) {
+            char simbolo = retornaSimboloPosicao(0, i);
+            if (simbolo != VAZIO.getSimbolo() && simbolo == retornaSimboloPosicao(1, i) && simbolo == retornaSimboloPosicao(2, i)) {
                 return true;
             }
         }
         return false;
     }
 
-    public boolean verificaEmpate() {
-        int qtdCamposVazios = 0;
-        for (int i = 0; i < this.grade.length; i++) {
-            for (int j = 0; j < this.grade[0].length; j++) {
-                if (this.grade[i][j] == VAZIO.getSimbolo()) {
-                    qtdCamposVazios++;
-                }
-            }
-        }
-        return qtdCamposVazios == 1;
-    }
-
     public boolean verificarEstadoDaGrade() {
         // Só varre a grade se tiverem acontecido 4 ou mais jogadas.
-        if (otimizacaoDeVarredura(this.qtdJogadas)) {
+        if (otimizacaoDeVarredura(this.contadorJogadas)) {
             return verificarCondicoesDeVitoria();
         }
         return false;
@@ -139,6 +151,17 @@ public class JogoDaVelha {
 
     private boolean verificarCondicoesDeVitoria() {
         return (vitoriaNaHorizontal() || vitoriaNaVertical() || vitoriaNaDiagonalPrincipal() || vitoriaNaDiagonalSecundaria());
+    }
+
+    public boolean verificarEmpate() {
+        for (char[] chars : this.grade) {
+            for (int j = 0; j < this.grade[0].length; j++) {
+                if (chars[j] == VAZIO.getSimbolo()) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     private boolean otimizacaoDeVarredura(int qtdJogadas) {
