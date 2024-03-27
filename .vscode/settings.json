@@ -72,5 +72,7 @@
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "rest-client.enableTelemetry": false,
   "editor.wordWrap": "on",
-  "diffEditor.wordWrap": "inherit"
+  "diffEditor.wordWrap": "inherit",
+  "dotnetAcquisitionExtension.enablePreviewFeatures": true,
+  "application.experimental.rendererProfiling": true
 }
