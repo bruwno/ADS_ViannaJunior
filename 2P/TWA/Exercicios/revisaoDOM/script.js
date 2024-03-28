@@ -1,8 +1,8 @@
+let grade = document.querySelectorAll("td");
 let jogada = sortearJogador();
 let pos = 0;
 let jogador = "";
 let partidaFinalizada = false;
-let grade = document.querySelectorAll("td");
 
 grade.forEach(posicao => {
     posicao.setAttribute("posicao", pos++);
