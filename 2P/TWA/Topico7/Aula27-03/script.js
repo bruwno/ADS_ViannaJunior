@@ -4,7 +4,7 @@ let form = document.forms[0];
 let msgForm = document.createElement("div");
 document.body.appendChild(msgForm); // Adicionando a div que exibriá as mensagens.
 
-//O elemento pode ser manipulado utilizando a sua posição no array, o seu name ou o seu id.
+//O elemento pode ser manipulado utilizando a sua posição no array, o seu atributo name ou o seu id.
 form.addEventListener("submit", event => {
     event.preventDefault();
     let texto = form.elements["texto"];
@@ -26,6 +26,5 @@ form.addEventListener("submit", event => {
     if (erros == 0) {
         form.submit();
     }
-
 });
 
