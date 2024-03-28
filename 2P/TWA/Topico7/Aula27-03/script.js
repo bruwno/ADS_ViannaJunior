@@ -13,14 +13,14 @@ form.addEventListener("submit", event => {
     msgForm.innerHTML = "";
     let erros = 0;
 
-    if (numero.value < 100) {
-        erros++;
-        msgForm.innerHTML += "<p>O número deve ser maior que 100!</p>"
-    }
-
     if (texto.value == "") {
         erros++;
         msgForm.innerHTML += "<p>O campo texto deve ser preenchido!</p>";
+    }
+
+    if (numero.value < 100) {
+        erros++;
+        msgForm.innerHTML += "<p>O número deve ser maior que 100!</p>"
     }
 
     if (erros == 0) {
