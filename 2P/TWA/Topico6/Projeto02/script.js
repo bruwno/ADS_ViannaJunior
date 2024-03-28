@@ -41,9 +41,8 @@ imgs.setAttribute("src", imagens[atual]);
 let proximo = document.getElementById('proximo');
 proximo.addEventListener('click', event => {
     event.preventDefault();
-    if (atual >= imagens.length) {
+    if (atual == imagens.length) {
         atual = 0;
-
     }
     nomePokemon.innerText = nomes[atual];
     imgs.setAttribute("src", imagens[atual++]);
@@ -51,10 +50,10 @@ proximo.addEventListener('click', event => {
 
 let anterior = document.getElementById('anterior');
 anterior.addEventListener('click', event => {
-    event.preventDefault();
-    if (atual <= 0) {
-        atual = imagens.length;
-    }
-    nomePokemon.innerText = nomes[--atual];
-    imgs.setAttribute("src", imagens[--atual])
+     event.preventDefault();
+     if (atual <= 0) {
+         atual = imagens.length;
+     }
+     nomePokemon.innerText = nomes[atual-1];
+     imgs.setAttribute("src", imagens[--atual])
 })

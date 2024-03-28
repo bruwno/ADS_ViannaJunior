@@ -1,6 +1,6 @@
 ﻿/* Algoritmo SelectionSort
  *
- * Inserção por Seleção
+ * Ordenação por Seleção
  * Data: 05/03/2024
  */
 
@@ -12,7 +12,7 @@ namespace InsertionSort
     {
         public static void Main(string[] args)
         {
-            double[] vetor = new double[] { 30, 20, 10, 5, 100, 34, 205 };
+            double[] vetor = new double[] { 30, 20, 10, 5, 100, 34, 205, 0 };
             SelectionSort(vetor);
             ExibirArrayOrdenado(vetor);
         }
