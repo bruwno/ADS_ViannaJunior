@@ -6,7 +6,7 @@ namespace QuickSort
     {
         public static void Main(string[] args)
         {
-            double[] vetor = new double[] { 1.4, 2.3, 0, 7.8, 3.1 };
+            double[] vetor = new double[] { 50, 10, 20, 70, 80, 1, 80 };
             Quicksort(vetor);
             ExibirElementosDoVetor(vetor);
 
