@@ -29,3 +29,23 @@ form.addEventListener("submit", event => {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    let nomeParagraph = document.getElementById("nome");
+    let numParagraph = document.getElementById("numero");
+
+    let tdElements = document.querySelectorAll("td");
+
+    tdElements.forEach(td => {
+        td.addEventListener("click", event => {
+            window.alert("CLICADO!");
+            let tdText = event.target.textContent.trim();
+            if (event.target.id === "nome_td") {
+                nomeParagraph.textContent += tdText;
+            } else if (event.target.id === "numero_td") {
+                numParagraph.textContent += tdText;
+            }
+        });
+    });
+});
+
+
