@@ -129,22 +129,19 @@ function marianaConta(contador = 5) {
 // Exercício 2
 let galeria = document.querySelector('.container:nth-of-type(2) h1:last-child');
 let divImagem = document.createElement("div");
-galeria.appendChild(divImagem);
+galeria.appendChild(divImagem).nextElementSibling;
 
 let form2 = document.forms[1];
 let imagens = [];
 let contador = 0;
 
 //imagens.setAttribute("src", imagens[contador]);
-imagens.push(imagens[contador++]);
-
 form2.addEventListener("submit", event => {
   event.preventDefault();
   const url = form2.elements["imputUrl"].value;
-  divImagem.innerHTML = `<img src="${url}" alt="Imagem">`;
+  imagens = divImagem.innerHTML = `<img class="col-4" src="${url}" alt="Imagem">`;
 
-  /*
   imagens.forEach(imagem, function () {
-    
-  });*/
+    divImagem.innerHTML = imagem[contador++];
+  });
 });
