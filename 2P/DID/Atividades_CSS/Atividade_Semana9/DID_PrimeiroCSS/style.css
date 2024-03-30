@@ -26,12 +26,9 @@ portanto penso que a escolha das cores com tons mais frios e apagados ajudam a p
 
 /* No plano de fundo do site utilizei um tom que não fosse 100% branco, para não cansar excessivamente os olhos, por isso escolhi um cinza bem claro.
 */
-body {
-  background-color: #e9dfdf;
-}
-
 .header-container {
   padding: 5px 0px 0px 5px;
+  grid-area: header-container;
 }
 
 .header-container img {
@@ -63,9 +60,13 @@ body {
   color: #37698a;
 }
 
+.content-container {
+  grid-area: content-container;
+}
+
 /* Nos títulos dos tópicos utilizei um azul mais claro, para destacar para o leitor o assunto que é tratado nos parágrafos que se seguem.
 */
-.subtitle-topic {
+.topic-title {
   font-family: Helvetica, sans-serif;
   font-size: 27px;
   padding: 20px;
@@ -143,19 +144,87 @@ uma figura de autoridade. Um efeito secundário foi que a marca da faculdade aca
 mais bonita e com um padrão de cores mais concreto.
 */
 .footer-container {
-  display: flex;
   align-items: center;
   background-color: #344957;
-}
-
-.footer-container img {
-  width: 4%;
-  margin-right: 34%;
+  grid-area: footer-container;
 }
 
 /* No texto do rodapé utilizei o mesmo tom de branco do plano de fundo do site, para ter contraste com a cor do fundo do próprio rodapé.
 */
 .footer-container p {
+  text-align: center;
   font-family: Helvetica, sans-serif;
   color: #e9dfdf;
+  padding: 0.2em;
+}
+
+/*Desktop*/
+@media screen and (min-width: 769px) {
+  .layout {
+    background-color: #e9dfdf;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header-container"
+      "content-container"
+      "footer-container";
+  }
+}
+
+/*Mobile*/
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .layout {
+    background-color: #e9dfdf;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header-container"
+      "content-container"
+      "footer-container";
+  }
+
+  .header-container h1 {
+    font-size: 16px;
+  }
+
+  #duke {
+    width: 25px;
+    height: 35px;
+    display: inline-block;
+  }
+
+  .header-container p {
+    font-size: 13px;
+  }
+
+  .topic-title {
+    font-size: 14px;
+  }
+
+  .content-texts {
+    font-size: 14px;
+  }
+
+  #highlights-list-title {
+    font-size: 14px;
+  }
+
+  .highlights-list {
+    font-size: 13px;
+  }
+
+  .jvm-illustration {
+    width: 95%;
+    height: auto;
+  }
+
+  .article-footer {
+    font-size: 11px;
+  }
+
+  .footer-container {
+    font-size: 11px;
+  }
 }
