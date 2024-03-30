@@ -48,3 +48,47 @@ layout {
   background-color: #c1e4e6;
   grid-area: image;
 }
+
+/*MOBILE FIRST*/
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr) repeat(2, 3fr) repeat(3, 2fr);
+  grid-template-areas:
+    "header"
+    "menu"
+    "hero"
+    "main"
+    "banner"
+    "extra"
+    "image";
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .layout {
+    height: 100vh;
+    display: grid;
+    grid-template:
+      "header header header" 1fr
+      "hero hero hero" 4fr
+      "menu main main" 4fr
+      "menu banner banner" 2fr
+      "menu extra image" 2fr / 1fr 2fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .layout {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr) repeat(2, 3fr) repeat(3, 2fr);
+    grid-template-areas:
+      "header"
+      "menu"
+      "hero"
+      "main"
+      "banner"
+      "extra"
+      "image";
+  }
+}
