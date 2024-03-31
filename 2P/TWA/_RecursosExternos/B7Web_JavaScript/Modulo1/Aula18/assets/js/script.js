@@ -17,7 +17,7 @@ console.log(a > b);
 // Até 45 está barato.
 let preco = 40.99;
 
-if (preco <= 40.0) {
+if (preco <= 45.0) {
     console.log("O preço da carne está barato");
 } else {
     console.log("O preço da carne está caro.");
