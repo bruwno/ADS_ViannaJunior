@@ -1,33 +1,24 @@
-// É possível alterar popriedades de objetos apenas utilizando o seletor . (ponto).
+// this aponta para o próprio objeto.
+// Usando a palavra this temos acesso ao this.
 
-let character = {
-    name: "Hermes",
-    age: 60,
-    eyes: ["Preto", "Azul"],
-    country: "Brasil",
-    characteristics: {
-        strength: 7,
-        magicka: 5,
-        stamina: 6
+let person = {
+    name: "William",
+    surname: "Silva",
+    age: 26,
+    fullName: function () {
+        return `${this.name} ${this.surname}`;
     }
 }
 
-character.name = "Renato";
-character.characteristics.strength += 5;
-character.eyes.push("Verde"); // Adicionando um novo valor no array dentro do objeto.
+console.log(person.fullName());
 
-console.log(character);
-
-// Array de objetos dentro de um objeto.
-let character2 = {
-    name: "Away",
-    age: 60,
-    cars: [
-        { model: "Fiat 147", color: "Preto" },
-        { model: "Ferrari F40", color: "Vermelha" }
-    ]
+let person2 = {
+    name: "Bruno",
+    surname: "Silva",
+    age: 26,
+    fullName: () => {
+        return `${name} ${surname}`; // Não serve para retonar elementos do objeto!
+    }
 }
 
-console.log(character2);
-let carColor = character2.cars[1].color; // Acessando a propriedade COLOR no array CARS dentro do objeto.
-console.log(carColor);
+console.log(person2.fullName()); // Erro.

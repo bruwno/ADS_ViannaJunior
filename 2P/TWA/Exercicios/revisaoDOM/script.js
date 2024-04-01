@@ -66,7 +66,7 @@ function verificaDiagonalSecundaria(grade) {
 
 function verificaHorizontal(grade) {
     let simbolo = capturarSimbolos(grade);
-    for (i = 0; i < simbolo.length; i += 3) {
+    for (let i = 0; i < simbolo.length; i += 3) {
         if (simbolo[i] !== "" && simbolo[i] === simbolo[i + 1] && simbolo[i + 1] === simbolo[i + 2]) {
             return true;
         }
@@ -76,7 +76,7 @@ function verificaHorizontal(grade) {
 
 function verificarVertical(grade) {
     let simbolo = capturarSimbolos(grade);
-    for (i = 0; i < 3; i++) {
+    for (let i = 0; i < 3; i++) {
         if (simbolo[i] !== "" && simbolo[i] === simbolo[i + 3] && simbolo[i + 3] === simbolo[i + 6]) {
             return true;
         }
@@ -87,7 +87,7 @@ function verificarVertical(grade) {
 function verificarEmpate(grade) {
     let simbolo = capturarSimbolos(grade);
     let contaCasasVazias = 0;
-    for (i = 0; i < grade.length; i++) {
+    for (let i = 0; i < grade.length; i++) {
         if (simbolo[i] === "") {
             contaCasasVazias++;
         }

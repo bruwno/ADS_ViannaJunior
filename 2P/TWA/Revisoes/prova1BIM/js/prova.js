@@ -55,7 +55,7 @@ let imagens = [
     "./images/bagmon/10.jpeg",
     "./images/bagmon/11.jpeg",
     "./images/bagmon/12.jpeg",
-]
+];
 
 let galeria = document.querySelector(".image img");
 let cont = 0;
@@ -100,4 +100,4 @@ let nomes = [
     "Tamanduí",
     "Tamirim",
     "Lutanduá"
-]
+];
