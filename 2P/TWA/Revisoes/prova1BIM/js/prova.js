@@ -9,7 +9,24 @@ Aplique o modo noturno na página apresentada:
     • Quando o link for clicado novamente as alterações devem ser desfeitas.
     • Atualize o texto do link para "Modo Diurno" quando o modo noturno estiver ativo e vice-versa.
 */
+let body = document.querySelector("body");
+let modoNoturno = document.getElementById("toggleNightMode");
+let btnAnterior = document.getElementById("prevButton");
+let btnProximo = document.getElementById("nextButton");
 
+modoNoturno.addEventListener("click", event => {
+    body.classList.toggle("dark");
+
+    if (btnAnterior.classList.contains("is-dark")) {
+        btnAnterior.classList.replace("is-dark", "is-light");
+        btnProximo.classList.replace("is-dark", "is-light");
+        modoNoturno.innerText = "Modo Diurno";
+    } else {
+        btnAnterior.classList.replace("is-light", "is-dark");
+        btnProximo.classList.replace("is-light", "is-dark");
+        modoNoturno.innerText = "Modo Noturno";
+    }
+});
 
 /*
 Questão 02- Galeria de Imagens
@@ -25,9 +42,62 @@ Crie um script que apresente uma galeria de imagens:
 
 */
 
+let imagens = [
+    "./images/bagmon/1.jpeg",
+    "./images/bagmon/2.jpeg",
+    "./images/bagmon/3.jpeg",
+    "./images/bagmon/4.jpeg",
+    "./images/bagmon/5.jpeg",
+    "./images/bagmon/6.jpeg",
+    "./images/bagmon/7.jpeg",
+    "./images/bagmon/8.jpeg",
+    "./images/bagmon/9.jpeg",
+    "./images/bagmon/10.jpeg",
+    "./images/bagmon/11.jpeg",
+    "./images/bagmon/12.jpeg",
+]
+
+let galeria = document.querySelector(".image img");
+let cont = 0;
+
+galeria.setAttribute("src", imagens[cont]);
+
+btnProximo.addEventListener("click", event => {
+    event.preventDefault();
+    if (cont == imagens.length) {
+        cont = 0;
+    }
+    galeria.setAttribute("alt", nomes[cont]);
+    galeria.setAttribute("src", imagens[cont++]);
+});
+
+btnAnterior.addEventListener("click", event => {
+    event.preventDefault();
+    if (cont <= 0) {
+        cont = imagens.length;
+    }
+    galeria.setAttribute("alt", nomes[cont - 1]);
+    galeria.setAttribute("src", imagens[--cont]);
+});
+
 /*
 Questão 03 - Extra
 
 Crie um script para mostrar no campo texto alternativo (alt) da imagem o nome do respectivo Bágmon.
 
 */
+
+let nomes = [
+    "Voara",
+    "Azurara",
+    "Ararazul",
+    "Pequemico",
+    "Micorado",
+    "Douraleão",
+    "Capi",
+    "Varacapi",
+    "Capilorde",
+    "Tamanduí",
+    "Tamirim",
+    "Lutanduá"
+]
