@@ -1,7 +1,5 @@
-// Objetos -> estrutura que armazena dados relacionados de um mesmo item/objeto.
-// Muito parecido com um dicionário. Chave, Valor.
+// É possível alterar popriedades de objetos apenas utilizando o seletor . (ponto).
 
-// Propriedade (Chave): Dado (Valor)
 let character = {
     name: "Hermes",
     age: 60,
@@ -14,10 +12,22 @@ let character = {
     }
 }
 
-console.log(`${character.name} tem ${character.age} anos de idade.`);
+character.name = "Renato";
+character.characteristics.strength += 5;
+character.eyes.push("Verde"); // Adicionando um novo valor no array dentro do objeto.
 
-// Podemos criar objetos dentro de outros objetos.
-console.log(`Magia: ${character.characteristics.magicka}`);
+console.log(character);
 
-// Podemos criar arrays dentro de objetos.
-console.log(`Cor dos olhos | Olho direito: ${character.eyes[0]} - Olho esquerdo: ${character.eyes[1]}`);
+// Array de objetos dentro de um objeto.
+let character2 = {
+    name: "Away",
+    age: 60,
+    cars: [
+        { model: "Fiat 147", color: "Preto" },
+        { model: "Ferrari F40", color: "Vermelha" }
+    ]
+}
+
+console.log(character2);
+let carColor = character2.cars[1].color; // Acessando a propriedade COLOR no array CARS dentro do objeto.
+console.log(carColor);
