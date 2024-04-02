@@ -5,10 +5,18 @@ SELECT nomeArea FROM area;
 SELECT nomeMunicipio FROM municipio WHERE siglaUF = 'MG';
 
 -- QUESTÃO 03: Liste os nomes das instituições privadas com fins lucrativos.(675 linhas retornadas).
-SELECT nomeIES FROM ies WHERE codCategoria = 2;
+-- SELECT nomeIES FROM ies WHERE codCategoria = 2;
+SELECT i.nomeIES FROM ies AS i
+INNER JOIN categoria AS c ON i.codCategoria = c.codCategoria
+WHERE c.nomeCategoria = 'Privada com fins lucrativos';
 
 -- QUESTÃO 04: Recupere os nomes da IES e o conceitoFaixa das IES que participaram do enade de 2017 cuja modalidade de educação é a distância.(516 linhas retornadas)
-SELECT i.nomeIES, r.conceitoFaixa FROM ies AS i, resultado AS r WHERE r.anoEnade = 2017 AND r.codModalidade = 2 AND i.codIES = r.codIES;
+-- SELECT i.nomeIES, r.conceitoFaixa FROM ies AS i, resultado AS r WHERE r.anoEnade = 2017 AND r.codModalidade = 2 AND i.codIES = r.codIES;
+SELECT i.nomeIES, r.conceitoFaixa FROM ies AS i
+INNER JOIN resultado AS r ON i.codIES = r.codIES
+INNER JOIN modalidade AS m ON r.codModalidade = m.codModalidade
+WHERE r.anoEnade = 2017
+AND m.nomeModalidade = 'Educação a Distância';
 
 -- QUESTÃO 05: Recupere o nome das ies e das áreas que obtiveram conceitoFaixa 5 da área de TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS no enade de 2017.(12 linhas retornadas)
 SELECT i.nomeIES, a.nomeArea
@@ -42,5 +50,5 @@ FROM ies AS i
 INNER JOIN resultado AS r ON i.codIES = r.codIES
 INNER JOIN municipio AS m ON r.codMunicipio = m.codMunicipio
 INNER JOIN area AS a ON r.codArea = a.codArea
-AND r.conceitoFaixa < 3
+WHERE r.conceitoFaixa < 3
 AND m.nomeMunicipio = 'Juiz de Fora';
