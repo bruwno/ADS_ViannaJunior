@@ -48,7 +48,6 @@ Objetivo: criar uma lista de tarefas usando JavaScript e manipulação do DOM. P
 </div>
 
 
-
 Exercício 4: Criando um jogo de memória
 Objetivo: criar um jogo de memória usando JavaScript e manipulação do DOM.
 

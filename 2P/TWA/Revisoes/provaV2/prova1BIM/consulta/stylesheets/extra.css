@@ -1,0 +1,42 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+:root > * {
+    --md-code-hl-number-color: #cc8440;
+    --md-code-hl-special-color: #61AFEF;
+    --md-code-hl-function-color: #61AFEF;
+    --md-code-hl-constant-color: #C678DD;
+    --md-code-hl-keyword-color: #C678DD;
+    --md-code-hl-string-color: #98C379;
+    --md-code-hl-name-color: #E5C07B;
+    --md-code-hl-operator-color: #56B6C2;
+    --md-code-hl-punctuation-color: #ABB2BF;
+    --md-code-hl-comment-color: #7F848E;
+    --md-code-hl-generic-color: #61AFEF;
+    --md-code-hl-variable-color: #E06C75;
+
+    --md-code-bg-color: #282C34;
+    --md-default-fg-color--lightest: rgb(193 193 193 / 7%);
+
+  }
+
+.highlight :is(.nx) {
+    color: var(--md-code-hl-name-color);
+}
+
+.highlight span.filename {
+    color: #bcbcbd;
+   
+}
+
+.md-typeset a{
+    color: #bcbcbd;
+}
+
+.md-typeset code{
+    color: #bcbcbd;
+}
