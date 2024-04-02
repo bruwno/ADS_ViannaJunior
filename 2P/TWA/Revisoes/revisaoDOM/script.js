@@ -3,6 +3,8 @@ let jogada = sortearJogador();
 let pos = 0;
 let jogador = "";
 let partidaFinalizada = false;
+let resultadoJogo = document.createElement("h1");
+document.body.appendChild(resultadoJogo);
 
 grade.forEach(posicao => {
     posicao.setAttribute("posicao", pos++);
@@ -30,11 +32,11 @@ grade.forEach(posicao => {
 
 function verificarEstadoDaGrade(grade, jogador) {
     if (verificaDiagonalPrincipal(grade) || verificaDiagonalSecundaria(grade) || verificaHorizontal(grade) || verificarVertical(grade)) {
-        alert(`[Fim de jogo] Vitória do jogador ${jogador}!`);
+        resultadoJogo.textContent = `Vitória do jogador ${jogador}!`
         partidaFinalizada = true;
         reiniciarPartida(grade);
     } else if (verificarEmpate(grade)) {
-        alert("[Deu velha] Empate!");
+        resultadoJogo.textContent = "Deu velha!";
         partidaFinalizada = true;
         reiniciarPartida(grade);
     }
@@ -110,6 +112,7 @@ function reiniciarPartida(grade) {
         partidaFinalizada = false;
         jogada = sortearJogador();
         alternarTextoPrimeiroAJogar();
+        resultadoJogo.textContent = "";
     });
 
     document.body.appendChild(botaoReiniciar);
