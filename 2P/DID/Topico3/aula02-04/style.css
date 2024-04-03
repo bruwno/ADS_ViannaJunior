@@ -1,0 +1,38 @@
+/*Modos de display nativos do CSS: block (cria o model box, permite adicionar border, margin e padding) | inline (não cria o model box)*/
+/*Definição dos valores sempre no sentido horário.*/
+
+.div1 {
+    display: inline-block;
+    /*display: none - oculta o elemento da visuzalização*/
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    /*margin: 10px 20px; /*Inferior e Superior | Esquerda e Direita*/
+    margin: 0 auto; /*Valores 0: Infeiror e Superior | auto: esquerda e direita -> usado para centralizar elementos*/
+    border-style: solid; /*Definição obrigatória*/
+    border-width: 5px; /*Definição obrigatória*/
+    border-color: blueviolet;
+    border-radius: 30px 25px 15px 10px;
+    padding: 30px 25px 15px 10px;
+}
+
+.div2 {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;;
+    margin-left: 30px;
+    /*border: 5px solid salmon; /*Definições em um única linha- engloba o style, o width e o color*/
+    border-bottom: 5px solid salmon;
+    border-right: 5px solid sandybrown;
+    border-bottom-right-radius: 30px;
+}
+
+.destaque {
+    display: inline-block;
+    margin:20px;
+    color: blue;
+}
