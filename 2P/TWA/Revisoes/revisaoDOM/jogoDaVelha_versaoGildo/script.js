@@ -7,12 +7,6 @@ let tabuleiro =
         0, 0, 0];
 let ativo = true;
 
-let texto = document.createElement('h1');
-document.body.appendChild(texto);
-let btnReiniciar = document.createElement('button');
-btnReiniciar.innerText = 'Reiniciar';
-btnReiniciar.addEventListener('click', reiniciaJogo);
-
 function reiniciaJogo() {
     tabuleiro = [0, 0, 0,
         0, 0, 0,
@@ -25,6 +19,12 @@ function reiniciaJogo() {
     texto.innerText = '';
     document.body.removeChild(btnReiniciar);
 }
+
+let texto = document.createElement('h1');
+document.body.appendChild(texto);
+let btnReiniciar = document.createElement('button');
+btnReiniciar.innerText = 'Reiniciar';
+btnReiniciar.addEventListener('click', reiniciaJogo);
 
 campos.forEach(casa => {
     casa.setAttribute("posicao", posicao++);
