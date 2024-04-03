@@ -16,7 +16,7 @@ btnAddTarefa.addEventListener("click", () => {
     if (tarefa.value === "") {
         errosTexto.innerText = "Insira uma tarefa no campo!";
     } else {
-        listaTarefas.innerText += `${tarefa.value}\n`;
+        listaTarefas.innerText += `- ${tarefa.value}\n`;
         tarefa.value = "";
         errosTexto.innerText = "";
     }
