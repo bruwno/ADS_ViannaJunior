@@ -6,39 +6,42 @@ let button = document.querySelector(".btn");
 
 // Monitorando o evento do botão:
 button.addEventListener("click", () => {
-    usingBeforeAfter();
-    usingBeforeAfterWithElementCreation();
-    creatingElemeentUsingLoop();
+    clicked();
 });
 
-// Adicionando itens ao redor de um elemento (antes ou depois):
-function usingBeforeAfter() {
-    const primeiraDiv = document.querySelector("#primeiraDiv");
-    const ul = primeiraDiv.querySelector("ul");
-    ul.after("Um texto DEPOIS/AFTER do elemento <ul>");
-    ul.before("Um texto ANTES/BEFORE do elemento <ul>");
-}
+// Exibindo o conteúdo dos atributos de um elemento:
+function clicked() {
+    const input = document.querySelector(".input");
 
-// Adicionando um elemento antes ou depois de outro:
-function usingBeforeAfterWithElementCreation() {
-    const primeiraDiv = document.querySelector("#primeiraDiv");
-    const ul = primeiraDiv.querySelector("ul");
-    const newButton = document.createElement("button");
-    newButton.innerHTML = "Botão";
-    ul.before(newButton);
-    ul.after(newButton);
-}
-
-function creatingElemeentUsingLoop() {
-    const primeiraDiv = document.querySelector("#primeiraDiv");
-    const ul = primeiraDiv.querySelector("ul");
-
-    let newUl = document.createElement("ul");
-    // Criando vários elementos de uma vez:
-    for (let i = 1; i <= 5; i++) {
-        let newLi = document.createElement("li");
-        newLi.innerHTML = "Item " + i + " adicionado no loop";
-        newUl.append(newLi);
+    // getAttibute
+    console.log(input.getAttribute("type"));
+    if (input.hasAttribute("type")) {
+        console.log("Atributo TYPE econtrado!")
+    } else {
+        console.log("Atributo TYPE não encontrado!");
     }
-    ul.after(newUl); // ou before
+
+    // setAttibute
+    input.setAttribute("placeholder", "Placeholder alterado!");
+}
+
+// Exibindo o conteúdo de um input ao alterar o seu atributo:
+const input = document.querySelector(".input");
+let buttonPasswd = document.createElement("button");
+buttonPasswd.textContent = "Mostrar senha";
+document.body.appendChild(buttonPasswd);
+
+buttonPasswd.addEventListener("click", () => {
+    showHidePassword();
+});
+
+function showHidePassword() {
+    if (input.getAttribute("type") === "text") {
+        input.setAttribute("type", "password");
+        buttonPasswd.textContent = "Mostrar senha";
+    } else {
+        input.setAttribute("type", "text");
+        buttonPasswd.textContent = "Ocultar senha";
+    }
+
 }
