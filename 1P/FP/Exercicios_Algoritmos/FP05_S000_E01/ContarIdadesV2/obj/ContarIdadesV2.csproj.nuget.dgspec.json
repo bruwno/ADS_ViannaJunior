@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj": {}
+    "D:\\.Arquivos na Nuvem\\Google Drive\\My Drive\\My Drive\\_REPOSITORIO\\ADS_ViannaJunior\\1P\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj": {}
   },
   "projects": {
-    "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj": {
+    "D:\\.Arquivos na Nuvem\\Google Drive\\My Drive\\My Drive\\_REPOSITORIO\\ADS_ViannaJunior\\1P\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj",
+        "projectUniqueName": "D:\\.Arquivos na Nuvem\\Google Drive\\My Drive\\My Drive\\_REPOSITORIO\\ADS_ViannaJunior\\1P\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj",
         "projectName": "ContarIdadesV2",
-        "projectPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj",
+        "projectPath": "D:\\.Arquivos na Nuvem\\Google Drive\\My Drive\\My Drive\\_REPOSITORIO\\ADS_ViannaJunior\\1P\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\ContarIdadesV2.csproj",
         "packagesPath": "C:\\Users\\William\\.nuget\\packages\\",
-        "outputPath": "D:\\.Arquivos na Nuvem\\Vianna Junior\\My Drive\\Faculdade\\1º PERÍODO\\_REPOSITÓRIO DE EXERCÍCIOS\\ADS_ViannaJunior\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\obj\\",
+        "outputPath": "D:\\.Arquivos na Nuvem\\Google Drive\\My Drive\\My Drive\\_REPOSITORIO\\ADS_ViannaJunior\\1P\\FP\\Exercicios_Algoritmos\\FP05_S000_E01\\ContarIdadesV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\William\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

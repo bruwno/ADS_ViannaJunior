@@ -11,10 +11,15 @@ namespace Questao01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(ehPerfeito(3, 1, 0));
+            Console.WriteLine(ehPerfeito(33550336));
         }
 
-        public static bool ehPerfeito(int n, int divisor, int somaDivisores = 0)
+        public static bool ehPerfeito(int n)
+        {
+            return ehPerfeito(n, 1, 0);
+        }
+
+        public static bool ehPerfeito(int n, int divisor = 1, int somaDivisores = 0)
         {
             if (somaDivisores == n)
             {

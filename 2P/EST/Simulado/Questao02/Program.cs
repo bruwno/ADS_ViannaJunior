@@ -3,6 +3,7 @@ Questão 2) Faça três procedimentos. Cada procedimento deve receber um vetor d
 */
 
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Questao02
 {
@@ -10,12 +11,21 @@ namespace Questao02
     {
         public static void Main(string[] args)
         {
+            Atleta[] atletas = new Atleta[]
+            {
+                new Atleta("João", 20, 65),
+                new Atleta("Marcos", 30, 65.3),
+                new Atleta("Saulo", 28, 80.1),
+                new Atleta("Jacob", 22, 75.0),
+                new Atleta("Tomé", 27, 72.8)
+            };
 
+            BubbleSort(atletas, 0);
         }
 
-        public static void BubbleSort(int[] vet, int i)
+        public static void BubbleSort(Atleta[] vet, int i)
         {
-            
+
         }
     }
 }
