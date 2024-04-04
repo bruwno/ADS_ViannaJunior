@@ -1,54 +1,62 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo {
-    height: 50px;
-    width: 400px;
-    margin: 0 auto;
+  text-align: center;
 }
 
-.titulo-veiculo {
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    padding: 5px;
+.nome-produto {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 90px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .texto {
-    color:#6f6f6f;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:10px;
-    padding: 5px;
+  color: #b2b2b2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px;
+  border: 15px;
+  padding: 5px;
 }
 
-.div1 {
-    background-color: #000;
-    width: 1200px;
-    height: 150px;
-    border-radius: 5px;
-    margin: 0 auto;
+.container {
+  width: 800px;
+  height: 160px;
+  margin: 0 auto;
 }
 
-.div2 {
-    background-color: #000;
-    width: 1200px;
-    height: 150px;
-    border-radius: 5px;
-    margin: 0 auto;
+.carro {
+  background-color: #111;
+  width: 800px;
+  height: 160px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.bicicleta {
+  background-color: #111;
+  width: 800px;
+  height: 160px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .btnComprar {
-    color: #6f6f6f;
-    text-decoration: none;
-    background-color: #ebb608;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ebb608;
-    margin: 25px 15px;
-    padding: 5px;
+  color: #332200;
+  text-decoration: none;
+  background-color: #ebb608;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 25px 15px;
+  padding: 10px;
 }
 
 .destaque {
-    color: #ebb608;
+  color: #febe01;
 }

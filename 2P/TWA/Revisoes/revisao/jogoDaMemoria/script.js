@@ -7,8 +7,8 @@ let cards = document.querySelectorAll(".card");
 let cartasViradas = [];
 let cartasPares = [];
 
-let btnReiniciarJogo = document.createElement("button");
-btnReiniciarJogo.textContent = "Reiniciar jogo";
+// let btnReiniciarJogo = document.createElement("button");
+// btnReiniciarJogo.textContent = "Reiniciar jogo";
 
 cards.forEach(card =>
     card.addEventListener('click', function () {
@@ -42,18 +42,18 @@ function verificarCombinacao() {
     cartasViradas = [];
 }
 
-function reiniciarJogo() {
-    document.body.appendChild(btnReiniciarJogo);
+// function reiniciarJogo() {
+//     document.body.appendChild(btnReiniciarJogo);
 
-    btnReiniciarJogo.addEventListener("click", () => {
-        cards.forEach(card => {
-            card.classList.remove('flip');
-            card.addEventListener('click', function () {
-                virarCarta(card);
-            });
-        });
-        cartasViradas = [];
-        cartasPares = [];
-        btnReiniciarJogo.remove();
-    });
-}
+//     btnReiniciarJogo.addEventListener("click", () => {
+//         cards.forEach(card => {
+//             card.classList.remove('flip');
+//             card.addEventListener('click', function () {
+//                 virarCarta(card);
+//             });
+//         });
+//         cartasViradas = [];
+//         cartasPares = [];
+//         btnReiniciarJogo.remove();
+//     });
+// }
