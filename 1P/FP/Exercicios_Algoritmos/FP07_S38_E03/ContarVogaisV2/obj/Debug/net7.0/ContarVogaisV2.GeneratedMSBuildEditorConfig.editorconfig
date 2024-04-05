@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContarVogaisV2
-build_property.ProjectDir = D:\.Arquivos na Nuvem\Vianna Junior\My Drive\Faculdade\1º PERÍODO\_REPOSITÓRIO DE EXERCÍCIOS\ADS_ViannaJunior\FP\Exercicios_Algoritmos\FP07_S38_E03\ContarVogaisV2\
+build_property.ProjectDir = D:\.Arquivos na Nuvem\Google Drive\My Drive\My Drive\_REPOSITORIO\ADS_ViannaJunior\1P\FP\Exercicios_Algoritmos\FP07_S38_E03\ContarVogaisV2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

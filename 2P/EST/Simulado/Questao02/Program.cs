@@ -3,7 +3,6 @@ Questão 2) Faça três procedimentos. Cada procedimento deve receber um vetor d
 */
 
 using System;
-using System.ComponentModel.DataAnnotations;
 
 namespace Questao02
 {

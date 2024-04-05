@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContarVogaisV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2901a45c91634d16e2ffac450a7088f82d20ccfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContarVogaisV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContarVogaisV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
