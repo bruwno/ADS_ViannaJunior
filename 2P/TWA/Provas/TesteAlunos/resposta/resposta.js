@@ -47,32 +47,71 @@ O primeiro parâmetro é a função que será executada e o segundo é o tempo e
 let cartas = document.querySelectorAll(".card");
 let letras = ["A", "B", "C", "D", "E", "A", "B", "C", "D", "E"];
 let cartasClicadas = [];
-let cartasPares = [];
 let posicao = 0;
+let paresDeCartas = 0;
+let travarClique = false;
 
 cartas.forEach(carta => {
     carta.setAttribute("posicao", posicao++);
 
     carta.addEventListener("click", event => {
         let clicada = event.target;
-        posicao = clicada.getAttribute("posicao");
+        posicao = parseInt(clicada.getAttribute("posicao"));
+        cartasClicadas.push(clicada);
 
-        if (!clicada.classList.contains(letras[posicao])) {
-            clicada.classList.toggle(letras[posicao]);
-            clicada.textContent = letras[posicao];
-        } else if (clicada.classList.contains(letras[posicao])) {
-            clicada.classList.toggle(letras[posicao]);
-            clicada.textContent = "X";
+        if (travarClique) {
+            return;
         }
+
+        virarCartas(clicada, posicao);
+
+        if (cartasClicadas.length == 2) {
+            travarClique = true;
+            verificarCartas(clicada);
+        }
+        verificarVitoria();
     });
 });
 
-// function virarCartas(carta) {
-//     if (cartasClicadas.length < 2 &&  ) {
+function virarCartas(clicada, posicao) {
+    if (!clicada.classList.contains(letras[posicao])) {
+        clicada.classList.toggle(letras[posicao]);
+        clicada.innerText = letras[posicao];
+    }
+}
 
-//     }
-// }
+function desvirarCartas(carta1, carta2) {
+    for (let letra of letras) {
+        carta1.classList.remove(letra);
+        carta2.classList.remove(letra);
+    }
+    carta1.classList.add("card");
+    carta2.classList.add("card");
+    carta1.innerText = "X";
+    carta2.innerText = "X";
+}
 
-// function verificarCartas() {
+function verificarCartas() {
+    let carta1 = cartasClicadas[0];
+    let carta2 = cartasClicadas[1];
 
-// }
+    if (carta2.innerText !== "X" && carta1.innerText === carta2.innerText) {
+        cartasClicadas = [];
+        paresDeCartas++;
+        travarClique = false;
+    } else if (carta2.innerText !== "X" && carta1.innerText !== carta2.innerText) {
+        travarClique = true;
+        setTimeout(function () {
+            desvirarCartas(carta1, carta2);
+        }, 1000)
+        cartasClicadas.pop();
+        cartasClicadas.shift();
+        travarClique = false;
+    }
+}
+
+function verificarVitoria() {
+    if (paresDeCartas === 5) {
+        alert("Fim de jogo!");
+    }
+}

@@ -2,17 +2,29 @@ using System;
 
 namespace Questao02
 {
-    public class Atleta
+    public class Atleta(string nome, int idade, double peso)
     {
-        private string nome;
-        private int idade;
-        private double peso;
+        private string nome = nome;
+        private int idade = idade;
+        private double peso = peso;
 
-        public Atleta(string nome, int idade, double peso)
+        public string Nome
         {
-            this.nome = nome;
-            this.idade = idade;
-            this.peso = peso;
+            get { return nome; }
+            set { nome = value; }
         }
+
+        public int Idade
+        {
+            get { return idade; }
+            set { idade = value; }
+        }
+
+        public double Peso
+        {
+            get { return peso; }
+            set { peso = value; }
+        }
+
     }
 }
