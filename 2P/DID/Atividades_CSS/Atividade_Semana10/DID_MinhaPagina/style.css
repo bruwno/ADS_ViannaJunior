@@ -126,6 +126,8 @@ portanto penso que a escolha das cores com tons mais frios e apagados ajudam a p
   display: block;
   background-color: #2680bd;
   border-radius: 25px;
+  border-style: solid;
+  border-color: #37698a;
   padding: 16px;
 }
 
