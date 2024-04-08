@@ -70,24 +70,24 @@ namespace Questao02
             for (int i = 0; i < vet.Length - 1; i++)
             {
                 // Inicializa o índice do menor elemento como o índice atual.
-                int menorIndice = i;
+                int indiceMenor = i;
 
                 // Loop interno que percorre o restante do vetor a partir do próximo elemento.
                 for (int j = i + 1; j < vet.Length; j++)
                 {
-                    // Verifica se o peso do atleta atual é maior que o peso do atleta no menor índice.
-                    if (vet[j].Peso > vet[menorIndice].Peso)
+                    // Verifica se o peso do atleta atual é menor que o peso do atleta no menor índice.
+                    if (vet[j].Peso < vet[indiceMenor].Peso)
                     {
                         // Se sim, atualiza o menor índice para o índice atual.
-                        menorIndice = j;
+                        indiceMenor = j;
                     }
                 }
 
                 // Após percorrer todo o vetor interno, verifica se o menor índice mudou.
-                if (i != menorIndice)
+                if (i != indiceMenor)
                 {
-                    // Se sim, realiza a troca de posição entre os elementos nos índices i e menorIndice.
-                    Troca(vet, i, menorIndice);
+                    // Se sim, realiza a troca de posição entre os elementos nos índices i e indiceMenor.
+                    Troca(vet, i, indiceMenor);
                 }
             }
         }
@@ -108,7 +108,7 @@ namespace Questao02
             }
         }
 
-        private static void EscolherMetodoDeOrdenacao(Atleta[] atletas, int metodo)
+        private static void EscolherMetodoDeOrdenacao(Atleta[] atletas, int metodo = 0)
         {
             int m = metodo;
 
@@ -125,6 +125,7 @@ namespace Questao02
                     BubbleSort(atletas);
                     break;
                 case 2:
+                    O
                     Console.WriteLine("Ordenado pelo método [InsertionSort]");
                     InsertionSort(atletas);
                     break;
