@@ -1,4 +1,10 @@
-﻿namespace EXC02;
+﻿/* Autor: William Silva (https://github.com/unclWill) 
+ * Data : 07/04/2024
+ * 
+ * EXERCÍCIO: Implemente o algoritmo SelectionSort e ordene de forma crescente um vetor inteiro de quantidade de peças de uma loja.
+ */
+
+amespace EXC02;
 
 class Program
 {

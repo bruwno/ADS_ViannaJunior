@@ -1,4 +1,10 @@
-﻿namespace EXC03;
+﻿/* Autor: William Silva (https://github.com/unclWill) 
+ * Data : 07/04/2024
+ * 
+ * EXERCÍCIO: Implemente o algoritmo SelectionSort e ordene de forma crescente um vetor double de números.
+ */
+
+namespace EXC03;
 
 class Program
 {
