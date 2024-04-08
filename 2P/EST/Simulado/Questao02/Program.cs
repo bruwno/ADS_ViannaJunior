@@ -24,12 +24,16 @@ namespace Questao02
 
         public static void BubbleSort(Atleta[] vet)
         {
+            // Loop externo que percorre o vetor do final ao início.
             for (int i = vet.Length - 1; i >= 0; i--)
             {
+                // Loop interno que percorre o vetor até o índice i.
                 for (int j = 0; j < i; j++)
                 {
+                    // Compara o peso do atleta atual com o peso do próximo atleta.
                     if (vet[j].Peso < vet[j + 1].Peso)
                     {
+                        // Se o peso do atleta atual for menor que o próximo, realiza a troca.
                         Troca(vet, j, j + 1);
                     }
                 }
@@ -38,38 +42,52 @@ namespace Questao02
 
         public static void InsertionSort(Atleta[] vet)
         {
+            // Loop externo que percorre o vetor a partir do segundo elemento até o final
             for (int i = 1; i < vet.Length; i++)
             {
-                // Valor a ser inserido na parte ordenada
+                // Armazena o peso do atleta atual em uma variável chave
                 double chave = vet[i].Peso;
                 int j;
-                // Percorre a parte ordenada e encontra a posição correta para inserir a chave
-                for (j = i - 1; j >= 0 && chave < vet[j].Peso; j--)
+
+                // Loop interno que percorre o vetor da posição anterior à atual até o início
+                // e verifica se o peso da chave é maior que o peso do atleta atual
+                for (j = i - 1; j >= 0 && chave > vet[j].Peso; j--)
                 {
-                    // Desloca os elementos maiores para a direita
-                    // PADRÃO -> vet[j + 1].Peso = vet[j].Peso;
-                    Troca(vet, j, j + 1);
+                    // Se o peso da chave for maior que o peso do atleta na posição j,
+                    // realiza a troca dos elementos
+                    Troca(vet, j, j + 1); // PADRÃO -> vet[j + 1].Peso = vet[j].Peso;
                 }
-                // Insere a chave na posição correta
+
+                // Após encontrar a posição correta para a chave, atribui o valor da chave 
+                // ao peso do atleta na posição j + 1
                 vet[j + 1].Peso = chave;
             }
         }
 
         public static void SelectionSort(Atleta[] vet)
         {
+            // Loop externo que percorre todo o vetor, exceto o último elemento.
             for (int i = 0; i < vet.Length - 1; i++)
             {
+                // Inicializa o índice do menor elemento como o índice atual.
                 int menorIndice = i;
+
+                // Loop interno que percorre o restante do vetor a partir do próximo elemento.
                 for (int j = i + 1; j < vet.Length; j++)
                 {
-                    if (vet[j].Peso < vet[menorIndice].Peso)
+                    // Verifica se o peso do atleta atual é maior que o peso do atleta no menor índice.
+                    if (vet[j].Peso > vet[menorIndice].Peso)
                     {
+                        // Se sim, atualiza o menor índice para o índice atual.
                         menorIndice = j;
                     }
-                    if (i != menorIndice)
-                    {
-                        Troca(vet, i, menorIndice);
-                    }
+                }
+
+                // Após percorrer todo o vetor interno, verifica se o menor índice mudou.
+                if (i != menorIndice)
+                {
+                    // Se sim, realiza a troca de posição entre os elementos nos índices i e menorIndice.
+                    Troca(vet, i, menorIndice);
                 }
             }
         }
@@ -113,10 +131,6 @@ namespace Questao02
                 case 3:
                     Console.WriteLine("Ordenado pelo método [SelectionSort]");
                     SelectionSort(atletas);
-                    break;
-                default:
-                    Console.WriteLine("Ordenado pelo método [BubbleSort <default>]");
-                    BubbleSort(atletas);
                     break;
             }
 
