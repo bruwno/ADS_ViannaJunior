@@ -6,7 +6,7 @@
 
 using System;
 
-namespace ImprimeInteiros 
+namespace ImprimeInteiros
 {
     public class Program
     {
@@ -16,8 +16,9 @@ namespace ImprimeInteiros
             SeparaPorTraco(vet);
         }
 
-        public static void SeparaPorTraco(int[] vet, int i = 0) {
-            if (i == vet.Length - 1) 
+        public static void SeparaPorTraco(int[] vet, int i = 0)
+        {
+            if (i == vet.Length - 1)
             {
                 Console.Write(vet[i]);
             }
@@ -29,5 +30,5 @@ namespace ImprimeInteiros
         }
 
     }
-    
+
 }
