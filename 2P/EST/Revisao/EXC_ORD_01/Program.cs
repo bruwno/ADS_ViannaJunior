@@ -1,4 +1,4 @@
-﻿/* Autor: William Silva (gtihub.com/unclWill)
+﻿/* Autor: William Silva (https://github.com/unclWill)
  * Data : 09/04/2024
  * 
  * Utilizando o método de ordenação SelectionSort, ordene um vetor de objetos do tipo Pessoa, 
