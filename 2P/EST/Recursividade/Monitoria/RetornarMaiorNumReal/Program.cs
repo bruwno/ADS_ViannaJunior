@@ -8,21 +8,21 @@ namespace RetornarMaiorNumReal
 {
     public class Program
     {
-        public static void Main(string[] args) 
+        public static void Main(string[] args)
         {
             double[] vet = new double[] { 4.5, 9.9, 10.1, 3.14, 99.7, 75.2 };
             Console.WriteLine(RetornaMaiorReal(vet));
         }
 
-        public static double RetornaMaiorReal(double[] vet, double maior = 0, int i = 0)
+        public static double RetornaMaiorReal(double[] vet, double maior = double.MinValue, int i = 0)
         {
-            if (i >= vet.Length) 
+            if (i >= vet.Length)
             {
                 return maior;
             }
             else
             {
-                if (vet[i] > maior) 
+                if (vet[i] > maior)
                 {
                     maior = vet[i];
                 }
