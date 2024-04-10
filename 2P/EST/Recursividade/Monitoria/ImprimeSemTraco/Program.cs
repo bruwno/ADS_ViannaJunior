@@ -26,7 +26,7 @@ namespace ImprimeSemTraco
             {
                 Console.Write(vet[i]); // O último elemento é impresso fora da chama recursiva, logo o traço não é impresso.
             }
-            else if (i >= 0 && i < vet.Length - 1) // -1 porque eu não quero imprimir o traço depois do último elemento.
+            else if (i >= 0 && i < vet.Length - 1) // -1 porque eu não quero imprimir o último elemento na chamada recursiva.
             {
                 Console.Write($"{vet[i]}- ");
                 Imprimir(vet, i + 1);
