@@ -19,7 +19,7 @@ namespace Questao02
                 new Atleta("Tomé", 27, 72.8)
             };
 
-            EscolherMetodoDeOrdenacao(atletas, 0);
+            EscolherMetodoDeOrdenacao(atletas, 2);
         }
 
         public static void BubbleSort(Atleta[] vet)
@@ -46,23 +46,25 @@ namespace Questao02
             for (int i = 1; i < vet.Length; i++)
             {
                 // Armazena o peso do atleta atual em uma variável chave
-                double chave = vet[i].Peso;
+                Atleta chave = vet[i];
                 int j;
 
                 // Loop interno que percorre o vetor da posição anterior à atual até o início
                 // e verifica se o peso da chave é maior que o peso do atleta atual
-                for (j = i - 1; j >= 0 && chave > vet[j].Peso; j--)
+                for (j = i - 1; j >= 0 && chave.Peso > vet[j].Peso; j--)
                 {
                     // Se o peso da chave for maior que o peso do atleta na posição j,
                     // realiza a troca dos elementos
-                    Troca(vet, j, j + 1); // PADRÃO -> vet[j + 1].Peso = vet[j].Peso;
+                    //Troca(vet, j, j + 1); // Também pode ser usado.
+                    vet[j + 1] = vet[j];
                 }
 
                 // Após encontrar a posição correta para a chave, atribui o valor da chave 
                 // ao peso do atleta na posição j + 1
-                vet[j + 1].Peso = chave;
+                vet[j + 1] = chave;
             }
         }
+
 
         public static void SelectionSort(Atleta[] vet)
         {
@@ -125,7 +127,6 @@ namespace Questao02
                     BubbleSort(atletas);
                     break;
                 case 2:
-                    O
                     Console.WriteLine("Ordenado pelo método [InsertionSort]");
                     InsertionSort(atletas);
                     break;

@@ -11,7 +11,7 @@ namespace Questao01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(ehPerfeito(33550336));
+            Console.WriteLine(ehPerfeito(6));
         }
 
         public static bool ehPerfeito(int n)

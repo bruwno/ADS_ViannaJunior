@@ -7,7 +7,8 @@ body {
     --text-color: #2d3142;
     --card-background: #ffffff;
     --tech-background: #ffdadd;
-    --page-background: linear-gradient(#4f5d75, #2d3142); /*Gradiente pode ser linear ou radial | linear-gradient ou radial-gradient | para aplicar graus: linear-gradient(90deg, color1, color2)*/
+    --page-background: linear-gradient(#4f5d75, #2d3142);
+    /*Gradiente pode ser linear ou radial | linear-gradient ou radial-gradient | para aplicar graus: linear-gradient(90deg, color1, color2)*/
     /*Sites para gerar gradientes: https://mycolor.space & https://gradientsguru.com*/
     --imageSize: 200px;
 
@@ -23,12 +24,46 @@ body {
     font-family: var(--font);
     color: var(--text-color);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Alinha os filhos*/
+    /*justify-content -> alinha no eixo X*/
+    /*align-items -> alinha no eixo Y*/
 }
 
 .card {
     background-color: var(--card-background);
-    box-shadow: 0 0 55px rgba(38, 40, 45, 75);
+    background-image: radial-gradient(
+            /*Pode ser um cículo ou uma elipse*/
+            circle at top,
+            /*pode ser também bottom, left ou right*/
+            var(--primary) 50%,
+            /*Define que será usado 50% da cor*/
+            transparent 50%,
+            transparent);
+    background-size: 1500px 500px;
+    background-repeat: no-repeat; /*Pode receber o valor de repeat-x OU repeat-y*/
+    background-position: center -300px; /*O ponto referencial começa no ponto 0.0 na laterial superior esquerda | SUBIU A IMAGEM 300px*/ 
     width: 75vw;
+    /*75% da largura da janela de visualização*/
     max-width: 500px;
+    /*Limite de crescimento da página, não vai além de 500px*/
     border-radius: 4px;
+    box-shadow: 0 0 55px rgba(38, 40, 45, .75);
+    /*rgba - RGB + Alpha (transparência) | 0 transparente - 1 opaco | Essas propriedades podem ser modificadas no Console no navegador*/
+    text-align: center;
+    margin: calc(var(--imageSize / 3 + 24px) 24px);
+    /*Compansa 1/3 do que ficou de fora do card (a imagem que subiu)*/
+}
+
+img.portrait {
+    width: var(--imageSize);
+    height: var(--imageSize);
+    border-radius: 50%;
+    /*Faz um crop circular na imagem*/
+    object-fit: cover;
+    /*Cobre toda a área da tag img, e de quebra tira a disorção da imagem*/
+    margin-top: calc(-1 * var(--imageSize) / 3);
+    /*Corresponde a 1/3 da imagem | A imagem fica 1/3 para fora do contêiner | Margem negativo*/
 }
