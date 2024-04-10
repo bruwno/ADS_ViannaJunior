@@ -32,7 +32,7 @@ class Program
             int j;
             for (j = i - 1; j >= 0 && chave.Codigo < vet[j].Codigo; j--)
             {
-                Troca(vet, j, j + 1);
+                vet[j + 1] = vet[j];
             }
             vet[j + 1] = chave;
         }
