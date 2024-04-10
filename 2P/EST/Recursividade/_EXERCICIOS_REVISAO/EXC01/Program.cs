@@ -16,16 +16,16 @@ class Program
         ImprimirInteiros(n);
     }
 
-    public static void ImprimirInteiros(int n, int i = 0)
+    public static void ImprimirInteiros(int n)
     {
-        if (i >= n + 1)
+        if (n == 0)
         {
-            return;
+            Console.Write($"{n} ");
         }
         else
         {
-            Console.Write($" {i} ");
-            ImprimirInteiros(n, i + 1);
+            ImprimirInteiros(n - 1);
+            Console.Write($" {n} ");
         }
     }
 }
