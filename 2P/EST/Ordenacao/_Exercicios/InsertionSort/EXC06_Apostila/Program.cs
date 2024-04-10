@@ -37,11 +37,4 @@ class Program
             vet[j + 1] = chave;
         }
     }
-
-    public static void Troca(Produto[] vet, int i, int j)
-    {
-        Produto aux = vet[i];
-        vet[i] = vet[j];
-        vet[j] = aux;
-    }
 }
