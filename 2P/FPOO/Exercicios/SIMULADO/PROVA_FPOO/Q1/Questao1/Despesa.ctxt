@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Despesa
+comment1.params=mesAno\ descricao\ valor\ taxaExtra
+comment1.target=Despesa(int,\ java.lang.String,\ double,\ boolean)
+numComments=2
