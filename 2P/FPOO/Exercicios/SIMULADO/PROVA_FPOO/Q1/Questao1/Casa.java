@@ -1,5 +1,5 @@
 
-public class Casa extends Imovel {
+public class Casa extends Imovel implements CondominioFechado {
     private int metragemTerreno;
     
     public Casa() {
@@ -12,4 +12,17 @@ public class Casa extends Imovel {
         this.metragemTerreno = metragemTerreno;
     }
     
+    @Override
+    public double valorVenal() {
+        return 0;
+    }
+    
+    public double valorVenda() {
+        return 0;
+    }
+    
+    // Vem da interface.
+    public double valorTerreno() {
+        return 0;
+    }
 }

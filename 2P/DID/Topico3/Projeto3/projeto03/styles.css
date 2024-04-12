@@ -53,8 +53,8 @@ body {
     box-shadow: 0 0 55px rgba(38, 40, 45, .75);
     /*rgba - RGB + Alpha (transparência) | 0 transparente - 1 opaco | Essas propriedades podem ser modificadas no Console no navegador*/
     text-align: center;
-    margin: calc(var(--imageSize / 3 + 24px) 24px);
-    /*Compansa 1/3 do que ficou de fora do card (a imagem que subiu)*/
+    margin: calc(var(--imageSize / 3 + 24px) 24px); /*Compensa 1/3 do que ficou de fora do card (a imagem que subiu)*/
+    padding: 0 24px 24px;
 }
 
 img.portrait {
@@ -66,4 +66,91 @@ img.portrait {
     /*Cobre toda a área da tag img, e de quebra tira a disorção da imagem*/
     margin-top: calc(-1 * var(--imageSize) / 3);
     /*Corresponde a 1/3 da imagem | A imagem fica 1/3 para fora do contêiner | Margem negativo*/
+}
+
+h1 {
+    font-size: 2rem; /*REM - root em -> baseado no tamamanho da fonte do documento HTML é uma porcentagem de 16px - ex.: 1.25rem são 125% de 16px*/
+    margin: 36px 0 0;
+    color: var(--primary);
+}
+
+title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+dl {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+dl > div {
+    flex-basis: 33%; /*Define o mesmo tamanho (largura) para todos os elemtos*/
+    flex-shrink: 1; /*Permite que os elementos sejam espremidos*/
+    display: flex;
+    flex-direction: column-reverse; /*Posiciona o termos antes da descrição*/ 
+    /*O padrão do flex-direction é row | Se o flex-direction for column o justify-content passa a alinhar da vetical*/
+}
+
+dd {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+dt {
+    font-size: 0.75rem;
+}
+
+p.summary {
+    margin: 24px 0;
+    line-height: 1.5; /*Altura da linha*/
+}
+
+ul.technologies {
+    list-style: none;
+    padding: 0;
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12;
+    flex-wrap: wrap; /*existe ainda o wrap-reversa (quebra para cima)*/
+}
+
+ul.technologies li{
+    display: flex;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: var(--tech-background);
+}
+
+.actions{
+    
+}
+
+.actions a, .actions button {
+    padding: 24px 24px;
+    border-radius: 4px;;
+    text-decoration: none; /*Remove o underline do link*/
+    border: solid 1px var(--primary);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.follow {
+    background: var(--primary-contrast) ;
+    color: var(--primary);
+}
+
+.message {
+    background: var(--primary);
+    color: var(--primary-contrast);
+}
+
+*:focus-visible {
+    outline: dotted 1px var(--primary);
+    outline-offset: 3px;
 }

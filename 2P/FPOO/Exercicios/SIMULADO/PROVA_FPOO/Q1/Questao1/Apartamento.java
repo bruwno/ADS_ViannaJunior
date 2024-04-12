@@ -12,5 +12,16 @@ public class Apartamento extends Imovel {
         this.nroQuarto = nroQuarto;
     }
     
-
+    public int getNroQuarto() {
+        return this.nroQuarto;
+    }
+    
+    public void setNroQuarto(int nroQuarto) {
+        this.nroQuarto = nroQuarto;
+    }
+    
+    @Override
+    public double valorVenal() {
+        return 0;
+    }
 }

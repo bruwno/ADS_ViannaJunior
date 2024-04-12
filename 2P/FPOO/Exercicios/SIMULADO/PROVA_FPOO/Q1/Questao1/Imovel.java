@@ -3,6 +3,7 @@ public abstract class Imovel {
     private int numero;
     protected int metrosQuadrados;
     private String proprietario;
+
     
     public Imovel(int numero, int metrosQuadrados, String proprietario) {
         this.numero = numero;
@@ -12,5 +13,7 @@ public abstract class Imovel {
     
     public abstract double valorVenal();
     
-    public abstract double valorVenda();
+    public double valorVenda() {
+        return 0;
+    }
 }   

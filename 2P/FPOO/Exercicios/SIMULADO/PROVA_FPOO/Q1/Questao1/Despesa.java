@@ -5,5 +5,17 @@ public class Despesa {
     private double valor;
     private boolean taxaExtra;
     
+    public Despesa(int mesAno, String descricao, double valor, boolean taxaExtra) {
+        this.mesAno = mesAno;
+        this.descricao = descricao;
+        this.valor = valor;
+        this.taxaExtra = taxaExtra;
+    }
+    
+    public int getMesAno()
+    {
+        return this.mesAno;
+    }
+    
     
 }

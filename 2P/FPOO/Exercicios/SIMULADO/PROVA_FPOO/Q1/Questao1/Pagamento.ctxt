@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Pagamento
+comment1.params=mesAno\ valorPago
+comment1.target=Pagamento(int,\ double)
+comment2.params=
+comment2.target=int\ getMesAno()
+comment3.params=mesAno
+comment3.target=void\ setMesAno(int)
+numComments=4
