@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContarIdadesV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702f8e959e79e285a0eaafb9ad5caa5ca998582c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58f39348ef5eb3a4dc986a634a994f170f88beb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContarIdadesV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContarIdadesV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
