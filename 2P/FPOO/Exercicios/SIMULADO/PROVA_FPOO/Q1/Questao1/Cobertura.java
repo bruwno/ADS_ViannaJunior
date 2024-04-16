@@ -3,15 +3,11 @@ public class Cobertura extends Imovel {
     private boolean duplex;
     private boolean triplex;
     
-    public Cobertura()
-    {
+    public Cobertura() {
         super(0,0,"");
-        this.duplex = false;
-        this.triplex = false;
     }
     
-    public Cobertura(int numero, int metrosQuadrados, String proprietario, boolean duplex, boolean triplex)
-    {
+    public Cobertura(int numero, int metrosQuadrados, String proprietario, boolean duplex, boolean triplex) {
         super(numero, metrosQuadrados, proprietario);
         this.duplex = duplex;
         this.triplex = triplex;
@@ -33,12 +29,10 @@ public class Cobertura extends Imovel {
         this.triplex = triplex;
     }
     
-    public double valorVenda() {
-        return 0;
-    }
-    
     @Override
     public double valorVenal() {
-        return 0;
+        int multiplicadorDuplex = (duplex) ? 2 : 1;
+        int multiplicadorTriplex = (triplex) ? 3 : 1;
+        return (metrosQuadrados * 1000) * multiplicadorDuplex * multiplicadorTriplex;
     }
 }

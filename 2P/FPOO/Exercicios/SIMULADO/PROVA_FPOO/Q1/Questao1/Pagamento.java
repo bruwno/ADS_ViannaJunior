@@ -3,10 +3,16 @@ public class Pagamento
 {
     private int mesAno;
     private double valorPago;
+    private Imovel imovel;
+    private Condominio condominio;
     
-    Pagamento(int mesAno, double valorPago) {
+    Pagamento() {};
+    
+    Pagamento(int mesAno, double valorPago, Imovel imovel, Condominio condominio) {
         this.mesAno = mesAno;
         this.valorPago = valorPago;
+        this.imovel = imovel;
+        this.condominio = condominio;
     }
     
     public int getMesAno()
@@ -17,6 +23,4 @@ public class Pagamento
     public void setMesAno(int mesAno) {
         this.mesAno = mesAno;
     }
-    
-    
 }

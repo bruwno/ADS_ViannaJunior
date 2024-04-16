@@ -22,6 +22,6 @@ public class Apartamento extends Imovel {
     
     @Override
     public double valorVenal() {
-        return 0;
+        return (metrosQuadrados * 1000) + (nroQuarto * 500);
     }
 }

@@ -14,15 +14,15 @@ public class Casa extends Imovel implements CondominioFechado {
     
     @Override
     public double valorVenal() {
-        return 0;
+        return (metrosQuadrados * 1500);
     }
     
     public double valorVenda() {
-        return 0;
+        return super.valorVenda() + valorTerreno();
     }
     
     // Vem da interface.
     public double valorTerreno() {
-        return 0;
+        return metragemTerreno * 350;
     }
 }

@@ -9,9 +9,6 @@ public class Condominio {
     
     public Condominio() {
         this("",""); // Referente ao nome e endereco, passados como vazios.
-        this.despesas = new ArrayList<>();
-        this.imoveis = new ArrayList<>();
-        this.pagamentos = new ArrayList<>();
     }
     
     public Condominio(String nome, String endereco) {
@@ -19,6 +16,7 @@ public class Condominio {
         this.endereco = endereco;
         this.despesas = new ArrayList<>();
         this.imoveis = new ArrayList<>();
+        this.pagamentos = new ArrayList<>();
     }
     
     public String getNome() {
@@ -66,15 +64,42 @@ public class Condominio {
     }
     
     public double valorCondominio(int mesAno) {
-        return 0;
+        double somaDespesas = 0;
+        for (Despesa d : despesas) {
+            if (d.getMesAno() == mesAno) {
+                somaDespesas += d.getValor();
+            }
+        }
+        return somaDespesas / imoveis.size();
     }
     
     public String relatorio(int mesAno) {
-        return "";
+        int totalPago = totalPagamentos(mesAno);
+        double valorCond = valorCondominio(mesAno);
+        String relatorio = "MES :: " + mesAno + "\n";
+        relatorio += imoveis.size() + " apartamentos (" + totalPago + " pagos - " +
+        (imoveis.size() - totalPago) + " não pagos)";
+        relatorio += "Valores arrecadados: R$ " + (totalPago * valorCond) + " valor a ser pago R$ " +
+        (imoveis.size() - totalPago) * valorCond;
+        
+        return relatorio;
     }
-        
+    
+    public int totalPagamentos(int mesAno) {
+        int totalPagos = 0;
+        for (Pagamento p : pagamentos) {
+            if (p.getMesAno() == mesAno) {
+                totalPagos++;
+            }
+        }
+        return totalPagos;
+    }
+    
     public void pagarCondominio(Imovel imovel, int mesAno) {
-        
+        Pagamento pg = new Pagamento(mesAno, valorCondominio(mesAno), imovel, this);
+        addPagamento(pg);
     }
      
+    
+    
 }

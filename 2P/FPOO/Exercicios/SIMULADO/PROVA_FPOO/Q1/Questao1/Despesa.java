@@ -17,5 +17,26 @@ public class Despesa {
         return this.mesAno;
     }
     
+    public void setMesAno(int mesAno)
+    {
+        this.mesAno = mesAno;
+    }
     
+    public String getdescricao() {
+        return this.descricao;
+    }
+    
+    public void setDescricao(String descricao) {
+        if (descricao != null && !descricao.equals("")) {
+            this.descricao = descricao;
+        }
+    }
+    
+    public double getValor() {
+        return valor;
+    }
+    
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
 }

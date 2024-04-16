@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Votacao
+comment1.params=
+comment1.target=Votacao()
+comment2.params=anoEleicao
+comment2.target=Votacao(int)
+comment3.params=
+comment3.target=int\ getAnoEleicao()
+comment4.params=anoEleicao
+comment4.target=void\ setAnoEleicao(int)
+comment5.params=nome
+comment5.target=void\ addAluno(java.lang.String)
+comment6.params=
+comment6.target=java.util.List\ getAlunos()
+comment7.params=nome
+comment7.target=void\ registrarVoto(java.lang.String)
+comment8.params=
+comment8.target=Aluno\ getAlunoMaisVotado()
+numComments=9
