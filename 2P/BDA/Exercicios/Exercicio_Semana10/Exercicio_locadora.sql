@@ -33,22 +33,22 @@ LEFT JOIN filme AS f ON f.codigo_filme = fd.codigo_filme;
 SELECT c.nome_cliente, c.cpf, f.titulo, l.data_locacao
 FROM cliente AS c
 LEFT JOIN locacao AS l ON l.codigo_cliente = c.codigo_cliente
-LEFT JOIN filme AS f ON f.codigo_filme = l.codigo_filme
-WHERE l.data_locacao IS NOT NULL;
+LEFT JOIN filme AS f ON f.codigo_filme = l.codigo_filme;
 
--- QUESTÃO 05: Traga o título dos filmes, juntamente com o nome dos atores que atuaram nele. (82 linhas retornadas)
+
+-- QUESTÃO 05: Traga o título dos filmes, juntamente com o nome dos atores que atuaram nele. (88 linhas retornadas)
 SELECT f.titulo, a.nome_ator
-FROM filme_ator AS fa
-LEFT JOIN ator AS a ON a.codigo_ator = fa.codigo_ator
-LEFT JOIN filme AS f ON f.codigo_filme = fa.codigo_filme;
+FROM filme AS f
+INNER JOIN filme_ator fa ON fa.codigo_filme = f.codigo_filme
+INNER JOIN ator AS a ON fa.codigo_ator = a.codigo_ator;
 
 -- QUESTÃO 06: Traga o nome dos clientes que alugaram filmes do gênero comédia. (13 linhas retornadas)
 SELECT c.nome_cliente
 FROM cliente AS c
-LEFT JOIN locacao AS l ON l.codigo_cliente = c.codigo_cliente
-LEFT JOIN filme AS f ON f.codigo_filme = l.codigo_filme
-LEFT JOIN filme_genero AS fg ON fg.codigo_filme = f.codigo_filme
-LEFT JOIN genero AS g ON g.codigo_genero = fg.codigo_genero
+INNER JOIN locacao AS l ON l.codigo_cliente = c.codigo_cliente
+INNER JOIN filme AS f ON f.codigo_filme = l.codigo_filme
+INNER JOIN filme_genero AS fg ON fg.codigo_filme = f.codigo_filme
+INNER JOIN genero AS g ON g.codigo_genero = fg.codigo_genero
 WHERE g.nome_genero = 'Comédia';
 
 -- QUESTÃO 07: Traga o nome dos filmes que não foram locados por ninguém. (4 linhas retornadas)
