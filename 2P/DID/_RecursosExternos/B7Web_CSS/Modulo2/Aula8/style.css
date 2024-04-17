@@ -1,0 +1,20 @@
+p {
+  /*border-right: 5px solid #00f;*/
+  background-color: #0000ff;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+div {
+  background-color: #0000ff;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 3px solid #dd0707;
+}
+
+img {
+  border: 2px solid #f00;
+  border-radius: 100px;
+  overflow: hidden; /*Corta a imagem, de acordo com o tamanho informado na borda*/
+}

@@ -1,0 +1,22 @@
+/* Selecionando o elemento <img> pelo nome -> Irá selecionar todos os img do documento HTML */
+img {
+}
+
+/* Selecionando o elemento que possui o identificador (id) título -> ids são únicos, então só o elemento que possui esse id (titulo) receberá as alterações feitas no CSS */
+#titulo {
+  color: #00f;
+  font-size: 1.5em;
+}
+
+/* Selecionando os elementos que possuem a classe texto, todos os elementos, independente do tipo, que contiverem a classe texto receberão o estilo definido no CSS  */
+.texto {
+  color: crimson;
+  font-size: 1.5em;
+}
+
+/* Selecionando duas classes de uma vez só, para aplicar o mesmo estilo */
+#titulo,
+.texto {
+  color: #00f;
+  font-size: 1.9em;
+}

@@ -1,0 +1,19 @@
+h1 {
+  color: #00f;
+  font-size: 3em;
+  /*48px*/
+}
+
+a {
+  font-size: 1.5em;
+  /*24px*/
+}
+
+img {
+  width: 300px;
+}
+
+li {
+  font-weight: bold;
+  color: #004500;
+}
