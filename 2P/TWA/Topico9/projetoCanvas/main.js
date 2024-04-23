@@ -1,7 +1,7 @@
 // setup canvas
 
 const canvas = document.querySelector("canvas");
-const ctx = canvas.getContext("2d");
+const ctx = canvas.getContext("2d"); // Contexto.
 
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
@@ -19,7 +19,7 @@ function randomRGB() {
 }
 
 let balls = [];
-let count = 25;
+let count = 90; // Determina a quantidade de bolinhas exibidas na tela.
 let para = document.querySelector('h1');
 
 while (balls.length < count) {
@@ -61,7 +61,6 @@ function loop() {
 
     requestAnimationFrame(loop);
 }
-
 
 loop();
 
