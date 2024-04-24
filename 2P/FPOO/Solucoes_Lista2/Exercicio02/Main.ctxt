@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=sc
+comment2.target=Professor\ cadastrarProfessor(java.util.Scanner)
+comment3.params=sc
+comment3.target=Professor\ escolherFormacao(java.util.Scanner)
+comment4.params=sc
+comment4.target=java.time.LocalDate\ leRetornaDataFormatada(java.util.Scanner)
+comment5.params=sc
+comment5.target=boolean\ retornaSePossuiEspecializacao(java.util.Scanner)
+comment6.params=sc\ professor
+comment6.target=void\ cadastrarDisciplina(java.util.Scanner,\ Professor)
+comment7.params=sc
+comment7.target=boolean\ leRetornaOpcao(java.util.Scanner)
+numComments=8

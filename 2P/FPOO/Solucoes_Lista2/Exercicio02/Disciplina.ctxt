@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Disciplina
+comment1.params=
+comment1.target=Disciplina()
+comment10.params=ehEAD
+comment10.target=void\ setEhEAD(boolean)
+comment2.params=nome\ qtdCreditos\ professor
+comment2.target=Disciplina(java.lang.String,\ int,\ Professor)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=int\ getQtdCreditos()
+comment6.params=qtdCreditos
+comment6.target=void\ setQtdCreditos(int)
+comment7.params=
+comment7.target=Professor\ getP\u0155ofessor()
+comment8.params=professor
+comment8.target=void\ setProfessor(Professor)
+comment9.params=
+comment9.target=boolean\ ehEAD()
+numComments=11
