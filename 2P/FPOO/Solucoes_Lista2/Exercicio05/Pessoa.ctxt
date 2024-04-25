@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Pessoa
+comment1.params=
+comment1.target=java.lang.String\ consultaNome()
+comment2.params=nome
+comment2.target=void\ setNome(java.lang.String)
+comment3.params=
+comment3.target=Endereco\ consultaEndereco()
+comment4.params=endereco
+comment4.target=void\ setEndereco(Endereco)
+comment5.params=numero
+comment5.target=java.lang.String\ getNumero(java.lang.String)
+comment6.params=numero
+comment6.target=void\ setNumero(java.lang.String)
+numComments=7

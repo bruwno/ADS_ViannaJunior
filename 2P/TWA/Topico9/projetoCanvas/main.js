@@ -1,10 +1,19 @@
+import EvilCircle from "./evilCircle.js";
+import Ball from "./ball.js";
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
-const ctx = canvas.getContext("2d"); // Contexto.
+const ctx = canvas.getContext("2d");
 
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
+
+let config = {
+    ctx: ctx,
+    width: width,
+    height: height
+}
 
 // function to generate random number
 
@@ -19,7 +28,7 @@ function randomRGB() {
 }
 
 let balls = [];
-let count = 90; // Determina a quantidade de bolinhas exibidas na tela.
+let count = 25;
 let para = document.querySelector('h1');
 
 while (balls.length < count) {
@@ -61,6 +70,7 @@ function loop() {
 
     requestAnimationFrame(loop);
 }
+
 
 loop();
 

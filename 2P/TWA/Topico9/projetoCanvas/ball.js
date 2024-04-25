@@ -1,8 +1,11 @@
+import Shape from "./shape.js";
+
 class Ball extends Shape {
-  constructor(x, y, velX, velY, color, size) {
+  constructor(x, y, velX, velY, color, size, ctx) {
     super(x, y, velX, velY);
     this.color = color;
     this.size = size;
+    this.ctx = ctx;
   }
 
   draw() {
@@ -53,4 +56,7 @@ class Ball extends Shape {
       }
     });
   }
+
 }
+
+export default Ball;

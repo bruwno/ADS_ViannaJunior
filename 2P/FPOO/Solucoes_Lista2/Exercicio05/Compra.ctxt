@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Compra
+comment1.params=
+comment1.target=Compra()
+comment2.params=pessoa\ produto
+comment2.target=Compra(Pessoa,\ Produto)
+comment3.params=
+comment3.target=Pessoa\ getPessoa()
+comment4.params=pessoa
+comment4.target=void\ setPessoa(Pessoa)
+comment5.params=
+comment5.target=Produto\ getProduto()
+comment6.params=produto
+comment6.target=void\ setProduto(Produto)
+comment7.params=pessoa\ produto
+comment7.target=void\ comprar(Pessoa,\ Produto)
+comment8.params=
+comment8.target=java.lang.String\ verificarCompra()
+numComments=9

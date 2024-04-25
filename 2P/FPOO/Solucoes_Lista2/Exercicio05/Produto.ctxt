@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Produto
+comment1.params=
+comment1.target=Produto()
+comment2.params=
+comment2.target=long\ getCodigo()
+comment3.params=codigo
+comment3.target=void\ setCodigo(long)
+comment4.params=
+comment4.target=java.lang.String\ consultaNome()
+comment5.params=nome
+comment5.target=void\ setNome(java.lang.String)
+numComments=6

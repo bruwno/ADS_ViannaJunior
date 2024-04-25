@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Aluno
+comment1.params=nome\ indicadorDeParticipacao
+comment1.target=Aluno(java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getIndiceDeParticipacao()
+comment3.params=indicadorDeParticipacao
+comment3.target=void\ setIndicadorDeParticipacao(int)
+numComments=4

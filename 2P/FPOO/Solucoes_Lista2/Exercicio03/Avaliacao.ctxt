@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Avaliacao
+comment1.params=
+comment1.target=Avaliacao()
+comment2.params=artigo\ nota
+comment2.target=Avaliacao(Artigo,\ double)
+comment3.params=
+comment3.target=Artigo\ getArtigo()
+comment4.params=artigo
+comment4.target=void\ setArtigo(Artigo)
+comment5.params=
+comment5.target=double\ getNota()
+comment6.params=nota
+comment6.target=void\ setNota(double)
+numComments=7

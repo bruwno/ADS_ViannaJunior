@@ -7,3 +7,5 @@ class Shape {
         this.exists = true;
     }
 }
+
+export default Shape;
