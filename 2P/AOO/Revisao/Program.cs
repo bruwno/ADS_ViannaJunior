@@ -2,17 +2,17 @@
 
 class Program
 {
-static void Main(string[] args)
+    static void Main(string[] args)
     {
-        //Classes e Objetos
-        //Atributos e Encapsulamento (Controle de Estado)
-        //Operações - Métodos (Ações Disponníveis)
-        //Associações - Agregação - Composição (Estado Quando Relacionado a Tipo Importante)
-        //Herança
-        //Sobrescrita ou Sobreposição
-        //Sobrecarga
-        //Polimorfismo
-        //Classes e métodos abstratos
+        // Classes e Objetos
+        // Atributos e Encapsulamento (Controle de Estado)
+        // Operações - Métodos (Ações Disponíveis)
+        // Associações - Agregação - Composição (Estado Quando Relacionado a Tipo Importante)
+        // Herança
+        // Sobrescrita ou Sobreposição
+        // Sobrecarga
+        // Polimorfismo
+        // Classes e métodos abstratos
 
         var c1 = new ContaCorrente();
         var c2 = new ContaCorrente();

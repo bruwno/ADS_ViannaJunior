@@ -2,16 +2,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ComiteAvaliador
-{
-    private List<Artigo> artigos;
+{   
+    List<Artigo> artigos;
     
     public ComiteAvaliador() {
         this.artigos = new ArrayList<>();
     }
     
-    public void avaliarArtigos(double nota) {
-        for (Artigo artigo : artigos) {
-            System.out.print("Atribua uma nota: ");
-        }
+    public List<Artigo> avaliarArtigo(Artigo artigo) {
+        double nota = 0;
+        
+        artigo.setNota(nota);
+        addArtigo(artigo);
+        
+        return artigos;
+    }
+    
+    public void addArtigo(Artigo artigo) {
+        this.artigos.add(artigo);
     }
 }

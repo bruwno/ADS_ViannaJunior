@@ -2,6 +2,8 @@
 comment0.target=ComiteAvaliador
 comment1.params=
 comment1.target=ComiteAvaliador()
-comment2.params=nota
-comment2.target=void\ avaliarArtigos(double)
-numComments=3
+comment2.params=artigo
+comment2.target=java.util.List\ avaliarArtigo(Artigo)
+comment3.params=artigo
+comment3.target=void\ addArtigo(Artigo)
+numComments=4

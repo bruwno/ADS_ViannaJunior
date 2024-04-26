@@ -1,5 +1,7 @@
 
-public class Orientador
+public class Orientador extends Autor
 {
-    private String nome;
+    public Orientador(String nome) {
+        super(nome);
+    }
 }
