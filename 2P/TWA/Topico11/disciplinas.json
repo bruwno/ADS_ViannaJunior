@@ -1,0 +1,17 @@
+
+{
+    "Disciplinas": [
+        {
+            "nome": "TWA",
+            "professor": "Gildo Leonel",
+            "periodo": 2,
+            "cursando": true
+        },
+        {
+            "nome": "DID",
+            "professor": "Gildo Leonel",
+            "periodo": 2,
+            "cursando": true
+        }
+    ]
+}

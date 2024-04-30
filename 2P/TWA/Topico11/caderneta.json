@@ -1,0 +1,37 @@
+{
+    "Enderecos": [
+        {
+            "Contato": {
+                "nome": "William",
+                "endereco": {
+                    "rua": "Walter Cabral",
+                    "numero": "98",
+                    "cep": "36087-721"
+                },
+                "telefone": "32984466785"
+            }
+        },
+        {
+            "Contato": {
+                "nome": "Raphaelzim",
+                "endereco": {
+                    "rua": "Rua da Bica",
+                    "numero": "24",
+                    "cep": "36785-475"
+                },
+                "telefone": "3299115544"
+            }
+        },
+        {
+            "Contato": {
+                "nome": "Samulel",
+                "endereco": {
+                    "rua": "Rua do Leleco",
+                    "numero": "1001",
+                    "cep": "96378-452"
+                },
+                "telefone": "3277445588"
+            }
+        }
+    ]
+}
