@@ -1,4 +1,6 @@
 -- Revisão Álgebra Relacional e SQL
+-- π (PROJEÇÃO) | σ (SELEÇÃO) | θ / |><| (JUNÇÃO) | υ (UNIÃO)
+
 USE academia_ginastica;
 
 /* 1. Crie e resolva uma consulta em SQL e Álgebra Relacional envolvendo junção interna com pelo menos 4 tabelas. */
@@ -9,6 +11,8 @@ INNER JOIN matricula AS m ON m.aluno_matricula = a.numMatricula
 INNER JOIN turma AS t ON t.idturma = m.turma_idturma 
 INNER JOIN atividade AS atv ON atv.idatividade = t.atividade_idatividade 
 WHERE atv.nome LIKE "%Yoga";
+
+-- ÁLGEBRA RELACIONAL: πnome, sobrenome(σatividade.nome='Yoga'(Aluno |><| numMatricula = aluno_matricula Matricula |><| turma_idturma = idturma Turma |><| Atividade idatividade = idatividade)
 
 -- Possibilidade 2(5 tabelas): Recupere o nome dos alunos, o nome das atividades que eles praticam e o nome do seu instrutor.
 SELECT a.nome, atv.nome, i.nome 
