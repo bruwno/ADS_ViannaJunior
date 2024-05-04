@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  .layout {
+    grid-template-areas:
+      "header    header"
+      "countries countries"
+      "footer    footer";
+  }
+
+  .main {
+    justify-content: center;
+  }
+}
