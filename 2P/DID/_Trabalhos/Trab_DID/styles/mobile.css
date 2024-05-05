@@ -1,4 +1,4 @@
-@media (max-width: 425px) {
+@media (max-width: 462px) {
   .header {
     grid-area: header;
     height: 20vh;
@@ -41,12 +41,30 @@
   .thailand,
   .south-korea,
   .italy {
-    background-color: aliceblue;
+    background-color: var(--countrycard-color);
     min-width: 18.5rem;
     min-height: 27rem;
     border-radius: 15px;
-    border: 5px solid rgb(139, 138, 138);
+    border: 5px solid var(--countrycard-border-color);
     margin: 1.25rem;
+  }
+
+  #scrollTop {
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    right: -15px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
   }
 
   .footer {
@@ -56,11 +74,11 @@
     text-align: center;
     font-size: 0.9375rem;
     border-radius: 13px;
-    border: 2px solid rgb(139, 138, 138);
+    border: 2px solid var(--text-color);
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .header {
     grid-area: header;
     height: 27vh;
@@ -95,11 +113,11 @@
   .thailand,
   .south-korea,
   .italy {
-    background-color: aliceblue;
+    background-color: var(--countrycard-color);
     min-width: 17.5rem;
     min-height: 27rem;
     border-radius: 15px;
-    border: 5px solid rgb(139, 138, 138);
+    border: 5px solid var(--countrycard-border-color);
     margin: 1rem;
   }
 
@@ -110,7 +128,7 @@
     text-align: center;
     font-size: 0.9375rem;
     border-radius: 13px;
-    border: 2px solid rgb(139, 138, 138);
+    border: 2px solid var(--countrycard-border-color);
     margin-right: -30px;
   }
 }
@@ -128,11 +146,11 @@
   .thailand,
   .south-korea,
   .italy {
-    background-color: aliceblue;
+    background-color: var(--countrycard-color);
     min-width: 14.2rem;
     min-height: 27rem;
     border-radius: 15px;
-    border: 5px solid rgb(139, 138, 138);
+    border: 5px solid var(--countrycard-border-color);
     margin: 1rem;
   }
 }

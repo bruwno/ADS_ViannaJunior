@@ -73,9 +73,9 @@ body {
 }
 
 .menu a:hover {
-  background-color: #313133;
+  background-color: #0f0f97;
   color: #ffffff;
-  border-bottom: 3px solid #f3f3f3;
+  border-bottom: 2.5px solid var(--countrycard-color);
 }
 
 .main-container {
@@ -160,6 +160,24 @@ body {
   font-weight: bold;
 }
 
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 1px;
+  z-index: 90;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 15px;
+  height: 20px;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
 .footer {
   color: var(--text-color);
   width: auto;
@@ -168,5 +186,5 @@ body {
   font-size: 1.25rem;
   text-align: center;
   border-radius: 15px;
-  border: 2px solid rgb(139, 138, 138);
+  border: 2px solid var(--text-color);
 }

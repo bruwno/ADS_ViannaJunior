@@ -24,12 +24,12 @@
   .thailand,
   .south-korea,
   .italy {
-    background-color: aliceblue;
+    background-color: var(--countrycard-color);
     min-width: 18.5rem;
     max-width: 20rem;
     min-height: 27rem;
     border-radius: 15px;
-    border: 5px solid rgb(139, 138, 138);
+    border: 5px solid var(--countrycard-border-color);
     margin: 0.3125rem;
     margin-top: 0.75rem;
   }
@@ -43,8 +43,7 @@
     border: none;
     outline: none;
     justify-content: center;
-    background-color: rgb(175, 174, 174);
-    color: white;
+    background-color: var(--country-name-font);
     cursor: pointer;
     width: 50px;
     height: 45px;
@@ -60,10 +59,34 @@
     height: 5vh;
     text-align: center;
     font-size: 1.2rem;
+    font-family: var(--header-font);
     border-radius: 15px;
-    border: 2px solid rgb(139, 138, 138);
+    border: 2px solid var(--text-color);
     margin: 0.3125rem;
     margin-bottom: 0.75rem;
     margin-top: 0.3125;
+  }
+
+  #scrollTop {
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    right: -18px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 15px;
+    height: 20px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  #scrollTop img {
+    width: 35px;
+    height: 35px;
   }
 }

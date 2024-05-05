@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/mobile.css">
 </head>
 
-<body id="top">
+<body>
     <main class="main-container">
         <header class="header">
             <h1 class="title">Países pelo Mundo</h1>
@@ -160,10 +160,16 @@
         </article>
 
         <footer class="footer">
+            <div>
+                <button onclick="toTop()" id="scrollTop" title="Ir para o topo">
+                    <img src="./img/to-top.svg" alt="Seta de rolagem para cima.">
+                </button>
+            </div>
+
             <p>© 2024 William Silva, Instituto Vianna Júnior.</p>
         </footer>
     </main>
-    <button id="scrollTop" onclick="scrollTop()" title="Ir ao topo">Topo</button>
+
     <script src="./js/script.js"></script>
 </body>
 
