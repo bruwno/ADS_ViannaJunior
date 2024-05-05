@@ -6,13 +6,14 @@
 }
 
 body {
+  --country-name-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  --header-font: "Grenze Gotisch", "Times New Roman", serif;
+
   --text-color: #f0ebeb;
   --menu-text: #7bbfec;
   --header-background: radial-gradient(#5e97f3, #202d63);
   --countrycard-color: #f0f8ff;
   --countrycard-border-color: #8b8a8a;
-  --country-name-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  --header-font: "Grenze Gotisch", "Times New Roman", serif;
 
   background-color: #f9fcfd;
 }
@@ -44,7 +45,7 @@ body {
   font-family: var(--header-font);
   text-align: center;
   color: var(--text-color);
-  font-size: 2.9rem;
+  font-size: 3rem;
   margin: 0.625rem;
 }
 
