@@ -1,18 +1,128 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: #fff;
+@media (max-width: 425px) {
+  .header {
+    grid-area: header;
+    background: var(--header-background);
+    border-radius: 13px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .main-container {
+    display: grid;
+    width: 91vw;
+    height: 95vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    grid-template-areas:
+      "header"
+      "countries"
+      "footer";
+    margin: 18px;
+  }
+
+  .finland,
+  .russia,
+  .japan,
+  .sweden,
+  .poland,
+  .germany,
+  .england,
+  .swiss,
+  .china,
+  .thailand,
+  .south-korea,
+  .italy {
+    background-color: aliceblue;
+    min-width: 18.5rem;
+    min-height: 27rem;
+    border-radius: 15px;
+    border: 5px solid rgb(139, 138, 138);
+    margin: 1.25rem;
+  }
+
+  .footer {
+    color: var(--text-color);
+    width: auto;
+    height: 5vh;
+    text-align: center;
+    font-size: 0.9375rem;
+    border-radius: 13px;
+    border: 2px solid rgb(139, 138, 138);
+  }
 }
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@media (max-width: 375px) {
+  .header {
+    grid-area: header;
+    background: var(--header-background);
+    border-radius: 13px;
+    margin: 20px;
+    padding: 10px;
+  }
 
-body {
-  font-family: "IBM Plex Serif", "Times New Roman", serif;
+  .main-container {
+    display: grid;
+    width: 92vw;
+    height: 95vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+    grid-template-areas:
+      "header"
+      "countries"
+      "footer";
+    margin: 10px;
+  }
+
+  .finland,
+  .russia,
+  .japan,
+  .sweden,
+  .poland,
+  .germany,
+  .england,
+  .swiss,
+  .china,
+  .thailand,
+  .south-korea,
+  .italy {
+    background-color: aliceblue;
+    min-width: 17.5rem;
+    min-height: 27rem;
+    border-radius: 15px;
+    border: 5px solid rgb(139, 138, 138);
+    margin: 1rem;
+  }
+
+  .footer {
+    color: var(--text-color);
+    width: 83vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 0.9375rem;
+    border-radius: 13px;
+    border: 2px solid rgb(139, 138, 138);
+    margin-right: -30px;
+  }
 }
 
-@media screen and (max-width: 425px) {
-  .main {
-    flex-direction: column;
-    align-items: center;
+@media (min-width: 320px) and (max-width: 321px) {
+  .finland,
+  .russia,
+  .japan,
+  .sweden,
+  .poland,
+  .germany,
+  .england,
+  .swiss,
+  .china,
+  .thailand,
+  .south-korea,
+  .italy {
+    background-color: aliceblue;
+    min-width: 14.2rem;
+    min-height: 27rem;
+    border-radius: 15px;
+    border: 5px solid rgb(139, 138, 138);
+    margin: 1rem;
   }
 }

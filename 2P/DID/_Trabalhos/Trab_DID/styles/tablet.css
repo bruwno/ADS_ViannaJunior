@@ -1,12 +1,68 @@
 @media screen and (max-width: 768px) {
-  .layout {
+  .main-container {
+    display: grid;
+    width: 95vw;
+    height: 95vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
     grid-template-areas:
-      "header    header"
+      "header header"
       "countries countries"
-      "footer    footer";
+      "footer footer";
+    margin: 0.625;
   }
 
-  .main {
-    justify-content: center;
+  .finland,
+  .russia,
+  .japan,
+  .sweden,
+  .poland,
+  .germany,
+  .england,
+  .swiss,
+  .china,
+  .thailand,
+  .south-korea,
+  .italy {
+    background-color: aliceblue;
+    min-width: 18.5rem;
+    max-width: 20rem;
+    min-height: 27rem;
+    border-radius: 15px;
+    border: 5px solid rgb(139, 138, 138);
+    margin: 0.3125rem;
+    margin-top: 0.75rem;
+  }
+
+  .toTop {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: rgb(175, 174, 174);
+    color: white;
+    cursor: pointer;
+    width: 60px;
+    height: 45px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .footer {
+    color: var(--text-color);
+    width: auto;
+    height: 5vh;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 2px solid rgb(139, 138, 138);
+    margin: 0.3125rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.3125;
   }
 }
