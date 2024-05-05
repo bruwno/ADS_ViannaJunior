@@ -9,18 +9,22 @@ body {
   --text-color: #f0ebeb;
   --menu-text: #7bbfec;
   --header-background: radial-gradient(#5e97f3, #202d63);
+  --countrycard-color: #f0f8ff;
+  --countrycard-border-color: #8b8a8a;
   --country-name-font: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  --country-info-font: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  --header-font: "Grenze Gotisch", serif;
+  --header-font: "Grenze Gotisch", "Times New Roman", serif;
+
+  background-color: #f9fcfd;
 }
 
 .header {
   grid-area: header;
+  height: 20vh;
   background: var(--header-background);
   border-radius: 15px;
   padding: 17px;
-  margin: 0.625rem;
+  margin: 1rem;
+  border: 2px solid var(--countrycard-border-color);
 }
 
 .countries {
@@ -31,6 +35,7 @@ body {
   grid-area: footer;
   background: var(--header-background);
   border-radius: 15px;
+  border: 2px solid var(--countrycard-border-color);
   margin: 10px;
   padding: 10px;
 }
@@ -46,11 +51,11 @@ body {
 .menu {
   font-family: var(--header-font);
   display: flex;
-  gap: 2px;
   justify-content: center;
   border-bottom: 6px solid transparent;
   padding: 0.3125rem;
   margin: 0.3125rem;
+  gap: 2px;
 }
 
 .menu li {
@@ -94,6 +99,7 @@ body {
   margin: 0px;
   background-image: url("../img/country-flags.png");
   background-repeat: space;
+  background-size: contain;
 }
 
 .finland,
@@ -108,12 +114,12 @@ body {
 .thailand,
 .south-korea,
 .italy {
-  background-color: aliceblue;
+  background-color: var(--countrycard-color);
   min-width: 25rem;
   max-width: 25rem;
   min-height: 27rem;
   border-radius: 15px;
-  border: 5px solid rgb(139, 138, 138);
+  border: 5px solid var(--countrycard-border-color);
   margin: 0.625rem;
 }
 
@@ -131,7 +137,7 @@ body {
   height: 150px;
   margin: 0 auto;
   padding: 30px 15px;
-  border: 2px solid #666262;
+  border: 5px solid var(--countrycard-border-color);
   border-radius: 20px;
   background: var(--header-background);
 }
@@ -140,10 +146,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  font-family: var(--country-name-font);
   font-size: 1.2rem;
   margin: 10px;
   list-style: none;
-  font-family: var(--country-info-font);
   text-align: center;
   padding: 10px;
   margin: 1.25rem;
@@ -157,8 +163,9 @@ body {
   color: var(--text-color);
   width: auto;
   height: 5vh;
-  text-align: center;
+  font-family: var(--header-font);
   font-size: 1.25rem;
+  text-align: center;
   border-radius: 15px;
   border: 2px solid rgb(139, 138, 138);
 }
