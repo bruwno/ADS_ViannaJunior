@@ -10,6 +10,9 @@ body {
 }
 */
 
+/*EM pega o tamanho do elemento pai
+  REM pega o tamanho do viewport (resolução do navegador)*/
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -22,5 +25,71 @@ body {
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 700; /*Peso da fonte de 100 a 950 | Quanto mais próximo do 950 maior o impacto da fonte (tipografia de impacto).*/
+    line-height: 1; /*Aumenta a legibilidade | A altura da linha deve ser maior que o espaçamento das palavras.*/
+    text-transform: uppercase; /*Em legibilidade capitalize é a melhor opção*/
+}
+
+/* SHORTHAND
+    h1 {
+    font: 700 4rem/1 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    }
+*/
+
+h2 {
+    font: 3rem/0.95 'Oswald' sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font: 2rem/0.95 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+time {
+    font: 700 1.5rem 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+    border-top: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+
+    padding: 12px 0;
+
+    display: block; /*O padding funciona melhor com display block/inline-block*/
+}
+
+time > sup {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+blockquote::before {
+    /*content: "TESTE"; Pode ser utilizado para inserir imagens/ícones*/
+    content: open-quote;
+}
+
+blockquote {
+    font: 1.8rem/1.25 'Oswald', sans-serif;
+    margin: 1.5rem 2rem;
+}
+
+blockquote::after{
+    content: close-quote;
+}
+
+@counter-style emoji { /*Criando um estilo de lista*/
+    symbols: "\2615" "\1F35E" "\1F9C0";
+    system: cyclic; /*Varia os símbolos da lista, o primeiro recebe um emoji, o segundo recebe outrro, etc..*/
+    suffix: " "; /*Espaço vazio no final da lista*/
+}
+
+article ul {
+    list-style: emoji; /*Usandi o estilo de lista*/
 }
