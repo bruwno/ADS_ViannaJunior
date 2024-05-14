@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--ViaCep-->
+    <form action="" method="get">
+        <label for="cep">Digite o CEP</label>
+        <input type="text" name="cep" id="cep">
+        <input type="submit" value="Buscar">
+    </form>
+    <div>
+        <h1>Logradouro</h1>
+        <p id="logradouro"></p>
+    </div>
+
+    <!--Pokémon-->
+    <form action="">
+        <label for="pokemon">Digite o nome do Pokémon:</label>
+        <input type="text" name="pokemon" id="pokemon-name">
+        <input type="submit" value="Buscar">
+    </form>
+    <div>
+        <h1>Pokémon</h1>
+        <p id="pokeResult"></p>
+    </div>
+
+    <script src="./api.js"></script>
+</body>
+</html>

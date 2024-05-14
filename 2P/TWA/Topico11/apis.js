@@ -14,8 +14,8 @@ fetch('./caderneta.json').then(response => { // 1ª etapa, busca das informaçã
 }).then(caderneta => {
     let codigo = '<ul> \n';
     caderneta.forEach(contato => {
-        codigo += `<li> ${contato.nome}</li>`;
+        codigo += `<li>${contato.nome}</li>`;
     });
     codigo += `</ul>`;
-    document.body.innerText += codigo;
+    document.body.innerHTML += codigo;
 });
