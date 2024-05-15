@@ -13,6 +13,8 @@ body {
 /*EM pega o tamanho do elemento pai
   REM pega o tamanho do viewport (resolução do navegador)*/
 
+/*AS FAMÍLIAS TIPOGRÁFICAS PODEM TRAZER: IMPACTO ou LEGIBILIDADE (com serifa e sem serifa)*/
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -76,7 +78,7 @@ blockquote::before {
 }
 
 blockquote {
-    font: 1.8rem/1.25 'Oswald', sans-serif;
+    font: 1.8rem/1.25 'Oswald', sans-serif; /*1.25 é a altura da linha, que deve ser visualmente maior que a distância entre as palavras*/
     margin: 1.5rem 2rem;
 }
 
@@ -91,5 +93,40 @@ blockquote::after{
 }
 
 article ul {
-    list-style: emoji; /*Usandi o estilo de lista*/
+    list-style: emoji; /*Usando o estilo de lista*/
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+figure {
+    margin: 0 0 12px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', sans-serif;
+}
+
+@media(min-width: 955px) {
+    article {
+        column-count: 3; /*Divide o cobteúdo da página em colunas*/
+        column-rule: 2px solid #333333;
+        column-gap: 42px;
+        margin-top: 36px; /*Aumento do distanciamento traz a sensação de proximidade*/
+    }
+
+    blockquote {
+        column-span: all;
+    }
+
+    figure {
+        break-inside: after; /*Define o comportamento da quebra dos elementos*/
+    }
+    
+    p {
+        text-align: justify;
+        hyphens: auto;
+    }
 }
