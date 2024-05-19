@@ -1,0 +1,241 @@
+/* Instruções:
+Além de aplicar as fontes, no próprio CSS faça um comentário contendo:
+
+O objetivo do site;
+Todas as fontes utilizadas;
+A justificativa de cada fonte e formatação de texto utilizado;
+*/
+
+/* Resposta:
+ *
+ * [1] Objetivo do site:
+ * Tratar de forma breve e resumida da plataforma Java e do Java Development Kit (JDK).
+ *
+ * [2] Fontes utilizadas:
+ * Helvetica, Merriweather.
+ *
+ * [3] Justificativa das fontes:
+ * Helvetica: é uma fonte sem serifa, com boa leitura e que se encaixa bem no contexto da fonte (Sun SemiBold - proprietária) da logo do Java. Utilizei este fonte no cabaçalho e no rodapé. Não alterei peso ou altura da linha, por entender que o padrão da fonte já está atendendo ao objetivo para onde a mesma está sendo utilizada.
+ * 
+ * Merriweather: é uma fonte serifada, que transmite seriedade e casa bem com a intenção da página, que é de ser algo mais informativo. Utilizei esta fonte em todas as partes do site que têm alguma relação com o objeto principal, que é o artigo, sobre a linguagem Java. Portanto, ela aparece tanto nos títulos de cada assunto (tópicos), quanto no próprio conteúdo que segue após cada título. Nos conteúdos de cada tópico aumentei a altura da linha, com o objetivo de melhorar a legibilidade, uma vez que, por conter muito texto, no meu entendimento, sem o uso desta propriedade a leitura estava sendo prejudicada.
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  --main-font: 'Merriweather', Garamond, serif;
+  --header-footer-font: 'Helvetica', sans-serif;
+}
+
+.header-container {
+  padding: 5px 0px;
+  grid-area: header-container;
+}
+
+.header-container img {
+  width: 250px;
+  height: 150px;
+}
+
+/* Aumentei o título do site, para reduzir a sensação de desporporcionalidade que estava sendo causada pela diferença entre os tamanhos desta fonte e da fonte dos títulos dos tópicos.
+ *
+ */
+.header-container h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  font-family: var(--header-footer-font);
+  color: #268dbd;
+  margin: 15px;
+}
+
+#duke {
+  width: 35px;
+  height: 40px;
+  display: inline-block;
+  padding: 0px 8px 0px 0px;
+}
+
+/* Neste texto, que tem a função de dar uma rápida noção para o leitor sobre o que a página tratará, preferi manter a fonte do título, buscando uma unidade na forma dos conteúdos que estão contidos em áreas comuns, como é o caso deste texto, que esá contido no cabeçalho, portanto entendi que era interessante manter a mesma fonte Helvetica, utilizada no título da página.
+ * 
+ */
+.header-container p {
+  font-family: var(--header-footer-font);
+  font-size: 1.18rem;
+  text-align: center;
+  margin: 20px;
+  padding: 20px 0px;
+  color: #37698a;
+}
+
+.content-container {
+  grid-area: content-container;
+}
+
+/* Nos títulos dos tópicos aumentei o peso da fonte, para dar maior destaque às partes que separam cada conteúdo na página.
+ *
+ */
+.topic-title {
+  font-family: var(--main-font);
+  font-weight: 850;
+  font-size: 1.688rem;
+  color: #0090f0;
+  background-color: #292f33;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+/* Uso do alinhamento justificado. Como o objetivo da página é ser informativa, e até por isso tem muito texto, o foco é sempre em prover a melhor legibilidade.
+ */
+.content-texts {
+  font-family: var(--main-font);
+  font-size: 1.06rem;
+  line-height: 1.7;
+  hyphens: auto;
+  text-align: justify;
+  color: #292f33;
+  padding: 16px;
+}
+
+.content-separator {
+  width: 80%;
+  height: 1px;
+  size: 100;
+  background-color: #344957;
+}
+
+/* 
+ */
+#highlights-list-title {
+  font-family: var(--main-font);
+  font-size: 1.25rem;
+  text-align: center;
+  color: #344957;
+  padding: 5px;
+}
+
+/* Aplicação da fonte utilizada nos textos, com o intuito de transmitir uniformidade no conteúdo apresentado. Aumento do espaçamento entre os itens da lista, para melhorar a legibilidade.
+ */
+.highlights-list {
+  font-family: var(--main-font);
+  font-size: 1.06rem;
+  line-height: 1.8;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 20px;
+  color: #292f33;
+  padding: 16px;
+}
+
+.jvm-illustration {
+  width: 30%;
+  margin: auto;
+  display: block;
+  background-color: #2680bd;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #37698a;
+  padding: 16px;
+}
+
+.jvm-illustration + figcaption {
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: 1.20rem;
+  padding: 16px;
+  break-inside: all;
+}
+
+.article-footer {
+  font-family: var(--main-font);
+  font-size: 1.063rem;
+  text-align: center;
+  padding: 16px;
+}
+
+.footer-container {
+  align-items: center;
+  background-color: #344957;
+  grid-area: footer-container;
+  border-radius: 15px;
+}
+
+/* Mantive o texto com a mesma fonte do cabeçalho, para manter a unidade do início e do fim da página e para separar visualmente os contextos, uma vez que no conteúdo do site eu utilizei uma fonte que transmite mais seriedade, no cabeçalho e no rodapé, eu preferi utilizar fontes que estivesses mais próximas da logomarca da linguagem Java, que transmite um aspecto mais de impacto.
+ */
+.footer-container p {
+  font-family: var(--header-footer-font);
+  text-align: center;
+  color: #e9dfdf;
+  padding: 3.2px;
+}
+
+/*Desktop*/
+@media screen and (min-width: 768px) {
+  .layout {
+    background-color: #e9dfdf;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header-container"
+      "content-container"
+      "footer-container";
+  }
+}
+
+/*Mobile*/
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .layout {
+    background-color: #e9dfdf;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header-container"
+      "content-container"
+      "footer-container";
+  }
+
+  .header-container h1 {
+    font-size: 1.4rem;
+  }
+
+  #duke {
+    width: 25px;
+    height: 35px;
+    display: inline-block;
+  }
+
+  .header-container p {
+    font-size: 0.813rem;
+  }
+
+  .topic-title {
+    font-size: 1rem;
+  }
+
+  .content-texts {
+    font-size: 0.9rem;
+  }
+
+  #highlights-list-title {
+    font-size: 0.875rem;
+  }
+
+  .highlights-list {
+    font-size: 0.813rem;
+  }
+
+  .jvm-illustration {
+    width: 30em;
+    height: 30em;
+  }
+
+  .article-footer {
+    font-size: 0.688rem;
+  }
+
+  .footer-container {
+    font-size: 0.688rem;
+  }
+}

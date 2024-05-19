@@ -88,7 +88,7 @@ blockquote::after{
 
 @counter-style emoji { /*Criando um estilo de lista*/
     symbols: "\2615" "\1F35E" "\1F9C0";
-    system: cyclic; /*Varia os símbolos da lista, o primeiro recebe um emoji, o segundo recebe outrro, etc..*/
+    system: cyclic; /*Varia os símbolos da lista, o primeiro recebe um emoji, o segundo recebe outro, etc..*/
     suffix: " "; /*Espaço vazio no final da lista*/
 }
 
@@ -111,7 +111,7 @@ figcaption {
 
 @media(min-width: 955px) {
     article {
-        column-count: 3; /*Divide o cobteúdo da página em colunas*/
+        column-count: 3; /*Divide o conteúdo da página em colunas*/
         column-rule: 2px solid #333333;
         column-gap: 42px;
         margin-top: 36px; /*Aumento do distanciamento traz a sensação de proximidade*/

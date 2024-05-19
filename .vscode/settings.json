@@ -75,5 +75,6 @@
   "diffEditor.wordWrap": "inherit",
   "dotnetAcquisitionExtension.enablePreviewFeatures": true,
   "application.experimental.rendererProfiling": true,
-  "liveServer.settings.CustomBrowser": "microsoft-edge"
+  "liveServer.settings.CustomBrowser": "microsoft-edge",
+  "dotnet.defaultSolution": "disable"
 }
