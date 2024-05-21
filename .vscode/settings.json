@@ -7,7 +7,7 @@
   "html.autoClosingTags": false,
   "html.format.wrapLineLength": 0,
   "editor.codeLensFontFamily": "Fira Code Retina",
-  "terminal.integrated.fontFamily": "Input Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "editor.inlayHints.fontFamily": "Fira Code Retina",
   "editor.wordWrapColumn": 150,
   "java.project.encoding": "setDefault",
@@ -76,5 +76,6 @@
   "dotnetAcquisitionExtension.enablePreviewFeatures": true,
   "application.experimental.rendererProfiling": true,
   "liveServer.settings.CustomBrowser": "microsoft-edge",
-  "dotnet.defaultSolution": "disable"
+  "dotnet.defaultSolution": "disable",
+  "debug.console.fontFamily": "JetBrains Mono"
 }

@@ -1,0 +1,14 @@
+{
+  "name": "topico12",
+  "version": "1.0.0",
+  "description": "Excercicio em sala sobre npm - Este eh um arquivo de configuracao",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Silva",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
