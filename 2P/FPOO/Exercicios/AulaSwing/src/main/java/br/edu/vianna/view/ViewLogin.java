@@ -1,7 +1,15 @@
 package br.edu.vianna.view;
 
+import br.edu.vianna.escola.dao.impl.AlunoDAO;
+import br.edu.vianna.escola.dao.impl.ProfessorDAO;
+import br.edu.vianna.model.Usuario;
 import com.formdev.flatlaf.FlatDarkLaf;
-import javax.swing.UIManager;
+
+import javax.swing.*;
+import java.sql.SQLException;
+import java.util.Arrays;
+
+import static javax.swing.JOptionPane.WARNING_MESSAGE;
 
 /**
  *
@@ -30,6 +38,7 @@ public class ViewLogin extends javax.swing.JDialog {
         txtUsuario = new javax.swing.JTextField();
         lblSenha = new javax.swing.JLabel();
         txtSenha = new javax.swing.JPasswordField();
+        tglTipoLogin = new javax.swing.JToggleButton();
         lblUserImage = new javax.swing.JLabel();
         btnSair = new javax.swing.JButton();
 
@@ -44,6 +53,11 @@ public class ViewLogin extends javax.swing.JDialog {
 
         btnEntrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/lock.png"))); // NOI18N
         btnEntrar.setText("Entrar");
+        btnEntrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEntrarActionPerformed(evt);
+            }
+        });
 
         lblUsuario.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         lblUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -61,6 +75,13 @@ public class ViewLogin extends javax.swing.JDialog {
         txtSenha.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         txtSenha.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
+        tglTipoLogin.setText("Login Aluno");
+        tglTipoLogin.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                tglTipoLoginStateChanged(evt);
+            }
+        });
+
         javax.swing.GroupLayout pnlLoginLayout = new javax.swing.GroupLayout(pnlLogin);
         pnlLogin.setLayout(pnlLoginLayout);
         pnlLoginLayout.setHorizontalGroup(
@@ -74,6 +95,10 @@ public class ViewLogin extends javax.swing.JDialog {
                     .addComponent(txtSenha)
                     .addComponent(txtUsuario))
                 .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlLoginLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(tglTipoLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(70, 70, 70))
         );
         pnlLoginLayout.setVerticalGroup(
             pnlLoginLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -86,9 +111,11 @@ public class ViewLogin extends javax.swing.JDialog {
                 .addComponent(lblSenha)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addComponent(tglTipoLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnEntrar)
-                .addContainerGap())
+                .addGap(18, 18, 18))
         );
 
         lblUserImage.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -133,6 +160,47 @@ public class ViewLogin extends javax.swing.JDialog {
         System.exit(0);
     }//GEN-LAST:event_btnSairMouseClicked
 
+    private boolean tipoLogin = false;
+    private void tglTipoLoginStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_tglTipoLoginStateChanged
+        if (tglTipoLogin.isSelected()) {
+            tipoLogin = true;
+            tglTipoLogin.setText("Login Aluno");
+        } else {
+            tipoLogin = false;
+            tglTipoLogin.setText("Login Professor");
+        }
+    }//GEN-LAST:event_tglTipoLoginStateChanged
+
+    private void btnEntrarActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        if (realizarLogin()) {
+            this.setVisible(false);
+
+        } else {
+            JOptionPane.showMessageDialog(this, "Dados inválidos! Tente novamente.", "Aviso", WARNING_MESSAGE);
+        }
+    }
+
+    private boolean realizarLogin() {
+        String login = txtUsuario.getText();
+        char[] senhaLida = txtSenha.getPassword();
+        String senha = new String(senhaLida);
+
+        Usuario usr = null;
+        try {
+            if (tipoLogin) {
+                usr = new AlunoDAO().buscarAlunoByLoginAndSenha(login, senha);
+            } else {
+                usr = new ProfessorDAO().buscarProfessorByLoginAndSenha(login, senha);
+            }
+
+            Arrays.fill(senhaLida, '0'); // Limpando a senha que foi lida e armazenada no array.
+        } catch (SQLException | ClassNotFoundException e) {
+            JOptionPane.showMessageDialog(this, "Ocorreu um erro ao tentar executar a operação: " + e.getMessage());
+        }
+
+        return usr != null;
+    }
+    
     /**
      * @param args the command line arguments
      */
@@ -166,6 +234,7 @@ public class ViewLogin extends javax.swing.JDialog {
     private javax.swing.JLabel lblUserImage;
     private javax.swing.JLabel lblUsuario;
     private javax.swing.JPanel pnlLogin;
+    private javax.swing.JToggleButton tglTipoLogin;
     private javax.swing.JPasswordField txtSenha;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
