@@ -1,5 +1,8 @@
 class ListaEncadeada<T>
 {
+    private No<T>? primeiro = null;
+    private No<T>? ultimo = null;
+
     public void AdicionarNoInicio(T valor)
     {
         var novoNo = new No<T> { Valor = valor };
@@ -29,7 +32,7 @@ class ListaEncadeada<T>
     public void RemoverNoInicio()
     {
         if (primeiro == null)
-            throw new Exception("Não é possível remover um elemeno de uma lista vazia.");
+            throw new Exception("Não é possível remover um elemento de uma lista vazia.");
 
         primeiro = primeiro.Proximo;
 
@@ -40,7 +43,7 @@ class ListaEncadeada<T>
     public void RemoverNoFinal()
     {
         if (primeiro == null)
-            throw new Exception("Não é possível remover um elemeno de uma lista vazia.");
+            throw new Exception("Não é possível remover um elemento de uma lista vazia.");
 
         if (primeiro.Proximo == null)
         {
@@ -73,7 +76,4 @@ class ListaEncadeada<T>
             atual = atual.Proximo;
         }
     }
-
-    private No<T>? primeiro = null;
-    private No<T>? ultimo = null;
 }

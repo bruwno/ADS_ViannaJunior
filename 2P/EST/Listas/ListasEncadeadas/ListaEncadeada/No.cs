@@ -1,13 +1,14 @@
 class No<T>
 {
     private T valor;
+    private No<T>? proximo = null;
+
     public T Valor
     {
         get { return valor; }
         set { valor = value; }
     }
     
-    private No<T>? proximo = null;
     public No<T>? Proximo
     {
         get { return proximo; }

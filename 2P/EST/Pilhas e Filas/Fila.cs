@@ -25,11 +25,15 @@ class Fila<T>
     public void Remover()
     {
         if (inicio == null)
+        {
             throw new Exception("Fila vazia!");
+        }
 
         inicio = inicio.Proximo;
 
         if (inicio == null)
+        {
             final = null;
+        }
     }
 }

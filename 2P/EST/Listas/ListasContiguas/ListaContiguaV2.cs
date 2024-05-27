@@ -4,6 +4,12 @@ namespace ListasContiguas
 {
     class ListaContigua2
     {
+        private int indiceIni;
+        private int indiceFim;
+        private double[] valores;
+
+        public int Tamanho { get => indiceFim - indiceIni + 1; }
+
         public ListaContigua2() : this(100)
         {
         }
@@ -54,11 +60,5 @@ namespace ListasContiguas
 
             return valores[indiceIni + indice];
         }
-
-        public int Tamanho { get => indiceFim - indiceIni + 1; }
-
-        private int indiceIni;
-        private int indiceFim;
-        private double[] valores;
     }
 }
