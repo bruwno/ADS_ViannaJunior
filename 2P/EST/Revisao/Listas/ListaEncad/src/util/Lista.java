@@ -34,6 +34,41 @@ public class Lista<T extends Comparable<T>> {
         }
     }
 
+    public void removerNoInicio() {
+        if (primeiro == null) {
+            System.out.println("Não é possível remover um elemento de uma lista vazia!");
+            return;
+        }
+
+        primeiro = primeiro.getProximo(); // Vai pegar a última posição.
+
+        if (primeiro == null) {
+            ultimo = null; // Anulando o último, caso o primeiro seja nulo.
+        }
+    }
+
+    public void removerNoFinal() {
+        if (primeiro == null) {
+            System.out.println("Não é possível remover um elemento de uma lista vazia!");
+            return;
+        }
+
+        if (primeiro.getProximo() == null) {
+            primeiro = null;
+        } else {
+            var penultimo = primeiro;
+
+            while (penultimo.getProximo().getProximo() != null) {
+                penultimo = penultimo.getProximo();
+            }
+
+            if (penultimo != null) {
+                penultimo.setProximo(null);
+                ultimo = penultimo;
+            }
+        }
+    }
+
     // AUXILIARES.
     public int getQtdElementos() {
         int tamanho = 0;
