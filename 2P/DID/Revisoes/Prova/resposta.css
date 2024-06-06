@@ -1,0 +1,51 @@
+/* Layout Desktop (1.0pt)
+O aluno deverá utilizar as técnicas de css grid e flexbox para replicar o layout modelo (arquivo desktop.png) de acordo com os elementos apresentados.
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100%;
+    height: 100vh; 
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.nav {
+    float: left;
+}
+
+/*
+Layout Mobile (1.5pt)
+O aluno deverá utilizar as técnicas aprendidas para replicar o layout modelo (arquivo mobile.png) de acordo com os elementos apresentados, crie um media query com breakpoint em 500px.
+*/
+
+
+
+/* Avaliação (1.5 pt)
+Com base no modelo desktop  (arquivo desktop.png) o aluno deverá responder as seguintes perguntas como comentários no arquivo css:
+
+a) Avalie o modelo com base no conceito de layout, especifique e justifique o conceito de equilíbrio. 
+
+b) Avalie o modelo com base no conceito de layout, especifique e justifique o conceito de ritmo. 
+
+c) Avalie o modelo com base no conceito de layout, especifique e justifique o conceito de ênfase.
+
+*/
