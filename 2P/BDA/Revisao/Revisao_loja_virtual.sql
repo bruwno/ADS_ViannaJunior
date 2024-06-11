@@ -15,7 +15,8 @@ QUESTÃO 02: Traga todas as informações dos produtos em que o preço de venda 
 Ordene do maior para o menor preço de venda. (4 linhas retornadas)
 */
 SELECT p.* FROM produto AS p
-WHERE p.PrecoVenda >= p.PrecoCusto * 1.60;
+WHERE p.PrecoVenda >= p.PrecoCusto * 1.60
+ORDER BY PrecoVenda DESC;
 
 /*
 QUESTÃO 03: Recupere o id da compra, o nome do cliente e o valor total (incluindo o frete). 
@@ -30,7 +31,7 @@ Produto 3) 19,95 x 2 = 39,90
 Produto 4) 100 x 1 = 100
 O preço total dos 4 produtos da venda 2 + o valor do frete(0) é: 21,95+7,98+39,90+100+0 = 169,83
 */
-SELECT cmp.CompraId, cli.PrimNome, cli.UltNome, SUM(quantidade * cmp.CompraId) + frete AS valorTotal 
+SELECT cmp.CompraId, cli.PrimNome, cli.UltNome, SUM(quantidade * p.PrecoVenda) + frete AS valorTotal 
 FROM compra AS cmp
 INNER JOIN carrinho AS car ON cmp.CompraId = car.CompraId
 INNER JOIN produto AS p ON car.ProdutoId = p.ProdutoId
@@ -54,8 +55,7 @@ FROM carrinho;
 QUESTÃO 05: Recupere todas as informações do(s) produto(s) com menor preço de venda (1 linha retornada).
 DICA: Utilize subconsulta
 */
-SELECT *
-FROM produto
+SELECT * FROM produto
 WHERE PrecoVenda = (SELECT MIN(PrecoVenda) FROM produto);
 
 -- QUESTÃO 05.1: Recupere todas as informações do(s) produto(s) com maior preço de venda.
