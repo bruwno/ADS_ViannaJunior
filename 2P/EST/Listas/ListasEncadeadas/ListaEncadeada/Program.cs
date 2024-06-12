@@ -13,9 +13,11 @@ lista.RemoverNoFinal();//7 10 50
 lista.ParaCada(x => Console.Write($"{x} "));
 Console.WriteLine();
 
+/*
 int soma = 0;
 lista.ParaCada(x => soma += x);
 Console.WriteLine($"Soma: {soma}");
+*/
 
 /*
 var noAtual = lista.Primeiro;

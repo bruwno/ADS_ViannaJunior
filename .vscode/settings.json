@@ -77,5 +77,6 @@
   "application.experimental.rendererProfiling": true,
   "liveServer.settings.CustomBrowser": "microsoft-edge",
   "dotnet.defaultSolution": "disable",
-  "debug.console.fontFamily": "JetBrains Mono"
+  "debug.console.fontFamily": "JetBrains Mono",
+  "git.autofetch": "all"
 }

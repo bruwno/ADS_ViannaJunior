@@ -1,4 +1,4 @@
-class No<T>
+public class No<T>
 {
     private T valor;
     private No<T>? proximo = null;

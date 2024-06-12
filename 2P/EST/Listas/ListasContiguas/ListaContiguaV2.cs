@@ -23,40 +23,50 @@ namespace ListasContiguas
 
         public void AdicionarNoInicio(double valor)
         {
-            if (indiceIni == 0)
+            if (indiceIni == 0) 
+            {
                 throw new Exception("Não é possível adicionar mais elementos ao início.");
+            }
 
             valores[--indiceIni] = valor;
         }
 
         public void AdicionarNoFinal(double valor)
         {
-            if (indiceFim == valores.Length - 1)
+            if (indiceFim == valores.Length - 1) 
+            {
                 throw new Exception("Não é possível adicionar mais elementos no final.");
+            }
 
             valores[++indiceFim] = valor;
         }
 
         public void RemoverNoInicio()
         {
-            if (Tamanho == 0)
+            if (Tamanho == 0) 
+            {
                 throw new Exception("Não existe elemento a ser removido.");
+            }
 
             indiceIni++;
         }
 
         public void RemoverNoFinal()
         {
-            if (Tamanho == 0)
+            if (Tamanho == 0) 
+            {
                 throw new Exception("Não existe elemento a ser removido.");
+            }
 
             indiceFim--;
         }
 
         public double Get(int indice)
         {
-            if (indice < 0 || indice >= Tamanho)
+            if (indice < 0 || indice >= Tamanho) 
+            {
                 throw new Exception("Índice inválido!");
+            }
 
             return valores[indiceIni + indice];
         }
