@@ -161,39 +161,58 @@ public class Lista
     }
 
     public void Ordenar()
+{
+    // Se a lista estiver vazia, não há nada para ordenar
+    if (primeiro == null)
     {
-        if (primeiro == null)
-        {
-            return;
-        }
+        return;
+    }
 
-        No atual = primeiro;
+    // Variável para monitorar se houve troca durante a passagem pela lista
+    bool trocou;
+    // Faça pelo menos uma vez
+    do
+    {
+        trocou = false; // Reseta a variável a cada nova passagem
+        No atual = primeiro; // Começa do primeiro nó
 
-        while (atual.Proximo != null) 
+        // Percorre a lista até o penúltimo nó
+        while (atual.Proximo != null)
         {
+            // Se o valor do nó atual for maior que o valor do próximo nó
             if (atual.Valor > atual.Proximo.Valor)
             {
+                // Troca os valores dos nós
                 Troca(atual, atual.Proximo);
+                // Marca que houve troca nesta passagem
+                trocou = true;
             }
+            // Avança para o próximo nó
             atual = atual.Proximo;
         }
-    }
+    // Continua passando pela lista até que nenhuma troca seja feita
+    } while (trocou);
+}
 
-    public void Troca(No no1, No no2)
+// Método auxiliar para trocar os valores de dois nós
+public void Troca(No no1, No no2)
+{
+    // Armazena temporariamente o valor do primeiro nó
+    var aux = no1.Valor;
+    // Atribui o valor do segundo nó ao primeiro nó
+    no1.Valor = no2.Valor;
+    // Atribui o valor armazenado temporariamente ao segundo nó
+    no2.Valor = aux;
+}
+
+public void ParaCada(Action<int> acao)
+{
+    var atual = primeiro;
+
+    while (atual != null)
     {
-        var aux = no1.Valor;
-        no1.Valor = no2.Valor;
-        no2.Valor = aux;
+        acao(atual.Valor);
+        atual = atual.Proximo;
     }
-
-    public void ParaCada(Action<int> acao)
-    {
-        var atual = primeiro;
-
-        while (atual != null)
-        {
-            acao(atual.Valor);
-            atual = atual.Proximo;
-        }
-    }
+}
 }
