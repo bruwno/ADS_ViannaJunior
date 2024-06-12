@@ -29,7 +29,13 @@ class Program
         lista.AdicionarNoInicio(1000);
         lista.AdicionarNoInicio(2000);
         lista.ParaCada(x => Console.WriteLine(x));
+
+        // REMOVENDO NO FINAL
         lista.RemoverNoFinal();
+        lista.ParaCada(x => Console.WriteLine(x));
+
+        // ORDENANDO
+        lista.Ordenar();
         lista.ParaCada(x => Console.WriteLine(x));
     }
 }

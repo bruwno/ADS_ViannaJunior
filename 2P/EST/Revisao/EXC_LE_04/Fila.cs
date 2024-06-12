@@ -160,6 +160,32 @@ public class Lista
         }
     }
 
+    public void Ordenar()
+    {
+        if (primeiro == null)
+        {
+            return;
+        }
+
+        No atual = primeiro;
+
+        while (atual.Proximo != null) 
+        {
+            if (atual.Valor > atual.Proximo.Valor)
+            {
+                Troca(atual, atual.Proximo);
+            }
+            atual = atual.Proximo;
+        }
+    }
+
+    public void Troca(No no1, No no2)
+    {
+        var aux = no1.Valor;
+        no1.Valor = no2.Valor;
+        no2.Valor = aux;
+    }
+
     public void ParaCada(Action<int> acao)
     {
         var atual = primeiro;
