@@ -1,10 +1,10 @@
-# Repositórios de Exercícios
+# Repositórios de Exercícios, Trabalhos e Atividades
 
 _Exercícios para fixação dos conteúdos ministrados no curso._
 
 Curso: **Análise e Desenvolvimento de Sistemas** - FIVJ
 
-Período: **2º**
+Período: **3º**
 
 Discente: **William Silva**
 
