@@ -1,0 +1,44 @@
+<!--
+EXERCÍCIO 1
+Escreva um documento XML que declara uma caderneta de endereços que contém endereços de contato. 
+Cada contato tem um nome, endereço e telefone. O endereço tem o nome da rua, número e CEP.
+-->
+
+<?xml version="1.0" standalone="yes" ?>
+<caderneta>
+    <contato>
+        <nome>William</nome>
+        <endereco>
+            <rua>Rua dos Truta</rua>
+            <numero>1001</numero>
+            <cep>36087-123</cep>
+        </endereco> 
+        <telefone>(32)9990-0111</telefone>
+    </contato>
+    <contato>
+        <nome>Bruno</nome>
+        <endereco>
+            <rua>Rua dos Manos</rua>
+            <numero>1000</numero>
+            <cep>36087-321</cep>
+        </endereco> 
+        <telefone>(32)9990-0555</telefone>
+    </contato>
+    <contato>
+        <nome>Samuelzim</nome>
+        <endereco>
+            <rua>Rua dos Bróders</rua>
+            <numero>500</numero>
+            <cep>36087-231</cep>
+        </endereco> 
+        <telefone>(32)9990-0222</telefone>
+    </contato>
+</caderneta>
+
+<!--
+    EXERCÍCIO 2
+    Crie o documento XML que declare um produto, representado por um elemento produto. 
+    Produto deve ter um fabricante representado por um elemento fabricante. 
+    Utilize detalhes como nome, endereço, etc.. como elementos filhos de um elemento fabricante. 
+    Cada produto tem os elementos: nome do produto, preço unitário, quantidade e categoria. 
+-->

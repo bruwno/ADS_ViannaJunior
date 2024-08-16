@@ -1,0 +1,31 @@
+{
+  "contatos": [
+    {
+      "nome": "William",
+      "endereco": {
+        "rua": "Rua dos Trutas",
+        "numero": 1001,
+        "cep": "36087-123"
+      },
+      "telefone" : "(32)91234-5678"
+    },
+    {
+        "nome": "Bruno",
+        "endereco": {
+          "rua": "Rua dos Manos",
+          "numero": 1000,
+          "cep": "36087-123"
+        },
+        "telefone" : "(32)91234-1111"
+      },
+      {
+        "nome": "Samuelzim",
+        "endereco": {
+          "rua": "Rua dos Bróder",
+          "numero": 500,
+          "cep": "36087-123"
+        },
+        "telefone" : "(32)91234-2222"
+      }
+  ]
+}
