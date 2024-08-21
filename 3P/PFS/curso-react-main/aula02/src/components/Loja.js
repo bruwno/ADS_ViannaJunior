@@ -53,7 +53,8 @@ const objetos = [
     { nome: 'Lila Blackwood', imagem: 'f.png', gemas: 2000 },
     { nome: 'Mira Sunvale', imagem: 'g.png', gemas: 2000 },
     { nome: 'Finnian Stormrider', imagem: 'h.png', gemas: 2000 },
-    { nome: 'Liam Ravenscroftn', imagem: 'i.png', gemas: 2000 }
+    { nome: 'Liam Ravenscroftn', imagem: 'i.png', gemas: 2000 },
+    { nome: 'William Bronow', imagem: 'c.png', gemas: 4000 }
 ];
 
 export default Loja;
