@@ -8,8 +8,8 @@ import {
 } from "react-native";
 
 export default function App() {
-  const [pValor, setPValor] = useState(0);
-  const [sValor2, setSValor] = useState(0);
+  const [pValor, setPValor] = useState("");
+  const [sValor2, setSValor] = useState("");
   const [resultado, setResultado] = useState(0);
 
   const calcular = () => {
@@ -19,30 +19,27 @@ export default function App() {
     if (!isNaN(val1) && !isNaN(val2)) {
       setResultado(val1 + val2);
     } else {
-      setResultado("Entrada inválida");
+      setResultado("Valor inválido!");
     }
-    console.log("OK ", pValor, sValor2);
   };
 
   const limparCampos = () => {
-    if (pValor !== "" || sValor2 !== "") {
-      setPValor(0);
-      setSValor(0);
-      setResultado(0);
-    }
+    setPValor("");
+    setSValor("");
+    setResultado(0);
   };
 
   return (
     <View style={styles.container}>
-      <View style={styles.titulo}>
-        <Text style={styles.titulo}>Calculadora</Text>
-      </View>
+      <Text style={styles.titulo}>Calculadora</Text>
 
       <View style={styles.body}>
         <Text style={styles.texto}>Primeiro valor</Text>
         <TextInput
           style={styles.campo}
           value={String(pValor)}
+          keyboardType="number-pad"
+          placeholder="Informe o primeiro valor"
           onChangeText={(text) => setPValor(text)}
         />
 
@@ -50,26 +47,24 @@ export default function App() {
         <TextInput
           style={styles.campo}
           value={String(sValor2)}
+          keyboardType="number-pad"
+          placeholder="Informe o segundo valor"
           onChangeText={(text) => setSValor(text)}
         />
       </View>
 
       <View style={styles.resultadoContainer}>
         <Text style={styles.resultadoTitulo}>Resultado</Text>
-        <TextInput
-          style={styles.resultadoCampo}
-          value={String(resultado)}
-          editable={false}
-        />
+        <Text style={styles.resultadoCampo}>{String(resultado)}</Text>
       </View>
 
       <View style={styles.btnContainer}>
         <TouchableOpacity onPress={calcular} style={styles.btnCalcular}>
-          <Text style={styles.btnCalcular}>Calcular</Text>
+          <Text style={styles.btnCalcularTexto}>Calcular</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={limparCampos} style={styles.btnLimpar}>
-          <Text style={styles.btnLimpar}>Limpar</Text>
+          <Text style={styles.btnLimparTexto}>Limpar</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -79,6 +74,9 @@ export default function App() {
 const styles = StyleSheet.create({
   body: {
     flexGrow: 1,
+    marginTop: 45,
+    width: "80%",
+    borderRadius: 15,
   },
   container: {
     flex: 1,
@@ -95,6 +93,7 @@ const styles = StyleSheet.create({
     width: "100%",
     textAlign: "center",
     borderRadius: 15,
+    marginTop: 15,
   },
   texto: {
     fontSize: 20,
@@ -123,39 +122,43 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   btnCalcular: {
-    color: "#F5F5F5",
-    padding: 5,
-    fontSize: 32,
     backgroundColor: "#424242",
     borderRadius: 15,
     marginBottom: 10,
     width: "95%",
-    textAlign: "center",
+    padding: 10,
+    alignItems: "center",
+  },
+  btnCalcularTexto: {
+    color: "#F5F5F5",
+    fontSize: 32,
   },
   btnLimpar: {
-    color: "#212121",
-    padding: 2,
-    fontSize: 20,
     backgroundColor: "#8B7D7B",
     borderRadius: 15,
     marginBottom: 5,
     width: "95%",
-    textAlign: "center",
+    padding: 5,
+    alignItems: "center",
+  },
+  btnLimparTexto: {
+    color: "#212121",
+    fontSize: 20,
   },
   resultadoContainer: {
     alignItems: "center",
     marginVertical: 20,
+    width: "100%",
   },
   resultadoTitulo: {
     fontSize: 20,
-    marginBottom: 10,
+    marginBottom: 5,
   },
   resultadoCampo: {
     backgroundColor: "#E0E0E0",
     fontSize: 40,
     fontWeight: "bold",
     width: "90%",
-    height: 70,
     textAlign: "center",
     padding: 10,
     borderRadius: 5,
