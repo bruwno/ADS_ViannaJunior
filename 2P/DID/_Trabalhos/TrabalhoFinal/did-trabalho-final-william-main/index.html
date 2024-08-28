@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="icon" type="image/x-icon" href="./img/pokeball-favicon.svg">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="grid-container">
+         
+        <!-- HEADER -->
+        <header class="header">
+             
+            <!-- LOGO -->
+            <div class="logo">
+                <img id="pokeball-logo" src="./img/pokeball-logo.svg" alt="Pokébola" width="120px" height="120px">
+            </div>
+             
+            <!-- MENU -->
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+         <!-- CONTEÚDO -->
+        <main class="main">
+
+             <!-- BARRA DE BUSCA -->
+                <section class="search-bar">
+                    <input type="text" id="pokemon-search" placeholder="Digite o nome ou ID do Pokémon">
+                    <button id="btn-search" type="submit"><img src="./img/search.svg" alt="Buscar"></button>
+                </section>
+
+            <!-- CARDS -->
+            <section class="card-container" id="poke-card">
+                <div class="side-column" id="left-column"></div>
+
+                <div class="flex-container">
+                    <div class="control-buttons">
+                        <button id="btn-previous" type="button">Anterior</button>
+                        <button id="btn-next" type="button">Próximo</button>
+                    </div>
+
+                    <div class="card" id="card-1">
+                        <h2 id="poke-name-1">Nome</h2>
+                        <p id="poke-id-text-1">ID<span id="poke-id-1">000</span></p>
+                        <div class="pokemon-image">
+                            <img id="poke-sprite-1" src="./img/pokeball-logo.svg" width="240px" height="240px" alt="Imagem do Pokémon">
+                        </div>
+                        <p id="poke-types-1">Tipo</p>
+                    </div>
+
+                    <div class="card" id="card-2">
+                        <h2 id="poke-name-2">Nome</h2>
+                        <p id="poke-id-text-2">ID<span id="poke-id-2">000</span></p>
+                        <div class="pokemon-image">
+                            <img id="poke-sprite-2" src="./img/pokeball-logo.svg" width="240px" height="240px" alt="Imagem do Pokémon">
+                        </div>
+                        <p id="poke-types-2">Tipo</p>
+                    </div>
+                </div>
+
+                <div class="side-column" id="right-column"></div>
+            </section>
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="footer">
+            <p>© 2024 William Silva, Insituto Vianna Júnior. Direitos reservados.</p>
+        </footer>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
