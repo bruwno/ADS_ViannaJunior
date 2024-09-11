@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.24.5",
     "babel-loader": "^9.1.3",
     "lodash": "^4.17.21",
+    "projetonode": "file:",
     "save-dev": "^0.0.1-security"
   }
 }

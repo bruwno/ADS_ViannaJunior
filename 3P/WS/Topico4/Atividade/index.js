@@ -65,7 +65,8 @@ app.listen(40100,() => {
     
 })
 
-app.get("/produtos",(req, res) => {
-    res.statusCode = 200;
-    res.json(DB.produtos);
+app.get("/game", (req, res) => {
+  res.statusCode = 200;
+  res.json(DB.games);
 });
+
