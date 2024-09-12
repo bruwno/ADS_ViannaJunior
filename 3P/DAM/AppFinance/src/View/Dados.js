@@ -4,7 +4,6 @@ import { Avatar, Button, TextInput } from "react-native-paper"
 
 
 export default Dados = ( {navigation} )=>{
-
     const [user, setUser] = useState({
         nome: '',
         idade: '',
@@ -61,7 +60,7 @@ export default Dados = ( {navigation} )=>{
                 mode="contained" 
                 onPress={() => {
                     console.log(user)
-                    navigation.navigate("simul")
+                    navigation.navigate("simul", {dados: user}) // Passando os dados do usuário para a tela simulacao.
                     }}>
                     Próximo
                 </Button>
@@ -102,7 +101,6 @@ const styles = StyleSheet.create({
         flex:1,
         flexGrow:1,
         // alignItems: 'flex-start',
-
     },
     margem:{
         margin: 10,

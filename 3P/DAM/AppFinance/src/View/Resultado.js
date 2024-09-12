@@ -1,6 +1,8 @@
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-export default Resultado = () => {
+export default Resultado = ({route, navigation}) => {
+    const {dados} = route.params;
+    console.log(dados);
 
     return (
         <View style={styles.container}>
