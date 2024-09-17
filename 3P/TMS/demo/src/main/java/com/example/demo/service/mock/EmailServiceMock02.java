@@ -1,7 +1,11 @@
-package com.example.demo.service.mock;
+package com.example.demo.service.Mock;
 
-public class EmailServiceMock02 {
+import com.example.demo.service.EmailService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmailServiceMock02 extends EmailService {
     public void sendEmail(String email, String titulo, String corpo) throws Exception {
-        throw new Exception("538 - Destinatário inválido!");
+        throw new Exception("538 - Destinário Inválido");
     }
 }

@@ -8,36 +8,36 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Pessoa {
+
     private String nome;
-    private double peso, altura;
+    private double peso,altura;
 
     public double imc() throws Exception {
-        if (peso <= 0) {
-            throw new Exception("peso não pode ser menor que zero");
+        if(peso <= 0){
+            throw new Exception("Peso não pode ser menor que zero");
         }
-
-        if (altura <= 0) {
+        if(altura <= 0){
             throw new Exception("altura não pode ser menor que zero");
         }
 
-        return peso / Math.pow(altura, 2);
+        return peso / Math.pow(altura,2);
     }
 
     public String faixa() throws Exception {
         double fx = imc();
-
-        if (fx <= 18.5) {
-            return "Magro";
+        if(fx <= 18.5){
+            return "magro";
         } else if (fx <= 24.99) {
-            return "Normal";
+            return "normal";
         } else if (fx <= 29.99) {
             return "Pré-Obesidade";
         } else if (fx <= 34.99) {
-            return "Obesidade Grau II";
+            return "Obesidade Grau I";
         } else if (fx <= 39.99) {
-            return "Obesidade Grau II";
+            return  "Obesidade Grau II";
         } else {
-            return "Obesidade Grau III";
+            return  "Obesidade Grau III";
         }
     }
 }
+
