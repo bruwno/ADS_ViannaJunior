@@ -1,0 +1,20 @@
+{
+  "feeds": [
+    {
+      "id": "2",
+      "usuario": "Ana",
+      "tempo": "Há 15 minutos",
+      "mensagem": "Olá",
+      "fotoPerfil": "",
+      "likes": 20
+    },
+    {
+      "id": "1726920734819",
+      "usuario": "Teste",
+      "tempo": "Ok",
+      "mensagem": "",
+      "fotoPerfil": "",
+      "likes": 0
+    }
+  ]
+}
