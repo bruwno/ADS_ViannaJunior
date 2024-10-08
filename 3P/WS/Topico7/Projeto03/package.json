@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "projeto03": "file:"
   }
 }
