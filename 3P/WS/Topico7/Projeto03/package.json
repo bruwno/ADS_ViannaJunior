@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "jsonwebtoken": "^8.5.1",
     "projeto03": "file:"

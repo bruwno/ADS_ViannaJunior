@@ -15,14 +15,16 @@ app.use(express.urlencoded({ extended: true })); // Aceita requisições vindas 
 
 const db = require("./app/models");
 db.sequelize.sync({ force: true }).then(() => { // force TRUE vai impedir que a base seja recriada a cada execução.
-    console.log("Drop and re0sync db.");
+  console.log("Drop and re-sync db.");
 });
 
 app.get("/", (_, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome!" });
 });
 
-const PORT = process.env.PORT || 8080;
+require("./app/routes/tutorial.routes")(app);
+const PORT = process.env.PORT || 8082;
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

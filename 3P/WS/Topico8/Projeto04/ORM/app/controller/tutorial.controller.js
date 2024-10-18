@@ -77,14 +77,15 @@ exports.update = (req, res) => {
           message: "Tutorial was updated successfully."
         });
       } else {
-        res.send({
+        res.status(400).send({
           message: `Cannot update Tutorial with id=${id}. Maybe Tutorial was not found or req.body is empty!`
         });
       }
     })
     .catch(err => {
       res.status(500).send({
-        message: "Error updating Tutorial with id=" + id
+        message:
+          err.message || "Some error ocurred!"
       });
     });
 };
