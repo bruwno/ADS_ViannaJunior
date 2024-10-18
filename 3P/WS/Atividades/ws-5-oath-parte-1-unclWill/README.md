@@ -1,0 +1,3 @@
+- **Nome da API**: IGDB (Internet Game Database)
+- **URL da API**: `https://api.igdb.com`
+- **Documentação Oficial**: [IGDB API Documentation](https://api-docs.igdb.com/)

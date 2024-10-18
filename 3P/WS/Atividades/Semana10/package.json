@@ -1,0 +1,22 @@
+{
+  "name": "ws6-primeira-api-com-jwt-unclwill",
+  "version": "1.0.0",
+  "description": "Atividade da semana 10 - API de produtos com Express e JWT",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "William Silva",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "ws6-primeira-api-com-jwt-unclwill": "file:"
+  }
+}
