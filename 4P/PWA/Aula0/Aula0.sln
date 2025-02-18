@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{C2B9747D-2473-4B01-B928-04EED31E6251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaDLL", "MinhaDLL\MinhaDLL.csproj", "{9E124A17-4A96-48AA-BF03-534C92351313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B9747D-2473-4B01-B928-04EED31E6251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B9747D-2473-4B01-B928-04EED31E6251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B9747D-2473-4B01-B928-04EED31E6251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B9747D-2473-4B01-B928-04EED31E6251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E124A17-4A96-48AA-BF03-534C92351313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E124A17-4A96-48AA-BF03-534C92351313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E124A17-4A96-48AA-BF03-534C92351313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E124A17-4A96-48AA-BF03-534C92351313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
