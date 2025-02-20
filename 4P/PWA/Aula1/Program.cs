@@ -1,8 +1,12 @@
+using Aula1.Endpoints;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-app.MapGet("/teste", () => "Teste 1, 2, 3");
+app.MapearAtletas();
+
+//app.MapGet("/teste", () => "Teste 1, 2, 3");
 app.MapGet("/samuelzim", () => @"
 Samuelzim,
 O cara... de cavalo!

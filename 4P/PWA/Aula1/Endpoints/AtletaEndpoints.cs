@@ -15,7 +15,6 @@ public static class AtletaEndpoints
         caminho = Path.Combine(
             Path.GetDirectoryName(
                 Assembly.GetExecutingAssembly().Location)!,
-                "dados",
                 "atletas.json"
                 );
 
@@ -34,6 +33,15 @@ public static class AtletaEndpoints
         }
 
         objetos = JsonSerializer.Deserialize<IList<Atleta>>(conteudo) ?? [];
+    }
+
+    internal static void MapearAtletas(this WebApplication app) 
+    {
+        app.MapGet("/atletas", Get);
+        app.MapGet("/atletas/{id}", GetById);
+        app.MapPost("/atletas", Post);
+        app.MapPut("/atletas/{id}", Put);
+        app.MapDelete("/atletas;{id}", Delete);
     }
 
     private static IResult Get() 
@@ -55,6 +63,38 @@ public static class AtletaEndpoints
         objetos.Add(obj);
         SalvarDados();
         return TypedResults.Created($"/atletas/{obj.Id}", obj);
+    }
+
+    private static IResult Put(long id, Atleta obj)
+    {
+        var objExistente = objetos.FirstOrDefault(x => x.Id == id);
+        
+        if (objExistente is null)
+        {
+            return TypedResults.NotFound();
+        }
+
+        objExistente.Nome = obj.Nome;
+        objExistente.Altura = obj.Altura;
+        objExistente.Peso = obj.Peso;
+
+        SalvarDados();
+        return TypedResults.NoContent();
+    }
+
+    private static IResult Delete(long id)
+    {
+        var objExistente = objetos.FirstOrDefault(x => x.Id == id);
+        
+        if (objExistente is null) 
+        {
+            return TypedResults.NotFound();
+        }
+        
+        objetos.Remove(objExistente);
+        SalvarDados();
+        
+        return TypedResults.NoContent();
     }
 
     private static void SalvarDados() 
