@@ -1,21 +1,23 @@
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <title>Primeiro Servlet com JSP</title>
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-    <div class="container">
-        <h1 class="header">IMC Web App</h1>
-        <div class="body">
-            <div class="form">
-                <div class="row"><label for="">Nome</label><input type="text"></div>
-                <div class="row"><label for="">Peso</label><input type="text"></div>
-                <div class="row"><label for="">Altura</label><input type="text"></div>
+<head>
+    <meta charset="UTF-8">
+    <title>Primeiro Servlet com JSP</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="header">IMC Web App</h1>
+    <div class="body">
+        <div class="form">
+            <form action="/primeiro" method="POST">
+                <div class="row"><label for="">Nome</label><input type="text" name="cpNome"></div>
+                <div class="row"><label for="">Peso</label><input type="text" name="cpPeso"></div>
+                <div class="row"><label for="">Altura</label><input type="text" name="cpAltura"></div>
                 <button>OK</button>
-            </div>
+            </form>
         </div>
     </div>
-    <script src="js/script.js"></script>
-    </body>
+</div>
+<!--<script src="js/script.js"></script>-->
+</body>
 </html>
