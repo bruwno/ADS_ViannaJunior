@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abastecimento</title>
+</head>
+<body>
+
+<!--.container>form>(label+input)*2+button-->
+
+<div class="container">
+    <form action="/abastecer" method="POST">
+        <label for="">Preço Gasolina</label>
+        <input type="text" name="cpGas">
+
+        <label for="">Preço Alcool</label>
+        <input type="text" name="cpAlc">
+
+        <button>Calcular</button>
+
+    </form>
+
+    <h1>Usando Ajax</h1>
+    <div>
+<!--        <form action="/v2/abastecer" method="POST">-->
+        <form id="frmAjax">
+            <label for="">Preço Gasolina</label>
+            <input type="text" name="cpGas">
+
+            <label for="">Preço Alcool</label>
+            <input type="text" name="cpAlc">
+
+            <button type="button">Calcular</button>
+
+            <div>
+                O resultado é <span style="color: red; font-size: 22px ">
+            </span></div>
+        </form>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
