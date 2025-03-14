@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Calcular o gasto de combustível com base no tempo de viagem e na velocidade média do automóvel.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 05/02/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1017

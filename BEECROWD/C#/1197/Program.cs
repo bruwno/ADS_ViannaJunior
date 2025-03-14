@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Calcular a posição de uma partícula.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 27/09/2023
  * Tipo    : 5 (MATEMÁTICA)
  * ID      : 1197

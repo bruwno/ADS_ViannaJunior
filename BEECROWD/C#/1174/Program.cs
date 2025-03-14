@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler um vetor de 100 posições e retornar todos as posições onde os valores armazenados forem menores ou iguais a 10.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 26/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1174

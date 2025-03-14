@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler um número, que representa uma senha, e exibir o número que vem depois dele.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 27/09/2023
  * Tipo    : 5 (MATEMÁTICA)
  * ID      : 3104

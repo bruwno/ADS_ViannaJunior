@@ -1,6 +1,6 @@
 ﻿
 /* Objetivo: Encontrar entre 100 números e maior valor e a sua posição.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 19/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1080

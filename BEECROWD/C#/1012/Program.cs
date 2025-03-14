@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Calcular área.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 26/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1012

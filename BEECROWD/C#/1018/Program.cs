@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Determinar a quantidade de notas necessárias para formar um valor.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 05/02/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1018

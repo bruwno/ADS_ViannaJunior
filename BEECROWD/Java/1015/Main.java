@@ -1,5 +1,5 @@
 /* Objetivo: Calcular a distância entre dois pontos.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 05/02/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1015

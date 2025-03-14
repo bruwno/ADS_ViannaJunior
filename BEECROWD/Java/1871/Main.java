@@ -1,6 +1,6 @@
 /*
  * Objetivo: Somar valores e, se existirem, remover os zeros dos resultados.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 31/01/2024
  * Tipo    : 3 (STRINGS)
  * ID      : 1871

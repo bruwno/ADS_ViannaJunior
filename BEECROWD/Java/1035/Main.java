@@ -1,5 +1,5 @@
 /* Objetivo: Ler valores, realizar avaliações lógicas e determinar se é válido ou não.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 22/02/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1035

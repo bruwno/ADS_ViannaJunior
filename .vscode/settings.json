@@ -78,5 +78,6 @@
   "liveServer.settings.CustomBrowser": "microsoft-edge",
   "dotnet.defaultSolution": "disable",
   "debug.console.fontFamily": "JetBrains Mono",
-  "git.autofetch": "all"
+  "git.autofetch": "all",
+  "java.compile.nullAnalysis.mode": "disabled"
 }

@@ -1,5 +1,5 @@
 /* Objetivo: Transformar as senhas de texto puro para MD5.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 23/12/2023
  * Tipo    : 9 (SQL)
  * ID      : 2744

@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Calcular a distância percorrida por dois veículos se movendo a velocidades diferentes.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 31/01/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1016

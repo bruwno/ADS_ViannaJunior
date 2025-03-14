@@ -1,5 +1,5 @@
 /* Objetivo: Exibir a quantidade máxima de números que podem estar em uma sequência sem se repetir.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 19/12/2023
  * Tipo    : 2 (AD-HOC)
  * ID      : 3048

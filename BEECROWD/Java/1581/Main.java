@@ -1,5 +1,5 @@
 /* Objetivo: Definir o qual idioma deve ser falado em uma conversa entre pessoas de diferentes nacionalidades.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 02/02/2024
  * Tipo    : 3 (STRINGS)
  * ID      : 1581

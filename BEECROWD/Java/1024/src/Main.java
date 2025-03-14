@@ -1,5 +1,5 @@
 /* Objetivo: Cifrar mensagem.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 24/08/2024
  * Tipo    : 3 (STRINGS)
  * ID      : 1024

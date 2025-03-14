@@ -1,6 +1,6 @@
 ﻿/*
  * Objetivo: Verificar quem vence a batalha dos cinco exércitos de acordo com a quantidade de tropas.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 31/01/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 3147

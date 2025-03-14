@@ -1,6 +1,6 @@
 ﻿
 /* Objetivo: Calcular a duração de um jogo.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 25/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1047

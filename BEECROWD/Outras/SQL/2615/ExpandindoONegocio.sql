@@ -1,5 +1,5 @@
 /* Objetivo: Exibir todas as cidades onde a locadora tem clientes, sem reptir os nomes.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 23/12/2023
  * Tipo    : 9 (SQL)
  * ID      : 2615

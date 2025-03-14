@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Realizar uma soma e exibir na tela.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 18/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1001

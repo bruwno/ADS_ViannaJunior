@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Determinar quantos participantes acertaram o tipo de chá.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 21/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 2006

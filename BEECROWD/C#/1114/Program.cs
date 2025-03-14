@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Testar um valor de entrada.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 30/01/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1114

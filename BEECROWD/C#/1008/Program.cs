@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler dados de um funcionário e retornar o seu salário.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 21/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1008

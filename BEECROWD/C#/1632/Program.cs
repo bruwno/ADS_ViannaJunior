@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Determinar de quantas maneiras uma senha pode ser formada.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 03/02/2024
  * Tipo    : 3 (STRINGS)
  * ID      : 1632

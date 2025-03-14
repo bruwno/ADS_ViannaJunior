@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler uma string, que representa um número, e retornar o seu equivalente em numeral ou por extenso.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 24/09/2023
  * Tipo    : 2 (AD-HOC)
  * ID      : 3475

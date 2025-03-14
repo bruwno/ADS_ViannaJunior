@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Calcular o fatorial de um valor N.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 16/10/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1153

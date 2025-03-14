@@ -1,5 +1,5 @@
 /* Objetivo: Exibir o id e o nome dos produtos que custam menos que 10 e mais que 100.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 22/12/2023
  * Tipo    : 9 (SQL)
  * ID      : 2604

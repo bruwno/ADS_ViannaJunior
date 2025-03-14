@@ -1,5 +1,5 @@
 /* Objetivo: Imprimir strings de acordo com o n�mero digitado.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 19/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1074

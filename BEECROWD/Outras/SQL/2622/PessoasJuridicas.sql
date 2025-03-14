@@ -1,5 +1,5 @@
 /* Objetivo: Exibir o nome dos clientes que sejam pessoa jurídica.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 23/12/2023
  * Tipo    : 9 (SQL)
  * ID      : 2622

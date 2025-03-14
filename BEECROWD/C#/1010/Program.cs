@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler dados de uma venda e retornar o valor total dessa venda.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 24/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1010

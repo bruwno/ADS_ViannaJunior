@@ -1,5 +1,5 @@
 /* Objetivo: Determinar se um sobrenome é difícil a partir da quantidade de consoantes consecutivas.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 22/12/2023
  * Tipo    : 3 (STRINGS)
  * ID      : 3358

@@ -1,6 +1,6 @@
 ﻿/*
  * Objetivo: Ler dois valores de entrada e retornar a música correspondente à soma desses valores.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 31/01/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 2582

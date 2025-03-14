@@ -1,5 +1,5 @@
 /* Objetivo: Realizar a soma de dois valores.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 18/12/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1003

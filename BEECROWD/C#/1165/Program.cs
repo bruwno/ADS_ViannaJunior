@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Verificar se um número é primo.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 04/02/2024
  * Tipo    : 1 (INICIANTE)
  * ID      : 1165

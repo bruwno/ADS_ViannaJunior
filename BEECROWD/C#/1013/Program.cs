@@ -1,5 +1,5 @@
 ﻿/* Objetivo: Ler três valores e retornar o maior.
- * Autor   : William Silva (https://github.com/unclWill)
+ * Autor   : William Silva (https://github.com/bruwno)
  * Data    : 29/09/2023
  * Tipo    : 1 (INICIANTE)
  * ID      : 1013
