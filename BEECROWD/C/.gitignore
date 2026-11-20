@@ -1,0 +1,9 @@
+# 1. Ignorar todos os arquivos na raiz e subpastas
+*
+
+# 2. Abrir exceções para pastas (para que o Git possa entrar nelas)
+!*/
+
+# 3. Abrir exceção para seus códigos-fonte e o próprio .gitignore
+!*.c
+!.gitignore
